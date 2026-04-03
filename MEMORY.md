@@ -29,6 +29,7 @@ Full specs: workspace/agents/*.md
 
 ## Preferences
 - Auto-commit and push workspace changes to WolffClaw repo (git@github.com:mwolff328-stack/WolffClaw.git) after meaningful updates. Set 2026-04-02.
+- Auto-sync ~/.claude with WolffClaude repo (git@github.com:mwolff328-stack/WolffClaude.git). Push local changes, pull remote changes. Set 2026-04-03.
 
 ## Lessons learned
 _(none yet)_
