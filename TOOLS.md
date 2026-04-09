@@ -38,3 +38,18 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+---
+
+### Competitor Accounts
+
+**PoolCrunch Pro**
+- URL: https://poolcrunch.com
+- Username: rmwolff45@gmail.com
+- Password: ?XbLXr6t9qiYa@$8
+
+**PoolGenius (TeamRankings)**
+- URL: https://poolgenius.teamrankings.com
+- Username: mwolff328@gmail.com
+- Password: NSKc$j!6cg
+- Note: Offseason — full tool access may be limited until NFL season starts

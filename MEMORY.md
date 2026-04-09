@@ -134,5 +134,17 @@ Two top-level folders: Strategy & Growth, Product & Engineering.
 - Weekly NFL optimizer spreadsheets v1–v24 (Week 1 iteration history visible)
 - 2025 NFL schedule xlsx
 
+## Research Artifact Workflow
+Research artifacts from Stan (and other agents) go to:
+1. **SurvivorPulse repo**: `docs/research/` directory, committed and pushed
+2. **Notion**: Under Strategy & Growth > Competitive Intelligence (page ID: 33d29ce5-833d-81dc-befe-f1ae89fdb645)
+
+When a new research artifact is produced, auto-sync to both locations. Pattern established 2026-04-09.
+
+Existing pages:
+- Competitive Intelligence parent: 33d29ce5-833d-81dc-befe-f1ae89fdb645
+- PoolGenius & PoolCrunch audit: 33d29ce5-833d-8108-bb5a-f2f218b36e7f
+- CMEA Prototype Product Brief: 33d29ce5-833d-8161-827d-ea90f9fa8dbb
+
 ## Lessons learned
 _(none yet)_
