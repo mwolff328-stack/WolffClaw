@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-09T14:44:21.194Z",
+  "entries": {
+    "memory:memory/2026-04-08.md:1:28": {
+      "key": "memory:memory/2026-04-08.md:1:28",
+      "path": "memory/2026-04-08.md",
+      "startLine": 1,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.37952389419078825,
+      "maxScore": 0.37952389419078825,
+      "firstRecalledAt": "2026-04-09T14:44:21.194Z",
+      "lastRecalledAt": "2026-04-09T14:44:21.194Z",
+      "queryHashes": [
+        "004df7e0da26"
+      ],
+      "recallDays": [
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "competent-but-uncoordinated",
+        "demo-ready",
+        "grayed/strikethrough",
+        "date",
+        "survivorpulse",
+        "cmea",
+        "prototype",
+        "redesign"
+      ]
+    }
+  }
+}
