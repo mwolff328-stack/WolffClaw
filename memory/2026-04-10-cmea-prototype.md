@@ -132,10 +132,29 @@ Simulation scripts in ~/.openclaw/workspace/scripts/:
 - stan-multi-season-sim.py (Round 3, all 3 seasons, 7 strategies)
 - stan-scrape-survivorgrid-v2.py (SurvivorGrid scraper)
 
-## What's Next (Mike's direction)
-- Implement 70/30 Weighted Blend as Scenario 2 in the prototype with a scenario toggle
-- Consider building full backtesting feature using the historical data
-- The data pipeline (scrape SurvivorGrid + nfl_data_py + load to DB) could support any past season
+## Data Pipeline (completed 2026-04-10 late night)
+- Built and ran import script: scripts/import-historical-seasons.py
+- Loaded 2023 and 2024 game data + pick popularity into production Neon DB
+- Production DB: postgresql://neondb_owner:***@ep-orange-bush-afg0m2nx.c-2.us-west-2.aws.neon.tech/neondb
+- Pool IDs: 2023=a1b2c3d4-2023-4000-8000-000000000023, 2024=a1b2c3d4-2024-4000-8000-000000000024
+- Pick popularity source field: 'survivorgrid' (SurvivorGrid weighted averages)
+- Win probabilities derived from spreads: P = 0.5 * (1 + erf(spread / (13.5 * sqrt(2))))
+- IMPORTANT: nfl_data_py spread_line: positive = home team FAVORED
+
+## Frontend: Season Selector + Weight Controls (completed 2026-04-11)
+- Commit 1de800a: ScenarioControls component with season tabs (2023/2024/2025) and weight sliders
+- Weight sliders: win probability + pick share, 0-100 in 5% increments, default 70/30, always sum to 100
+- Season switching: changes pool ID, refetches all data, resets to Week 1
+- useSeasonData now accepts season parameter (no longer hardcoded to 2025)
+- New fetchSeasonDynamics in api.ts fetches all 18 weeks of dynamics in parallel
+- assignIndependentPicks uses configurable weights: score = (wpWeight/100)*winProb + (psWeight/100)*(1-pickShare/100)
+- Available Teams Table now has Pick Share column
+- All cached per-season to avoid cross-season collisions
+
+## What's Next
+- Mike to review the new season selector and weight controls
+- Validate that 2023/2024 data loads correctly in the prototype
+- Test different weight combinations to verify simulation responds correctly
 
 ## Notion Backlog
 SurvivorPulse Product Backlog (db_id: 23c0e14a-e704-4481-a635-8202e8569e04)
