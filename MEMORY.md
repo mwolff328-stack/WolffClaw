@@ -149,6 +149,18 @@ Existing pages:
 ## Discord Channels
 - **#infra** (channel id: 1491786035980537978) — ops, CI, integrations, automation, Rita-type tasks. Created 2026-04-09.
 
+## Model Strategy (set 2026-04-11)
+- Luigi runs on Sonnet by default. Switch to Opus for strategy, complex synthesis, architecture decisions.
+- Sub-agents default to Sonnet. Pass model override per task when Opus is warranted (deep research, etc.).
+- Routing: exec for one-shot tasks; ACP for multi-turn, interactive, or persistent sessions.
+
+## Claude Code ACP (wired 2026-04-11)
+- ACP enabled in openclaw.json: acp.enabled=true, acp.defaultAgent=claude, acp.backend=acpx
+- permissionMode=approve-all (required for non-interactive file writes)
+- Discord thread bindings enabled: spawnAcpSessions=true
+- Spawn from Discord: /acp spawn claude --thread auto OR /acp spawn claude --bind here
+- Health check: /acp doctor
+
 ## CI Pipeline (updated 2026-04-09)
 - Two workflows on push to main: Pre-Publish Gate (ship gate) and Release Guardian (contract/governance gate)
 - Shared DB setup extracted into composite action: `.github/actions/ci-db-setup/action.yml`
