@@ -97,10 +97,45 @@ Note: If the prototype still shows Week 14, the games data cache may be stale/in
 2. **Elimination timeline** - should show all out by Week 10 once games data is complete. Was showing Week 14 due to missing week data.
 3. **Tie handling** - DAL-GB W4 tie should count as loss. Code handles this correctly (not > means Loss).
 
+## Strategy Research (completed 2026-04-10 evening)
+
+### Multi-Season Backtesting
+Ran 7 pick strategies across 2023, 2024, 2025 seasons using:
+- Game results + spreads: nfl_data_py (free, Python package)
+- Pick popularity: SurvivorGrid.com (scraped, Yahoo/ESPN/OFP weighted averages)
+- 2025: SurvivorPulse API
+
+Data files in ~/Projects/CMEA-Prototype/data/:
+- nfl_games_2023.json, nfl_games_2024.json (game results, spreads, win probabilities)
+- survivorgrid_picks_2023.json, survivorgrid_picks_2024.json (per-team pick popularity per week)
+
+Win probabilities derived from spreads using normal CDF: P = 0.5 * (1 + erf(spread / (13.5 * sqrt(2))))
+IMPORTANT: nfl_data_py spread_line convention: positive = home team FAVORED.
+
+### Strategy Results (Cross-Season Summary)
+
+| Strategy | 2023 | 2024 | 2025 | TOTAL | Avg/Season |
+|---|---|---|---|---|---|
+| **2b. Weighted Blend (70/30)** | **17** | **14** | **26** | **57** | **19.0** |
+| 2e. Weighted Blend (80/20) | 17 | 4 | 22 | 43 | 14.3 |
+| 1. Pure Win Probability | 13 | 3 | 22 | 38 | 12.7 |
+| 2a. Leverage + 60% Floor | 5 | 16 | 11 | 32 | 10.7 |
+
+**Winner: 70/30 Weighted Blend** (score = 0.7 * winProbability + 0.3 * (1 - pickShare/100))
+- 50% more entry-weeks survived than pure win probability across 3 seasons
+- Best or tied-for-best in every season
+- Pure win prob collapsed in 2024 (3 entry-weeks vs 14 for 70/30)
+
+Simulation scripts in ~/.openclaw/workspace/scripts/:
+- stan-pick-strategy-sim.py (Round 1, 2025 only, 4 strategies)
+- stan-pick-strategy-sim-v2.py (Round 2, 2025 only, 7 constrained strategies)
+- stan-multi-season-sim.py (Round 3, all 3 seasons, 7 strategies)
+- stan-scrape-survivorgrid-v2.py (SurvivorGrid scraper)
+
 ## What's Next (Mike's direction)
-- Validate that independent path now shows correct results (all out by Week 10)
-- Then: rethink coordinated allocation approach that outperforms the independent baseline
-- The prototype needs to demonstrate that coordination provides measurable value vs. naive highest-win-prob picking
+- Implement 70/30 Weighted Blend as Scenario 2 in the prototype with a scenario toggle
+- Consider building full backtesting feature using the historical data
+- The data pipeline (scrape SurvivorGrid + nfl_data_py + load to DB) could support any past season
 
 ## Notion Backlog
 SurvivorPulse Product Backlog (db_id: 23c0e14a-e704-4481-a635-8202e8569e04)
