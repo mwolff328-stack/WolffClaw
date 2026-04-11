@@ -146,5 +146,29 @@ Existing pages:
 - PoolGenius & PoolCrunch audit: 33d29ce5-833d-8108-bb5a-f2f218b36e7f
 - CMEA Prototype Product Brief: 33d29ce5-833d-8161-827d-ea90f9fa8dbb
 
+## Discord Channels
+- **#infra** (channel id: 1491786035980537978) — ops, CI, integrations, automation, Rita-type tasks. Created 2026-04-09.
+
+## CI Pipeline (updated 2026-04-09)
+- Two workflows on push to main: Pre-Publish Gate (ship gate) and Release Guardian (contract/governance gate)
+- Shared DB setup extracted into composite action: `.github/actions/ci-db-setup/action.yml`
+- Stage failure tracking via FAILED_STAGE env var in every test step
+- Telegram + Discord notifications on pass/fail (both workflows)
+- Telegram bot: @survivorpulse_ci_bot, chat ID 8508558620
+- GitHub secrets: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, DISCORD_WEBHOOK_URL
+- PR #37 merged 2026-04-09
+- gh CLI authenticated on Mac mini (mwolff328-stack, HTTPS, scopes: gist, read:org, repo, workflow)
+
+## Design System (updated 2026-04-10)
+- Selected **Linear** as base DESIGN.md (from 58 options evaluated by Deb)
+- Customizations: IBM Carbon status tokens (danger/success/warning/info), Sentry uppercase label pattern, JetBrains Mono replacing Berkeley Mono
+- Testing on CMEA-Prototype first (PR #7), then bring to main SurvivorPulse repo
+- Custom DESIGN.md: 797 lines, Stitch format, dark-first (#08090a canvas), Inter Variable + JetBrains Mono
+- Tailwind config extended with status colors, surface elevation tokens, brand indigo-violet
+
+## Notion Pages Index (supplement to existing entries)
+- CI Pipeline doc: 33e29ce5-833d-812b-ba51-dcf566081316 (Product & Engineering > Architecture & Infrastructure)
+- DESIGN.md Shortlist: 33e29ce5-833d-8105-abd8-e9ffff821d3e (Product & Engineering > UX)
+
 ## Lessons learned
 _(none yet)_
