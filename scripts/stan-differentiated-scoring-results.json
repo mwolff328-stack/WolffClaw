@@ -1,0 +1,698 @@
+{
+  "1.  70/30 Blend [baseline]": {
+    "5": {
+      "2023": {
+        "entry_weeks": 17,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 14,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 26,
+        "final_elim": "14"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 20,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 22,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 34,
+        "final_elim": "14"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 38,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 32,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 52,
+        "final_elim": "14"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 101,
+        "final_elim": "14"
+      },
+      "2024": {
+        "entry_weeks": 106,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 88,
+        "final_elim": "14"
+      }
+    }
+  },
+  "2.  Mixed Portfolio [Round6 winner@n=20]": {
+    "5": {
+      "2023": {
+        "entry_weeks": 23,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 14,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 25,
+        "final_elim": "13"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 32,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 20,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 32,
+        "final_elim": "13"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 41,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 42,
+        "final_elim": "14"
+      },
+      "2025": {
+        "entry_weeks": 51,
+        "final_elim": "13"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 96,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 80,
+        "final_elim": "14"
+      },
+      "2025": {
+        "entry_weeks": 83,
+        "final_elim": "13"
+      }
+    }
+  },
+  "3.  Safety/Contrarian Split": {
+    "5": {
+      "2023": {
+        "entry_weeks": 14,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 5,
+        "final_elim": "3"
+      },
+      "2025": {
+        "entry_weeks": 26,
+        "final_elim": "14"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 25,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 24,
+        "final_elim": "16"
+      },
+      "2025": {
+        "entry_weeks": 34,
+        "final_elim": "14"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 33,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 43,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 53,
+        "final_elim": "14"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 99,
+        "final_elim": "14"
+      },
+      "2024": {
+        "entry_weeks": 100,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 88,
+        "final_elim": "14"
+      }
+    }
+  },
+  "4.  Core/Satellite [60%blend+40%EV]": {
+    "5": {
+      "2023": {
+        "entry_weeks": 17,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 16,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 11,
+        "final_elim": "5"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 33,
+        "final_elim": "15"
+      },
+      "2024": {
+        "entry_weeks": 36,
+        "final_elim": "14"
+      },
+      "2025": {
+        "entry_weeks": 32,
+        "final_elim": "14"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 47,
+        "final_elim": "15"
+      },
+      "2024": {
+        "entry_weeks": 29,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 54,
+        "final_elim": "14"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 97,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 82,
+        "final_elim": "13"
+      },
+      "2025": {
+        "entry_weeks": 85,
+        "final_elim": "14"
+      }
+    }
+  },
+  "5.  Temporal Diversification": {
+    "5": {
+      "2023": {
+        "entry_weeks": 25,
+        "final_elim": "13"
+      },
+      "2024": {
+        "entry_weeks": 15,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 20,
+        "final_elim": "9"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 20,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 21,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 35,
+        "final_elim": "10"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 41,
+        "final_elim": "13"
+      },
+      "2024": {
+        "entry_weeks": 32,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 61,
+        "final_elim": "18"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 97,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 75,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 90,
+        "final_elim": "18"
+      }
+    }
+  },
+  "6.  Role-Based Portfolio [5 roles]": {
+    "5": {
+      "2023": {
+        "entry_weeks": 24,
+        "final_elim": "13"
+      },
+      "2024": {
+        "entry_weeks": 13,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 19,
+        "final_elim": "9"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 32,
+        "final_elim": "15"
+      },
+      "2024": {
+        "entry_weeks": 25,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 28,
+        "final_elim": "10"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 37,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 38,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 52,
+        "final_elim": "10"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 103,
+        "final_elim": "14"
+      },
+      "2024": {
+        "entry_weeks": 90,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 96,
+        "final_elim": "18+"
+      }
+    }
+  },
+  "7.  Adaptive Role Portfolio": {
+    "5": {
+      "2023": {
+        "entry_weeks": 17,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 17,
+        "final_elim": "16"
+      },
+      "2025": {
+        "entry_weeks": 23,
+        "final_elim": "13"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 19,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 23,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 33,
+        "final_elim": "10"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 41,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 25,
+        "final_elim": "5"
+      },
+      "2025": {
+        "entry_weeks": 52,
+        "final_elim": "10"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 103,
+        "final_elim": "14"
+      },
+      "2024": {
+        "entry_weeks": 79,
+        "final_elim": "15"
+      },
+      "2025": {
+        "entry_weeks": 84,
+        "final_elim": "10"
+      }
+    }
+  },
+  "8.  Anti-Overlap [global assign]": {
+    "5": {
+      "2023": {
+        "entry_weeks": 17,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 14,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 26,
+        "final_elim": "14"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 20,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 22,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 34,
+        "final_elim": "14"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 38,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 32,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 52,
+        "final_elim": "14"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 101,
+        "final_elim": "14"
+      },
+      "2024": {
+        "entry_weeks": 106,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 88,
+        "final_elim": "14"
+      }
+    }
+  },
+  "9.  Correlated Pairs + Hedges": {
+    "5": {
+      "2023": {
+        "entry_weeks": 13,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 17,
+        "final_elim": "16"
+      },
+      "2025": {
+        "entry_weeks": 22,
+        "final_elim": "10"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 24,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 30,
+        "final_elim": "16"
+      },
+      "2025": {
+        "entry_weeks": 31,
+        "final_elim": "10"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 36,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 45,
+        "final_elim": "16"
+      },
+      "2025": {
+        "entry_weeks": 48,
+        "final_elim": "10"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 76,
+        "final_elim": "14"
+      },
+      "2024": {
+        "entry_weeks": 76,
+        "final_elim": "16"
+      },
+      "2025": {
+        "entry_weeks": 80,
+        "final_elim": "10"
+      }
+    }
+  },
+  "10. Ownership-Bucket Spread": {
+    "5": {
+      "2023": {
+        "entry_weeks": 13,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 5,
+        "final_elim": "3"
+      },
+      "2025": {
+        "entry_weeks": 28,
+        "final_elim": "14"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 25,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 13,
+        "final_elim": "4"
+      },
+      "2025": {
+        "entry_weeks": 37,
+        "final_elim": "14"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 35,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 29,
+        "final_elim": "12"
+      },
+      "2025": {
+        "entry_weeks": 48,
+        "final_elim": "14"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 71,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 95,
+        "final_elim": "13"
+      },
+      "2025": {
+        "entry_weeks": 88,
+        "final_elim": "14"
+      }
+    }
+  },
+  "11. EV Gradient [95/5\u219255/45]": {
+    "5": {
+      "2023": {
+        "entry_weeks": 16,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 4,
+        "final_elim": "3"
+      },
+      "2025": {
+        "entry_weeks": 26,
+        "final_elim": "14"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 19,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 24,
+        "final_elim": "16"
+      },
+      "2025": {
+        "entry_weeks": 30,
+        "final_elim": "10"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 33,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 37,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 58,
+        "final_elim": "18"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 75,
+        "final_elim": "11"
+      },
+      "2024": {
+        "entry_weeks": 95,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 93,
+        "final_elim": "18"
+      }
+    }
+  },
+  "12. Dynamic Rebalancing": {
+    "5": {
+      "2023": {
+        "entry_weeks": 15,
+        "final_elim": "10"
+      },
+      "2024": {
+        "entry_weeks": 5,
+        "final_elim": "3"
+      },
+      "2025": {
+        "entry_weeks": 28,
+        "final_elim": "18"
+      }
+    },
+    "10": {
+      "2023": {
+        "entry_weeks": 26,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 26,
+        "final_elim": "16"
+      },
+      "2025": {
+        "entry_weeks": 27,
+        "final_elim": "7"
+      }
+    },
+    "20": {
+      "2023": {
+        "entry_weeks": 38,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 32,
+        "final_elim": "13"
+      },
+      "2025": {
+        "entry_weeks": 45,
+        "final_elim": "9"
+      }
+    },
+    "50": {
+      "2023": {
+        "entry_weeks": 97,
+        "final_elim": "12"
+      },
+      "2024": {
+        "entry_weeks": 95,
+        "final_elim": "18+"
+      },
+      "2025": {
+        "entry_weeks": 87,
+        "final_elim": "13"
+      }
+    }
+  }
+}

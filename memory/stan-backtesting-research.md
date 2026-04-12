@@ -204,6 +204,24 @@ All in `~/.openclaw/workspace/scripts/`:
 
 **Product recommendation**: Portfolio-size-aware strategy defaults. 1-5 entries → 70/30; 6-15 → SP Production; 16-30 → Mixed Portfolio; 31+ → 70/30.
 
+## Round 7: Per-Entry Differentiated Scoring (2026-04-11)
+
+**Script**: `scripts/stan-differentiated-scoring-sim.py`
+**Full analysis**: `memory/stan-differentiated-scoring-research.md`
+**Results JSON**: `scripts/stan-differentiated-scoring-results.json`
+
+12 strategies x 4 entry counts (5, 10, 20, 50) x 3 seasons = 144 runs.
+
+**Winners per entry count:**
+- n=5: Mixed Portfolio (62, +5 vs 70/30)
+- n=10: Core/Satellite [60%blend+40%EV] (101, +25 vs 70/30, +17 vs Mixed Portfolio) ★
+- n=20: Mixed Portfolio tied with Temporal Diversification (134, +12 vs 70/30)
+- n=50: 70/30 Blend / Anti-Overlap tied #1 (295); Mixed Portfolio collapses to 259 (-36)
+
+**Key answer**: Intentional role assignment beats random strategy diversity (Mixed Portfolio) at n=10 (+17) and n=50 (8 configs beat Mixed). Does NOT beat it at n=5 or n=20. At the ICP sweet spot (n=10), Core/Satellite is the dominant design.
+
+**Product recommendation updated**: 1-5 → Mixed Portfolio; 6-15 → Core/Satellite; 16-30 → Mixed Portfolio or Temporal Div; 31-50 → Role-Based or Safety/Contrarian; 50+ → 70/30 Blend.
+
 ## Continuation
 
 Research continues in Discord channel #backtesting-research (1492758599393349673).
