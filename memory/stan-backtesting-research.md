@@ -222,6 +222,35 @@ All in `~/.openclaw/workspace/scripts/`:
 
 **Product recommendation updated**: 1-5 → Mixed Portfolio; 6-15 → Core/Satellite; 16-30 → Mixed Portfolio or Temporal Div; 31-50 → Role-Based or Safety/Contrarian; 50+ → 70/30 Blend.
 
+## Round 8: Buyback Mechanics (2026-04-12)
+
+**Script**: `scripts/stan-buyback-sim.py`
+**Full analysis**: `memory/stan-buyback-research.md`
+
+12 strategies × 4 entry counts × 3 seasons × 3 buyback configs (no buyback / Wk1-3 / Wk1-4) = 432 Part 1 runs. Plus 5 split strategies × 4 × 3 = 60 Part 2 runs. 492 total.
+
+**Biggest finding:** Pool mechanics completely change the optimal strategy. SP Conservative 65/25/10 wins at ALL entry counts once buybacks are available — and loses at all entry counts without them.
+
+**Winners per entry count WITH Buyback Wk1-3:**
+- n=5: SP Conservative 65/25/10 (78, +14 vs no-buyback)
+- n=10: SP Conservative 65/25/10 (165, +83 — doubles from 82 baseline!)
+- n=20: SP Conservative 65/25/10 (248, +126)
+- n=50: SP Conservative 65/25/10 (463, +175)
+
+**Average buyback uplift (all strategies):** +13.2 (n=5) → +46.1 (n=10) → +93.1 (n=20) → +159.9 (n=50)
+
+**Split strategies (aggressive early, safe late):** None beat the simple SP Conservative baseline. All underperform. The 3-week window is too short for strategy switching to pay off.
+
+**Buyback ROI:** 1.07–4.15 entry-weeks per buyback used. n=10 SP Conservative: 4.15 EW/BB — best ROI across all runs. The only negative ROI: Adaptive Blend at n=5 (−0.12).
+
+**Survival rates:** 20–40% of bought-back entries survive 3+ more weeks; 0–30% to week 10+.
+
+**Product recommendation updated**: The app MUST distinguish buyback vs non-buyback pool type.
+- Non-buyback pools: Core/Satellite (n≤20), 70/30 Blend (n=50)
+- Buyback pools: SP Conservative at ALL entry counts
+- Wider buyback window = stronger case for SP Conservative
+- Always recommend exercising the buyback (positive ROI across the board)
+
 ## Continuation
 
 Research continues in Discord channel #backtesting-research (1492758599393349673).
