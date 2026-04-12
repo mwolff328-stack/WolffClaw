@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T14:44:21.194Z",
+  "updatedAt": "2026-04-12T05:45:42.660Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -30,6 +30,36 @@
         "cmea",
         "prototype",
         "redesign"
+      ]
+    },
+    "memory:memory/2026-04-07.md:65:84": {
+      "key": "memory:memory/2026-04-07.md:65:84",
+      "path": "memory/2026-04-07.md",
+      "startLine": 65,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "- PoolGenius: structurally CANNOT do personalized coordination — their own admission. Recommending same picks to 50K+ subscribers collapses EV. SurvivorPulse's personalized model is an architecture-level moat. - Neither competitor ever shows: \"Your 3 entries this week: Chiefs, Eagles, Bills — here's why each is different\" - Neither shows a correlated elimination risk score for personal entries - PoolGenius requires purchase before seeing ANY tool UI — full cold paywall ### Prototype Redesign Direction (decided 2026-04-08) Stop: trying to prove survival math superiority through season replay Start: demonstrating the unified portfolio view that neither competitor shows Three demo moments to",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.36883683800697326,
+      "maxScore": 0.36883683800697326,
+      "firstRecalledAt": "2026-04-12T05:45:42.660Z",
+      "lastRecalledAt": "2026-04-12T05:45:42.660Z",
+      "queryHashes": [
+        "e032dcc853e4"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "architecture-level",
+        "poolgenius",
+        "structurally",
+        "cannot",
+        "personalized",
+        "coordination",
+        "own",
+        "admission"
       ]
     }
   }

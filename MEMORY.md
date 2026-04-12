@@ -182,5 +182,13 @@ Existing pages:
 - CI Pipeline doc: 33e29ce5-833d-812b-ba51-dcf566081316 (Product & Engineering > Architecture & Infrastructure)
 - DESIGN.md Shortlist: 33e29ce5-833d-8105-abd8-e9ffff821d3e (Product & Engineering > UX)
 
+## Backtesting Research — Stan
+- Round 1–5 results: `memory/stan-backtesting-research.md` — 5 entries, 3 seasons, 70/30 Blend wins every round
+- Round 6 (entry scaling): `memory/stan-entry-scale-research.md` — 14 strategies × 4 entry counts × 3 seasons
+  - 70/30 Blend loses crown at n=10 (beaten by 7 strategies) and n=20 (beaten by 4)
+  - SP Production 70%EV+30%FV wins at n=10; Mixed Portfolio wins at n=20
+  - 70/30 Blend reclaims #1 at n=50 (team exhaustion makes sophistication backfire)
+  - Product implication: strategy recommendation should adapt to portfolio size
+
 ## Lessons learned
 _(none yet)_

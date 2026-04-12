@@ -186,6 +186,24 @@ All in `~/.openclaw/workspace/scripts/`:
 - `stan-scrape-survivorgrid-v2.py` - SurvivorGrid scraper
 - `import-historical-seasons.py` - DB import script
 
+## Round 6: Entry-Count Scaling (2026-04-11)
+
+**Script**: `scripts/stan-entry-scale-sim.py`
+**Full analysis**: `memory/stan-entry-scale-research.md`
+**Results JSON**: `scripts/stan-entry-scale-results.json`
+
+14 strategies x 4 entry counts (5, 10, 20, 50) x 3 seasons = 168 runs.
+
+**Winners per entry count:**
+- n=5: 70/30 Blend (57, tied with Adaptive/Mixed at 58 but best SD)
+- n=10: SP Production 70%EV+30%FV (94, +18 vs 70/30)
+- n=20: Mixed Portfolio (142, +20 vs 70/30)
+- n=50: 70/30 Blend reclaims #1 (295)
+
+**CMEA thesis**: Partially confirmed. Coordination/diversification strategies win at n=10-20 (the ICP sweet spot) but collapse at n=50 due to team exhaustion.
+
+**Product recommendation**: Portfolio-size-aware strategy defaults. 1-5 entries → 70/30; 6-15 → SP Production; 16-30 → Mixed Portfolio; 31+ → 70/30.
+
 ## Continuation
 
 Research continues in Discord channel #backtesting-research (1492758599393349673).
