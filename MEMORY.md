@@ -57,7 +57,7 @@ Full specs: ~/.claude/agents/*.md
 
 **Key repos:**
 - SurvivorPulse (main): git@github.com:mwolff328-stack/SurvivorPulse.git (1,631 files, 2,400+ unit tests, 180+ integration)
-- CMEA-Prototype: git@github.com:mwolff328-stack/CMEA-Prototype.git (throwaway React+Vite prototype for coordinated multi-entry allocation validation)
+- SurvivorPulse-BackTesting-Prototype: git@github.com:mwolff328-stack/SurvivorPulse-BackTesting-Prototype.git (React+Vite prototype for coordinated multi-entry allocation / backtesting validation; formerly CMEA-Prototype)
 
 **Notion workspace:** Page ID 26329ce5-833d-800a-be90-ff530bddc59c. Sub-pages: Initiative briefing, Strategy & Growth (15 sub-pages), Product & Engineering (20+ sub-pages), Historical Account.
 
