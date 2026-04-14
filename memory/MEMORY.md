@@ -2,6 +2,7 @@
 
 ## Stan Backtesting Research
 - [Stan Backtesting Research Summary](stan-backtesting-research.md) — All 9 rounds of NFL survivor pool pick strategy research (2023-2025). Champions, findings, product recommendations.
+- [Weather Impact Feasibility](stan-weather-feasibility.md) — Dome vs outdoor upset rate analysis. 4.2pp dome/cold-weather gap found; signal above threshold but year-to-year variance is high. Recommend full 5-season simulation.
 - [Round 6: Entry-Count Scaling](stan-entry-scale-research.md) — 14 strategies × 4 entry counts × 3 seasons. Core/Satellite wins at n=10.
 - [Round 7: Differentiated Scoring](stan-differentiated-scoring-research.md) — Per-entry role assignment. Core/Satellite confirmed champion at n=10.
 - [Round 8: Buyback Mechanics](stan-buyback-research.md) — SP Conservative dominates all entry counts in buyback pools.
