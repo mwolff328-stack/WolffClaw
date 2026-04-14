@@ -251,6 +251,49 @@ All in `~/.openclaw/workspace/scripts/`:
 - Wider buyback window = stronger case for SP Conservative
 - Always recommend exercising the buyback (positive ROI across the board)
 
+## Round 9: Game Context Filters (2026-04-14)
+
+**Script**: `scripts/stan-game-context-sim.py`
+**Full analysis**: `memory/stan-game-context-research.md`
+
+4 strategies × 7 filter modes × 4 entry counts × 3 seasons = 336 runs.
+
+**Filter modes tested:**
+1. No Filter (control)
+2. Avoid Divisional (Soft — 10% score penalty)
+3. Avoid Divisional (Hard — swap if non-div alt within 15%)
+4. Prefer Home (Soft — 10% score bonus)
+5. Prefer Home (Hard — swap if home alt within 15%)
+6. Both Filters (Soft)
+7. Both Filters (Hard — tiered priority)
+
+**Hypothesis validation results:**
+
+- **H1 (Divisional games more volatile):** NOT SUPPORTED overall. Divisional picks won at 71.2% vs non-div 68.8%. Huge season variance: div WR was 64.1% in 2023 (supports H1), 73.6% in 2024, 76.0% in 2025 (both oppose H1).
+- **H2 (Home teams win more):** NOT SUPPORTED overall. Home 69.7% vs road 70.4%. 2023: road teams won WAY more (road 74.6% vs home 62.9%). 2025: home won (74.9% vs 64.4%). No reliable pattern.
+
+**Overall champions per entry count:**
+- n=5: SP Conservative + No Filter (21.3 ew) — filters hurt small pools
+- n=10: Core/Satellite + No Filter (33.7 ew) — No Filter still wins
+- n=20: Core/Satellite + Avoid Div Soft (49.0 ew, +5.7 / +13.2% lift) — ONLY case where filter helps
+- n=50: 70/30 Blend + No Filter (98.3 ew) — filters harmful at scale
+
+**Best filter for SP Conservative at n=20:** Avoid Div Soft +7.0, Avoid Div Hard +7.3. Largest gains of any combo.
+
+**Filter swap opportunity cost:**
+- Divisional filters: 61–65% of swaps lead to winning new pick
+- Home filters: only 52–58% — barely above random chance
+- Even 63% "beneficial" swaps don't always translate to net entry-week gains
+
+**Product recommendation:** Offer both filters as OPTIONAL user toggles (not defaults). Home filter especially should be disclaimed — historically hurt outcomes. Avoid-div filter is defensible as optional for mid-size pools (n=10-30).
+
+**Updated strategy defaults:**
+- Non-buyback, n=5: SP Conservative + No Filter
+- Non-buyback, n=10: Core/Satellite + No Filter
+- Non-buyback, n=20: Core/Satellite + Avoid Div Soft (or No Filter for simplicity)
+- Non-buyback, n=50: 70/30 Blend + No Filter
+- Buyback pools: SP Conservative + No Filter at all entry counts (unchanged from Round 8)
+
 ## Continuation
 
 Research continues in Discord channel #backtesting-research (1492758599393349673).
