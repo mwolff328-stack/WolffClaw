@@ -294,6 +294,39 @@ All in `~/.openclaw/workspace/scripts/`:
 - Non-buyback, n=50: 70/30 Blend + No Filter
 - Buyback pools: SP Conservative + No Filter at all entry counts (unchanged from Round 8)
 
+## Round 10: Weather Impact Simulation (2026-04-14)
+
+**Script**: `/Users/mrwolff/Projects/SurvivorPulse-BackTesting-Prototype/scripts/stan-weather-sim.py`
+**Full analysis**: `memory/stan-weather-research.md`
+**Results JSON**: `scripts/stan-weather-sim-results.json`
+
+4 strategies × 7 filter modes × 4 entry counts × 6 seasons = 672 runs. Data: 1,615 games (2020-2025) enriched with weather classification from nfl_data_py roof/temp/wind fields.
+
+**Hypothesis test results:**
+
+- **Dome vs outdoor gap:** 1.7pp (32.1% dome vs 33.7% outdoor upset rate). NOT significant (p=0.511, z=0.658). REJECTED.
+- **Year-over-year consistency:** Dome gap ranges from -5.3pp (2020) to +16.4pp (2022). Flips sign in 4 of 6 seasons. NO signal stability.
+- **Extreme weather:** Only 4-15 games/season qualify. Upset rates range from 9.1% (2024) to 75.0% (2023). Pure noise. Sample too small.
+- **Adverse/extreme weather filters:** INERT. All 4 adverse/extreme filter modes produced identical results to No Filter in every single run. Top picks never land in adverse weather — base scoring implicitly avoids them already. 0% of top picks were weather_extreme; 3.8% were weather_adverse.
+- **Dome preference (Soft):** Has positive aggregate total (+291 delta) but a LOSING head-to-head record (33 wins, 47 losses, 41.3%). Wins big in 2020 and 2022 where dome teams outperformed; destroys value in 2021 and 2024. Not a reliable filter.
+
+**Overall simulation champions (Total EW across 6 seasons):**
+- n=5: SP Conservative + Prefer Dome (Soft) (160 EW) — driven by 2020/2022 dome outperformance
+- n=10: SP Conservative + Prefer Dome (Soft) (320 EW)
+- n=20: SP Conservative + Prefer Dome (Soft) (640 EW)
+- n=50: SP Conservative + Prefer Dome (Soft) (1,600 EW)
+
+**Caveat:** These results are dominated by 2 seasons (2020, 2022) where dome preference happened to align with actual outcomes. In 2024, the 70/30 Blend at n=10 collapsed from 110 EW (No Filter) to 10 EW (Dome Soft) — a 91% loss.
+
+**Product recommendation:** Do NOT implement weather filters as a default or core feature. The dome vs outdoor signal is statistically insignificant. The adverse weather filters are operationally inert (never fire). The dome preference filter has a losing head-to-head record and is driven by 2 good seasons out of 6. Offer venue type as informational display only. Close this research thread.
+
+**Revised strategy defaults — unchanged from Round 9:**
+- Non-buyback, n=5: SP Conservative + No Filter
+- Non-buyback, n=10: Core/Satellite + No Filter
+- Non-buyback, n=20: Core/Satellite + Avoid Div Soft (or No Filter)
+- Non-buyback, n=50: 70/30 Blend + No Filter
+- Buyback pools: SP Conservative + No Filter at all entry counts
+
 ## Continuation
 
 Research continues in Discord channel #backtesting-research (1492758599393349673).
