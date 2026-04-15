@@ -137,9 +137,13 @@ def load_games(cur, season):
     skipped = 0
     
     for g in regular:
-        home = g["homeTeamId"]
-        away = g["awayTeamId"]
+        # Support both camelCase and snake_case field names
+        home = g.get("homeTeamId") or g.get("home_team_id", "")
+        away = g.get("awayTeamId") or g.get("away_team_id", "")
         week = g["week"]
+        
+        if not home or not away:
+            continue
         
         # Game ID format matching existing: {season}-{week:02d}-{away}-{home}
         game_id = f"{season}-{week:02d}-{away}-{home}"
@@ -150,10 +154,13 @@ def load_games(cur, season):
             skipped += 1
             continue
         
-        # Parse values
-        home_spread = float(g["homeSpread"]) if g.get("homeSpread") else None
-        home_wp = float(g["homeWinProbability"]) if g.get("homeWinProbability") else None
-        away_wp = float(g["awayWinProbability"]) if g.get("awayWinProbability") else None
+        # Parse values (support both field name formats)
+        hs_raw = g.get("homeSpread") or g.get("home_spread")
+        home_spread = float(hs_raw) if hs_raw is not None else None
+        hwp_raw = g.get("homeWinProbability") or g.get("home_win_probability")
+        home_wp = float(hwp_raw) if hwp_raw is not None else None
+        awp_raw = g.get("awayWinProbability") or g.get("away_win_probability")
+        away_wp = float(awp_raw) if awp_raw is not None else None
         
         # Generate a plausible game_time (Sunday 1pm ET for most games)
         from datetime import timedelta
@@ -180,7 +187,7 @@ def load_games(cur, season):
         """, (
             game_id, week, season, home, away, game_time,
             home_spread, home_wp, away_wp,
-            g.get("completed", True), g.get("homeScore"), g.get("awayScore"),
+            g.get("completed", True), g.get("homeScore") or g.get("home_score"), g.get("awayScore") or g.get("away_score"),
             week,
         ))
         inserted += 1
