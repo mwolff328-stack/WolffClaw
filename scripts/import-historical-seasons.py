@@ -13,7 +13,20 @@ Data sources:
 - Pick popularity: ~/Projects/CMEA-Prototype/data/survivorgrid_picks_{year}.json
 
 Usage:
-    python3 import-historical-seasons.py [--dry-run]
+    python3 import-historical-seasons.py [--db-url DATABASE_URL] [--dry-run] [--seasons 2021,2022,2023,2024]
+
+    --db-url   Database connection URL (default: production Neon DB)
+    --seasons  Comma-separated list of seasons to import (default: 2023,2024)
+
+Examples:
+    # Import 2023+2024 into production (default)
+    python3 import-historical-seasons.py
+
+    # Import 2021+2022 into Replit dev DB
+    python3 import-historical-seasons.py --db-url 'postgresql://postgres:password@helium/heliumdb?sslmode=disable' --seasons 2021,2022
+
+    # Import all 4 seasons into dev DB
+    python3 import-historical-seasons.py --db-url 'postgresql://postgres:password@helium/heliumdb?sslmode=disable' --seasons 2021,2022,2023,2024
 """
 
 import psycopg2
@@ -24,38 +37,38 @@ import uuid
 import math
 from datetime import datetime, timezone
 
-# Production DB
-DB_URL = "postgresql://neondb_owner:npg_uR02UhPfxgXT@ep-orange-bush-afg0m2nx.c-2.us-west-2.aws.neon.tech/neondb?sslmode=require"
+# Default to production DB, override with --db-url
+DEFAULT_DB_URL = "postgresql://neondb_owner:npg_uR02UhPfxgXT@ep-orange-bush-afg0m2nx.c-2.us-west-2.aws.neon.tech/neondb?sslmode=require"
 DATA_DIR = os.path.expanduser("~/Projects/CMEA-Prototype/data")
+if not os.path.isdir(DATA_DIR):
+    # Try alternate paths (Replit, BackTesting-Prototype)
+    for alt in ['~/Projects/SurvivorPulse-BackTesting-Prototype/data', './data', '../data']:
+        alt_path = os.path.expanduser(alt)
+        if os.path.isdir(alt_path):
+            DATA_DIR = alt_path
+            break
+
+def parse_args():
+    db_url = DEFAULT_DB_URL
+    seasons = [2023, 2024]
+    dry_run = '--dry-run' in sys.argv
+    for i, arg in enumerate(sys.argv):
+        if arg == '--db-url' and i + 1 < len(sys.argv):
+            db_url = sys.argv[i + 1]
+        if arg == '--seasons' and i + 1 < len(sys.argv):
+            seasons = [int(s.strip()) for s in sys.argv[i + 1].split(',')]
+    return db_url, seasons, dry_run
 
 # The existing 2025 demo pool to replicate config from
 TEMPLATE_POOL_ID = "04e2471b-6498-4a59-8a95-c0dc50221457"
 TEMPLATE_USER_ID = "47230349"
 
 # Pre-generated stable IDs for reproducibility (won't create duplicates on re-run)
-POOL_IDS = {
-    2023: "a1b2c3d4-2023-4000-8000-000000000023",
-    2024: "a1b2c3d4-2024-4000-8000-000000000024",
-}
+def get_pool_id(season):
+    return f"a1b2c3d4-{season}-4000-8000-0000000000{season % 100:02d}"
 
-ENTRY_IDS = {
-    2023: [
-        "e1e1e1e1-2023-4001-8000-000000000001",
-        "e1e1e1e1-2023-4001-8000-000000000002",
-        "e1e1e1e1-2023-4001-8000-000000000003",
-        "e1e1e1e1-2023-4001-8000-000000000004",
-        "e1e1e1e1-2023-4001-8000-000000000005",
-    ],
-    2024: [
-        "e1e1e1e1-2024-4001-8000-000000000001",
-        "e1e1e1e1-2024-4001-8000-000000000002",
-        "e1e1e1e1-2024-4001-8000-000000000003",
-        "e1e1e1e1-2024-4001-8000-000000000004",
-        "e1e1e1e1-2024-4001-8000-000000000005",
-    ],
-}
-
-DRY_RUN = "--dry-run" in sys.argv
+def get_entry_ids(season):
+    return [f"e1e1e1e1-{season}-4001-8000-00000000000{i}" for i in range(1, 6)]
 
 
 def log(msg):
@@ -64,7 +77,7 @@ def log(msg):
 
 def create_pool(cur, season):
     """Create a demo pool for the given season, matching 2025 pool config."""
-    pool_id = POOL_IDS[season]
+    pool_id = get_pool_id(season)
     
     cur.execute("SELECT id FROM pools WHERE id = %s", (pool_id,))
     if cur.fetchone():
@@ -98,7 +111,7 @@ def create_pool(cur, season):
 
 def create_entries(cur, season, pool_id):
     """Create 5 entries for the pool."""
-    for i, entry_id in enumerate(ENTRY_IDS[season]):
+    for i, entry_id in enumerate(get_entry_ids(season)):
         cur.execute("SELECT id FROM entries WHERE id = %s", (entry_id,))
         if cur.fetchone():
             continue
@@ -242,7 +255,7 @@ def load_pick_popularity(cur, season):
 
 def verify(cur, season):
     """Verify the data was loaded correctly."""
-    pool_id = POOL_IDS[season]
+    pool_id = get_pool_id(season)
     
     cur.execute("SELECT name FROM pools WHERE id = %s", (pool_id,))
     pool = cur.fetchone()
@@ -273,31 +286,36 @@ def verify(cur, season):
 
 
 def main():
-    if DRY_RUN:
+    db_url, seasons, dry_run = parse_args()
+    
+    if dry_run:
         print("=" * 60)
         print("DRY RUN — no changes will be committed")
         print("=" * 60)
     
-    print("Connecting to production database...")
-    conn = psycopg2.connect(DB_URL)
+    print(f"Connecting to database...")
+    print(f"  URL: {db_url[:50]}...")
+    print(f"  Seasons: {seasons}")
+    print(f"  Data dir: {DATA_DIR}")
+    conn = psycopg2.connect(db_url)
     
-    if DRY_RUN:
+    if dry_run:
         conn.autocommit = False
     
     cur = conn.cursor()
     
-    for season in [2023, 2024]:
+    for season in seasons:
         print(f"\n{'=' * 60}")
         print(f"Importing {season} season data")
         print(f"{'=' * 60}")
         
         create_pool(cur, season)
-        create_entries(cur, season, POOL_IDS[season])
+        create_entries(cur, season, get_pool_id(season))
         load_games(cur, season)
         load_pick_popularity(cur, season)
         verify(cur, season)
     
-    if DRY_RUN:
+    if dry_run:
         print("\n\nDRY RUN — rolling back all changes")
         conn.rollback()
     else:
@@ -307,8 +325,8 @@ def main():
     
     # Print pool IDs for reference
     print(f"\nPool IDs for prototype:")
-    print(f"  2023: {POOL_IDS[2023]}")
-    print(f"  2024: {POOL_IDS[2024]}")
+    for s in seasons:
+        print(f"  {s}: {get_pool_id(s)}")
     print(f"  2025: {TEMPLATE_POOL_ID}")
     
     conn.close()
