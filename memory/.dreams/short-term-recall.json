@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-12T05:45:42.660Z",
+  "updatedAt": "2026-04-18T19:52:31.338Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -11,6 +11,7 @@
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
       "recallCount": 1,
       "dailyCount": 0,
+      "groundedCount": 0,
       "totalScore": 0.37952389419078825,
       "maxScore": 0.37952389419078825,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
@@ -41,6 +42,7 @@
       "snippet": "- PoolGenius: structurally CANNOT do personalized coordination — their own admission. Recommending same picks to 50K+ subscribers collapses EV. SurvivorPulse's personalized model is an architecture-level moat. - Neither competitor ever shows: \"Your 3 entries this week: Chiefs, Eagles, Bills — here's why each is different\" - Neither shows a correlated elimination risk score for personal entries - PoolGenius requires purchase before seeing ANY tool UI — full cold paywall ### Prototype Redesign Direction (decided 2026-04-08) Stop: trying to prove survival math superiority through season replay Start: demonstrating the unified portfolio view that neither competitor shows Three demo moments to",
       "recallCount": 1,
       "dailyCount": 0,
+      "groundedCount": 0,
       "totalScore": 0.36883683800697326,
       "maxScore": 0.36883683800697326,
       "firstRecalledAt": "2026-04-12T05:45:42.660Z",
@@ -60,6 +62,68 @@
         "coordination",
         "own",
         "admission"
+      ]
+    },
+    "memory:memory/2026-04-05.md:22:48": {
+      "key": "memory:memory/2026-04-05.md:22:48",
+      "path": "memory/2026-04-05.md",
+      "startLine": 22,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "**Doctrine (frozen):** \"SurvivorPulse helps serious survivor players manage correlation, future value, and risk across their entries and pools, because different teams can still be the same bet.\" **What it IS:** Decision-support system, portfolio-risk management tool, deterministic, risk-allocation focused **What it is NOT:** Pick list, favorites engine, content site, gambling tout **ICP (validated):** - Primary: Serious multi-entry player (3-10+ entries), manages pick distribution, uses tools like PoolCrunch/SurvivorGrid, currently allocates by gut/spreadsheet - Secondary: Scaling player (1-2 entries, looking to go to 3+) **Offseason Objectives (frozen):** 1. Acquire 50 high-signal offse",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4097053676843643,
+      "maxScore": 0.4097053676843643,
+      "firstRecalledAt": "2026-04-18T19:52:31.338Z",
+      "lastRecalledAt": "2026-04-18T19:52:31.338Z",
+      "queryHashes": [
+        "f0af4cbda2ae"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "decision-support",
+        "portfolio-risk",
+        "risk-allocation",
+        "multi-entry",
+        "3-10",
+        "poolcrunch/survivorgrid",
+        "gut/spreadsheet",
+        "1-2"
+      ]
+    },
+    "memory:memory/2026-04-05.md:1:27": {
+      "key": "memory:memory/2026-04-05.md:1:27",
+      "path": "memory/2026-04-05.md",
+      "startLine": 1,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "# 2026-04-05 Session Notes ## SurvivorPulse Deep Dive Complete Mike asked me to review SurvivorPulse across three sources: GitHub repos (SurvivorPulse + CMEA-Prototype) and Notion workspace. Full review completed. ### Setup - Notion API key stored at ~/.config/notion/api_key (integration name: \"OpenClaw\") - GitHub SSH authenticated as mwolff328-stack - Repos cloned to /tmp/SurvivorPulse and /tmp/CMEA-Prototype for review - gh CLI not authenticated (only SSH works) ### Notion Page Structure (id: 26329ce5-833d-800a-be90-ff530bddc59c) Top-level sub-pages: 1. **SurvivorPulse Initiative** (31829ce5) - Comprehensive briefing doc covering strategy, product, engineering 2. **Strategy & Growth**",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.38803032636642454,
+      "maxScore": 0.38803032636642454,
+      "firstRecalledAt": "2026-04-18T19:52:31.338Z",
+      "lastRecalledAt": "2026-04-18T19:52:31.338Z",
+      "queryHashes": [
+        "f0af4cbda2ae"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "cmea-prototype",
+        "config/notion/api-key",
+        "mwolff328-stack",
+        "tmp/survivorpulse",
+        "tmp/cmea-prototype",
+        "top-level",
+        "sub-pages",
+        "survivorpulse"
       ]
     }
   }
