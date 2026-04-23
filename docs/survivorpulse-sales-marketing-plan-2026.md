@@ -455,7 +455,26 @@ Everything else -- social posts, X engagement, Reddit comments, community replie
 
 ---
 
-## 13. Success criteria and kill switches
+## 13. Product-marketing alignment
+
+Marketing claims are gated by product readiness. See companion document: `docs/survivorpulse-product-dev-plan-2026.md` for the full product development plan.
+
+**Rule:** No public claim about a product capability until that capability is shipped and validated by Vlad.
+
+**Quick reference: what marketing can say when**
+
+| Phase | Marketable claims | NOT yet marketable |
+|---|---|---|
+| Phase 1 (Apr-May) | Portfolio theory, backtesting data, chalk collapse analysis, "coming for 2026", waitlist signup | "Sign up now", 2026 season features, specific product demos |
+| Phase 2 (Jun) | Everything above + "2026 season ready", "sign up now", multiple pool formats, product screenshots with polished copy | Path-aware optimization, universal grading, referral program |
+| Phase 3 (Jul-Aug 15) | Everything above + path-aware allocation, universal grading, referral program, full product demos | Claims about features still in QA |
+| Phase 4 (Aug 16-Sep 4) | Everything. All V1 features shipped and validated. | Nothing restricted (all Tier 1 and 2 shipped) |
+
+**Dependency enforcement:** Marketing tasks in the task list that require unshipped features are marked BLOCKED until Felix confirms the feature is production-ready. Luigi manages this gate bi-weekly.
+
+---
+
+## 14. Success criteria and kill switches
 
 **Plan succeeds if by September 14 (Week 2):**
 - 50+ founding members (paid)
