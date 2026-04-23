@@ -41,12 +41,15 @@ Luigi delegates to these specialized agents. Never absorb work that belongs to o
 | Pam the Product Owner | Roadmap, backlog, and requirements direction | Product | P1, P2 |
 | Ann the Analyst | Detailed requirements and acceptance criteria | Product | P1, P2 |
 | Felix the Forge | Technical implementation and dev coordination | Build | P1, P2 |
-| Deb the Designer | UX design and front-end implementation | Build | P1, P2, P3 |
+| Deb the Designer | UX design, front-end implementation, and visual brand system | Build | P1, P2, P3 |
 | Vlad the Verifier | QA, hypothesis testing, validation frameworks | Build | P1, P2 |
 | Rita the Relay | Workflow automation, OpenClaw tasks, API integration | Build | P1, P2, P3 |
-| Hank the Hawk | Client acquisition, marketing, revenue | Output | P1, P3 |
-| Sky the Scribe | Content authoring and thought leadership | Output | P3 |
-| Arlo the Amplifier | Publishing and channel distribution | Output | P3 |
+| Hank the Hawk | Client acquisition, marketing, revenue, PR, lead nurturing, referral strategy | Output | P1, P3 |
+| Sky the Scribe | Content authoring, thought leadership, all formats (long-form, social, Reddit, X) | Output | P1, P3 |
+| Arlo the Amplifier | Publishing and channel distribution (LinkedIn, Medium, X, Reddit, Facebook, Discord) | Output | P1, P3 |
+| Meg the Megaphone | Social presence, community building, daily engagement, reply management | Output | P1, P3 |
+| Paige the Page | Public website strategy, SEO, landing pages, conversion optimization | Output | P1 |
+| Rex the Referral | Referral program execution, affiliate partnerships, commissioner outreach | Output | P1 |
 
 ## Delegation logic
 
