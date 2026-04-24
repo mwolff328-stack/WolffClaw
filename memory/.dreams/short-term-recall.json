@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-18T19:52:31.338Z",
+  "updatedAt": "2026-04-23T17:00:44.179Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -9,18 +9,21 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.37952389419078825,
-      "maxScore": 0.37952389419078825,
+      "totalScore": 1.2365149706602097,
+      "maxScore": 0.459482729434967,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
-      "lastRecalledAt": "2026-04-09T14:44:21.194Z",
+      "lastRecalledAt": "2026-04-23T17:00:44.179Z",
       "queryHashes": [
-        "004df7e0da26"
+        "004df7e0da26",
+        "adc5569c8165",
+        "048da43d88ba"
       ],
       "recallDays": [
-        "2026-04-09"
+        "2026-04-09",
+        "2026-04-23"
       ],
       "conceptTags": [
         "competent-but-uncoordinated",
@@ -102,18 +105,21 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "# 2026-04-05 Session Notes ## SurvivorPulse Deep Dive Complete Mike asked me to review SurvivorPulse across three sources: GitHub repos (SurvivorPulse + CMEA-Prototype) and Notion workspace. Full review completed. ### Setup - Notion API key stored at ~/.config/notion/api_key (integration name: \"OpenClaw\") - GitHub SSH authenticated as mwolff328-stack - Repos cloned to /tmp/SurvivorPulse and /tmp/CMEA-Prototype for review - gh CLI not authenticated (only SSH works) ### Notion Page Structure (id: 26329ce5-833d-800a-be90-ff530bddc59c) Top-level sub-pages: 1. **SurvivorPulse Initiative** (31829ce5) - Comprehensive briefing doc covering strategy, product, engineering 2. **Strategy & Growth**",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.38803032636642454,
-      "maxScore": 0.38803032636642454,
+      "totalScore": 1.1938835293054582,
+      "maxScore": 0.4227772206068039,
       "firstRecalledAt": "2026-04-18T19:52:31.338Z",
-      "lastRecalledAt": "2026-04-18T19:52:31.338Z",
+      "lastRecalledAt": "2026-04-23T17:00:30.645Z",
       "queryHashes": [
-        "f0af4cbda2ae"
+        "f0af4cbda2ae",
+        "d1f1dfc48f2f",
+        "adc5569c8165"
       ],
       "recallDays": [
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-23"
       ],
       "conceptTags": [
         "cmea-prototype",
@@ -124,6 +130,69 @@
         "top-level",
         "sub-pages",
         "survivorpulse"
+      ]
+    },
+    "memory:memory/2026-04-14.md:1:19": {
+      "key": "memory:memory/2026-04-14.md:1:19",
+      "path": "memory/2026-04-14.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "## Evening: White Paper Production Stan + Sky collaboration on flagship white paper covering all 10 rounds of backtesting research. **Phase 1 (Stan):** Research draft -- 9,400 words, 11 sections, all findings/tables/methodology from ~1,900 simulation runs. - Saved: docs/white-paper-research-draft.md **Phase 2 (Sky):** Polished white paper + supporting assets. - docs/white-paper-final.md (~5,100 words) -- full narrative arc, hook to product tease - docs/white-paper-executive-summary.md (~500 words) -- standalone 1-pager with decision framework - docs/white-paper-social-snippets.md (15 snippets) -- self-contained data-backed insights for X/Reddit/LinkedIn Key craft decisions: - SurvivorPu",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3746924668550491,
+      "maxScore": 0.3746924668550491,
+      "firstRecalledAt": "2026-04-21T18:16:44.313Z",
+      "lastRecalledAt": "2026-04-21T18:16:44.313Z",
+      "queryHashes": [
+        "bd138257f86e"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "findings/tables/methodology",
+        "docs/white-paper-final.md",
+        "1-pager",
+        "self-contained",
+        "data-backed",
+        "x/reddit/linkedin",
+        "evening",
+        "white"
+      ]
+    },
+    "memory:memory/2026-04-17.md:1:26": {
+      "key": "memory:memory/2026-04-17.md:1:26",
+      "path": "memory/2026-04-17.md",
+      "startLine": 1,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "# 2026-04-17 — Daily Memory ## SurvivorPulse Back-Testing Prototype — Status **Repo:** `~/Projects/SurvivorPulse-BackTesting-Prototype` (renamed from CMEA-Prototype) **Git:** `git@github.com:mwolff328-stack/SurvivorPulse-BackTesting-Prototype.git` ### Completed (cumulative) - Full back-tester prototype: React client-side app simulating NFL survivor pool strategies against 2021-2025 historical data - Dark-mode design system (Linear-inspired), all panels, week selector, SWR cache - Strategy system: 6 templates, configurable weights (wp/ps/fv auto-sum 100), lookahead, decay, min win prob, EV mode - Per-entry strategy assignment, 1-50 entries, buyback toggle - \"Find Best Strategy\" optimizatio",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8371487498283385,
+      "maxScore": 0.43108250498771666,
+      "firstRecalledAt": "2026-04-23T17:00:32.273Z",
+      "lastRecalledAt": "2026-04-23T17:00:44.179Z",
+      "queryHashes": [
+        "c330e12985dd",
+        "048da43d88ba"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "back-testing",
+        "cmea-prototype",
+        "github.com",
+        "back-tester",
+        "client-side",
+        "2021-2025",
+        "dark-mode",
+        "linear-inspired"
       ]
     }
   }

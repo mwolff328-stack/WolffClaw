@@ -6,3 +6,7 @@
 **/secrets*
 .openclaw/
 .env.survivorpulse
+claude/
+smuggs/
+state/
+logs/
