@@ -1,5 +1,43 @@
 {
-  "lastSaveAt": "2026-04-23T09:00:00.000Z",
-  "channelsSaved": [],
-  "sessionsReset": []
+  "lastSaveAt": "2026-04-25T09:00:27.640056+00:00",
+  "previousSaveAt": "2026-04-23T09:00:00.000Z",
+  "knownChannels": [
+    "1496991670762475532",
+    "1491795085971554576",
+    "1494771038066835538",
+    "1495450229816823998",
+    "1495444646304677909",
+    "1495155295129960530",
+    "1496905735806652559",
+    "1496148691826905301",
+    "1496212355015507988",
+    "1492758599393349673",
+    "1491483396747300896",
+    "1493965556817334313",
+    "1496927226082361426",
+    "1494368634208911571",
+    "1491786035980537978",
+    "1491887015053099068"
+  ],
+  "knownTelegramChats": [
+    "8508558620"
+  ],
+  "knownWorkspaces": [
+    "/Users/mrwolff/.openclaw/workspace-stan",
+    "/Users/mrwolff/bubba-workspace",
+    "/Users/mrwolff/.openclaw/workspace",
+    "/Users/mrwolff/.claude",
+    "/Users/mrwolff/.openclaw/workspace-smuggs",
+    "/Users/mrwolff/.openclaw/workspace-deb"
+  ],
+  "channelsSaved": [
+    "#general",
+    "#infra",
+    "#dev",
+    "#backtesting-research",
+    "#sales-and-marketing",
+    "#product",
+    "#general"
+  ],
+  "totalMessages": 275
 }
