@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-23T17:00:44.179Z",
+  "updatedAt": "2026-04-26T22:41:22.699Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -139,18 +139,21 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Evening: White Paper Production Stan + Sky collaboration on flagship white paper covering all 10 rounds of backtesting research. **Phase 1 (Stan):** Research draft -- 9,400 words, 11 sections, all findings/tables/methodology from ~1,900 simulation runs. - Saved: docs/white-paper-research-draft.md **Phase 2 (Sky):** Polished white paper + supporting assets. - docs/white-paper-final.md (~5,100 words) -- full narrative arc, hook to product tease - docs/white-paper-executive-summary.md (~500 words) -- standalone 1-pager with decision framework - docs/white-paper-social-snippets.md (15 snippets) -- self-contained data-backed insights for X/Reddit/LinkedIn Key craft decisions: - SurvivorPu",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.3746924668550491,
-      "maxScore": 0.3746924668550491,
+      "totalScore": 1.1660794883966445,
+      "maxScore": 0.4040044277906418,
       "firstRecalledAt": "2026-04-21T18:16:44.313Z",
-      "lastRecalledAt": "2026-04-21T18:16:44.313Z",
+      "lastRecalledAt": "2026-04-26T22:41:22.699Z",
       "queryHashes": [
-        "bd138257f86e"
+        "bd138257f86e",
+        "09aa620c5e0a",
+        "6418962ef700"
       ],
       "recallDays": [
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-26"
       ],
       "conceptTags": [
         "findings/tables/methodology",
