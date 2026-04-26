@@ -236,3 +236,15 @@ Rationale:
 - Division lookup verified: all 32 team IDs resolved correctly (JAX not JAC, LV not LVR, WAS not WSH, LAR not LA)
 - Swap tracking methodology: "beneficial" = filter swapped AND new pick won; "costly" = swapped AND new pick lost
 - Win probability data from SurvivorPulse API / historical files
+
+---
+
+## Round 11 Supersession (2026-04-26)
+
+**This Round 9 study has been superseded by Round 11**, which expanded coverage from 3 seasons to all 10 (2016-2025) and fixed a portfolio diversification bug. See `memory/stan-backtesting-research.md` (Round 11 section) for full results.
+
+Key differences:
+- 10 seasons vs 3
+- Proper week-level round-robin diversification (bug fix)
+- Formal statistical significance tests: divisional p=0.824, home p=0.428
+- Original Round 9 null finding CONFIRMED with higher confidence

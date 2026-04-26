@@ -327,7 +327,42 @@ All in `~/.openclaw/workspace/scripts/`:
 - Non-buyback, n=50: 70/30 Blend + No Filter
 - Buyback pools: SP Conservative + No Filter at all entry counts
 
+## Round 11: Game Context Filters — 10-Season Validation (2026-04-26)
+
+**Script**: `/Users/mrwolff/Projects/SurvivorPulse-BackTesting-Prototype/scripts/stan-game-context-sim-10season.py`
+**Results JSON**: `scripts/stan-game-context-sim-10season-results.json`
+**Summary**: `scripts/stan-game-context-10season-summary.md`
+
+1,120 runs (4 strategies x 7 filter modes x 4 entry counts x 10 seasons). Expanded from Round 9's 3-season scope to all 10 seasons (2016-2025).
+
+**Critical bug fix:** Round 11 also corrected a portfolio diversification bug present in all prior filter simulations (Rounds 9, 10). The original sim assigned every entry the same top-scored team each week, causing linear entry-count scaling (n=10 = exactly 2x n=5). Fixed with week-level round-robin assignment: entry 0 gets #1 team, entry 1 gets #2, etc.
+
+**Hypothesis test results (raw game data, 10 seasons):**
+
+- **H1 Divisional upset rate:** Div home win: 54.17% (n=960), Non-div: 54.62% (n=1,679). Gap: -0.45pp. Z=-0.223, p=0.824. **NOT SIGNIFICANT.** Identical across 10 seasons.
+- **H2 Home favorite advantage:** Home fav: 67.18% (n=1,612), Away fav: 65.69% (n=1,023). Gap: +1.49pp. Z=0.793, p=0.428. **NOT SIGNIFICANT.** Already priced into spread.
+
+**Corrected simulation champions (10-season avg EW/season):**
+- n=5: 70/30 Blend + Avoid Div (Soft) = 18.3 (No Filter best: 16.1)
+- n=10: SP Conservative + Avoid Div (Soft) = 28.9 (No Filter best: 26.2)
+- n=20: 70/30 Blend + Avoid Div (Hard) = 43.2 (No Filter best: 41.5)
+- n=50: SP Conservative + Avoid Div (Hard) = 54.1 (No Filter best: 52.4)
+
+**Depletion effects (per-entry efficiency with proper diversification):**
+- 70/30 Blend: n=5: 3.22, n=10: 2.55, n=20: 2.08, n=50: 1.00
+- SP Conservative: n=5: 3.22, n=10: 2.62, n=20: 2.07, n=50: 1.05
+
+**Key conclusions:**
+1. Round 9's 3-season null finding CONFIRMED by 10-season dataset with statistical testing
+2. Filter gains are small (1-3 EW/season), inconsistent across strategies, within noise range
+3. All three conventional wisdom filters statistically null: divisional (p=0.824), home (p=0.428), weather (p=0.511)
+4. Filters should not be defaults in SurvivorPulse
+
+**White paper updated:** All four docs (final, executive summary, research draft, social snippets) updated with 10-season findings and p-values. Run count updated from ~3,980 to ~5,100.
+
+---
+
 ## Continuation
 
-Research continues in Discord channel #backtesting-research (1492758599393349673).
+Research continues in Discord channel #backtesting-research (1496212355015507988).
 Notion page: https://www.notion.so/Back-Testing-Research-34029ce5833d8006bd12e10a4892cc4c

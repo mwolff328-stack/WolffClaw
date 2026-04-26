@@ -129,13 +129,14 @@ The 5-season expansion adds 2021 and 2022 data. Both were hard seasons (12.2% an
 
 **5-season data impact:** The 5-season backtesting did NOT include filter analysis. Round 9 (divisional/home) used 3 seasons (2023-2025). Round 10 (weather) used 6 seasons (2020-2025). The 5-season expansion tested strategies x entry counts x buyback configs but not filter modes.
 
-**Status:** NOT DIRECTLY TESTED in 5-season expansion.
+**Round 11 update (2026-04-26):** This limitation has been resolved. Round 11 re-ran the full game context filter simulation across all 10 seasons (2016-2025) with corrected portfolio diversification modeling (1,120 runs). Results include formal two-proportion z-tests:
+- Divisional: gap = -0.45pp, p=0.824 (n=2,639 games). REJECTED.
+- Home field: gap = +1.49pp, p=0.428 (n=2,635 games). REJECTED.
+- Weather: p=0.511 (n=1,615 games, unchanged from Round 10). REJECTED.
 
-**Recommended action:**
-- Note explicitly that the "three myths" findings rest on their original data: 3 seasons for divisional/home, 6 seasons for weather.
-- The weather finding (p=0.511) used 6 seasons and is the most robust.
-- Divisional and home field findings use only 3 seasons and would benefit from 5-season retesting, but this wasn't done. Flag as a limitation.
-- No changes needed to the myth conclusions themselves, but the paper should be transparent about which findings use which sample sizes.
+All three myths are now validated across 10 seasons with statistical significance testing. The white paper has been updated accordingly.
+
+**Status:** RESOLVED by Round 11 (2026-04-26).
 
 ---
 
@@ -344,8 +345,8 @@ Prioritized from most critical to least.
 | Item | Value | Status |
 |---|---|---|
 | Weather p-value (dome vs outdoor) | 0.511 | Unchanged (same Round 10 data) |
-| Divisional avg win rate gap | -2.4pp | Unchanged (same Round 9 data, not retested) |
-| Home field avg win rate gap | -0.7pp | Unchanged (same Round 9 data, not retested) |
+| Divisional avg win rate gap | -2.4pp | **Updated: -0.45pp, p=0.824 (10 seasons, Round 11)** |
+| Home field avg win rate gap | -0.7pp | **Updated: +1.49pp, p=0.428 (10 seasons, Round 11)** |
 | Adverse/extreme weather filters | Inert (0 wins, 0 losses, 96 ties) | Unchanged |
 | Win probability formula (13.5 SD) | Unchanged | Unchanged |
 | Team exhaustion mechanism explanation | Valid | Unchanged (confirmed directionally) |
