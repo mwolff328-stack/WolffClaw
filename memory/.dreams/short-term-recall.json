@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T14:31:46.616Z",
+  "updatedAt": "2026-04-28T16:14:58.362Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -107,18 +107,19 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "# 2026-04-05 Session Notes ## SurvivorPulse Deep Dive Complete Mike asked me to review SurvivorPulse across three sources: GitHub repos (SurvivorPulse + CMEA-Prototype) and Notion workspace. Full review completed. ### Setup - Notion API key stored at ~/.config/notion/api_key (integration name: \"OpenClaw\") - GitHub SSH authenticated as mwolff328-stack - Repos cloned to /tmp/SurvivorPulse and /tmp/CMEA-Prototype for review - gh CLI not authenticated (only SSH works) ### Notion Page Structure (id: 26329ce5-833d-800a-be90-ff530bddc59c) Top-level sub-pages: 1. **SurvivorPulse Initiative** (31829ce5) - Comprehensive briefing doc covering strategy, product, engineering 2. **Strategy & Growth**",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.6086427718400955,
+      "totalScore": 1.9604640543460845,
       "maxScore": 0.4227772206068039,
       "firstRecalledAt": "2026-04-18T19:52:31.338Z",
-      "lastRecalledAt": "2026-04-28T14:31:46.616Z",
+      "lastRecalledAt": "2026-04-28T16:14:54.378Z",
       "queryHashes": [
         "f0af4cbda2ae",
         "d1f1dfc48f2f",
         "adc5569c8165",
-        "1fcbd578cdb8"
+        "1fcbd578cdb8",
+        "f7f61b81bc81"
       ],
       "recallDays": [
         "2026-04-18",
@@ -297,6 +298,38 @@
         "three",
         "companion",
         "documents"
+      ]
+    },
+    "memory:memory/2026-04-27.md:1:21": {
+      "key": "memory:memory/2026-04-27.md:1:21",
+      "path": "memory/2026-04-27.md",
+      "startLine": 1,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "# 2026-04-27 ## Channel Context Save -- 2026-04-27 ### SurvivorPulse Guild #### #infra - Routine ops only: hourly repo syncs (8/8 clean all day), CI deploys (3 embed-only), daily spend reports ($0.05/day on Apr 26 and Apr 27) - No meaningful decisions or incidents #### #backtesting-research - **White paper rewrite to 10-season data completed.** 4 new docs created alongside originals (final, exec summary, social snippets, research draft). Zero references to prior 3/5-season datasets. All numbers cross-verified against source data. - **Content review done.** Minor issues flagged (buyback value calculation note, social snippet 13 uses simpler strategy for tweet format). All docs approved as",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7303606539964675,
+      "maxScore": 0.37505109906196593,
+      "firstRecalledAt": "2026-04-28T16:14:54.378Z",
+      "lastRecalledAt": "2026-04-28T16:14:58.362Z",
+      "queryHashes": [
+        "f7f61b81bc81",
+        "cc505107dd4c"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "8/8",
+        "embed-only",
+        "0.05/day",
+        "backtesting-research",
+        "10-season",
+        "3/5-season",
+        "cross-verified",
+        "channel"
       ]
     }
   }
