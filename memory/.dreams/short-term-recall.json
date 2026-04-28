@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-26T22:41:22.699Z",
+  "updatedAt": "2026-04-28T05:28:12.328Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -139,21 +139,23 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Evening: White Paper Production Stan + Sky collaboration on flagship white paper covering all 10 rounds of backtesting research. **Phase 1 (Stan):** Research draft -- 9,400 words, 11 sections, all findings/tables/methodology from ~1,900 simulation runs. - Saved: docs/white-paper-research-draft.md **Phase 2 (Sky):** Polished white paper + supporting assets. - docs/white-paper-final.md (~5,100 words) -- full narrative arc, hook to product tease - docs/white-paper-executive-summary.md (~500 words) -- standalone 1-pager with decision framework - docs/white-paper-social-snippets.md (15 snippets) -- self-contained data-backed insights for X/Reddit/LinkedIn Key craft decisions: - SurvivorPu",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.1660794883966445,
+      "totalScore": 1.560264953970909,
       "maxScore": 0.4040044277906418,
       "firstRecalledAt": "2026-04-21T18:16:44.313Z",
-      "lastRecalledAt": "2026-04-26T22:41:22.699Z",
+      "lastRecalledAt": "2026-04-28T05:28:12.328Z",
       "queryHashes": [
         "bd138257f86e",
         "09aa620c5e0a",
-        "6418962ef700"
+        "6418962ef700",
+        "c2df15c20bcf"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-27"
       ],
       "conceptTags": [
         "findings/tables/methodology",
@@ -196,6 +198,70 @@
         "2021-2025",
         "dark-mode",
         "linear-inspired"
+      ]
+    },
+    "memory:memory/2026-04-11.md:78:103": {
+      "key": "memory:memory/2026-04-11.md:78:103",
+      "path": "memory/2026-04-11.md",
+      "startLine": 78,
+      "endLine": 103,
+      "source": "memory",
+      "snippet": "- StrategyConfig type: strategyType, wpWeight, psWeight, fvWeight, lookahead, decayType, minWinProb, evMode - computeTeamScore supports all strategy types (EV mode, weighted blend, expendable-first, min floor) - computeExpendability for future value with time decay - Virtual entry generation for configurable entry counts - Buyback logic (revive once, track buybackUsed/buybackWeek) ### UI + Tests (b0adf42) - ScenarioControls fully rebuilt: Season selector + Entry Count (1-10) + Buybacks toggle + Strategy Mode (Same for All / Per Entry) - Strategy template dropdown: Pure WP, 70/30 Blend, 80/20 Blend, SP EV, Expendable-First, Custom - Full parameter controls (collapsible): 3 weight sliders (au",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8481096982955932,
+      "maxScore": 0.4454565405845642,
+      "firstRecalledAt": "2026-04-28T05:27:28.385Z",
+      "lastRecalledAt": "2026-04-28T05:27:28.753Z",
+      "queryHashes": [
+        "ca1577efc136",
+        "f46390c961ea"
+      ],
+      "recallDays": [
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "expendable-first",
+        "buybackused/buybackweek",
+        "1-10",
+        "70/30",
+        "80/20",
+        "strategyconfig",
+        "type",
+        "strategytype"
+      ]
+    },
+    "memory:memory/2026-04-11.md:98:122": {
+      "key": "memory:memory/2026-04-11.md:98:122",
+      "path": "memory/2026-04-11.md",
+      "startLine": 98,
+      "endLine": 122,
+      "source": "memory",
+      "snippet": "## Late Night: Backtesting Research Rounds 6-8 (Discord #backtest-research) ### Round 6: Entry-Count Scaling (168 runs) - 14 strategies x 4 entry counts (5, 10, 20, 50) x 3 seasons - 70/30 Blend loses crown at n=10 (beaten by 7 strategies), reclaims at n=50 - SP Production wins n=10 (+18 vs 70/30), Mixed Portfolio wins n=20 (+20) - CMEA thesis partially confirmed: coordination helps at n=10-20 but not n=50 (team exhaustion) - Coordinated Diversification (same scorer, smarter assignment) = 70/30 exactly. Null result. ### Round 7: Per-Entry Differentiated Scoring (144 runs) - 12 portfolio configurations including intentional role assignment - Core/Satellite (60% 70/30 + 40% SP Production) wi",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8240824252367018,
+      "maxScore": 0.4480687499046325,
+      "firstRecalledAt": "2026-04-28T05:27:28.385Z",
+      "lastRecalledAt": "2026-04-28T05:27:28.753Z",
+      "queryHashes": [
+        "ca1577efc136",
+        "f46390c961ea"
+      ],
+      "recallDays": [
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "6-8",
+        "backtest-research",
+        "entry-count",
+        "70/30",
+        "10-20",
+        "per-entry",
+        "core/satellite",
+        "late"
       ]
     }
   }
