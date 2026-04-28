@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T05:28:12.328Z",
+  "updatedAt": "2026-04-28T14:31:46.616Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -9,21 +9,23 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.2365149706602097,
+      "totalScore": 1.640787699818611,
       "maxScore": 0.459482729434967,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
-      "lastRecalledAt": "2026-04-23T17:00:44.179Z",
+      "lastRecalledAt": "2026-04-28T14:31:46.616Z",
       "queryHashes": [
         "004df7e0da26",
         "adc5569c8165",
-        "048da43d88ba"
+        "048da43d88ba",
+        "1fcbd578cdb8"
       ],
       "recallDays": [
         "2026-04-09",
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-28"
       ],
       "conceptTags": [
         "competent-but-uncoordinated",
@@ -105,21 +107,23 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "# 2026-04-05 Session Notes ## SurvivorPulse Deep Dive Complete Mike asked me to review SurvivorPulse across three sources: GitHub repos (SurvivorPulse + CMEA-Prototype) and Notion workspace. Full review completed. ### Setup - Notion API key stored at ~/.config/notion/api_key (integration name: \"OpenClaw\") - GitHub SSH authenticated as mwolff328-stack - Repos cloned to /tmp/SurvivorPulse and /tmp/CMEA-Prototype for review - gh CLI not authenticated (only SSH works) ### Notion Page Structure (id: 26329ce5-833d-800a-be90-ff530bddc59c) Top-level sub-pages: 1. **SurvivorPulse Initiative** (31829ce5) - Comprehensive briefing doc covering strategy, product, engineering 2. **Strategy & Growth**",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.1938835293054582,
+      "totalScore": 1.6086427718400955,
       "maxScore": 0.4227772206068039,
       "firstRecalledAt": "2026-04-18T19:52:31.338Z",
-      "lastRecalledAt": "2026-04-23T17:00:30.645Z",
+      "lastRecalledAt": "2026-04-28T14:31:46.616Z",
       "queryHashes": [
         "f0af4cbda2ae",
         "d1f1dfc48f2f",
-        "adc5569c8165"
+        "adc5569c8165",
+        "1fcbd578cdb8"
       ],
       "recallDays": [
         "2026-04-18",
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-28"
       ],
       "conceptTags": [
         "cmea-prototype",
@@ -262,6 +266,37 @@
         "per-entry",
         "core/satellite",
         "late"
+      ]
+    },
+    "memory:memory/2026-04-23.md:1:34": {
+      "key": "memory:memory/2026-04-23.md:1:34",
+      "path": "memory/2026-04-23.md",
+      "startLine": 1,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "# 2026-04-23 — Daily Memory ## Sales & Marketing Plan Created Three companion documents produced for SurvivorPulse 2026 season launch: 1. **Sales & Marketing Plan** — full arc April 23 through Week 1 (Sept 4) - Workspace: `docs/survivorpulse-sales-marketing-plan-2026.md` - Notion: 34b29ce5-833d-818d-8598-eeab7100eabd (Strategy & Growth) 2. **Product Development Plan** — aligned product milestones - Workspace: `docs/survivorpulse-product-dev-plan-2026.md` - Notion: 34b29ce5-833d-810e-bec3-e4830ac3c7af (Product & Engineering) 3. **Marketing Task List** — 70+ tasks across 4 phases - Workspace: `docs/survivorpulse-marketing-tasks.md` - Notion: 34b29ce5-833d-81cb-96db-fcaf3",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.666458432525468,
+      "maxScore": 0.666458432525468,
+      "firstRecalledAt": "2026-04-28T14:31:46.616Z",
+      "lastRecalledAt": "2026-04-28T14:31:46.616Z",
+      "queryHashes": [
+        "1fcbd578cdb8"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "34b29ce5-833d-81cb-96db-fcaf3",
+        "sales",
+        "marketing",
+        "plan",
+        "created",
+        "three",
+        "companion",
+        "documents"
       ]
     }
   }
