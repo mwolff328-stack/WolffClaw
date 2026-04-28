@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T16:14:58.362Z",
+  "updatedAt": "2026-04-28T17:50:41.799Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -9,18 +9,19 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.640787699818611,
+      "totalScore": 1.9915160626173019,
       "maxScore": 0.459482729434967,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
-      "lastRecalledAt": "2026-04-28T14:31:46.616Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
       "queryHashes": [
         "004df7e0da26",
         "adc5569c8165",
         "048da43d88ba",
-        "1fcbd578cdb8"
+        "1fcbd578cdb8",
+        "a0c5dba763a0"
       ],
       "recallDays": [
         "2026-04-09",
@@ -107,19 +108,20 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "# 2026-04-05 Session Notes ## SurvivorPulse Deep Dive Complete Mike asked me to review SurvivorPulse across three sources: GitHub repos (SurvivorPulse + CMEA-Prototype) and Notion workspace. Full review completed. ### Setup - Notion API key stored at ~/.config/notion/api_key (integration name: \"OpenClaw\") - GitHub SSH authenticated as mwolff328-stack - Repos cloned to /tmp/SurvivorPulse and /tmp/CMEA-Prototype for review - gh CLI not authenticated (only SSH works) ### Notion Page Structure (id: 26329ce5-833d-800a-be90-ff530bddc59c) Top-level sub-pages: 1. **SurvivorPulse Initiative** (31829ce5) - Comprehensive briefing doc covering strategy, product, engineering 2. **Strategy & Growth**",
-      "recallCount": 5,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.9604640543460845,
+      "totalScore": 2.3222028285264966,
       "maxScore": 0.4227772206068039,
       "firstRecalledAt": "2026-04-18T19:52:31.338Z",
-      "lastRecalledAt": "2026-04-28T16:14:54.378Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
       "queryHashes": [
         "f0af4cbda2ae",
         "d1f1dfc48f2f",
         "adc5569c8165",
         "1fcbd578cdb8",
-        "f7f61b81bc81"
+        "f7f61b81bc81",
+        "a0c5dba763a0"
       ],
       "recallDays": [
         "2026-04-18",
@@ -330,6 +332,131 @@
         "3/5-season",
         "cross-verified",
         "channel"
+      ]
+    },
+    "memory:memory/2026-04-09.md:62:75": {
+      "key": "memory:memory/2026-04-09.md:62:75",
+      "path": "memory/2026-04-09.md",
+      "startLine": 62,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "- Sentry uppercase labels (11px, weight 590, 0.08em tracking) - SurvivorPulse domain components (entry cards, pick grids, risk cards, correlation matrix) - Updated src/index.css with `--sp-*` CSS custom properties, shadcn remapping to dark palette - Updated tailwind.config.ts with status colors, surface elevation, brand tokens, font config ### Notion Sync - Design evaluation synced to Notion page: \"DESIGN.md Shortlist — SurvivorPulse Brand Evaluation (2026-04-09)\" - Page ID: 33e29ce5-833d-8105-abd8-e9ffff821d3e - Linked under UX heading on Product & Engineering page ## Notion Pages Created This Session - CI Pipeline doc: 33e29ce5-833d-812b-ba51-dcf566081316 (under Architecture & Infras",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3892742425203323,
+      "maxScore": 0.3892742425203323,
+      "firstRecalledAt": "2026-04-28T17:50:08.349Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
+      "queryHashes": [
+        "a0c5dba763a0"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "0.08em",
+        "src/index.css",
+        "tailwind.config.ts",
+        "design.md",
+        "sentry",
+        "uppercase",
+        "labels",
+        "11px"
+      ]
+    },
+    "memory:memory/2026-04-09.md:43:67": {
+      "key": "memory:memory/2026-04-09.md:43:67",
+      "path": "memory/2026-04-09.md",
+      "startLine": 43,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "Mike wanted to adopt a DESIGN.md from the VoltAgent/awesome-design-md collection for SurvivorPulse's UI design system. ### Deb's Shortlist (5 of 58 reviewed) 1. **Linear** ⭐ (Deb's pick) — dark-mode-native, Inter Variable, luminance stacking, Radix UI compatible 2. **IBM Carbon** — enterprise analytics gold standard, IBM Plex Sans, rigorous token system 3. **Sentry** — most analogous product context, deep purple-black, uppercase label system 4. **Vercel** — precision minimalism, Geist with tabular numbers, shadow-as-border 5. **PostHog** — exact same tech stack (Tailwind + Radix + shadcn), wrong aesthetic but right bones ### Decision Mike accepted Deb's recommendation: **Linear as base**,",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7629783481359481,
+      "maxScore": 0.3862405031919479,
+      "firstRecalledAt": "2026-04-28T17:50:08.349Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.434Z",
+      "queryHashes": [
+        "a0c5dba763a0",
+        "08045b75d55d"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "design.md",
+        "voltagent/awesome-design-md",
+        "dark-mode-native",
+        "purple-black",
+        "shadow-as-border",
+        "mike",
+        "wanted",
+        "adopt"
+      ]
+    },
+    "memory:memory/2026-04-08.md:22:39": {
+      "key": "memory:memory/2026-04-08.md:22:39",
+      "path": "memory/2026-04-08.md",
+      "startLine": 22,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "- Created 5 tasks in correct Product Backlog, archived 5 from Master Backlog - Parent: CMEA Prototype Redesign (3 Demo Moments) - In Progress - Moment 1: Unified Portfolio Pick Slate - In Progress - Moment 2: Correlated Elimination Risk Panel - Backlog - Moment 3: Personalization Statement - Backlog - Editorial Pass: Rationale Copy - Backlog ### Moment 1 build (Felix via Claude Code) - Felix completed Moment 1 build at ~10:02 PM PDT - New files: `src/components/portfolio/EntryCard.tsx`, `src/components/portfolio/PortfolioSlate.tsx` - Modified: `src/components/replay/SeasonReplayView.tsx` (PortfolioSlate rendered above replay table) - All 7 ACs covered: card display, eliminated styling, spli",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.383587697148323,
+      "maxScore": 0.383587697148323,
+      "firstRecalledAt": "2026-04-28T17:50:08.434Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.434Z",
+      "queryHashes": [
+        "08045b75d55d"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "created",
+        "tasks",
+        "correct",
+        "product",
+        "backlog",
+        "archived",
+        "master",
+        "parent"
+      ]
+    },
+    "memory:memory/2026-04-28.md:1:38": {
+      "key": "memory:memory/2026-04-28.md:1:38",
+      "path": "memory/2026-04-28.md",
+      "startLine": 1,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "# 2026-04-28 ## Product Backlog Overhaul (morning session, #product channel) ### Backlog cleanup completed - Archived 11 duplicate items (SPP-39 through SPP-50, excluding SPP-46 Mobile App) - Archived 5 CMEA Prototype items (SPP-1, 53, 54, 55, 56) -- replaced by Back Tester Prototype - Added 5 new items: SPP-60 Referral Tracking, SPP-61 Waitlist/Email Capture, SPP-62 Founding Member Launch Flow, SPP-63 Onboarding Email Hooks, SPP-64 Data Pipeline Readiness - Fixed SPP-57 size: S -> M (dev plan is source of truth for sizing) - Backlog now 47 live items ### Major enhancement scope defined (16 features for V1) **Mike's 9 enhancements:** 1. Information Architecture Overhaul (P1, first priori",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.45061337470854884,
+      "maxScore": 0.45061337470854884,
+      "firstRecalledAt": "2026-04-28T17:50:41.799Z",
+      "lastRecalledAt": "2026-04-28T17:50:41.799Z",
+      "queryHashes": [
+        "656d4c39fcdc"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "spp-39",
+        "spp-50",
+        "spp-46",
+        "spp-1",
+        "spp-60",
+        "spp-61",
+        "waitlist/email",
+        "spp-62"
       ]
     }
   }
