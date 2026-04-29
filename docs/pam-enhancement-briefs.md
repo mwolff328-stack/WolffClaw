@@ -2,8 +2,10 @@
 
 **Author:** Pam the Product Owner
 **Date:** April 28, 2026
-**Version:** 1.0
+**Version:** 1.1
+**Last updated:** April 29, 2026
 **Context:** 9 major enhancements evaluated against the V1 launch target of September 4, 2026 (NFL Week 1)
+**Changelog:** v1.1 -- Updated #1 (IA Overhaul) with founder feedback on historical data access, week-by-week navigation, eliminated entity access, and season selection. Added cross-reference note to #7 (Multi-Entry Forecasting).
 **Companion docs:** `survivorpulse-product-dev-plan-2026.md`, `memory/stan-roi-analysis.md`, `memory/stan-roi-gaps-analysis.md`
 
 ---
@@ -32,6 +34,8 @@
 **Problem being solved:**
 The current IA was built incrementally as features were added. Users face two core workflows -- (a) managing entries/picks across pools, and (b) accessing analysis/recommendations to inform those picks -- but the navigation doesn't reflect this mental model. As more features ship (back tester, ROI calculator, pool advisor), the existing structure will become increasingly confusing. This needs to be solved before adding new features, not after.
 
+Additionally, the current IA has no clear path for viewing or editing historical data. Users cannot navigate to eliminated pools or entries, access previous weeks' pick data in temporal context, or switch between seasons. There is no week-by-week navigation, no way to scope data to a specific point in time, and no mechanism to view or manage entries after elimination. These are core workflows for any serious survivor pool player managing data across weeks and seasons.
+
 **Target user:**
 All SurvivorPulse users, from single-pool casuals to multi-pool power users running 10-50 entries across multiple pools.
 
@@ -42,6 +46,12 @@ Redesign the app's top-level navigation and page hierarchy around two primary mo
 
 A persistent context bar shows the user's active pool/entry selection so analysis tools can be applied to specific pools without navigating away. Dashboard/home screen provides a glanceable summary of both modes.
 
+Critical additions based on founder feedback:
+- **Week-by-week navigation:** A global week selector scopes all views to the selected week's data and prior weeks only. Users see entry status, picks, recommendations, and portfolio state as of that week. Subsequent week data is excluded from the view. However, if a user edits historical data (e.g., changes a past pick), the change propagates forward to all subsequent weeks.
+- **Eliminated entity access:** Pools and entries remain fully accessible after elimination. They are visually distinguished (dimmed, badge, strikethrough, or similar treatment) but never hidden or disabled. Users can view and edit all data for eliminated pools and entries.
+- **Season selector:** A season selector in the navigation allows users to switch between current and previous seasons. Loading a past season shows that season's pools, entries, picks, and results.
+- **Pool-level historical data view:** Each pool has a dedicated view for managing historical data: alive/eliminated entries, pick history per entry, pool-level stats, and weekly results. This is the answer to "where do I see and update my pool's historical data."
+
 **MVP scope:**
 - Audit current page inventory and user flows
 - Define new top-level navigation structure (2-3 primary sections max)
@@ -49,18 +59,29 @@ A persistent context bar shows the user's active pool/entry selection so analysi
 - Implement new navigation shell and re-route existing pages into it
 - Add persistent pool/entry context selector
 - Redirect or deprecate old routes
+- **Week-by-week navigation** with global week selector that scopes all data views to selected week and prior weeks only
+- **Eliminated pool/entry access and editing** -- eliminated entities remain fully interactive, visually distinguished but not hidden or disabled
+- **Season selector** in navigation allowing users to switch between current and historical seasons
+- **Pool-level historical data management view** showing alive/eliminated entries, pick history, and pool data per pool
 
 **Out of scope (for this release):**
 - New features (those are separate briefs)
 - Mobile-specific responsive redesign (follow desktop-first, ensure it works on mobile)
 - User research/testing with external users (use founder judgment + competitor analysis)
 - Onboarding flow redesign (handle separately post-launch)
+- Cross-season analytics or season comparison tools
+- Bulk data migration between seasons
+- Automated historical data reconciliation with external platforms
 
 **Success metrics:**
 - Users can reach any existing feature in 2 clicks or fewer from dashboard
 - Zero orphan pages or dead-end navigation states
 - New features (back tester, ROI calc, advisor) have an obvious home in the IA before they're built
 - Founder confirms the structure "makes sense" in a walkthrough
+- Users can access any previous week's data within 2 clicks from the current view
+- Eliminated pools and entries remain fully viewable and editable (no functionality removed on elimination)
+- Season switching loads the correct historical context with all associated pools, entries, and picks
+- Week selector correctly scopes data: selected week and prior only, with no data leakage from subsequent weeks
 
 **Dependencies:**
 - None. This is foundational and should be done first.
@@ -74,6 +95,9 @@ Must be complete before Back Tester Integration (#3) and ROI Analysis (#4) begin
 - How does the pool context selector work when a user has 5+ pools with 10 entries each? Needs a compact, scannable pattern.
 - Do we need a dedicated "Settings/Account" section in the top nav, or is it fine as a profile menu item?
 - What is the right dashboard density? Glanceable summary vs detailed status?
+- How far back should season history go? All seasons in the system, or limit to the last 3?
+- Should historical week views be read-only by default with an explicit "edit" toggle, or always editable?
+- When a user edits a past week's pick, how does that affect recommendations in subsequent weeks? Recalculate on-demand, batch recalculate, or flag as stale?
 
 **V1 Pre-Launch vs Post-Launch:** **V1 Pre-Launch (required)**
 Without this, every new feature added makes the app harder to use. The IA is the skeleton that everything else hangs on. Shipping new features into a broken IA creates more UX debt than it solves. Do this first.
@@ -413,6 +437,8 @@ A scenario modeling tool that takes the user's current entries, proposed picks, 
 - Field-aware modeling (adjusting for what other players might pick)
 - Real-time odds movement integration during the pick window
 - Automated "best scenario" optimization (that's the existing recommendation engine's job)
+
+> **Note (cross-reference #1 IA Overhaul):** The week-by-week navigation added in #1 directly affects how users access forecasting for previous weeks. When a user navigates to a past week via the global week selector, the forecasting view should show the forecast as it existed at that point in time (picks proposed, survival projections based on data available that week). If historical picks are edited via #1's temporal editing feature, forecasting should reflect the updated data on-demand. Coordinate with #1's temporal scoping rules during implementation.
 
 **Success metrics:**
 - Users who use forecasting before committing picks have 10%+ higher week-over-week survival rate
