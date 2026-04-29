@@ -1,0 +1,53 @@
+{
+  "lastSaveAt": "2026-04-29T09:00:52.559768+00:00",
+  "previousSaveAt": "2026-04-27T09:00:24.384221+00:00",
+  "knownChannels": [
+    "1495444646304677909",
+    "1496148691826905301",
+    "1496991670762475532",
+    "1498728356064268398",
+    "1494771038066835538",
+    "1496212355015507988",
+    "1495155295129960530",
+    "1492758599393349673",
+    "1491786035980537978",
+    "1498691889711546468",
+    "1497627725182144612",
+    "1496905735806652559",
+    "1491483396747300896",
+    "1496927226082361426",
+    "1495450229816823998",
+    "1494368634208911571",
+    "1498386859955454073",
+    "1493965556817334313",
+    "1491795085971554576",
+    "1491887015053099068",
+    "1498687724549312614"
+  ],
+  "knownTelegramChats": [
+    "8508558620"
+  ],
+  "knownWorkspaces": [
+    "/Users/mrwolff/.openclaw/workspace-smuggs",
+    "/Users/mrwolff/.openclaw/workspace-deb",
+    "/Users/mrwolff/.openclaw/workspace",
+    "/Users/mrwolff/bubba-workspace",
+    "/Users/mrwolff/.claude",
+    "/Users/mrwolff/.openclaw/workspace-stan"
+  ],
+  "channelsSaved": [
+    "#infra",
+    "#backtesting-app-dev",
+    "#stan-survivorpool-research",
+    "#backtesting-research",
+    "#product",
+    "#sp-ci",
+    "#product-backlog",
+    "#general",
+    "#weekly-daily-planning",
+    "#setup",
+    "#general",
+    "#fanduel-nba-wta-friends"
+  ],
+  "totalMessages": 532
+}

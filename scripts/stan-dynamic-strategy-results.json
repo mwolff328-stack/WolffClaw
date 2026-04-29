@@ -1,0 +1,1246 @@
+{
+  "5": {
+    "2018": {
+      "dynamic": {
+        "entry_weeks": 13,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 18}",
+        "weekly_survivors": [
+          3,
+          3,
+          2,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Adaptive Blend / Mixed Portfolio": {
+        "entry_weeks": 9,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 13,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 20,
+        "late_survival": 1
+      }
+    },
+    "2019": {
+      "dynamic": {
+        "entry_weeks": 19,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 24}",
+        "weekly_survivors": [
+          5,
+          4,
+          4,
+          3,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Adaptive Blend / Mixed Portfolio": {
+        "entry_weeks": 13,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 16,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 13,
+        "late_survival": 0
+      }
+    },
+    "2020": {
+      "dynamic": {
+        "entry_weeks": 12,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 17}",
+        "weekly_survivors": [
+          4,
+          4,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Adaptive Blend / Mixed Portfolio": {
+        "entry_weeks": 18,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 25,
+        "late_survival": 1
+      },
+      "SP Conservative": {
+        "entry_weeks": 11,
+        "late_survival": 0
+      }
+    },
+    "2021": {
+      "dynamic": {
+        "entry_weeks": 15,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 17, 'sp_conservative': 3}",
+        "weekly_survivors": [
+          3,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Adaptive Blend / Mixed Portfolio": {
+        "entry_weeks": 14,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 15,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 6,
+        "late_survival": 0
+      }
+    },
+    "2022": {
+      "dynamic": {
+        "entry_weeks": 7,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 12}",
+        "weekly_survivors": [
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Adaptive Blend / Mixed Portfolio": {
+        "entry_weeks": 7,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 10,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 6,
+        "late_survival": 0
+      }
+    },
+    "2023": {
+      "dynamic": {
+        "entry_weeks": 7,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 12}",
+        "weekly_survivors": [
+          3,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Adaptive Blend / Mixed Portfolio": {
+        "entry_weeks": 20,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 17,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 10,
+        "late_survival": 0
+      }
+    },
+    "2024": {
+      "dynamic": {
+        "entry_weeks": 21,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 14, 'sp_conservative': 7, 'pure_wp': 4}",
+        "weekly_survivors": [
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Adaptive Blend / Mixed Portfolio": {
+        "entry_weeks": 13,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 14,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 21,
+        "late_survival": 1
+      }
+    },
+    "2025": {
+      "dynamic": {
+        "entry_weeks": 14,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 19}",
+        "weekly_survivors": [
+          5,
+          4,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Adaptive Blend / Mixed Portfolio": {
+        "entry_weeks": 20,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 26,
+        "late_survival": 1
+      },
+      "SP Conservative": {
+        "entry_weeks": 9,
+        "late_survival": 0
+      }
+    }
+  },
+  "10": {
+    "2018": {
+      "dynamic": {
+        "entry_weeks": 27,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 17, 'ev_pure': 11, 'contrarian': 2, 'sp_production': 7}",
+        "weekly_survivors": [
+          7,
+          5,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "SP Production": {
+        "entry_weeks": 25,
+        "late_survival": 1
+      },
+      "SP Conservative": {
+        "entry_weeks": 25,
+        "late_survival": 1
+      },
+      "70/30 Blend": {
+        "entry_weeks": 29,
+        "late_survival": 1
+      }
+    },
+    "2019": {
+      "dynamic": {
+        "entry_weeks": 20,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 22, 'ev_pure': 7, 'contrarian': 1}",
+        "weekly_survivors": [
+          7,
+          5,
+          5,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "SP Production": {
+        "entry_weeks": 34,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 31,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 30,
+        "late_survival": 0
+      }
+    },
+    "2020": {
+      "dynamic": {
+        "entry_weeks": 32,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 22, 'ev_pure': 14, 'contrarian': 4, 'sp_production': 2}",
+        "weekly_survivors": [
+          7,
+          7,
+          6,
+          5,
+          3,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "SP Production": {
+        "entry_weeks": 25,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 22,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 42,
+        "late_survival": 1
+      }
+    },
+    "2021": {
+      "dynamic": {
+        "entry_weeks": 23,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 20, 'ev_pure': 7, 'contrarian': 5, 'sp_production': 1}",
+        "weekly_survivors": [
+          6,
+          5,
+          4,
+          4,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "SP Production": {
+        "entry_weeks": 11,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 25,
+        "late_survival": 1
+      },
+      "70/30 Blend": {
+        "entry_weeks": 16,
+        "late_survival": 0
+      }
+    },
+    "2022": {
+      "dynamic": {
+        "entry_weeks": 22,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 16, 'ev_pure': 14, 'contrarian': 2}",
+        "weekly_survivors": [
+          7,
+          5,
+          4,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "SP Production": {
+        "entry_weeks": 15,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 15,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 19,
+        "late_survival": 0
+      }
+    },
+    "2023": {
+      "dynamic": {
+        "entry_weeks": 24,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 21, 'ev_pure': 9, 'contrarian': 2, 'pure_wp': 2}",
+        "weekly_survivors": [
+          6,
+          4,
+          3,
+          3,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "SP Production": {
+        "entry_weeks": 15,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 13,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 20,
+        "late_survival": 0
+      }
+    },
+    "2024": {
+      "dynamic": {
+        "entry_weeks": 38,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 17, 'ev_pure': 14, 'contrarian': 2, 'sp_production': 10, 'pure_wp': 4}",
+        "weekly_survivors": [
+          9,
+          5,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "SP Production": {
+        "entry_weeks": 32,
+        "late_survival": 1
+      },
+      "SP Conservative": {
+        "entry_weeks": 28,
+        "late_survival": 1
+      },
+      "70/30 Blend": {
+        "entry_weeks": 22,
+        "late_survival": 0
+      }
+    },
+    "2025": {
+      "dynamic": {
+        "entry_weeks": 33,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 27, 'ev_pure': 9, 'contrarian': 1, 'sp_production': 6}",
+        "weekly_survivors": [
+          8,
+          7,
+          5,
+          4,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "SP Production": {
+        "entry_weeks": 24,
+        "late_survival": 0
+      },
+      "SP Conservative": {
+        "entry_weeks": 20,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 34,
+        "late_survival": 1
+      }
+    }
+  },
+  "20": {
+    "2018": {
+      "dynamic": {
+        "entry_weeks": 40,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 49, 'sp_production': 9, 'ev_pure': 2}",
+        "weekly_survivors": [
+          11,
+          7,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Mixed Portfolio": {
+        "entry_weeks": 37,
+        "late_survival": 1
+      },
+      "SP Production": {
+        "entry_weeks": 35,
+        "late_survival": 1
+      },
+      "70/30 Blend": {
+        "entry_weeks": 40,
+        "late_survival": 1
+      }
+    },
+    "2019": {
+      "dynamic": {
+        "entry_weeks": 41,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 45, 'sp_production': 12, 'ev_pure': 4}",
+        "weekly_survivors": [
+          13,
+          10,
+          8,
+          4,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Mixed Portfolio": {
+        "entry_weeks": 39,
+        "late_survival": 0
+      },
+      "SP Production": {
+        "entry_weeks": 44,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 38,
+        "late_survival": 0
+      }
+    },
+    "2020": {
+      "dynamic": {
+        "entry_weeks": 61,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 59, 'sp_production': 13, 'ev_pure': 5, 'pure_wp': 3}",
+        "weekly_survivors": [
+          12,
+          12,
+          8,
+          5,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "Mixed Portfolio": {
+        "entry_weeks": 58,
+        "late_survival": 1
+      },
+      "SP Production": {
+        "entry_weeks": 38,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 62,
+        "late_survival": 1
+      }
+    },
+    "2021": {
+      "dynamic": {
+        "entry_weeks": 37,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 36, 'sp_production': 14, 'ev_pure': 7}",
+        "weekly_survivors": [
+          11,
+          8,
+          5,
+          5,
+          3,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Mixed Portfolio": {
+        "entry_weeks": 33,
+        "late_survival": 0
+      },
+      "SP Production": {
+        "entry_weeks": 38,
+        "late_survival": 1
+      },
+      "70/30 Blend": {
+        "entry_weeks": 45,
+        "late_survival": 0
+      }
+    },
+    "2022": {
+      "dynamic": {
+        "entry_weeks": 27,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 33, 'sp_production': 12, 'ev_pure': 2}",
+        "weekly_survivors": [
+          10,
+          7,
+          5,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Mixed Portfolio": {
+        "entry_weeks": 38,
+        "late_survival": 0
+      },
+      "SP Production": {
+        "entry_weeks": 26,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 31,
+        "late_survival": 0
+      }
+    },
+    "2023": {
+      "dynamic": {
+        "entry_weeks": 38,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 31, 'sp_production': 19, 'ev_pure': 6, 'pure_wp': 2}",
+        "weekly_survivors": [
+          10,
+          7,
+          5,
+          5,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Mixed Portfolio": {
+        "entry_weeks": 33,
+        "late_survival": 0
+      },
+      "SP Production": {
+        "entry_weeks": 31,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 38,
+        "late_survival": 0
+      }
+    },
+    "2024": {
+      "dynamic": {
+        "entry_weeks": 28,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 38, 'sp_production': 8, 'ev_pure': 2}",
+        "weekly_survivors": [
+          12,
+          5,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Mixed Portfolio": {
+        "entry_weeks": 45,
+        "late_survival": 1
+      },
+      "SP Production": {
+        "entry_weeks": 39,
+        "late_survival": 1
+      },
+      "70/30 Blend": {
+        "entry_weeks": 32,
+        "late_survival": 0
+      }
+    },
+    "2025": {
+      "dynamic": {
+        "entry_weeks": 43,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 46, 'sp_production': 15, 'ev_pure': 2}",
+        "weekly_survivors": [
+          13,
+          9,
+          7,
+          5,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Mixed Portfolio": {
+        "entry_weeks": 48,
+        "late_survival": 0
+      },
+      "SP Production": {
+        "entry_weeks": 43,
+        "late_survival": 0
+      },
+      "70/30 Blend": {
+        "entry_weeks": 52,
+        "late_survival": 1
+      }
+    }
+  },
+  "50": {
+    "2018": {
+      "dynamic": {
+        "entry_weeks": 94,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 144}",
+        "weekly_survivors": [
+          33,
+          16,
+          9,
+          8,
+          6,
+          5,
+          4,
+          4,
+          4,
+          2,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "70/30 Blend": {
+        "entry_weeks": 48,
+        "late_survival": 1
+      },
+      "SP Production": {
+        "entry_weeks": 85,
+        "late_survival": 1
+      },
+      "Pure WP": {
+        "entry_weeks": 58,
+        "late_survival": 2
+      }
+    },
+    "2019": {
+      "dynamic": {
+        "entry_weeks": 73,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 123}",
+        "weekly_survivors": [
+          33,
+          17,
+          11,
+          5,
+          3,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "70/30 Blend": {
+        "entry_weeks": 77,
+        "late_survival": 0
+      },
+      "SP Production": {
+        "entry_weeks": 74,
+        "late_survival": 0
+      },
+      "Pure WP": {
+        "entry_weeks": 73,
+        "late_survival": 0
+      }
+    },
+    "2020": {
+      "dynamic": {
+        "entry_weeks": 88,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 134, 'pure_wp': 3}",
+        "weekly_survivors": [
+          29,
+          15,
+          9,
+          7,
+          5,
+          4,
+          4,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "70/30 Blend": {
+        "entry_weeks": 97,
+        "late_survival": 1
+      },
+      "SP Production": {
+        "entry_weeks": 71,
+        "late_survival": 0
+      },
+      "Pure WP": {
+        "entry_weeks": 94,
+        "late_survival": 1
+      }
+    },
+    "2021": {
+      "dynamic": {
+        "entry_weeks": 66,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 116}",
+        "weekly_survivors": [
+          21,
+          13,
+          9,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "70/30 Blend": {
+        "entry_weeks": 91,
+        "late_survival": 0
+      },
+      "SP Production": {
+        "entry_weeks": 82,
+        "late_survival": 1
+      },
+      "Pure WP": {
+        "entry_weeks": 95,
+        "late_survival": 0
+      }
+    },
+    "2022": {
+      "dynamic": {
+        "entry_weeks": 87,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 134, 'pure_wp': 3}",
+        "weekly_survivors": [
+          33,
+          17,
+          10,
+          7,
+          6,
+          4,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "70/30 Blend": {
+        "entry_weeks": 52,
+        "late_survival": 1
+      },
+      "SP Production": {
+        "entry_weeks": 76,
+        "late_survival": 0
+      },
+      "Pure WP": {
+        "entry_weeks": 41,
+        "late_survival": 0
+      }
+    },
+    "2023": {
+      "dynamic": {
+        "entry_weeks": 70,
+        "late_survival": 0,
+        "strategy_usage": "{'blend_70_30': 118, 'pure_wp': 2}",
+        "weekly_survivors": [
+          21,
+          13,
+          9,
+          8,
+          5,
+          4,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "70/30 Blend": {
+        "entry_weeks": 101,
+        "late_survival": 1
+      },
+      "SP Production": {
+        "entry_weeks": 93,
+        "late_survival": 1
+      },
+      "Pure WP": {
+        "entry_weeks": 106,
+        "late_survival": 1
+      }
+    },
+    "2024": {
+      "dynamic": {
+        "entry_weeks": 88,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 135, 'pure_wp': 3}",
+        "weekly_survivors": [
+          34,
+          16,
+          6,
+          5,
+          4,
+          4,
+          4,
+          3,
+          3,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "70/30 Blend": {
+        "entry_weeks": 106,
+        "late_survival": 2
+      },
+      "SP Production": {
+        "entry_weeks": 88,
+        "late_survival": 1
+      },
+      "Pure WP": {
+        "entry_weeks": 26,
+        "late_survival": 0
+      }
+    },
+    "2025": {
+      "dynamic": {
+        "entry_weeks": 84,
+        "late_survival": 1,
+        "strategy_usage": "{'blend_70_30': 134}",
+        "weekly_survivors": [
+          34,
+          18,
+          11,
+          7,
+          3,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "70/30 Blend": {
+        "entry_weeks": 88,
+        "late_survival": 1
+      },
+      "SP Production": {
+        "entry_weeks": 81,
+        "late_survival": 0
+      },
+      "Pure WP": {
+        "entry_weeks": 93,
+        "late_survival": 1
+      }
+    }
+  }
+}

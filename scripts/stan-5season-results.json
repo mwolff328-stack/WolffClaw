@@ -1,0 +1,6582 @@
+{
+  "Pure Win Probability": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 21,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7733,
+          "avg_pick_share": 21.0462
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 27,
+          "final_elim": "10",
+          "buyback_count": 1,
+          "avg_wp": 0.7674,
+          "avg_pick_share": 19.6848
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 28,
+          "final_elim": "10",
+          "buyback_count": 2,
+          "avg_wp": 0.7642,
+          "avg_pick_share": 18.7543
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 8,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7325,
+          "avg_pick_share": 15.8615
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 19,
+          "final_elim": "7",
+          "buyback_count": 3,
+          "avg_wp": 0.727,
+          "avg_pick_share": 15.7741
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 19,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.7273,
+          "avg_pick_share": 15.3786
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 13,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7443,
+          "avg_pick_share": 26.2667
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 22,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.734,
+          "avg_pick_share": 21.29
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 22,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.734,
+          "avg_pick_share": 21.29
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 3,
+          "final_elim": "2",
+          "buyback_count": 0,
+          "avg_wp": 0.6871,
+          "avg_pick_share": 13.9
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 14,
+          "final_elim": "12",
+          "buyback_count": 5,
+          "avg_wp": 0.7137,
+          "avg_pick_share": 18.0542
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 14,
+          "final_elim": "12",
+          "buyback_count": 5,
+          "avg_wp": 0.7137,
+          "avg_pick_share": 18.0542
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 35,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.7895,
+          "avg_pick_share": 17.1228
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 23,
+          "final_elim": "10",
+          "buyback_count": 1,
+          "avg_wp": 0.7753,
+          "avg_pick_share": 18.1024
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 31,
+          "final_elim": "13",
+          "buyback_count": 2,
+          "avg_wp": 0.7796,
+          "avg_pick_share": 17.0982
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 28,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7467,
+          "avg_pick_share": 17.6026
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 45,
+          "final_elim": "10",
+          "buyback_count": 5,
+          "avg_wp": 0.7206,
+          "avg_pick_share": 12.62
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 44,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.7208,
+          "avg_pick_share": 12.68
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 22,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7158,
+          "avg_pick_share": 14.4219
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 28,
+          "final_elim": "7",
+          "buyback_count": 8,
+          "avg_wp": 0.6954,
+          "avg_pick_share": 11.8674
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 28,
+          "final_elim": "7",
+          "buyback_count": 9,
+          "avg_wp": 0.6955,
+          "avg_pick_share": 11.9128
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 23,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7134,
+          "avg_pick_share": 19.6758
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 43,
+          "final_elim": "12",
+          "buyback_count": 6,
+          "avg_wp": 0.6988,
+          "avg_pick_share": 13.9542
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 43,
+          "final_elim": "12",
+          "buyback_count": 6,
+          "avg_wp": 0.6988,
+          "avg_pick_share": 13.9542
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 14,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6679,
+          "avg_pick_share": 12.75
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 48,
+          "final_elim": "17",
+          "buyback_count": 8,
+          "avg_wp": 0.6953,
+          "avg_pick_share": 15.1879
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 48,
+          "final_elim": "17",
+          "buyback_count": 8,
+          "avg_wp": 0.6953,
+          "avg_pick_share": 15.1879
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 43,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.7527,
+          "avg_pick_share": 14.2475
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 38,
+          "final_elim": "10",
+          "buyback_count": 5,
+          "avg_wp": 0.7227,
+          "avg_pick_share": 12.217
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 45,
+          "final_elim": "13",
+          "buyback_count": 7,
+          "avg_wp": 0.7281,
+          "avg_pick_share": 11.7155
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 51,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6953,
+          "avg_pick_share": 11.2676
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 63,
+          "final_elim": "10",
+          "buyback_count": 14,
+          "avg_wp": 0.6645,
+          "avg_pick_share": 8.8309
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 66,
+          "final_elim": "12",
+          "buyback_count": 16,
+          "avg_wp": 0.6645,
+          "avg_pick_share": 8.9137
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 29,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6641,
+          "avg_pick_share": 10.2694
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 44,
+          "final_elim": "7",
+          "buyback_count": 17,
+          "avg_wp": 0.6295,
+          "avg_pick_share": 7.4914
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 53,
+          "final_elim": "14",
+          "buyback_count": 19,
+          "avg_wp": 0.6374,
+          "avg_pick_share": 8.288
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 36,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6643,
+          "avg_pick_share": 12.7321
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 70,
+          "final_elim": "13",
+          "buyback_count": 15,
+          "avg_wp": 0.6485,
+          "avg_pick_share": 9.0333
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 70,
+          "final_elim": "13",
+          "buyback_count": 15,
+          "avg_wp": 0.6485,
+          "avg_pick_share": 9.0333
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 22,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6215,
+          "avg_pick_share": 8.2786
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 86,
+          "final_elim": "18+",
+          "buyback_count": 16,
+          "avg_wp": 0.6506,
+          "avg_pick_share": 10.1802
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 90,
+          "final_elim": "18+",
+          "buyback_count": 17,
+          "avg_wp": 0.6497,
+          "avg_pick_share": 9.954
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 54,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.6995,
+          "avg_pick_share": 10.6085
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 61,
+          "final_elim": "10",
+          "buyback_count": 12,
+          "avg_wp": 0.6454,
+          "avg_pick_share": 7.371
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 72,
+          "final_elim": "13",
+          "buyback_count": 16,
+          "avg_wp": 0.6543,
+          "avg_pick_share": 7.1547
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 95,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6199,
+          "avg_pick_share": 7.6993
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 144,
+          "final_elim": "10",
+          "buyback_count": 33,
+          "avg_wp": 0.6019,
+          "avg_pick_share": 8.9674
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 152,
+          "final_elim": "12",
+          "buyback_count": 41,
+          "avg_wp": 0.5959,
+          "avg_pick_share": 8.6481
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 41,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6252,
+          "avg_pick_share": 7.7385
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 100,
+          "final_elim": "14",
+          "buyback_count": 47,
+          "avg_wp": 0.6026,
+          "avg_pick_share": 7.6487
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 104,
+          "final_elim": "14",
+          "buyback_count": 49,
+          "avg_wp": 0.6023,
+          "avg_pick_share": 7.5256
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 106,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.6197,
+          "avg_pick_share": 11.1935
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 142,
+          "final_elim": "13",
+          "buyback_count": 31,
+          "avg_wp": 0.596,
+          "avg_pick_share": 10.2359
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 153,
+          "final_elim": "13",
+          "buyback_count": 41,
+          "avg_wp": 0.5862,
+          "avg_pick_share": 9.4787
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 26,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6046,
+          "avg_pick_share": 13.8789
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 103,
+          "final_elim": "18+",
+          "buyback_count": 46,
+          "avg_wp": 0.6207,
+          "avg_pick_share": 12.5601
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 104,
+          "final_elim": "18+",
+          "buyback_count": 47,
+          "avg_wp": 0.6199,
+          "avg_pick_share": 12.485
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 93,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.6329,
+          "avg_pick_share": 7.5738
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 130,
+          "final_elim": "10",
+          "buyback_count": 32,
+          "avg_wp": 0.6098,
+          "avg_pick_share": 8.0021
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 163,
+          "final_elim": "18",
+          "buyback_count": 43,
+          "avg_wp": 0.6086,
+          "avg_pick_share": 7.6816
+        }
+      }
+    }
+  },
+  "70/30 Blend": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 15,
+          "final_elim": "8",
+          "buyback_count": 0,
+          "avg_wp": 0.7463,
+          "avg_pick_share": 12.145
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 24,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7416,
+          "avg_pick_share": 12.2469
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 24,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7416,
+          "avg_pick_share": 12.2469
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 10,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.7017,
+          "avg_pick_share": 8.0533
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 20,
+          "final_elim": "7",
+          "buyback_count": 3,
+          "avg_wp": 0.7065,
+          "avg_pick_share": 9.6286
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 29,
+          "final_elim": "14",
+          "buyback_count": 4,
+          "avg_wp": 0.7178,
+          "avg_pick_share": 11.4658
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 17,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6956,
+          "avg_pick_share": 11.6909
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 19,
+          "final_elim": "12",
+          "buyback_count": 4,
+          "avg_wp": 0.7032,
+          "avg_pick_share": 12.0
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 19,
+          "final_elim": "12",
+          "buyback_count": 4,
+          "avg_wp": 0.7032,
+          "avg_pick_share": 12.0
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 14,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6925,
+          "avg_pick_share": 8.9105
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 16,
+          "final_elim": "12",
+          "buyback_count": 4,
+          "avg_wp": 0.6923,
+          "avg_pick_share": 9.284
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 16,
+          "final_elim": "12",
+          "buyback_count": 4,
+          "avg_wp": 0.6923,
+          "avg_pick_share": 9.284
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 26,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.7522,
+          "avg_pick_share": 11.6523
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 27,
+          "final_elim": "14",
+          "buyback_count": 1,
+          "avg_wp": 0.7587,
+          "avg_pick_share": 13.5224
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 32,
+          "final_elim": "14",
+          "buyback_count": 2,
+          "avg_wp": 0.7666,
+          "avg_pick_share": 13.8974
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 16,
+          "final_elim": "8",
+          "buyback_count": 0,
+          "avg_wp": 0.7152,
+          "avg_pick_share": 9.8231
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 37,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.7006,
+          "avg_pick_share": 9.463
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 41,
+          "final_elim": "10",
+          "buyback_count": 8,
+          "avg_wp": 0.7064,
+          "avg_pick_share": 9.7017
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 19,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.6984,
+          "avg_pick_share": 10.2655
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 38,
+          "final_elim": "14",
+          "buyback_count": 7,
+          "avg_wp": 0.6912,
+          "avg_pick_share": 9.9109
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 38,
+          "final_elim": "14",
+          "buyback_count": 8,
+          "avg_wp": 0.695,
+          "avg_pick_share": 10.0821
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 20,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6711,
+          "avg_pick_share": 9.21
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 37,
+          "final_elim": "12",
+          "buyback_count": 7,
+          "avg_wp": 0.6771,
+          "avg_pick_share": 9.4185
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 37,
+          "final_elim": "12",
+          "buyback_count": 7,
+          "avg_wp": 0.6771,
+          "avg_pick_share": 9.4185
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 22,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6712,
+          "avg_pick_share": 8.0969
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 53,
+          "final_elim": "16",
+          "buyback_count": 7,
+          "avg_wp": 0.6736,
+          "avg_pick_share": 8.6329
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 56,
+          "final_elim": "16",
+          "buyback_count": 8,
+          "avg_wp": 0.6714,
+          "avg_pick_share": 8.3459
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 34,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.7207,
+          "avg_pick_share": 10.2952
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 48,
+          "final_elim": "14",
+          "buyback_count": 5,
+          "avg_wp": 0.7216,
+          "avg_pick_share": 10.174
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 48,
+          "final_elim": "14",
+          "buyback_count": 6,
+          "avg_wp": 0.7214,
+          "avg_pick_share": 10.1566
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 45,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6876,
+          "avg_pick_share": 9.2246
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 59,
+          "final_elim": "12",
+          "buyback_count": 16,
+          "avg_wp": 0.6566,
+          "avg_pick_share": 7.5032
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 70,
+          "final_elim": "18+",
+          "buyback_count": 17,
+          "avg_wp": 0.6673,
+          "avg_pick_share": 7.4491
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 31,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6537,
+          "avg_pick_share": 7.2941
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 61,
+          "final_elim": "14",
+          "buyback_count": 17,
+          "avg_wp": 0.6439,
+          "avg_pick_share": 7.9255
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 65,
+          "final_elim": "14",
+          "buyback_count": 18,
+          "avg_wp": 0.6499,
+          "avg_pick_share": 8.3078
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 38,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6521,
+          "avg_pick_share": 8.7569
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 72,
+          "final_elim": "13",
+          "buyback_count": 16,
+          "avg_wp": 0.6362,
+          "avg_pick_share": 6.9944
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 72,
+          "final_elim": "13",
+          "buyback_count": 16,
+          "avg_wp": 0.6362,
+          "avg_pick_share": 6.9944
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 32,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6372,
+          "avg_pick_share": 7.4904
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 82,
+          "final_elim": "16",
+          "buyback_count": 16,
+          "avg_wp": 0.6345,
+          "avg_pick_share": 7.0186
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 83,
+          "final_elim": "16",
+          "buyback_count": 17,
+          "avg_wp": 0.6334,
+          "avg_pick_share": 6.9517
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 52,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6766,
+          "avg_pick_share": 7.8837
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 67,
+          "final_elim": "14",
+          "buyback_count": 12,
+          "avg_wp": 0.6534,
+          "avg_pick_share": 6.854
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 72,
+          "final_elim": "14",
+          "buyback_count": 15,
+          "avg_wp": 0.6568,
+          "avg_pick_share": 6.7151
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 91,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6141,
+          "avg_pick_share": 6.5546
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 148,
+          "final_elim": "12",
+          "buyback_count": 34,
+          "avg_wp": 0.6009,
+          "avg_pick_share": 6.4806
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 164,
+          "final_elim": "18+",
+          "buyback_count": 41,
+          "avg_wp": 0.5998,
+          "avg_pick_share": 6.1945
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 52,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6298,
+          "avg_pick_share": 6.9814
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 128,
+          "final_elim": "14",
+          "buyback_count": 47,
+          "avg_wp": 0.5938,
+          "avg_pick_share": 5.6707
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 128,
+          "final_elim": "14",
+          "buyback_count": 48,
+          "avg_wp": 0.5953,
+          "avg_pick_share": 5.8336
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 101,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6076,
+          "avg_pick_share": 9.145
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 146,
+          "final_elim": "13",
+          "buyback_count": 30,
+          "avg_wp": 0.5922,
+          "avg_pick_share": 8.2628
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 153,
+          "final_elim": "13",
+          "buyback_count": 41,
+          "avg_wp": 0.5821,
+          "avg_pick_share": 7.7193
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 106,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.5935,
+          "avg_pick_share": 5.2942
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 160,
+          "final_elim": "16",
+          "buyback_count": 30,
+          "avg_wp": 0.5764,
+          "avg_pick_share": 4.6258
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 162,
+          "final_elim": "16",
+          "buyback_count": 40,
+          "avg_wp": 0.5692,
+          "avg_pick_share": 4.4369
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 88,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6226,
+          "avg_pick_share": 6.7067
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 134,
+          "final_elim": "14",
+          "buyback_count": 33,
+          "avg_wp": 0.6144,
+          "avg_pick_share": 7.7185
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 144,
+          "final_elim": "14",
+          "buyback_count": 43,
+          "avg_wp": 0.6017,
+          "avg_pick_share": 7.0255
+        }
+      }
+    }
+  },
+  "80/20 Blend": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 17,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.7611,
+          "avg_pick_share": 17.0318
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 22,
+          "final_elim": "9",
+          "buyback_count": 1,
+          "avg_wp": 0.7485,
+          "avg_pick_share": 15.2179
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 27,
+          "final_elim": "10",
+          "buyback_count": 2,
+          "avg_wp": 0.7571,
+          "avg_pick_share": 15.9824
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 13,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7363,
+          "avg_pick_share": 16.3444
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 20,
+          "final_elim": "7",
+          "buyback_count": 3,
+          "avg_wp": 0.7217,
+          "avg_pick_share": 13.9036
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 21,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.7192,
+          "avg_pick_share": 13.1833
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 17,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7389,
+          "avg_pick_share": 21.7364
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 20,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7329,
+          "avg_pick_share": 19.9286
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 20,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7329,
+          "avg_pick_share": 19.9286
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 4,
+          "final_elim": "3",
+          "buyback_count": 0,
+          "avg_wp": 0.6828,
+          "avg_pick_share": 10.7333
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 7,
+          "final_elim": "5",
+          "buyback_count": 4,
+          "avg_wp": 0.6929,
+          "avg_pick_share": 14.2812
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 7,
+          "final_elim": "5",
+          "buyback_count": 4,
+          "avg_wp": 0.6929,
+          "avg_pick_share": 14.2812
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 22,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7737,
+          "avg_pick_share": 15.9507
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 27,
+          "final_elim": "14",
+          "buyback_count": 1,
+          "avg_wp": 0.7772,
+          "avg_pick_share": 17.8433
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 36,
+          "final_elim": "14",
+          "buyback_count": 2,
+          "avg_wp": 0.7707,
+          "avg_pick_share": 16.5837
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 18,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.729,
+          "avg_pick_share": 13.8286
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 45,
+          "final_elim": "10",
+          "buyback_count": 5,
+          "avg_wp": 0.7236,
+          "avg_pick_share": 12.2733
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 43,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.7174,
+          "avg_pick_share": 11.5695
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 21,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7152,
+          "avg_pick_share": 14.3065
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 37,
+          "final_elim": "14",
+          "buyback_count": 7,
+          "avg_wp": 0.6993,
+          "avg_pick_share": 11.9537
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 34,
+          "final_elim": "10",
+          "buyback_count": 8,
+          "avg_wp": 0.6959,
+          "avg_pick_share": 11.0558
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 24,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.711,
+          "avg_pick_share": 17.3971
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 35,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.688,
+          "avg_pick_share": 12.8192
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 35,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.688,
+          "avg_pick_share": 12.8192
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 24,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.6841,
+          "avg_pick_share": 10.6088
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 39,
+          "final_elim": "16",
+          "buyback_count": 7,
+          "avg_wp": 0.6827,
+          "avg_pick_share": 11.9679
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 44,
+          "final_elim": "16",
+          "buyback_count": 8,
+          "avg_wp": 0.682,
+          "avg_pick_share": 11.7516
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 30,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7286,
+          "avg_pick_share": 11.793
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 42,
+          "final_elim": "14",
+          "buyback_count": 4,
+          "avg_wp": 0.7268,
+          "avg_pick_share": 11.9452
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 51,
+          "final_elim": "14",
+          "buyback_count": 6,
+          "avg_wp": 0.7285,
+          "avg_pick_share": 12.0834
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 47,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6874,
+          "avg_pick_share": 9.7373
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 60,
+          "final_elim": "10",
+          "buyback_count": 13,
+          "avg_wp": 0.6638,
+          "avg_pick_share": 8.528
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 66,
+          "final_elim": "10",
+          "buyback_count": 16,
+          "avg_wp": 0.6608,
+          "avg_pick_share": 8.3196
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 31,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.662,
+          "avg_pick_share": 9.6412
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 52,
+          "final_elim": "14",
+          "buyback_count": 17,
+          "avg_wp": 0.6383,
+          "avg_pick_share": 8.3472
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 49,
+          "final_elim": "10",
+          "buyback_count": 18,
+          "avg_wp": 0.6347,
+          "avg_pick_share": 7.6793
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 36,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6618,
+          "avg_pick_share": 11.5143
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 66,
+          "final_elim": "13",
+          "buyback_count": 16,
+          "avg_wp": 0.637,
+          "avg_pick_share": 8.0431
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 65,
+          "final_elim": "12",
+          "buyback_count": 17,
+          "avg_wp": 0.6351,
+          "avg_pick_share": 8.0902
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 35,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.6434,
+          "avg_pick_share": 8.2855
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 78,
+          "final_elim": "16",
+          "buyback_count": 16,
+          "avg_wp": 0.6359,
+          "avg_pick_share": 7.5886
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 80,
+          "final_elim": "16",
+          "buyback_count": 17,
+          "avg_wp": 0.6351,
+          "avg_pick_share": 7.7299
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 48,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6778,
+          "avg_pick_share": 8.7241
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 70,
+          "final_elim": "14",
+          "buyback_count": 13,
+          "avg_wp": 0.6602,
+          "avg_pick_share": 8.0336
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 76,
+          "final_elim": "14",
+          "buyback_count": 16,
+          "avg_wp": 0.6615,
+          "avg_pick_share": 7.8514
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 92,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6166,
+          "avg_pick_share": 7.2789
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 141,
+          "final_elim": "10",
+          "buyback_count": 32,
+          "avg_wp": 0.5976,
+          "avg_pick_share": 6.5085
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 145,
+          "final_elim": "10",
+          "buyback_count": 40,
+          "avg_wp": 0.5887,
+          "avg_pick_share": 6.126
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 42,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6234,
+          "avg_pick_share": 7.2717
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 127,
+          "final_elim": "14",
+          "buyback_count": 47,
+          "avg_wp": 0.5966,
+          "avg_pick_share": 6.1866
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 124,
+          "final_elim": "14",
+          "buyback_count": 48,
+          "avg_wp": 0.5919,
+          "avg_pick_share": 5.7315
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 97,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6118,
+          "avg_pick_share": 10.2109
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 142,
+          "final_elim": "13",
+          "buyback_count": 30,
+          "avg_wp": 0.5947,
+          "avg_pick_share": 9.0896
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 157,
+          "final_elim": "13",
+          "buyback_count": 43,
+          "avg_wp": 0.5853,
+          "avg_pick_share": 8.3552
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 102,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.6038,
+          "avg_pick_share": 7.8349
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 120,
+          "final_elim": "16",
+          "buyback_count": 45,
+          "avg_wp": 0.5959,
+          "avg_pick_share": 6.566
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 134,
+          "final_elim": "18+",
+          "buyback_count": 47,
+          "avg_wp": 0.6012,
+          "avg_pick_share": 6.9165
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 85,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6199,
+          "avg_pick_share": 6.5956
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 147,
+          "final_elim": "14",
+          "buyback_count": 33,
+          "avg_wp": 0.6194,
+          "avg_pick_share": 8.2255
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 156,
+          "final_elim": "14",
+          "buyback_count": 41,
+          "avg_wp": 0.6059,
+          "avg_pick_share": 7.832
+        }
+      }
+    }
+  },
+  "SP Production 70EV+30FV": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 2,
+          "final_elim": "2",
+          "buyback_count": 0,
+          "avg_wp": 0.6679,
+          "avg_pick_share": 4.0714
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 21,
+          "final_elim": "16",
+          "buyback_count": 4,
+          "avg_wp": 0.6789,
+          "avg_pick_share": 4.6167
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 21,
+          "final_elim": "16",
+          "buyback_count": 4,
+          "avg_wp": 0.6789,
+          "avg_pick_share": 4.6167
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 6,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6946,
+          "avg_pick_share": 6.6545
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 10,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.6863,
+          "avg_pick_share": 6.1632
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 10,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.6863,
+          "avg_pick_share": 6.1632
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 13,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6361,
+          "avg_pick_share": 3.3833
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 17,
+          "final_elim": "7",
+          "buyback_count": 2,
+          "avg_wp": 0.6421,
+          "avg_pick_share": 4.1208
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 17,
+          "final_elim": "7",
+          "buyback_count": 2,
+          "avg_wp": 0.6421,
+          "avg_pick_share": 4.1208
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 23,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.6423,
+          "avg_pick_share": 3.3036
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 30,
+          "final_elim": "16",
+          "buyback_count": 4,
+          "avg_wp": 0.6274,
+          "avg_pick_share": 2.7051
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 30,
+          "final_elim": "16",
+          "buyback_count": 4,
+          "avg_wp": 0.6274,
+          "avg_pick_share": 2.7051
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 9,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6963,
+          "avg_pick_share": 9.1429
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 17,
+          "final_elim": "9",
+          "buyback_count": 4,
+          "avg_wp": 0.7232,
+          "avg_pick_share": 10.3654
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 17,
+          "final_elim": "9",
+          "buyback_count": 4,
+          "avg_wp": 0.7232,
+          "avg_pick_share": 10.3654
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 11,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6497,
+          "avg_pick_share": 4.0905
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 36,
+          "final_elim": "16",
+          "buyback_count": 7,
+          "avg_wp": 0.6613,
+          "avg_pick_share": 4.8283
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 36,
+          "final_elim": "16",
+          "buyback_count": 7,
+          "avg_wp": 0.6613,
+          "avg_pick_share": 4.8283
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 15,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.662,
+          "avg_pick_share": 5.136
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 23,
+          "final_elim": "6",
+          "buyback_count": 8,
+          "avg_wp": 0.6505,
+          "avg_pick_share": 5.2951
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 28,
+          "final_elim": "10",
+          "buyback_count": 9,
+          "avg_wp": 0.6552,
+          "avg_pick_share": 5.4106
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 15,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6228,
+          "avg_pick_share": 2.984
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 28,
+          "final_elim": "7",
+          "buyback_count": 6,
+          "avg_wp": 0.6343,
+          "avg_pick_share": 4.0227
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 28,
+          "final_elim": "7",
+          "buyback_count": 6,
+          "avg_wp": 0.6343,
+          "avg_pick_share": 4.0227
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 32,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.6363,
+          "avg_pick_share": 3.6333
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 45,
+          "final_elim": "16",
+          "buyback_count": 8,
+          "avg_wp": 0.6303,
+          "avg_pick_share": 3.5492
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 45,
+          "final_elim": "16",
+          "buyback_count": 9,
+          "avg_wp": 0.6314,
+          "avg_pick_share": 3.7234
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 24,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6675,
+          "avg_pick_share": 6.6394
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 38,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.6832,
+          "avg_pick_share": 6.8989
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 49,
+          "final_elim": "16",
+          "buyback_count": 8,
+          "avg_wp": 0.6929,
+          "avg_pick_share": 6.3322
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 38,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.6449,
+          "avg_pick_share": 5.3034
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 64,
+          "final_elim": "16",
+          "buyback_count": 15,
+          "avg_wp": 0.6282,
+          "avg_pick_share": 4.9354
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 68,
+          "final_elim": "16",
+          "buyback_count": 17,
+          "avg_wp": 0.6282,
+          "avg_pick_share": 5.32
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 26,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.6232,
+          "avg_pick_share": 4.7152
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 55,
+          "final_elim": "16",
+          "buyback_count": 17,
+          "avg_wp": 0.6165,
+          "avg_pick_share": 4.85
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 50,
+          "final_elim": "10",
+          "buyback_count": 18,
+          "avg_wp": 0.6127,
+          "avg_pick_share": 4.8727
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 31,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6068,
+          "avg_pick_share": 3.6824
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 68,
+          "final_elim": "17",
+          "buyback_count": 15,
+          "avg_wp": 0.6093,
+          "avg_pick_share": 4.2913
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 68,
+          "final_elim": "17",
+          "buyback_count": 15,
+          "avg_wp": 0.6093,
+          "avg_pick_share": 4.2913
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 39,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.6048,
+          "avg_pick_share": 3.1831
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 63,
+          "final_elim": "16",
+          "buyback_count": 17,
+          "avg_wp": 0.598,
+          "avg_pick_share": 3.557
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 66,
+          "final_elim": "16",
+          "buyback_count": 18,
+          "avg_wp": 0.5991,
+          "avg_pick_share": 3.5606
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 43,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.6398,
+          "avg_pick_share": 5.637
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 78,
+          "final_elim": "14",
+          "buyback_count": 14,
+          "avg_wp": 0.6322,
+          "avg_pick_share": 4.8488
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 85,
+          "final_elim": "16",
+          "buyback_count": 18,
+          "avg_wp": 0.6326,
+          "avg_pick_share": 4.6637
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 82,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.5912,
+          "avg_pick_share": 4.4909
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 103,
+          "final_elim": "16",
+          "buyback_count": 45,
+          "avg_wp": 0.5958,
+          "avg_pick_share": 4.5429
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 107,
+          "final_elim": "16",
+          "buyback_count": 47,
+          "avg_wp": 0.595,
+          "avg_pick_share": 4.476
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 76,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.5711,
+          "avg_pick_share": 3.6984
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 141,
+          "final_elim": "16",
+          "buyback_count": 33,
+          "avg_wp": 0.5739,
+          "avg_pick_share": 4.121
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 145,
+          "final_elim": "12",
+          "buyback_count": 40,
+          "avg_wp": 0.5707,
+          "avg_pick_share": 4.3038
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 93,
+          "final_elim": "17",
+          "buyback_count": 0,
+          "avg_wp": 0.5712,
+          "avg_pick_share": 3.5427
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 142,
+          "final_elim": "17",
+          "buyback_count": 31,
+          "avg_wp": 0.5611,
+          "avg_pick_share": 3.73
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 153,
+          "final_elim": "17",
+          "buyback_count": 40,
+          "avg_wp": 0.5556,
+          "avg_pick_share": 3.5778
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 88,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.5679,
+          "avg_pick_share": 3.0986
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 141,
+          "final_elim": "16",
+          "buyback_count": 41,
+          "avg_wp": 0.5572,
+          "avg_pick_share": 2.9888
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 147,
+          "final_elim": "16",
+          "buyback_count": 46,
+          "avg_wp": 0.5581,
+          "avg_pick_share": 3.2136
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 81,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6045,
+          "avg_pick_share": 5.2298
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 154,
+          "final_elim": "15",
+          "buyback_count": 41,
+          "avg_wp": 0.5892,
+          "avg_pick_share": 4.5628
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 159,
+          "final_elim": "16",
+          "buyback_count": 47,
+          "avg_wp": 0.585,
+          "avg_pick_share": 4.471
+        }
+      }
+    }
+  },
+  "SP Conservative 65/25/10": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 15,
+          "final_elim": "8",
+          "buyback_count": 0,
+          "avg_wp": 0.7453,
+          "avg_pick_share": 12.215
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 25,
+          "final_elim": "9",
+          "buyback_count": 2,
+          "avg_wp": 0.741,
+          "avg_pick_share": 11.3969
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 25,
+          "final_elim": "9",
+          "buyback_count": 2,
+          "avg_wp": 0.741,
+          "avg_pick_share": 11.3969
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 6,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.7051,
+          "avg_pick_share": 8.1727
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 18,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.7134,
+          "avg_pick_share": 12.6074
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 18,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.7134,
+          "avg_pick_share": 12.6074
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 14,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7093,
+          "avg_pick_share": 13.6895
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 18,
+          "final_elim": "7",
+          "buyback_count": 2,
+          "avg_wp": 0.7086,
+          "avg_pick_share": 13.376
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 18,
+          "final_elim": "7",
+          "buyback_count": 2,
+          "avg_wp": 0.7086,
+          "avg_pick_share": 13.376
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 23,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.6916,
+          "avg_pick_share": 8.6407
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 30,
+          "final_elim": "16",
+          "buyback_count": 5,
+          "avg_wp": 0.6843,
+          "avg_pick_share": 9.2675
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 30,
+          "final_elim": "16",
+          "buyback_count": 5,
+          "avg_wp": 0.6843,
+          "avg_pick_share": 9.2675
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 27,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7663,
+          "avg_pick_share": 14.4609
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 30,
+          "final_elim": "13",
+          "buyback_count": 1,
+          "avg_wp": 0.7674,
+          "avg_pick_share": 12.825
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 30,
+          "final_elim": "13",
+          "buyback_count": 2,
+          "avg_wp": 0.7673,
+          "avg_pick_share": 13.0338
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 24,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.7196,
+          "avg_pick_share": 9.8676
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 41,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.7122,
+          "avg_pick_share": 10.5754
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 41,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.7122,
+          "avg_pick_share": 10.5754
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 20,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.704,
+          "avg_pick_share": 12.05
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 33,
+          "final_elim": "9",
+          "buyback_count": 8,
+          "avg_wp": 0.688,
+          "avg_pick_share": 9.8941
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 33,
+          "final_elim": "9",
+          "buyback_count": 8,
+          "avg_wp": 0.688,
+          "avg_pick_share": 9.8941
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 19,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6925,
+          "avg_pick_share": 12.5034
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 33,
+          "final_elim": "12",
+          "buyback_count": 6,
+          "avg_wp": 0.6869,
+          "avg_pick_share": 10.1633
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 33,
+          "final_elim": "12",
+          "buyback_count": 6,
+          "avg_wp": 0.6869,
+          "avg_pick_share": 10.1633
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 29,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.676,
+          "avg_pick_share": 8.2368
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 91,
+          "final_elim": "18+",
+          "buyback_count": 9,
+          "avg_wp": 0.6761,
+          "avg_pick_share": 8.9972
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 91,
+          "final_elim": "18+",
+          "buyback_count": 9,
+          "avg_wp": 0.6761,
+          "avg_pick_share": 8.9972
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 34,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7276,
+          "avg_pick_share": 11.28
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 41,
+          "final_elim": "13",
+          "buyback_count": 5,
+          "avg_wp": 0.7167,
+          "avg_pick_share": 9.5179
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 41,
+          "final_elim": "13",
+          "buyback_count": 7,
+          "avg_wp": 0.7127,
+          "avg_pick_share": 9.2379
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 42,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6863,
+          "avg_pick_share": 9.7661
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 60,
+          "final_elim": "10",
+          "buyback_count": 15,
+          "avg_wp": 0.6502,
+          "avg_pick_share": 7.4432
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 60,
+          "final_elim": "10",
+          "buyback_count": 15,
+          "avg_wp": 0.6502,
+          "avg_pick_share": 7.4432
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 30,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.6558,
+          "avg_pick_share": 8.712
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 49,
+          "final_elim": "9",
+          "buyback_count": 17,
+          "avg_wp": 0.6312,
+          "avg_pick_share": 7.086
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 59,
+          "final_elim": "15",
+          "buyback_count": 18,
+          "avg_wp": 0.6425,
+          "avg_pick_share": 7.8711
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 28,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6457,
+          "avg_pick_share": 8.8417
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 70,
+          "final_elim": "15",
+          "buyback_count": 14,
+          "avg_wp": 0.6418,
+          "avg_pick_share": 6.9846
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 70,
+          "final_elim": "15",
+          "buyback_count": 16,
+          "avg_wp": 0.6405,
+          "avg_pick_share": 6.8575
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 46,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.6517,
+          "avg_pick_share": 8.5415
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 103,
+          "final_elim": "18+",
+          "buyback_count": 19,
+          "avg_wp": 0.6454,
+          "avg_pick_share": 7.9367
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 103,
+          "final_elim": "18+",
+          "buyback_count": 19,
+          "avg_wp": 0.6454,
+          "avg_pick_share": 7.9367
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 48,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6724,
+          "avg_pick_share": 8.3021
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 75,
+          "final_elim": "18",
+          "buyback_count": 13,
+          "avg_wp": 0.6617,
+          "avg_pick_share": 6.7316
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 77,
+          "final_elim": "14",
+          "buyback_count": 16,
+          "avg_wp": 0.6556,
+          "avg_pick_share": 6.6419
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 97,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.6232,
+          "avg_pick_share": 7.3735
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 152,
+          "final_elim": "12",
+          "buyback_count": 33,
+          "avg_wp": 0.6018,
+          "avg_pick_share": 7.4745
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 156,
+          "final_elim": "12",
+          "buyback_count": 40,
+          "avg_wp": 0.5944,
+          "avg_pick_share": 7.3313
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 56,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.6301,
+          "avg_pick_share": 6.72
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 118,
+          "final_elim": "18+",
+          "buyback_count": 45,
+          "avg_wp": 0.5917,
+          "avg_pick_share": 5.6439
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 128,
+          "final_elim": "18+",
+          "buyback_count": 47,
+          "avg_wp": 0.5963,
+          "avg_pick_share": 6.0464
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 97,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.612,
+          "avg_pick_share": 9.3687
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 143,
+          "final_elim": "15",
+          "buyback_count": 31,
+          "avg_wp": 0.5911,
+          "avg_pick_share": 8.2045
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 156,
+          "final_elim": "15",
+          "buyback_count": 43,
+          "avg_wp": 0.5829,
+          "avg_pick_share": 7.9831
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 110,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.5968,
+          "avg_pick_share": 5.7108
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 175,
+          "final_elim": "18+",
+          "buyback_count": 44,
+          "avg_wp": 0.5888,
+          "avg_pick_share": 5.2951
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 175,
+          "final_elim": "18+",
+          "buyback_count": 47,
+          "avg_wp": 0.587,
+          "avg_pick_share": 5.245
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 81,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6118,
+          "avg_pick_share": 6.4337
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 145,
+          "final_elim": "18",
+          "buyback_count": 32,
+          "avg_wp": 0.6192,
+          "avg_pick_share": 7.8332
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 164,
+          "final_elim": "14",
+          "buyback_count": 44,
+          "avg_wp": 0.6083,
+          "avg_pick_share": 7.7029
+        }
+      }
+    }
+  },
+  "SP Balanced 55/25/20": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 18,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7441,
+          "avg_pick_share": 13.8652
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 28,
+          "final_elim": "12",
+          "buyback_count": 2,
+          "avg_wp": 0.7347,
+          "avg_pick_share": 12.5543
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 28,
+          "final_elim": "12",
+          "buyback_count": 2,
+          "avg_wp": 0.7347,
+          "avg_pick_share": 12.5543
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 6,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.7051,
+          "avg_pick_share": 8.1727
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 16,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.7144,
+          "avg_pick_share": 12.428
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 16,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.7144,
+          "avg_pick_share": 12.428
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 20,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.6891,
+          "avg_pick_share": 11.952
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 23,
+          "final_elim": "15",
+          "buyback_count": 2,
+          "avg_wp": 0.6877,
+          "avg_pick_share": 11.35
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 23,
+          "final_elim": "15",
+          "buyback_count": 2,
+          "avg_wp": 0.6877,
+          "avg_pick_share": 11.35
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 7,
+          "final_elim": "3",
+          "buyback_count": 0,
+          "avg_wp": 0.6503,
+          "avg_pick_share": 4.7
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 33,
+          "final_elim": "18+",
+          "buyback_count": 4,
+          "avg_wp": 0.6823,
+          "avg_pick_share": 8.7829
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 33,
+          "final_elim": "18+",
+          "buyback_count": 4,
+          "avg_wp": 0.6823,
+          "avg_pick_share": 8.7829
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 22,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7593,
+          "avg_pick_share": 15.103
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 28,
+          "final_elim": "13",
+          "buyback_count": 3,
+          "avg_wp": 0.7692,
+          "avg_pick_share": 14.3464
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 28,
+          "final_elim": "13",
+          "buyback_count": 4,
+          "avg_wp": 0.7656,
+          "avg_pick_share": 13.9946
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 28,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7235,
+          "avg_pick_share": 11.5132
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 52,
+          "final_elim": "13",
+          "buyback_count": 6,
+          "avg_wp": 0.7071,
+          "avg_pick_share": 10.3515
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 52,
+          "final_elim": "13",
+          "buyback_count": 6,
+          "avg_wp": 0.7071,
+          "avg_pick_share": 10.3515
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 22,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.695,
+          "avg_pick_share": 10.9281
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 30,
+          "final_elim": "7",
+          "buyback_count": 8,
+          "avg_wp": 0.6768,
+          "avg_pick_share": 9.3146
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 34,
+          "final_elim": "9",
+          "buyback_count": 9,
+          "avg_wp": 0.6735,
+          "avg_pick_share": 8.7189
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 25,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.673,
+          "avg_pick_share": 9.9343
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 39,
+          "final_elim": "15",
+          "buyback_count": 6,
+          "avg_wp": 0.6612,
+          "avg_pick_share": 8.3127
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 39,
+          "final_elim": "15",
+          "buyback_count": 6,
+          "avg_wp": 0.6612,
+          "avg_pick_share": 8.3127
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 25,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6574,
+          "avg_pick_share": 6.8486
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 62,
+          "final_elim": "18+",
+          "buyback_count": 6,
+          "avg_wp": 0.6644,
+          "avg_pick_share": 7.6118
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 64,
+          "final_elim": "18+",
+          "buyback_count": 7,
+          "avg_wp": 0.6613,
+          "avg_pick_share": 7.3392
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 32,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7208,
+          "avg_pick_share": 11.2507
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 42,
+          "final_elim": "13",
+          "buyback_count": 5,
+          "avg_wp": 0.7179,
+          "avg_pick_share": 10.2686
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 42,
+          "final_elim": "13",
+          "buyback_count": 7,
+          "avg_wp": 0.7163,
+          "avg_pick_share": 10.2831
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 49,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6778,
+          "avg_pick_share": 8.771
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 70,
+          "final_elim": "13",
+          "buyback_count": 16,
+          "avg_wp": 0.6498,
+          "avg_pick_share": 7.3226
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 70,
+          "final_elim": "13",
+          "buyback_count": 16,
+          "avg_wp": 0.6498,
+          "avg_pick_share": 7.3226
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 33,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6568,
+          "avg_pick_share": 8.7208
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 49,
+          "final_elim": "10",
+          "buyback_count": 18,
+          "avg_wp": 0.6269,
+          "avg_pick_share": 6.5529
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 53,
+          "final_elim": "10",
+          "buyback_count": 19,
+          "avg_wp": 0.6275,
+          "avg_pick_share": 6.3707
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 44,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.647,
+          "avg_pick_share": 8.4078
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 63,
+          "final_elim": "15",
+          "buyback_count": 14,
+          "avg_wp": 0.6285,
+          "avg_pick_share": 6.8557
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 65,
+          "final_elim": "15",
+          "buyback_count": 15,
+          "avg_wp": 0.6295,
+          "avg_pick_share": 6.985
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 44,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.6389,
+          "avg_pick_share": 6.7391
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 83,
+          "final_elim": "18+",
+          "buyback_count": 15,
+          "avg_wp": 0.6313,
+          "avg_pick_share": 6.875
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 91,
+          "final_elim": "18+",
+          "buyback_count": 16,
+          "avg_wp": 0.6331,
+          "avg_pick_share": 6.7984
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 51,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6751,
+          "avg_pick_share": 8.0524
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 62,
+          "final_elim": "13",
+          "buyback_count": 13,
+          "avg_wp": 0.6419,
+          "avg_pick_share": 6.7663
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 80,
+          "final_elim": "18",
+          "buyback_count": 16,
+          "avg_wp": 0.6571,
+          "avg_pick_share": 7.0863
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 91,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6109,
+          "avg_pick_share": 6.6248
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 156,
+          "final_elim": "13",
+          "buyback_count": 35,
+          "avg_wp": 0.6012,
+          "avg_pick_share": 7.6539
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 159,
+          "final_elim": "13",
+          "buyback_count": 38,
+          "avg_wp": 0.5981,
+          "avg_pick_share": 7.4814
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 40,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6197,
+          "avg_pick_share": 6.8433
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 117,
+          "final_elim": "14",
+          "buyback_count": 46,
+          "avg_wp": 0.5882,
+          "avg_pick_share": 5.4638
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 119,
+          "final_elim": "14",
+          "buyback_count": 48,
+          "avg_wp": 0.5852,
+          "avg_pick_share": 5.1327
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 101,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.5868,
+          "avg_pick_share": 4.9351
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 141,
+          "final_elim": "15",
+          "buyback_count": 30,
+          "avg_wp": 0.5735,
+          "avg_pick_share": 5.3127
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 152,
+          "final_elim": "15",
+          "buyback_count": 42,
+          "avg_wp": 0.5653,
+          "avg_pick_share": 5.0959
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 95,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.582,
+          "avg_pick_share": 4.3786
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 165,
+          "final_elim": "18+",
+          "buyback_count": 39,
+          "avg_wp": 0.5775,
+          "avg_pick_share": 4.5571
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 165,
+          "final_elim": "18+",
+          "buyback_count": 43,
+          "avg_wp": 0.5767,
+          "avg_pick_share": 4.566
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 85,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.615,
+          "avg_pick_share": 6.4633
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 157,
+          "final_elim": "18",
+          "buyback_count": 33,
+          "avg_wp": 0.6205,
+          "avg_pick_share": 7.8109
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 167,
+          "final_elim": "18",
+          "buyback_count": 41,
+          "avg_wp": 0.6105,
+          "avg_pick_share": 7.3958
+        }
+      }
+    }
+  },
+  "Leverage+60%Floor": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 21,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7733,
+          "avg_pick_share": 21.0462
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 27,
+          "final_elim": "10",
+          "buyback_count": 1,
+          "avg_wp": 0.7674,
+          "avg_pick_share": 19.6848
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 28,
+          "final_elim": "10",
+          "buyback_count": 2,
+          "avg_wp": 0.7642,
+          "avg_pick_share": 18.7543
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 8,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7325,
+          "avg_pick_share": 15.8615
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 19,
+          "final_elim": "7",
+          "buyback_count": 3,
+          "avg_wp": 0.727,
+          "avg_pick_share": 15.7741
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 19,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.7273,
+          "avg_pick_share": 15.3786
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 13,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7443,
+          "avg_pick_share": 26.2667
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 22,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.734,
+          "avg_pick_share": 21.29
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 22,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.734,
+          "avg_pick_share": 21.29
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 3,
+          "final_elim": "2",
+          "buyback_count": 0,
+          "avg_wp": 0.6871,
+          "avg_pick_share": 13.9
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 14,
+          "final_elim": "12",
+          "buyback_count": 5,
+          "avg_wp": 0.7137,
+          "avg_pick_share": 18.0542
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 14,
+          "final_elim": "12",
+          "buyback_count": 5,
+          "avg_wp": 0.7137,
+          "avg_pick_share": 18.0542
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 35,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.7895,
+          "avg_pick_share": 17.1228
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 23,
+          "final_elim": "10",
+          "buyback_count": 1,
+          "avg_wp": 0.7753,
+          "avg_pick_share": 18.1024
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 31,
+          "final_elim": "13",
+          "buyback_count": 2,
+          "avg_wp": 0.7796,
+          "avg_pick_share": 17.0982
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 28,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7467,
+          "avg_pick_share": 17.6026
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 45,
+          "final_elim": "10",
+          "buyback_count": 5,
+          "avg_wp": 0.7206,
+          "avg_pick_share": 12.62
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 44,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.7208,
+          "avg_pick_share": 12.68
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 22,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7158,
+          "avg_pick_share": 14.4219
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 25,
+          "final_elim": "7",
+          "buyback_count": 8,
+          "avg_wp": 0.6921,
+          "avg_pick_share": 12.2674
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 25,
+          "final_elim": "7",
+          "buyback_count": 9,
+          "avg_wp": 0.6923,
+          "avg_pick_share": 12.3068
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 23,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7072,
+          "avg_pick_share": 19.6636
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 34,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.6836,
+          "avg_pick_share": 14.5176
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 34,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.6836,
+          "avg_pick_share": 14.5176
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 14,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6679,
+          "avg_pick_share": 12.75
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 47,
+          "final_elim": "17",
+          "buyback_count": 9,
+          "avg_wp": 0.6912,
+          "avg_pick_share": 15.1848
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 47,
+          "final_elim": "17",
+          "buyback_count": 9,
+          "avg_wp": 0.6912,
+          "avg_pick_share": 15.1848
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 43,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.743,
+          "avg_pick_share": 14.1858
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 42,
+          "final_elim": "10",
+          "buyback_count": 5,
+          "avg_wp": 0.7187,
+          "avg_pick_share": 11.7044
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 45,
+          "final_elim": "13",
+          "buyback_count": 7,
+          "avg_wp": 0.7199,
+          "avg_pick_share": 11.6627
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 51,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6801,
+          "avg_pick_share": 11.1972
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 57,
+          "final_elim": "10",
+          "buyback_count": 14,
+          "avg_wp": 0.6306,
+          "avg_pick_share": 8.7242
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 63,
+          "final_elim": "12",
+          "buyback_count": 16,
+          "avg_wp": 0.634,
+          "avg_pick_share": 9.0293
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 27,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.64,
+          "avg_pick_share": 10.5191
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 40,
+          "final_elim": "7",
+          "buyback_count": 17,
+          "avg_wp": 0.5825,
+          "avg_pick_share": 7.3974
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 41,
+          "final_elim": "7",
+          "buyback_count": 18,
+          "avg_wp": 0.5845,
+          "avg_pick_share": 7.3025
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 33,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6414,
+          "avg_pick_share": 13.2189
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 54,
+          "final_elim": "10",
+          "buyback_count": 17,
+          "avg_wp": 0.5952,
+          "avg_pick_share": 8.5538
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 54,
+          "final_elim": "10",
+          "buyback_count": 17,
+          "avg_wp": 0.5952,
+          "avg_pick_share": 8.5538
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 23,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.5937,
+          "avg_pick_share": 8.4651
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 68,
+          "final_elim": "17",
+          "buyback_count": 17,
+          "avg_wp": 0.6102,
+          "avg_pick_share": 9.9762
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 71,
+          "final_elim": "17",
+          "buyback_count": 18,
+          "avg_wp": 0.6117,
+          "avg_pick_share": 9.889
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 49,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.6887,
+          "avg_pick_share": 11.1238
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 52,
+          "final_elim": "10",
+          "buyback_count": 15,
+          "avg_wp": 0.6208,
+          "avg_pick_share": 7.8141
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 55,
+          "final_elim": "13",
+          "buyback_count": 17,
+          "avg_wp": 0.6269,
+          "avg_pick_share": 8.0242
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 87,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6074,
+          "avg_pick_share": 7.9394
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 137,
+          "final_elim": "10",
+          "buyback_count": 31,
+          "avg_wp": 0.5998,
+          "avg_pick_share": 9.3128
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 147,
+          "final_elim": "12",
+          "buyback_count": 40,
+          "avg_wp": 0.5908,
+          "avg_pick_share": 8.8241
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 38,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6056,
+          "avg_pick_share": 7.7614
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 97,
+          "final_elim": "18+",
+          "buyback_count": 46,
+          "avg_wp": 0.5948,
+          "avg_pick_share": 7.4318
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 92,
+          "final_elim": "14",
+          "buyback_count": 48,
+          "avg_wp": 0.5908,
+          "avg_pick_share": 7.3547
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 88,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.5994,
+          "avg_pick_share": 11.187
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 141,
+          "final_elim": "12",
+          "buyback_count": 32,
+          "avg_wp": 0.5882,
+          "avg_pick_share": 10.4354
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 149,
+          "final_elim": "12",
+          "buyback_count": 40,
+          "avg_wp": 0.5823,
+          "avg_pick_share": 9.7874
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 30,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.5887,
+          "avg_pick_share": 13.4113
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 80,
+          "final_elim": "17",
+          "buyback_count": 45,
+          "avg_wp": 0.6024,
+          "avg_pick_share": 13.0697
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 83,
+          "final_elim": "17",
+          "buyback_count": 47,
+          "avg_wp": 0.6025,
+          "avg_pick_share": 12.8761
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 90,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.6299,
+          "avg_pick_share": 7.9303
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 132,
+          "final_elim": "10",
+          "buyback_count": 31,
+          "avg_wp": 0.6067,
+          "avg_pick_share": 8.0164
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 161,
+          "final_elim": "14",
+          "buyback_count": 42,
+          "avg_wp": 0.6039,
+          "avg_pick_share": 7.916
+        }
+      }
+    }
+  },
+  "Anti-Chalk Top-5": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 1,
+          "final_elim": "2",
+          "buyback_count": 0,
+          "avg_wp": 0.6413,
+          "avg_pick_share": 3.25
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 15,
+          "final_elim": "8",
+          "buyback_count": 4,
+          "avg_wp": 0.6569,
+          "avg_pick_share": 2.8875
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 15,
+          "final_elim": "8",
+          "buyback_count": 4,
+          "avg_wp": 0.6569,
+          "avg_pick_share": 2.8875
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 19,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6607,
+          "avg_pick_share": 3.3542
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 23,
+          "final_elim": "10",
+          "buyback_count": 2,
+          "avg_wp": 0.6522,
+          "avg_pick_share": 3.1033
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 20,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.6577,
+          "avg_pick_share": 3.2036
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 4,
+          "final_elim": "3",
+          "buyback_count": 0,
+          "avg_wp": 0.6299,
+          "avg_pick_share": 3.5222
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 12,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.6313,
+          "avg_pick_share": 2.3714
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 12,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.6313,
+          "avg_pick_share": 2.3714
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 5,
+          "final_elim": "3",
+          "buyback_count": 0,
+          "avg_wp": 0.6478,
+          "avg_pick_share": 3.24
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 39,
+          "final_elim": "18+",
+          "buyback_count": 4,
+          "avg_wp": 0.6363,
+          "avg_pick_share": 2.7511
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 39,
+          "final_elim": "18+",
+          "buyback_count": 4,
+          "avg_wp": 0.6363,
+          "avg_pick_share": 2.7511
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 11,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6632,
+          "avg_pick_share": 3.365
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 16,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.6478,
+          "avg_pick_share": 2.5508
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 21,
+          "final_elim": "11",
+          "buyback_count": 5,
+          "avg_wp": 0.6487,
+          "avg_pick_share": 2.2561
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 7,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.6418,
+          "avg_pick_share": 3.0824
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 20,
+          "final_elim": "8",
+          "buyback_count": 8,
+          "avg_wp": 0.6374,
+          "avg_pick_share": 2.3658
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 22,
+          "final_elim": "8",
+          "buyback_count": 9,
+          "avg_wp": 0.6372,
+          "avg_pick_share": 2.3585
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 24,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6426,
+          "avg_pick_share": 2.7618
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 33,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.6276,
+          "avg_pick_share": 2.486
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 35,
+          "final_elim": "10",
+          "buyback_count": 8,
+          "avg_wp": 0.6291,
+          "avg_pick_share": 2.4717
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 8,
+          "final_elim": "4",
+          "buyback_count": 0,
+          "avg_wp": 0.6134,
+          "avg_pick_share": 2.1278
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 38,
+          "final_elim": "11",
+          "buyback_count": 7,
+          "avg_wp": 0.6099,
+          "avg_pick_share": 1.7436
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 38,
+          "final_elim": "11",
+          "buyback_count": 7,
+          "avg_wp": 0.6099,
+          "avg_pick_share": 1.7436
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 33,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.6316,
+          "avg_pick_share": 2.6628
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 55,
+          "final_elim": "18+",
+          "buyback_count": 7,
+          "avg_wp": 0.6201,
+          "avg_pick_share": 2.3239
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 56,
+          "final_elim": "18+",
+          "buyback_count": 8,
+          "avg_wp": 0.6196,
+          "avg_pick_share": 2.3247
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 21,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6257,
+          "avg_pick_share": 2.2061
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 33,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.6147,
+          "avg_pick_share": 1.6692
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 45,
+          "final_elim": "13",
+          "buyback_count": 10,
+          "avg_wp": 0.6259,
+          "avg_pick_share": 1.5718
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 26,
+          "final_elim": "8",
+          "buyback_count": 0,
+          "avg_wp": 0.5982,
+          "avg_pick_share": 2.0761
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 35,
+          "final_elim": "8",
+          "buyback_count": 17,
+          "avg_wp": 0.5726,
+          "avg_pick_share": 1.4861
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 39,
+          "final_elim": "8",
+          "buyback_count": 19,
+          "avg_wp": 0.5759,
+          "avg_pick_share": 1.4936
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 36,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.5957,
+          "avg_pick_share": 2.1018
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 49,
+          "final_elim": "10",
+          "buyback_count": 17,
+          "avg_wp": 0.5668,
+          "avg_pick_share": 1.707
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 53,
+          "final_elim": "10",
+          "buyback_count": 18,
+          "avg_wp": 0.5697,
+          "avg_pick_share": 1.7429
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 35,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.5925,
+          "avg_pick_share": 1.7691
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 53,
+          "final_elim": "11",
+          "buyback_count": 17,
+          "avg_wp": 0.5644,
+          "avg_pick_share": 1.2478
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 53,
+          "final_elim": "11",
+          "buyback_count": 17,
+          "avg_wp": 0.5644,
+          "avg_pick_share": 1.2478
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 44,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.5988,
+          "avg_pick_share": 2.1547
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 65,
+          "final_elim": "18+",
+          "buyback_count": 16,
+          "avg_wp": 0.5776,
+          "avg_pick_share": 1.778
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 66,
+          "final_elim": "18+",
+          "buyback_count": 18,
+          "avg_wp": 0.578,
+          "avg_pick_share": 1.7777
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 27,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.5826,
+          "avg_pick_share": 1.5721
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 52,
+          "final_elim": "11",
+          "buyback_count": 16,
+          "avg_wp": 0.5717,
+          "avg_pick_share": 1.1792
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 59,
+          "final_elim": "13",
+          "buyback_count": 20,
+          "avg_wp": 0.5771,
+          "avg_pick_share": 1.1416
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 40,
+          "final_elim": "8",
+          "buyback_count": 0,
+          "avg_wp": 0.5879,
+          "avg_pick_share": 2.7778
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 66,
+          "final_elim": "8",
+          "buyback_count": 44,
+          "avg_wp": 0.5701,
+          "avg_pick_share": 2.5219
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 68,
+          "final_elim": "8",
+          "buyback_count": 48,
+          "avg_wp": 0.5679,
+          "avg_pick_share": 2.4217
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 77,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.5571,
+          "avg_pick_share": 2.4606
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 132,
+          "final_elim": "10",
+          "buyback_count": 32,
+          "avg_wp": 0.559,
+          "avg_pick_share": 2.5607
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 144,
+          "final_elim": "10",
+          "buyback_count": 42,
+          "avg_wp": 0.5489,
+          "avg_pick_share": 2.4038
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 48,
+          "final_elim": "16",
+          "buyback_count": 0,
+          "avg_wp": 0.5752,
+          "avg_pick_share": 2.75
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 110,
+          "final_elim": "11",
+          "buyback_count": 46,
+          "avg_wp": 0.5442,
+          "avg_pick_share": 2.9641
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 122,
+          "final_elim": "18",
+          "buyback_count": 47,
+          "avg_wp": 0.5494,
+          "avg_pick_share": 2.9009
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 96,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.5624,
+          "avg_pick_share": 2.4973
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 138,
+          "final_elim": "18+",
+          "buyback_count": 41,
+          "avg_wp": 0.5551,
+          "avg_pick_share": 2.5474
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 139,
+          "final_elim": "18+",
+          "buyback_count": 46,
+          "avg_wp": 0.5517,
+          "avg_pick_share": 2.4915
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 74,
+          "final_elim": "11",
+          "buyback_count": 0,
+          "avg_wp": 0.5596,
+          "avg_pick_share": 3.174
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 127,
+          "final_elim": "11",
+          "buyback_count": 33,
+          "avg_wp": 0.5619,
+          "avg_pick_share": 3.0665
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 145,
+          "final_elim": "13",
+          "buyback_count": 47,
+          "avg_wp": 0.5597,
+          "avg_pick_share": 2.8755
+        }
+      }
+    }
+  },
+  "Expendable-First 65/25/10": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 19,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.7476,
+          "avg_pick_share": 13.975
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 20,
+          "final_elim": "9",
+          "buyback_count": 3,
+          "avg_wp": 0.7395,
+          "avg_pick_share": 12.9821
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 20,
+          "final_elim": "9",
+          "buyback_count": 3,
+          "avg_wp": 0.7395,
+          "avg_pick_share": 12.9821
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 11,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7103,
+          "avg_pick_share": 10.0188
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 24,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7065,
+          "avg_pick_share": 10.9188
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 24,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7065,
+          "avg_pick_share": 10.9188
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 7,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6937,
+          "avg_pick_share": 13.0583
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 16,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.7102,
+          "avg_pick_share": 14.108
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 16,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.7102,
+          "avg_pick_share": 14.108
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 12,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6819,
+          "avg_pick_share": 9.0706
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 14,
+          "final_elim": "10",
+          "buyback_count": 5,
+          "avg_wp": 0.6878,
+          "avg_pick_share": 10.3458
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 14,
+          "final_elim": "10",
+          "buyback_count": 5,
+          "avg_wp": 0.6878,
+          "avg_pick_share": 10.3458
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 32,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7709,
+          "avg_pick_share": 13.4178
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 32,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7709,
+          "avg_pick_share": 13.4178
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 42,
+          "final_elim": "18+",
+          "buyback_count": 1,
+          "avg_wp": 0.7687,
+          "avg_pick_share": 14.3166
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 20,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.7212,
+          "avg_pick_share": 11.7533
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 37,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.7127,
+          "avg_pick_share": 11.0574
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 37,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.7127,
+          "avg_pick_share": 11.0574
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 24,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.7101,
+          "avg_pick_share": 11.7471
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 31,
+          "final_elim": "10",
+          "buyback_count": 8,
+          "avg_wp": 0.686,
+          "avg_pick_share": 9.5612
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 31,
+          "final_elim": "10",
+          "buyback_count": 8,
+          "avg_wp": 0.686,
+          "avg_pick_share": 9.5612
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 16,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6873,
+          "avg_pick_share": 12.3346
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 30,
+          "final_elim": "7",
+          "buyback_count": 7,
+          "avg_wp": 0.6799,
+          "avg_pick_share": 11.1532
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 30,
+          "final_elim": "7",
+          "buyback_count": 7,
+          "avg_wp": 0.6799,
+          "avg_pick_share": 11.1532
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 16,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.673,
+          "avg_pick_share": 10.1269
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 25,
+          "final_elim": "10",
+          "buyback_count": 9,
+          "avg_wp": 0.6658,
+          "avg_pick_share": 9.1045
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 31,
+          "final_elim": "11",
+          "buyback_count": 10,
+          "avg_wp": 0.6688,
+          "avg_pick_share": 9.3275
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 36,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.741,
+          "avg_pick_share": 11.7174
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 40,
+          "final_elim": "13",
+          "buyback_count": 4,
+          "avg_wp": 0.7282,
+          "avg_pick_share": 10.6046
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 58,
+          "final_elim": "18+",
+          "buyback_count": 6,
+          "avg_wp": 0.7286,
+          "avg_pick_share": 10.7858
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 46,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6932,
+          "avg_pick_share": 10.703
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 54,
+          "final_elim": "10",
+          "buyback_count": 17,
+          "avg_wp": 0.6546,
+          "avg_pick_share": 7.3484
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 54,
+          "final_elim": "10",
+          "buyback_count": 17,
+          "avg_wp": 0.6546,
+          "avg_pick_share": 7.3484
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 34,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.661,
+          "avg_pick_share": 8.3037
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 50,
+          "final_elim": "10",
+          "buyback_count": 15,
+          "avg_wp": 0.626,
+          "avg_pick_share": 6.4941
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 51,
+          "final_elim": "10",
+          "buyback_count": 16,
+          "avg_wp": 0.6282,
+          "avg_pick_share": 6.7506
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 31,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6475,
+          "avg_pick_share": 8.851
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 54,
+          "final_elim": "7",
+          "buyback_count": 16,
+          "avg_wp": 0.6258,
+          "avg_pick_share": 6.4689
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 55,
+          "final_elim": "7",
+          "buyback_count": 17,
+          "avg_wp": 0.6261,
+          "avg_pick_share": 6.4261
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 27,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6297,
+          "avg_pick_share": 6.883
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 71,
+          "final_elim": "18+",
+          "buyback_count": 17,
+          "avg_wp": 0.6373,
+          "avg_pick_share": 7.929
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 80,
+          "final_elim": "18",
+          "buyback_count": 19,
+          "avg_wp": 0.6418,
+          "avg_pick_share": 8.0092
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 49,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6856,
+          "avg_pick_share": 8.7043
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 70,
+          "final_elim": "13",
+          "buyback_count": 12,
+          "avg_wp": 0.658,
+          "avg_pick_share": 6.7177
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 81,
+          "final_elim": "18+",
+          "buyback_count": 15,
+          "avg_wp": 0.6608,
+          "avg_pick_share": 7.3141
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 90,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6142,
+          "avg_pick_share": 6.82
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 146,
+          "final_elim": "10",
+          "buyback_count": 34,
+          "avg_wp": 0.5987,
+          "avg_pick_share": 6.2522
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 153,
+          "final_elim": "10",
+          "buyback_count": 40,
+          "avg_wp": 0.5926,
+          "avg_pick_share": 6.0597
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 45,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.6233,
+          "avg_pick_share": 6.6442
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 113,
+          "final_elim": "14",
+          "buyback_count": 43,
+          "avg_wp": 0.5896,
+          "avg_pick_share": 5.4408
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 114,
+          "final_elim": "14",
+          "buyback_count": 44,
+          "avg_wp": 0.5907,
+          "avg_pick_share": 5.5337
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 77,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.5967,
+          "avg_pick_share": 9.4882
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 147,
+          "final_elim": "13",
+          "buyback_count": 34,
+          "avg_wp": 0.5875,
+          "avg_pick_share": 8.0286
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 159,
+          "final_elim": "14",
+          "buyback_count": 41,
+          "avg_wp": 0.5826,
+          "avg_pick_share": 7.588
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 81,
+          "final_elim": "11",
+          "buyback_count": 0,
+          "avg_wp": 0.5891,
+          "avg_pick_share": 6.7176
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 156,
+          "final_elim": "18+",
+          "buyback_count": 47,
+          "avg_wp": 0.5885,
+          "avg_pick_share": 5.9777
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 150,
+          "final_elim": "18",
+          "buyback_count": 49,
+          "avg_wp": 0.5848,
+          "avg_pick_share": 5.9618
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 94,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6269,
+          "avg_pick_share": 6.6337
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 143,
+          "final_elim": "18",
+          "buyback_count": 30,
+          "avg_wp": 0.6226,
+          "avg_pick_share": 7.9594
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 175,
+          "final_elim": "18+",
+          "buyback_count": 42,
+          "avg_wp": 0.6144,
+          "avg_pick_share": 7.5346
+        }
+      }
+    }
+  },
+  "Core/Satellite 60/40": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 8,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.7299,
+          "avg_pick_share": 10.2923
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 16,
+          "final_elim": "8",
+          "buyback_count": 3,
+          "avg_wp": 0.7192,
+          "avg_pick_share": 10.7083
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 16,
+          "final_elim": "8",
+          "buyback_count": 3,
+          "avg_wp": 0.7192,
+          "avg_pick_share": 10.7083
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 8,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.7004,
+          "avg_pick_share": 8.4077
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 11,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.6997,
+          "avg_pick_share": 8.16
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 12,
+          "final_elim": "7",
+          "buyback_count": 5,
+          "avg_wp": 0.7061,
+          "avg_pick_share": 8.4545
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 17,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6924,
+          "avg_pick_share": 11.0773
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 20,
+          "final_elim": "12",
+          "buyback_count": 4,
+          "avg_wp": 0.6767,
+          "avg_pick_share": 9.2034
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 20,
+          "final_elim": "12",
+          "buyback_count": 4,
+          "avg_wp": 0.6767,
+          "avg_pick_share": 9.2034
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 16,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6833,
+          "avg_pick_share": 8.0048
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 22,
+          "final_elim": "12",
+          "buyback_count": 3,
+          "avg_wp": 0.6587,
+          "avg_pick_share": 6.3367
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 22,
+          "final_elim": "12",
+          "buyback_count": 3,
+          "avg_wp": 0.6587,
+          "avg_pick_share": 6.3367
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 11,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.7364,
+          "avg_pick_share": 11.6825
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 23,
+          "final_elim": "14",
+          "buyback_count": 3,
+          "avg_wp": 0.7393,
+          "avg_pick_share": 11.1223
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 23,
+          "final_elim": "14",
+          "buyback_count": 4,
+          "avg_wp": 0.7412,
+          "avg_pick_share": 10.5225
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 17,
+          "final_elim": "8",
+          "buyback_count": 0,
+          "avg_wp": 0.7094,
+          "avg_pick_share": 9.3889
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 34,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.6956,
+          "avg_pick_share": 8.856
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 38,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.7001,
+          "avg_pick_share": 8.5909
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 14,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.6727,
+          "avg_pick_share": 7.0625
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 34,
+          "final_elim": "12",
+          "buyback_count": 7,
+          "avg_wp": 0.6644,
+          "avg_pick_share": 6.7039
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 42,
+          "final_elim": "14",
+          "buyback_count": 9,
+          "avg_wp": 0.6814,
+          "avg_pick_share": 8.7738
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 33,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.6561,
+          "avg_pick_share": 6.686
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 39,
+          "final_elim": "12",
+          "buyback_count": 8,
+          "avg_wp": 0.6591,
+          "avg_pick_share": 7.1088
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 39,
+          "final_elim": "12",
+          "buyback_count": 8,
+          "avg_wp": 0.6591,
+          "avg_pick_share": 7.1088
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 36,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.654,
+          "avg_pick_share": 5.5304
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 42,
+          "final_elim": "14",
+          "buyback_count": 7,
+          "avg_wp": 0.645,
+          "avg_pick_share": 5.3814
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 42,
+          "final_elim": "14",
+          "buyback_count": 7,
+          "avg_wp": 0.645,
+          "avg_pick_share": 5.3814
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 32,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.7141,
+          "avg_pick_share": 9.2921
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 44,
+          "final_elim": "14",
+          "buyback_count": 5,
+          "avg_wp": 0.7036,
+          "avg_pick_share": 8.688
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 45,
+          "final_elim": "14",
+          "buyback_count": 7,
+          "avg_wp": 0.7048,
+          "avg_pick_share": 9.375
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 35,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.664,
+          "avg_pick_share": 7.2927
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 60,
+          "final_elim": "12",
+          "buyback_count": 15,
+          "avg_wp": 0.6443,
+          "avg_pick_share": 6.9221
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 60,
+          "final_elim": "10",
+          "buyback_count": 17,
+          "avg_wp": 0.6419,
+          "avg_pick_share": 6.9608
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 29,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.6411,
+          "avg_pick_share": 6.6816
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 58,
+          "final_elim": "14",
+          "buyback_count": 17,
+          "avg_wp": 0.6348,
+          "avg_pick_share": 6.9411
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 66,
+          "final_elim": "14",
+          "buyback_count": 18,
+          "avg_wp": 0.6443,
+          "avg_pick_share": 7.7163
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 47,
+          "final_elim": "15",
+          "buyback_count": 0,
+          "avg_wp": 0.6291,
+          "avg_pick_share": 5.606
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 68,
+          "final_elim": "15",
+          "buyback_count": 14,
+          "avg_wp": 0.6242,
+          "avg_pick_share": 6.3471
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 68,
+          "final_elim": "15",
+          "buyback_count": 14,
+          "avg_wp": 0.6242,
+          "avg_pick_share": 6.3471
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 29,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6246,
+          "avg_pick_share": 5.9939
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 71,
+          "final_elim": "16",
+          "buyback_count": 16,
+          "avg_wp": 0.6212,
+          "avg_pick_share": 5.9654
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 73,
+          "final_elim": "16",
+          "buyback_count": 17,
+          "avg_wp": 0.6203,
+          "avg_pick_share": 5.8491
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 54,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6662,
+          "avg_pick_share": 7.3349
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 73,
+          "final_elim": "14",
+          "buyback_count": 12,
+          "avg_wp": 0.6442,
+          "avg_pick_share": 6.4063
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 82,
+          "final_elim": "14",
+          "buyback_count": 15,
+          "avg_wp": 0.64,
+          "avg_pick_share": 5.9666
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 85,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.611,
+          "avg_pick_share": 6.4037
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 103,
+          "final_elim": "12",
+          "buyback_count": 44,
+          "avg_wp": 0.6012,
+          "avg_pick_share": 5.3355
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 116,
+          "final_elim": "18+",
+          "buyback_count": 47,
+          "avg_wp": 0.6073,
+          "avg_pick_share": 5.1726
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 81,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.5819,
+          "avg_pick_share": 4.7031
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 145,
+          "final_elim": "14",
+          "buyback_count": 34,
+          "avg_wp": 0.5839,
+          "avg_pick_share": 5.1218
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 150,
+          "final_elim": "14",
+          "buyback_count": 40,
+          "avg_wp": 0.5789,
+          "avg_pick_share": 5.1158
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 97,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.5834,
+          "avg_pick_share": 4.319
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 143,
+          "final_elim": "13",
+          "buyback_count": 30,
+          "avg_wp": 0.5691,
+          "avg_pick_share": 4.2753
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 154,
+          "final_elim": "13",
+          "buyback_count": 43,
+          "avg_wp": 0.5599,
+          "avg_pick_share": 3.9502
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 82,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.5661,
+          "avg_pick_share": 3.5977
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 147,
+          "final_elim": "16",
+          "buyback_count": 40,
+          "avg_wp": 0.5725,
+          "avg_pick_share": 4.1451
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 155,
+          "final_elim": "16",
+          "buyback_count": 45,
+          "avg_wp": 0.5709,
+          "avg_pick_share": 4.0176
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 85,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6109,
+          "avg_pick_share": 5.8982
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 144,
+          "final_elim": "14",
+          "buyback_count": 38,
+          "avg_wp": 0.5909,
+          "avg_pick_share": 5.1579
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 143,
+          "final_elim": "14",
+          "buyback_count": 43,
+          "avg_wp": 0.5876,
+          "avg_pick_share": 4.9388
+        }
+      }
+    }
+  },
+  "Mixed Portfolio": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 13,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.7407,
+          "avg_pick_share": 14.2444
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 20,
+          "final_elim": "9",
+          "buyback_count": 2,
+          "avg_wp": 0.7466,
+          "avg_pick_share": 15.5111
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 25,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7533,
+          "avg_pick_share": 16.1606
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 7,
+          "final_elim": "5",
+          "buyback_count": 0,
+          "avg_wp": 0.6966,
+          "avg_pick_share": 6.9417
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 18,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.7144,
+          "avg_pick_share": 12.8037
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 18,
+          "final_elim": "6",
+          "buyback_count": 4,
+          "avg_wp": 0.7144,
+          "avg_pick_share": 12.8037
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 19,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6994,
+          "avg_pick_share": 15.7125
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 21,
+          "final_elim": "10",
+          "buyback_count": 2,
+          "avg_wp": 0.7029,
+          "avg_pick_share": 15.45
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 21,
+          "final_elim": "10",
+          "buyback_count": 2,
+          "avg_wp": 0.7029,
+          "avg_pick_share": 15.45
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 14,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.7014,
+          "avg_pick_share": 11.9158
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 15,
+          "final_elim": "12",
+          "buyback_count": 4,
+          "avg_wp": 0.6975,
+          "avg_pick_share": 12.3625
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 15,
+          "final_elim": "12",
+          "buyback_count": 4,
+          "avg_wp": 0.6975,
+          "avg_pick_share": 12.3625
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 34,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.7741,
+          "avg_pick_share": 15.9541
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 35,
+          "final_elim": "14",
+          "buyback_count": 1,
+          "avg_wp": 0.7701,
+          "avg_pick_share": 15.3995
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 40,
+          "final_elim": "18",
+          "buyback_count": 2,
+          "avg_wp": 0.7664,
+          "avg_pick_share": 14.4294
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 22,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.7284,
+          "avg_pick_share": 13.6
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 49,
+          "final_elim": "18+",
+          "buyback_count": 6,
+          "avg_wp": 0.7253,
+          "avg_pick_share": 11.9516
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 43,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.7226,
+          "avg_pick_share": 12.7133
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 19,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.7066,
+          "avg_pick_share": 12.6862
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 24,
+          "final_elim": "6",
+          "buyback_count": 8,
+          "avg_wp": 0.6905,
+          "avg_pick_share": 11.1833
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 24,
+          "final_elim": "6",
+          "buyback_count": 8,
+          "avg_wp": 0.6905,
+          "avg_pick_share": 11.1833
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 25,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6835,
+          "avg_pick_share": 13.0543
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 37,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.6846,
+          "avg_pick_share": 12.4434
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 37,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.6846,
+          "avg_pick_share": 12.4434
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 20,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6789,
+          "avg_pick_share": 10.3367
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 29,
+          "final_elim": "12",
+          "buyback_count": 8,
+          "avg_wp": 0.6646,
+          "avg_pick_share": 10.0532
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 29,
+          "final_elim": "12",
+          "buyback_count": 8,
+          "avg_wp": 0.6646,
+          "avg_pick_share": 10.0532
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 42,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.7412,
+          "avg_pick_share": 13.2517
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 44,
+          "final_elim": "14",
+          "buyback_count": 5,
+          "avg_wp": 0.7306,
+          "avg_pick_share": 12.3473
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 54,
+          "final_elim": "18",
+          "buyback_count": 6,
+          "avg_wp": 0.7356,
+          "avg_pick_share": 12.2927
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 50,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6914,
+          "avg_pick_share": 10.6186
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 71,
+          "final_elim": "18+",
+          "buyback_count": 15,
+          "avg_wp": 0.6665,
+          "avg_pick_share": 8.401
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 64,
+          "final_elim": "10",
+          "buyback_count": 17,
+          "avg_wp": 0.66,
+          "avg_pick_share": 8.5059
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 38,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6711,
+          "avg_pick_share": 9.6776
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 43,
+          "final_elim": "7",
+          "buyback_count": 17,
+          "avg_wp": 0.63,
+          "avg_pick_share": 7.1813
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 43,
+          "final_elim": "7",
+          "buyback_count": 17,
+          "avg_wp": 0.63,
+          "avg_pick_share": 7.1813
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 37,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6495,
+          "avg_pick_share": 9.7263
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 65,
+          "final_elim": "12",
+          "buyback_count": 16,
+          "avg_wp": 0.6386,
+          "avg_pick_share": 7.9832
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 65,
+          "final_elim": "12",
+          "buyback_count": 16,
+          "avg_wp": 0.6386,
+          "avg_pick_share": 7.9832
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 37,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6403,
+          "avg_pick_share": 7.3105
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 72,
+          "final_elim": "13",
+          "buyback_count": 15,
+          "avg_wp": 0.6241,
+          "avg_pick_share": 6.5972
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 72,
+          "final_elim": "13",
+          "buyback_count": 16,
+          "avg_wp": 0.6236,
+          "avg_pick_share": 6.5417
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 52,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.69,
+          "avg_pick_share": 9.9221
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 71,
+          "final_elim": "14",
+          "buyback_count": 12,
+          "avg_wp": 0.6621,
+          "avg_pick_share": 7.9591
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 88,
+          "final_elim": "18",
+          "buyback_count": 15,
+          "avg_wp": 0.6678,
+          "avg_pick_share": 7.5159
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 90,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6158,
+          "avg_pick_share": 7.2807
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 146,
+          "final_elim": "18+",
+          "buyback_count": 36,
+          "avg_wp": 0.6025,
+          "avg_pick_share": 6.9177
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 142,
+          "final_elim": "10",
+          "buyback_count": 42,
+          "avg_wp": 0.5912,
+          "avg_pick_share": 6.4808
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 52,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6266,
+          "avg_pick_share": 7.4775
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 119,
+          "final_elim": "14",
+          "buyback_count": 43,
+          "avg_wp": 0.5948,
+          "avg_pick_share": 6.3382
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 123,
+          "final_elim": "14",
+          "buyback_count": 45,
+          "avg_wp": 0.5955,
+          "avg_pick_share": 6.2688
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 95,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6049,
+          "avg_pick_share": 9.3262
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 150,
+          "final_elim": "13",
+          "buyback_count": 33,
+          "avg_wp": 0.5887,
+          "avg_pick_share": 8.0498
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 150,
+          "final_elim": "12",
+          "buyback_count": 42,
+          "avg_wp": 0.5767,
+          "avg_pick_share": 7.6116
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 72,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.5855,
+          "avg_pick_share": 6.7402
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 152,
+          "final_elim": "18+",
+          "buyback_count": 41,
+          "avg_wp": 0.5925,
+          "avg_pick_share": 6.1954
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 139,
+          "final_elim": "15",
+          "buyback_count": 43,
+          "avg_wp": 0.5854,
+          "avg_pick_share": 5.9362
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 88,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6235,
+          "avg_pick_share": 7.3577
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 140,
+          "final_elim": "14",
+          "buyback_count": 34,
+          "avg_wp": 0.6133,
+          "avg_pick_share": 7.9158
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 171,
+          "final_elim": "18",
+          "buyback_count": 43,
+          "avg_wp": 0.6093,
+          "avg_pick_share": 7.1196
+        }
+      }
+    }
+  },
+  "Temporal Diversification": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 16,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.763,
+          "avg_pick_share": 18.2429
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 22,
+          "final_elim": "9",
+          "buyback_count": 3,
+          "avg_wp": 0.7479,
+          "avg_pick_share": 15.13
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 22,
+          "final_elim": "9",
+          "buyback_count": 3,
+          "avg_wp": 0.7479,
+          "avg_pick_share": 15.13
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 5,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.7098,
+          "avg_pick_share": 11.11
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 15,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.7122,
+          "avg_pick_share": 13.3125
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 15,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.7122,
+          "avg_pick_share": 13.3125
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 25,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7178,
+          "avg_pick_share": 19.8867
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 18,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7305,
+          "avg_pick_share": 20.6231
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 18,
+          "final_elim": "10",
+          "buyback_count": 3,
+          "avg_wp": 0.7305,
+          "avg_pick_share": 20.6231
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 15,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6971,
+          "avg_pick_share": 11.71
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 16,
+          "final_elim": "12",
+          "buyback_count": 3,
+          "avg_wp": 0.6899,
+          "avg_pick_share": 11.3833
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 28,
+          "final_elim": "17",
+          "buyback_count": 4,
+          "avg_wp": 0.698,
+          "avg_pick_share": 15.2054
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 20,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.7558,
+          "avg_pick_share": 14.9656
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 30,
+          "final_elim": "14",
+          "buyback_count": 2,
+          "avg_wp": 0.7607,
+          "avg_pick_share": 13.4016
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 30,
+          "final_elim": "14",
+          "buyback_count": 2,
+          "avg_wp": 0.7607,
+          "avg_pick_share": 13.4016
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 33,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.7405,
+          "avg_pick_share": 15.9395
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 49,
+          "final_elim": "12",
+          "buyback_count": 6,
+          "avg_wp": 0.7186,
+          "avg_pick_share": 12.8323
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 46,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.7114,
+          "avg_pick_share": 11.8984
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 21,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6962,
+          "avg_pick_share": 11.6774
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 30,
+          "final_elim": "7",
+          "buyback_count": 9,
+          "avg_wp": 0.6818,
+          "avg_pick_share": 10.7735
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 31,
+          "final_elim": "7",
+          "buyback_count": 10,
+          "avg_wp": 0.6819,
+          "avg_pick_share": 10.4725
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 20,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7055,
+          "avg_pick_share": 18.1533
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 38,
+          "final_elim": "13",
+          "buyback_count": 7,
+          "avg_wp": 0.6911,
+          "avg_pick_share": 14.6764
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 38,
+          "final_elim": "13",
+          "buyback_count": 7,
+          "avg_wp": 0.6911,
+          "avg_pick_share": 14.6764
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 21,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.675,
+          "avg_pick_share": 9.2419
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 53,
+          "final_elim": "18+",
+          "buyback_count": 9,
+          "avg_wp": 0.6795,
+          "avg_pick_share": 11.9352
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 53,
+          "final_elim": "18+",
+          "buyback_count": 9,
+          "avg_wp": 0.6795,
+          "avg_pick_share": 11.9352
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 35,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7329,
+          "avg_pick_share": 12.9133
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 40,
+          "final_elim": "10",
+          "buyback_count": 5,
+          "avg_wp": 0.7147,
+          "avg_pick_share": 11.2344
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 45,
+          "final_elim": "10",
+          "buyback_count": 7,
+          "avg_wp": 0.7143,
+          "avg_pick_share": 10.4523
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 47,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6933,
+          "avg_pick_share": 11.6925
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 62,
+          "final_elim": "10",
+          "buyback_count": 15,
+          "avg_wp": 0.6576,
+          "avg_pick_share": 8.5103
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 64,
+          "final_elim": "10",
+          "buyback_count": 16,
+          "avg_wp": 0.6562,
+          "avg_pick_share": 8.401
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 32,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.66,
+          "avg_pick_share": 9.1712
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 50,
+          "final_elim": "14",
+          "buyback_count": 17,
+          "avg_wp": 0.6363,
+          "avg_pick_share": 7.7437
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 42,
+          "final_elim": "7",
+          "buyback_count": 18,
+          "avg_wp": 0.6293,
+          "avg_pick_share": 7.32
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 41,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6628,
+          "avg_pick_share": 12.2475
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 78,
+          "final_elim": "13",
+          "buyback_count": 17,
+          "avg_wp": 0.6394,
+          "avg_pick_share": 8.4078
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 78,
+          "final_elim": "13",
+          "buyback_count": 17,
+          "avg_wp": 0.6394,
+          "avg_pick_share": 8.4078
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 32,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6396,
+          "avg_pick_share": 7.7462
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 89,
+          "final_elim": "18+",
+          "buyback_count": 17,
+          "avg_wp": 0.6408,
+          "avg_pick_share": 8.3304
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 89,
+          "final_elim": "18+",
+          "buyback_count": 17,
+          "avg_wp": 0.6408,
+          "avg_pick_share": 8.3304
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 61,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.6879,
+          "avg_pick_share": 9.7519
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 71,
+          "final_elim": "10",
+          "buyback_count": 14,
+          "avg_wp": 0.6437,
+          "avg_pick_share": 6.547
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 80,
+          "final_elim": "13",
+          "buyback_count": 17,
+          "avg_wp": 0.6496,
+          "avg_pick_share": 6.9018
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 90,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6158,
+          "avg_pick_share": 7.6893
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 145,
+          "final_elim": "12",
+          "buyback_count": 33,
+          "avg_wp": 0.5978,
+          "avg_pick_share": 7.7601
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 153,
+          "final_elim": "12",
+          "buyback_count": 40,
+          "avg_wp": 0.5913,
+          "avg_pick_share": 7.5198
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 52,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6321,
+          "avg_pick_share": 7.6931
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 116,
+          "final_elim": "14",
+          "buyback_count": 48,
+          "avg_wp": 0.5872,
+          "avg_pick_share": 5.6332
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 129,
+          "final_elim": "18+",
+          "buyback_count": 49,
+          "avg_wp": 0.593,
+          "avg_pick_share": 6.1489
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 97,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6134,
+          "avg_pick_share": 10.8442
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 144,
+          "final_elim": "13",
+          "buyback_count": 30,
+          "avg_wp": 0.5985,
+          "avg_pick_share": 10.2446
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 153,
+          "final_elim": "13",
+          "buyback_count": 42,
+          "avg_wp": 0.5868,
+          "avg_pick_share": 9.5784
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 75,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.5739,
+          "avg_pick_share": 5.6896
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 123,
+          "final_elim": "17",
+          "buyback_count": 45,
+          "avg_wp": 0.6003,
+          "avg_pick_share": 8.7096
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 131,
+          "final_elim": "17",
+          "buyback_count": 46,
+          "avg_wp": 0.6014,
+          "avg_pick_share": 8.5815
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 90,
+          "final_elim": "18",
+          "buyback_count": 0,
+          "avg_wp": 0.6261,
+          "avg_pick_share": 7.5922
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 133,
+          "final_elim": "10",
+          "buyback_count": 32,
+          "avg_wp": 0.6066,
+          "avg_pick_share": 7.6635
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 156,
+          "final_elim": "14",
+          "buyback_count": 42,
+          "avg_wp": 0.6002,
+          "avg_pick_share": 7.4694
+        }
+      }
+    }
+  },
+  "Adaptive Blend 90/10\u219250/50": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 18,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.7558,
+          "avg_pick_share": 15.7
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 25,
+          "final_elim": "10",
+          "buyback_count": 1,
+          "avg_wp": 0.7614,
+          "avg_pick_share": 15.5387
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 27,
+          "final_elim": "10",
+          "buyback_count": 2,
+          "avg_wp": 0.7562,
+          "avg_pick_share": 14.8412
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 7,
+          "final_elim": "6",
+          "buyback_count": 0,
+          "avg_wp": 0.7223,
+          "avg_pick_share": 12.8083
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 18,
+          "final_elim": "7",
+          "buyback_count": 3,
+          "avg_wp": 0.7229,
+          "avg_pick_share": 13.9115
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 18,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.7234,
+          "avg_pick_share": 13.5704
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 29,
+          "final_elim": "17",
+          "buyback_count": 0,
+          "avg_wp": 0.7129,
+          "avg_pick_share": 16.5647
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 24,
+          "final_elim": "12",
+          "buyback_count": 3,
+          "avg_wp": 0.7173,
+          "avg_pick_share": 15.4625
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 24,
+          "final_elim": "12",
+          "buyback_count": 3,
+          "avg_wp": 0.7173,
+          "avg_pick_share": 15.4625
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 4,
+          "final_elim": "3",
+          "buyback_count": 0,
+          "avg_wp": 0.6898,
+          "avg_pick_share": 13.5556
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 7,
+          "final_elim": "5",
+          "buyback_count": 4,
+          "avg_wp": 0.6929,
+          "avg_pick_share": 14.2812
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 7,
+          "final_elim": "5",
+          "buyback_count": 4,
+          "avg_wp": 0.6929,
+          "avg_pick_share": 14.2812
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 25,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.774,
+          "avg_pick_share": 16.46
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 26,
+          "final_elim": "13",
+          "buyback_count": 1,
+          "avg_wp": 0.7729,
+          "avg_pick_share": 16.3184
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 26,
+          "final_elim": "13",
+          "buyback_count": 2,
+          "avg_wp": 0.7688,
+          "avg_pick_share": 15.8642
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 36,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.7428,
+          "avg_pick_share": 13.6311
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 53,
+          "final_elim": "18+",
+          "buyback_count": 5,
+          "avg_wp": 0.7227,
+          "avg_pick_share": 10.9567
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 42,
+          "final_elim": "10",
+          "buyback_count": 6,
+          "avg_wp": 0.7155,
+          "avg_pick_share": 10.5845
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 21,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7124,
+          "avg_pick_share": 13.2645
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 33,
+          "final_elim": "10",
+          "buyback_count": 8,
+          "avg_wp": 0.6923,
+          "avg_pick_share": 11.5314
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 42,
+          "final_elim": "14",
+          "buyback_count": 9,
+          "avg_wp": 0.6942,
+          "avg_pick_share": 10.8311
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 34,
+          "final_elim": "17",
+          "buyback_count": 0,
+          "avg_wp": 0.6958,
+          "avg_pick_share": 14.3455
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 36,
+          "final_elim": "12",
+          "buyback_count": 7,
+          "avg_wp": 0.6814,
+          "avg_pick_share": 10.8208
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 36,
+          "final_elim": "12",
+          "buyback_count": 7,
+          "avg_wp": 0.6814,
+          "avg_pick_share": 10.8208
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 20,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6859,
+          "avg_pick_share": 11.23
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 27,
+          "final_elim": "12",
+          "buyback_count": 6,
+          "avg_wp": 0.6762,
+          "avg_pick_share": 11.4605
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 41,
+          "final_elim": "18+",
+          "buyback_count": 7,
+          "avg_wp": 0.6863,
+          "avg_pick_share": 11.0386
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 33,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7325,
+          "avg_pick_share": 13.0844
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 47,
+          "final_elim": "13",
+          "buyback_count": 5,
+          "avg_wp": 0.7247,
+          "avg_pick_share": 10.7495
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 46,
+          "final_elim": "13",
+          "buyback_count": 7,
+          "avg_wp": 0.7208,
+          "avg_pick_share": 10.1397
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 57,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.6961,
+          "avg_pick_share": 9.9289
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 70,
+          "final_elim": "18+",
+          "buyback_count": 15,
+          "avg_wp": 0.666,
+          "avg_pick_share": 7.8346
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 64,
+          "final_elim": "10",
+          "buyback_count": 16,
+          "avg_wp": 0.6605,
+          "avg_pick_share": 7.682
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 31,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6603,
+          "avg_pick_share": 9.0078
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 51,
+          "final_elim": "10",
+          "buyback_count": 18,
+          "avg_wp": 0.6306,
+          "avg_pick_share": 7.4258
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 59,
+          "final_elim": "14",
+          "buyback_count": 19,
+          "avg_wp": 0.6371,
+          "avg_pick_share": 7.3908
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 48,
+          "final_elim": "17",
+          "buyback_count": 0,
+          "avg_wp": 0.6602,
+          "avg_pick_share": 10.2559
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 68,
+          "final_elim": "12",
+          "buyback_count": 17,
+          "avg_wp": 0.6352,
+          "avg_pick_share": 7.2952
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 68,
+          "final_elim": "12",
+          "buyback_count": 17,
+          "avg_wp": 0.6352,
+          "avg_pick_share": 7.2952
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 29,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6387,
+          "avg_pick_share": 8.2714
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 77,
+          "final_elim": "18+",
+          "buyback_count": 15,
+          "avg_wp": 0.6395,
+          "avg_pick_share": 7.8351
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 79,
+          "final_elim": "18+",
+          "buyback_count": 16,
+          "avg_wp": 0.6397,
+          "avg_pick_share": 7.7193
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 51,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6813,
+          "avg_pick_share": 8.8714
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 67,
+          "final_elim": "13",
+          "buyback_count": 14,
+          "avg_wp": 0.6505,
+          "avg_pick_share": 6.8124
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 76,
+          "final_elim": "14",
+          "buyback_count": 17,
+          "avg_wp": 0.655,
+          "avg_pick_share": 6.6242
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 102,
+          "final_elim": "18+",
+          "buyback_count": 0,
+          "avg_wp": 0.6233,
+          "avg_pick_share": 7.1682
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 158,
+          "final_elim": "18+",
+          "buyback_count": 33,
+          "avg_wp": 0.6085,
+          "avg_pick_share": 8.8596
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 150,
+          "final_elim": "10",
+          "buyback_count": 40,
+          "avg_wp": 0.5956,
+          "avg_pick_share": 8.5087
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 48,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.6326,
+          "avg_pick_share": 7.998
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 134,
+          "final_elim": "18+",
+          "buyback_count": 48,
+          "avg_wp": 0.5947,
+          "avg_pick_share": 5.6879
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 125,
+          "final_elim": "14",
+          "buyback_count": 49,
+          "avg_wp": 0.5913,
+          "avg_pick_share": 5.5871
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 108,
+          "final_elim": "17",
+          "buyback_count": 0,
+          "avg_wp": 0.6118,
+          "avg_pick_share": 9.481
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 152,
+          "final_elim": "14",
+          "buyback_count": 31,
+          "avg_wp": 0.5958,
+          "avg_pick_share": 9.3433
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 170,
+          "final_elim": "17",
+          "buyback_count": 42,
+          "avg_wp": 0.5915,
+          "avg_pick_share": 9.1718
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 34,
+          "final_elim": "12",
+          "buyback_count": 0,
+          "avg_wp": 0.6172,
+          "avg_pick_share": 13.2429
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 89,
+          "final_elim": "18+",
+          "buyback_count": 44,
+          "avg_wp": 0.6118,
+          "avg_pick_share": 11.5478
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 107,
+          "final_elim": "18+",
+          "buyback_count": 46,
+          "avg_wp": 0.6187,
+          "avg_pick_share": 11.1498
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 87,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6225,
+          "avg_pick_share": 6.7142
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 149,
+          "final_elim": "14",
+          "buyback_count": 34,
+          "avg_wp": 0.6152,
+          "avg_pick_share": 7.7555
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 165,
+          "final_elim": "18",
+          "buyback_count": 42,
+          "avg_wp": 0.6082,
+          "avg_pick_share": 7.3202
+        }
+      }
+    }
+  },
+  "Lookahead-5 Exp(0.15)": {
+    "5": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 18,
+          "final_elim": "8",
+          "buyback_count": 0,
+          "avg_wp": 0.7477,
+          "avg_pick_share": 14.3261
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 25,
+          "final_elim": "9",
+          "buyback_count": 2,
+          "avg_wp": 0.7429,
+          "avg_pick_share": 12.3437
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 25,
+          "final_elim": "9",
+          "buyback_count": 2,
+          "avg_wp": 0.7429,
+          "avg_pick_share": 12.3437
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 8,
+          "final_elim": "4",
+          "buyback_count": 0,
+          "avg_wp": 0.6877,
+          "avg_pick_share": 7.4923
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 16,
+          "final_elim": "7",
+          "buyback_count": 3,
+          "avg_wp": 0.7023,
+          "avg_pick_share": 10.2333
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 19,
+          "final_elim": "7",
+          "buyback_count": 5,
+          "avg_wp": 0.7104,
+          "avg_pick_share": 11.4828
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 12,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7202,
+          "avg_pick_share": 17.2529
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 18,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.717,
+          "avg_pick_share": 15.7741
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 18,
+          "final_elim": "7",
+          "buyback_count": 4,
+          "avg_wp": 0.717,
+          "avg_pick_share": 15.7741
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 4,
+          "final_elim": "3",
+          "buyback_count": 0,
+          "avg_wp": 0.672,
+          "avg_pick_share": 9.7
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 11,
+          "final_elim": "10",
+          "buyback_count": 4,
+          "avg_wp": 0.6881,
+          "avg_pick_share": 11.26
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 11,
+          "final_elim": "10",
+          "buyback_count": 4,
+          "avg_wp": 0.6881,
+          "avg_pick_share": 11.26
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 27,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7763,
+          "avg_pick_share": 15.75
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 27,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7763,
+          "avg_pick_share": 15.75
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 42,
+          "final_elim": "18+",
+          "buyback_count": 1,
+          "avg_wp": 0.7721,
+          "avg_pick_share": 14.2262
+        }
+      }
+    },
+    "10": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 19,
+          "final_elim": "8",
+          "buyback_count": 0,
+          "avg_wp": 0.7204,
+          "avg_pick_share": 11.9552
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 32,
+          "final_elim": "9",
+          "buyback_count": 7,
+          "avg_wp": 0.7098,
+          "avg_pick_share": 10.0857
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 32,
+          "final_elim": "9",
+          "buyback_count": 7,
+          "avg_wp": 0.7098,
+          "avg_pick_share": 10.0857
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 19,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.7032,
+          "avg_pick_share": 11.8138
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 28,
+          "final_elim": "9",
+          "buyback_count": 7,
+          "avg_wp": 0.6966,
+          "avg_pick_share": 10.8889
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 35,
+          "final_elim": "14",
+          "buyback_count": 9,
+          "avg_wp": 0.6979,
+          "avg_pick_share": 10.663
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 21,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6978,
+          "avg_pick_share": 14.0323
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 31,
+          "final_elim": "7",
+          "buyback_count": 9,
+          "avg_wp": 0.6747,
+          "avg_pick_share": 10.734
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 31,
+          "final_elim": "7",
+          "buyback_count": 9,
+          "avg_wp": 0.6747,
+          "avg_pick_share": 10.734
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 16,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6752,
+          "avg_pick_share": 10.2385
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 35,
+          "final_elim": "12",
+          "buyback_count": 9,
+          "avg_wp": 0.6738,
+          "avg_pick_share": 10.5019
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 35,
+          "final_elim": "12",
+          "buyback_count": 9,
+          "avg_wp": 0.6738,
+          "avg_pick_share": 10.5019
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 31,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.7417,
+          "avg_pick_share": 13.3302
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 42,
+          "final_elim": "13",
+          "buyback_count": 5,
+          "avg_wp": 0.7329,
+          "avg_pick_share": 11.7996
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 57,
+          "final_elim": "18+",
+          "buyback_count": 6,
+          "avg_wp": 0.7372,
+          "avg_pick_share": 11.4269
+        }
+      }
+    },
+    "20": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 38,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.6811,
+          "avg_pick_share": 8.9052
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 51,
+          "final_elim": "9",
+          "buyback_count": 17,
+          "avg_wp": 0.6521,
+          "avg_pick_share": 7.1455
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 51,
+          "final_elim": "9",
+          "buyback_count": 17,
+          "avg_wp": 0.6521,
+          "avg_pick_share": 7.1455
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 29,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6533,
+          "avg_pick_share": 8.1898
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 53,
+          "final_elim": "11",
+          "buyback_count": 15,
+          "avg_wp": 0.6363,
+          "avg_pick_share": 7.5932
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 54,
+          "final_elim": "14",
+          "buyback_count": 17,
+          "avg_wp": 0.6407,
+          "avg_pick_share": 7.967
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 32,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.6493,
+          "avg_pick_share": 9.2654
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 62,
+          "final_elim": "13",
+          "buyback_count": 17,
+          "avg_wp": 0.6279,
+          "avg_pick_share": 6.9465
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 62,
+          "final_elim": "13",
+          "buyback_count": 17,
+          "avg_wp": 0.6279,
+          "avg_pick_share": 6.9465
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 27,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.6327,
+          "avg_pick_share": 7.4043
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 55,
+          "final_elim": "12",
+          "buyback_count": 16,
+          "avg_wp": 0.6318,
+          "avg_pick_share": 8.433
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 61,
+          "final_elim": "12",
+          "buyback_count": 17,
+          "avg_wp": 0.6342,
+          "avg_pick_share": 8.3959
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 51,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6932,
+          "avg_pick_share": 9.8186
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 71,
+          "final_elim": "13",
+          "buyback_count": 13,
+          "avg_wp": 0.6628,
+          "avg_pick_share": 7.4954
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 84,
+          "final_elim": "18+",
+          "buyback_count": 15,
+          "avg_wp": 0.6714,
+          "avg_pick_share": 7.7781
+        }
+      }
+    },
+    "50": {
+      "2021": {
+        "No Buyback": {
+          "entry_weeks": 85,
+          "final_elim": "9",
+          "buyback_count": 0,
+          "avg_wp": 0.6091,
+          "avg_pick_share": 6.2748
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 151,
+          "final_elim": "15",
+          "buyback_count": 32,
+          "avg_wp": 0.6046,
+          "avg_pick_share": 6.8584
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 158,
+          "final_elim": "15",
+          "buyback_count": 40,
+          "avg_wp": 0.597,
+          "avg_pick_share": 6.5871
+        }
+      },
+      "2022": {
+        "No Buyback": {
+          "entry_weeks": 83,
+          "final_elim": "14",
+          "buyback_count": 0,
+          "avg_wp": 0.5883,
+          "avg_pick_share": 6.3023
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 129,
+          "final_elim": "11",
+          "buyback_count": 31,
+          "avg_wp": 0.5793,
+          "avg_pick_share": 5.0552
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 157,
+          "final_elim": "18+",
+          "buyback_count": 41,
+          "avg_wp": 0.5849,
+          "avg_pick_share": 5.4004
+        }
+      },
+      "2023": {
+        "No Buyback": {
+          "entry_weeks": 78,
+          "final_elim": "7",
+          "buyback_count": 0,
+          "avg_wp": 0.597,
+          "avg_pick_share": 9.6039
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 145,
+          "final_elim": "14",
+          "buyback_count": 31,
+          "avg_wp": 0.5897,
+          "avg_pick_share": 8.3588
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 158,
+          "final_elim": "13",
+          "buyback_count": 43,
+          "avg_wp": 0.5843,
+          "avg_pick_share": 8.3829
+        }
+      },
+      "2024": {
+        "No Buyback": {
+          "entry_weeks": 75,
+          "final_elim": "10",
+          "buyback_count": 0,
+          "avg_wp": 0.5852,
+          "avg_pick_share": 7.036
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 114,
+          "final_elim": "12",
+          "buyback_count": 44,
+          "avg_wp": 0.5932,
+          "avg_pick_share": 6.6221
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 124,
+          "final_elim": "12",
+          "buyback_count": 46,
+          "avg_wp": 0.5963,
+          "avg_pick_share": 6.7427
+        }
+      },
+      "2025": {
+        "No Buyback": {
+          "entry_weeks": 97,
+          "final_elim": "13",
+          "buyback_count": 0,
+          "avg_wp": 0.6327,
+          "avg_pick_share": 7.1561
+        },
+        "Buyback Wk1-3": {
+          "entry_weeks": 135,
+          "final_elim": "13",
+          "buyback_count": 32,
+          "avg_wp": 0.6182,
+          "avg_pick_share": 8.0264
+        },
+        "Buyback Wk1-4": {
+          "entry_weeks": 167,
+          "final_elim": "18+",
+          "buyback_count": 42,
+          "avg_wp": 0.6157,
+          "avg_pick_share": 7.6199
+        }
+      }
+    }
+  }
+}

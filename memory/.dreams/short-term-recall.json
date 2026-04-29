@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-28T17:50:41.799Z",
+  "entries": {
+    "memory:memory/2026-04-08.md:1:28": {
+      "key": "memory:memory/2026-04-08.md:1:28",
+      "path": "memory/2026-04-08.md",
+      "startLine": 1,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.9915160626173019,
+      "maxScore": 0.459482729434967,
+      "firstRecalledAt": "2026-04-09T14:44:21.194Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
+      "queryHashes": [
+        "004df7e0da26",
+        "adc5569c8165",
+        "048da43d88ba",
+        "1fcbd578cdb8",
+        "a0c5dba763a0"
+      ],
+      "recallDays": [
+        "2026-04-09",
+        "2026-04-23",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "competent-but-uncoordinated",
+        "demo-ready",
+        "grayed/strikethrough",
+        "date",
+        "survivorpulse",
+        "cmea",
+        "prototype",
+        "redesign"
+      ]
+    },
+    "memory:memory/2026-04-07.md:65:84": {
+      "key": "memory:memory/2026-04-07.md:65:84",
+      "path": "memory/2026-04-07.md",
+      "startLine": 65,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "- PoolGenius: structurally CANNOT do personalized coordination — their own admission. Recommending same picks to 50K+ subscribers collapses EV. SurvivorPulse's personalized model is an architecture-level moat. - Neither competitor ever shows: \"Your 3 entries this week: Chiefs, Eagles, Bills — here's why each is different\" - Neither shows a correlated elimination risk score for personal entries - PoolGenius requires purchase before seeing ANY tool UI — full cold paywall ### Prototype Redesign Direction (decided 2026-04-08) Stop: trying to prove survival math superiority through season replay Start: demonstrating the unified portfolio view that neither competitor shows Three demo moments to",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.36883683800697326,
+      "maxScore": 0.36883683800697326,
+      "firstRecalledAt": "2026-04-12T05:45:42.660Z",
+      "lastRecalledAt": "2026-04-12T05:45:42.660Z",
+      "queryHashes": [
+        "e032dcc853e4"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "architecture-level",
+        "poolgenius",
+        "structurally",
+        "cannot",
+        "personalized",
+        "coordination",
+        "own",
+        "admission"
+      ]
+    },
+    "memory:memory/2026-04-05.md:22:48": {
+      "key": "memory:memory/2026-04-05.md:22:48",
+      "path": "memory/2026-04-05.md",
+      "startLine": 22,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "**Doctrine (frozen):** \"SurvivorPulse helps serious survivor players manage correlation, future value, and risk across their entries and pools, because different teams can still be the same bet.\" **What it IS:** Decision-support system, portfolio-risk management tool, deterministic, risk-allocation focused **What it is NOT:** Pick list, favorites engine, content site, gambling tout **ICP (validated):** - Primary: Serious multi-entry player (3-10+ entries), manages pick distribution, uses tools like PoolCrunch/SurvivorGrid, currently allocates by gut/spreadsheet - Secondary: Scaling player (1-2 entries, looking to go to 3+) **Offseason Objectives (frozen):** 1. Acquire 50 high-signal offse",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4097053676843643,
+      "maxScore": 0.4097053676843643,
+      "firstRecalledAt": "2026-04-18T19:52:31.338Z",
+      "lastRecalledAt": "2026-04-18T19:52:31.338Z",
+      "queryHashes": [
+        "f0af4cbda2ae"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "decision-support",
+        "portfolio-risk",
+        "risk-allocation",
+        "multi-entry",
+        "3-10",
+        "poolcrunch/survivorgrid",
+        "gut/spreadsheet",
+        "1-2"
+      ]
+    },
+    "memory:memory/2026-04-05.md:1:27": {
+      "key": "memory:memory/2026-04-05.md:1:27",
+      "path": "memory/2026-04-05.md",
+      "startLine": 1,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "# 2026-04-05 Session Notes ## SurvivorPulse Deep Dive Complete Mike asked me to review SurvivorPulse across three sources: GitHub repos (SurvivorPulse + CMEA-Prototype) and Notion workspace. Full review completed. ### Setup - Notion API key stored at ~/.config/notion/api_key (integration name: \"OpenClaw\") - GitHub SSH authenticated as mwolff328-stack - Repos cloned to /tmp/SurvivorPulse and /tmp/CMEA-Prototype for review - gh CLI not authenticated (only SSH works) ### Notion Page Structure (id: 26329ce5-833d-800a-be90-ff530bddc59c) Top-level sub-pages: 1. **SurvivorPulse Initiative** (31829ce5) - Comprehensive briefing doc covering strategy, product, engineering 2. **Strategy & Growth**",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.3222028285264966,
+      "maxScore": 0.4227772206068039,
+      "firstRecalledAt": "2026-04-18T19:52:31.338Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
+      "queryHashes": [
+        "f0af4cbda2ae",
+        "d1f1dfc48f2f",
+        "adc5569c8165",
+        "1fcbd578cdb8",
+        "f7f61b81bc81",
+        "a0c5dba763a0"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-23",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "cmea-prototype",
+        "config/notion/api-key",
+        "mwolff328-stack",
+        "tmp/survivorpulse",
+        "tmp/cmea-prototype",
+        "top-level",
+        "sub-pages",
+        "survivorpulse"
+      ]
+    },
+    "memory:memory/2026-04-14.md:1:19": {
+      "key": "memory:memory/2026-04-14.md:1:19",
+      "path": "memory/2026-04-14.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "## Evening: White Paper Production Stan + Sky collaboration on flagship white paper covering all 10 rounds of backtesting research. **Phase 1 (Stan):** Research draft -- 9,400 words, 11 sections, all findings/tables/methodology from ~1,900 simulation runs. - Saved: docs/white-paper-research-draft.md **Phase 2 (Sky):** Polished white paper + supporting assets. - docs/white-paper-final.md (~5,100 words) -- full narrative arc, hook to product tease - docs/white-paper-executive-summary.md (~500 words) -- standalone 1-pager with decision framework - docs/white-paper-social-snippets.md (15 snippets) -- self-contained data-backed insights for X/Reddit/LinkedIn Key craft decisions: - SurvivorPu",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.560264953970909,
+      "maxScore": 0.4040044277906418,
+      "firstRecalledAt": "2026-04-21T18:16:44.313Z",
+      "lastRecalledAt": "2026-04-28T05:28:12.328Z",
+      "queryHashes": [
+        "bd138257f86e",
+        "09aa620c5e0a",
+        "6418962ef700",
+        "c2df15c20bcf"
+      ],
+      "recallDays": [
+        "2026-04-21",
+        "2026-04-26",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "findings/tables/methodology",
+        "docs/white-paper-final.md",
+        "1-pager",
+        "self-contained",
+        "data-backed",
+        "x/reddit/linkedin",
+        "evening",
+        "white"
+      ]
+    },
+    "memory:memory/2026-04-17.md:1:26": {
+      "key": "memory:memory/2026-04-17.md:1:26",
+      "path": "memory/2026-04-17.md",
+      "startLine": 1,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "# 2026-04-17 — Daily Memory ## SurvivorPulse Back-Testing Prototype — Status **Repo:** `~/Projects/SurvivorPulse-BackTesting-Prototype` (renamed from CMEA-Prototype) **Git:** `git@github.com:mwolff328-stack/SurvivorPulse-BackTesting-Prototype.git` ### Completed (cumulative) - Full back-tester prototype: React client-side app simulating NFL survivor pool strategies against 2021-2025 historical data - Dark-mode design system (Linear-inspired), all panels, week selector, SWR cache - Strategy system: 6 templates, configurable weights (wp/ps/fv auto-sum 100), lookahead, decay, min win prob, EV mode - Per-entry strategy assignment, 1-50 entries, buyback toggle - \"Find Best Strategy\" optimizatio",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8371487498283385,
+      "maxScore": 0.43108250498771666,
+      "firstRecalledAt": "2026-04-23T17:00:32.273Z",
+      "lastRecalledAt": "2026-04-23T17:00:44.179Z",
+      "queryHashes": [
+        "c330e12985dd",
+        "048da43d88ba"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "back-testing",
+        "cmea-prototype",
+        "github.com",
+        "back-tester",
+        "client-side",
+        "2021-2025",
+        "dark-mode",
+        "linear-inspired"
+      ]
+    },
+    "memory:memory/2026-04-11.md:78:103": {
+      "key": "memory:memory/2026-04-11.md:78:103",
+      "path": "memory/2026-04-11.md",
+      "startLine": 78,
+      "endLine": 103,
+      "source": "memory",
+      "snippet": "- StrategyConfig type: strategyType, wpWeight, psWeight, fvWeight, lookahead, decayType, minWinProb, evMode - computeTeamScore supports all strategy types (EV mode, weighted blend, expendable-first, min floor) - computeExpendability for future value with time decay - Virtual entry generation for configurable entry counts - Buyback logic (revive once, track buybackUsed/buybackWeek) ### UI + Tests (b0adf42) - ScenarioControls fully rebuilt: Season selector + Entry Count (1-10) + Buybacks toggle + Strategy Mode (Same for All / Per Entry) - Strategy template dropdown: Pure WP, 70/30 Blend, 80/20 Blend, SP EV, Expendable-First, Custom - Full parameter controls (collapsible): 3 weight sliders (au",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8481096982955932,
+      "maxScore": 0.4454565405845642,
+      "firstRecalledAt": "2026-04-28T05:27:28.385Z",
+      "lastRecalledAt": "2026-04-28T05:27:28.753Z",
+      "queryHashes": [
+        "ca1577efc136",
+        "f46390c961ea"
+      ],
+      "recallDays": [
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "expendable-first",
+        "buybackused/buybackweek",
+        "1-10",
+        "70/30",
+        "80/20",
+        "strategyconfig",
+        "type",
+        "strategytype"
+      ]
+    },
+    "memory:memory/2026-04-11.md:98:122": {
+      "key": "memory:memory/2026-04-11.md:98:122",
+      "path": "memory/2026-04-11.md",
+      "startLine": 98,
+      "endLine": 122,
+      "source": "memory",
+      "snippet": "## Late Night: Backtesting Research Rounds 6-8 (Discord #backtest-research) ### Round 6: Entry-Count Scaling (168 runs) - 14 strategies x 4 entry counts (5, 10, 20, 50) x 3 seasons - 70/30 Blend loses crown at n=10 (beaten by 7 strategies), reclaims at n=50 - SP Production wins n=10 (+18 vs 70/30), Mixed Portfolio wins n=20 (+20) - CMEA thesis partially confirmed: coordination helps at n=10-20 but not n=50 (team exhaustion) - Coordinated Diversification (same scorer, smarter assignment) = 70/30 exactly. Null result. ### Round 7: Per-Entry Differentiated Scoring (144 runs) - 12 portfolio configurations including intentional role assignment - Core/Satellite (60% 70/30 + 40% SP Production) wi",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8240824252367018,
+      "maxScore": 0.4480687499046325,
+      "firstRecalledAt": "2026-04-28T05:27:28.385Z",
+      "lastRecalledAt": "2026-04-28T05:27:28.753Z",
+      "queryHashes": [
+        "ca1577efc136",
+        "f46390c961ea"
+      ],
+      "recallDays": [
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "6-8",
+        "backtest-research",
+        "entry-count",
+        "70/30",
+        "10-20",
+        "per-entry",
+        "core/satellite",
+        "late"
+      ]
+    },
+    "memory:memory/2026-04-23.md:1:34": {
+      "key": "memory:memory/2026-04-23.md:1:34",
+      "path": "memory/2026-04-23.md",
+      "startLine": 1,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "# 2026-04-23 — Daily Memory ## Sales & Marketing Plan Created Three companion documents produced for SurvivorPulse 2026 season launch: 1. **Sales & Marketing Plan** — full arc April 23 through Week 1 (Sept 4) - Workspace: `docs/survivorpulse-sales-marketing-plan-2026.md` - Notion: 34b29ce5-833d-818d-8598-eeab7100eabd (Strategy & Growth) 2. **Product Development Plan** — aligned product milestones - Workspace: `docs/survivorpulse-product-dev-plan-2026.md` - Notion: 34b29ce5-833d-810e-bec3-e4830ac3c7af (Product & Engineering) 3. **Marketing Task List** — 70+ tasks across 4 phases - Workspace: `docs/survivorpulse-marketing-tasks.md` - Notion: 34b29ce5-833d-81cb-96db-fcaf3",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.666458432525468,
+      "maxScore": 0.666458432525468,
+      "firstRecalledAt": "2026-04-28T14:31:46.616Z",
+      "lastRecalledAt": "2026-04-28T14:31:46.616Z",
+      "queryHashes": [
+        "1fcbd578cdb8"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "34b29ce5-833d-81cb-96db-fcaf3",
+        "sales",
+        "marketing",
+        "plan",
+        "created",
+        "three",
+        "companion",
+        "documents"
+      ]
+    },
+    "memory:memory/2026-04-27.md:1:21": {
+      "key": "memory:memory/2026-04-27.md:1:21",
+      "path": "memory/2026-04-27.md",
+      "startLine": 1,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "# 2026-04-27 ## Channel Context Save -- 2026-04-27 ### SurvivorPulse Guild #### #infra - Routine ops only: hourly repo syncs (8/8 clean all day), CI deploys (3 embed-only), daily spend reports ($0.05/day on Apr 26 and Apr 27) - No meaningful decisions or incidents #### #backtesting-research - **White paper rewrite to 10-season data completed.** 4 new docs created alongside originals (final, exec summary, social snippets, research draft). Zero references to prior 3/5-season datasets. All numbers cross-verified against source data. - **Content review done.** Minor issues flagged (buyback value calculation note, social snippet 13 uses simpler strategy for tweet format). All docs approved as",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7303606539964675,
+      "maxScore": 0.37505109906196593,
+      "firstRecalledAt": "2026-04-28T16:14:54.378Z",
+      "lastRecalledAt": "2026-04-28T16:14:58.362Z",
+      "queryHashes": [
+        "f7f61b81bc81",
+        "cc505107dd4c"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "8/8",
+        "embed-only",
+        "0.05/day",
+        "backtesting-research",
+        "10-season",
+        "3/5-season",
+        "cross-verified",
+        "channel"
+      ]
+    },
+    "memory:memory/2026-04-09.md:62:75": {
+      "key": "memory:memory/2026-04-09.md:62:75",
+      "path": "memory/2026-04-09.md",
+      "startLine": 62,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "- Sentry uppercase labels (11px, weight 590, 0.08em tracking) - SurvivorPulse domain components (entry cards, pick grids, risk cards, correlation matrix) - Updated src/index.css with `--sp-*` CSS custom properties, shadcn remapping to dark palette - Updated tailwind.config.ts with status colors, surface elevation, brand tokens, font config ### Notion Sync - Design evaluation synced to Notion page: \"DESIGN.md Shortlist — SurvivorPulse Brand Evaluation (2026-04-09)\" - Page ID: 33e29ce5-833d-8105-abd8-e9ffff821d3e - Linked under UX heading on Product & Engineering page ## Notion Pages Created This Session - CI Pipeline doc: 33e29ce5-833d-812b-ba51-dcf566081316 (under Architecture & Infras",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3892742425203323,
+      "maxScore": 0.3892742425203323,
+      "firstRecalledAt": "2026-04-28T17:50:08.349Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
+      "queryHashes": [
+        "a0c5dba763a0"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "0.08em",
+        "src/index.css",
+        "tailwind.config.ts",
+        "design.md",
+        "sentry",
+        "uppercase",
+        "labels",
+        "11px"
+      ]
+    },
+    "memory:memory/2026-04-09.md:43:67": {
+      "key": "memory:memory/2026-04-09.md:43:67",
+      "path": "memory/2026-04-09.md",
+      "startLine": 43,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "Mike wanted to adopt a DESIGN.md from the VoltAgent/awesome-design-md collection for SurvivorPulse's UI design system. ### Deb's Shortlist (5 of 58 reviewed) 1. **Linear** ⭐ (Deb's pick) — dark-mode-native, Inter Variable, luminance stacking, Radix UI compatible 2. **IBM Carbon** — enterprise analytics gold standard, IBM Plex Sans, rigorous token system 3. **Sentry** — most analogous product context, deep purple-black, uppercase label system 4. **Vercel** — precision minimalism, Geist with tabular numbers, shadow-as-border 5. **PostHog** — exact same tech stack (Tailwind + Radix + shadcn), wrong aesthetic but right bones ### Decision Mike accepted Deb's recommendation: **Linear as base**,",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7629783481359481,
+      "maxScore": 0.3862405031919479,
+      "firstRecalledAt": "2026-04-28T17:50:08.349Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.434Z",
+      "queryHashes": [
+        "a0c5dba763a0",
+        "08045b75d55d"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "design.md",
+        "voltagent/awesome-design-md",
+        "dark-mode-native",
+        "purple-black",
+        "shadow-as-border",
+        "mike",
+        "wanted",
+        "adopt"
+      ]
+    },
+    "memory:memory/2026-04-08.md:22:39": {
+      "key": "memory:memory/2026-04-08.md:22:39",
+      "path": "memory/2026-04-08.md",
+      "startLine": 22,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "- Created 5 tasks in correct Product Backlog, archived 5 from Master Backlog - Parent: CMEA Prototype Redesign (3 Demo Moments) - In Progress - Moment 1: Unified Portfolio Pick Slate - In Progress - Moment 2: Correlated Elimination Risk Panel - Backlog - Moment 3: Personalization Statement - Backlog - Editorial Pass: Rationale Copy - Backlog ### Moment 1 build (Felix via Claude Code) - Felix completed Moment 1 build at ~10:02 PM PDT - New files: `src/components/portfolio/EntryCard.tsx`, `src/components/portfolio/PortfolioSlate.tsx` - Modified: `src/components/replay/SeasonReplayView.tsx` (PortfolioSlate rendered above replay table) - All 7 ACs covered: card display, eliminated styling, spli",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.383587697148323,
+      "maxScore": 0.383587697148323,
+      "firstRecalledAt": "2026-04-28T17:50:08.434Z",
+      "lastRecalledAt": "2026-04-28T17:50:08.434Z",
+      "queryHashes": [
+        "08045b75d55d"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "created",
+        "tasks",
+        "correct",
+        "product",
+        "backlog",
+        "archived",
+        "master",
+        "parent"
+      ]
+    },
+    "memory:memory/2026-04-28.md:1:38": {
+      "key": "memory:memory/2026-04-28.md:1:38",
+      "path": "memory/2026-04-28.md",
+      "startLine": 1,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "# 2026-04-28 ## Product Backlog Overhaul (morning session, #product channel) ### Backlog cleanup completed - Archived 11 duplicate items (SPP-39 through SPP-50, excluding SPP-46 Mobile App) - Archived 5 CMEA Prototype items (SPP-1, 53, 54, 55, 56) -- replaced by Back Tester Prototype - Added 5 new items: SPP-60 Referral Tracking, SPP-61 Waitlist/Email Capture, SPP-62 Founding Member Launch Flow, SPP-63 Onboarding Email Hooks, SPP-64 Data Pipeline Readiness - Fixed SPP-57 size: S -> M (dev plan is source of truth for sizing) - Backlog now 47 live items ### Major enhancement scope defined (16 features for V1) **Mike's 9 enhancements:** 1. Information Architecture Overhaul (P1, first priori",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.45061337470854884,
+      "maxScore": 0.45061337470854884,
+      "firstRecalledAt": "2026-04-28T17:50:41.799Z",
+      "lastRecalledAt": "2026-04-28T17:50:41.799Z",
+      "queryHashes": [
+        "656d4c39fcdc"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "spp-39",
+        "spp-50",
+        "spp-46",
+        "spp-1",
+        "spp-60",
+        "spp-61",
+        "waitlist/email",
+        "spp-62"
+      ]
+    }
+  }
+}
