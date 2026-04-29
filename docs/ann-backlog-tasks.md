@@ -11,9 +11,9 @@
 ## Summary
 
 - **Total features:** 16
-- **Total tasks:** 127
-- **Size distribution:** S: 38 | M: 52 | L: 28 | XL: 9
-- **V1 Pre-Launch tasks:** 72
+- **Total tasks:** 131
+- **Size distribution:** S: 38 | M: 54 | L: 30 | XL: 9
+- **V1 Pre-Launch tasks:** 76
 - **Post-Launch tasks:** 55
 - **Critical path length:** ~14 weeks (May 1 to Aug 15)
 
@@ -112,6 +112,51 @@
   - Given the dashboard, when analysis tools have new recommendations, then a summary card links to the analysis hub
   - Given a new user with no pools, then the dashboard shows an onboarding prompt to create their first pool
   - Given the dashboard, when loaded, then it renders in under 2 seconds with all data populated
+
+#### 1.7 Design and implement week-by-week temporal navigation
+- **Size:** L
+- **Category:** UX/Design + Frontend
+- **Dependencies:** 1.4 (nav shell), 1.2 (nav structure)
+- **Agent:** Felix (backend), Deb (frontend)
+- **Acceptance Criteria:**
+  - Given the global week selector, when a user selects a previous week, then all views (This Week, Entry Workspace, Portfolio) display data scoped to that week and prior weeks only
+  - Given a previous week is selected, then recommendations, picks, and portfolio data reflect only what was known as of that week (not subsequent weeks' data)
+  - Given a user edits entry data (e.g., changes a pick) in a historical week and saves, then subsequent weeks reflect that change (e.g., updated remaining team availability, updated pick history)
+  - Given the week selector, then the current week is clearly indicated and easily returnable to
+
+#### 1.8 Implement eliminated pool/entry access and editing
+- **Size:** M
+- **Category:** UX/Design + Frontend
+- **Dependencies:** 1.4 (nav shell)
+- **Agent:** Felix (backend), Deb (frontend)
+- **Acceptance Criteria:**
+  - Given a pool where all entries are eliminated, when the user navigates to that pool, then the pool is fully accessible with all data viewable and editable
+  - Given an eliminated entry, when the user clicks it in the sidebar or any list, then the entry workspace opens with full functionality (not a read-only or limited view)
+  - Given eliminated entries, then they are visually distinguished (grayed/strikethrough with elimination week shown) but all actions (edit pick, view recommendations, view analytics) remain available
+  - Given the sidebar entry list, then eliminated entries are shown (not hidden) and are interactive
+
+#### 1.9 Implement season selector and cross-season navigation
+- **Size:** L
+- **Category:** UX/Design + Frontend + Backend
+- **Dependencies:** 1.4 (nav shell), 1.7 (week navigation)
+- **Agent:** Felix (backend + data model), Deb (frontend)
+- **Acceptance Criteria:**
+  - Given the navigation, when a season selector is displayed, then users can switch between available seasons (e.g., 2025, 2026)
+  - Given a season switch, then the sidebar updates to show that season's pools and entries
+  - Given a season switch, then the Command Center (This Week, Portfolio) displays data for the selected season
+  - Given previous season data, then pools, entries, picks, and analytics are fully viewable and editable
+  - Given the season selector, then the current active season is clearly indicated
+
+#### 1.10 Implement pool-level historical data management view
+- **Size:** M
+- **Category:** UX/Design + Frontend
+- **Dependencies:** 1.4 (nav shell), 1.8 (eliminated access)
+- **Agent:** Felix (backend), Deb (frontend)
+- **Acceptance Criteria:**
+  - Given a pool, when the user navigates to pool settings/detail, then a "History" or "Data" section shows all entries (alive and eliminated) with their full pick history
+  - Given the pool history view, then each entry shows: status (alive/eliminated + week), all picks by week, and current data (recommendations, analytics) for the selected week
+  - Given the pool history view, then the user can edit any entry's data (picks, status) with changes propagating forward
+  - Given the pool history view, then it works for both current and previous season pools
 
 ---
 
@@ -976,6 +1021,8 @@ Week 15 (Aug 12-15):
 
 **Critical chain:** IA Overhaul (1.1-1.6) -> Back Tester Integration (3.2-3.5) is the longest dependency chain at ~12 weeks. If IA design (1.1-1.3) takes longer than 6 weeks, Back Tester integration is at risk.
 
+**New tasks 1.7-1.10 fit within Sprint Group A/B timeline:** Task 1.8 (eliminated access, M) can start early alongside nav shell backend work. Tasks 1.7 (week navigation, L) and 1.10 (pool history, M) need the nav shell (1.4) first, placing them in Sprint Group B. Task 1.9 (season selector, L) depends on week navigation (1.7), placing it in Sprint Group B/C.
+
 **Parallel tracks that don't block critical path:**
 - ROI Analysis (4.x) -- can ship independently
 - Buyback Engine (13.x) -- backend-only until UI hooks
@@ -993,6 +1040,9 @@ Week 15 (Aug 12-15):
 LEGEND: --> hard dependency | -.-> soft/optional dependency
 
 [1.1 IA Audit] --> [1.2 Nav Structure] --> [1.3 Wireframes] --> [1.4 Nav Shell] --> [1.5 Re-route] --> [1.6 Dashboard]
+                                                                    |
+                                                                    +--> [1.7 Week Navigation] --> [1.9 Season Selector]
+                                                                    +--> [1.8 Eliminated Access] --> [1.10 Pool History]
                                                                     |
 [2.1 Tokens] --> [2.2 Dark Theme] --> [2.3 Core UI] --> [2.4 Data UI] --> [2.5 QA]
      |                                                                       
@@ -1055,6 +1105,11 @@ LEGEND: --> hard dependency | -.-> soft/optional dependency
 | 6.3 Cross-pool correlation | Combinatorial complexity at 50+ entries across 5 pools | Felix to prototype computation feasibility before full build; may need approximation algorithm |
 | 12.5 SMS provider | Provider not yet selected | Rita researches before Felix builds; selection must happen by July 1 for post-launch SMS |
 
+### Temporal data scoping complexity
+| Task | Concern | Mitigation |
+|---|---|---|
+| 1.7 Week-by-week temporal navigation (L) | Displaying data "as of" a specific week while allowing edits that propagate forward is non-trivial. Requires either event-sourced data model, snapshot-per-week storage, or computed temporal views. Forward-propagation of edits (e.g., changing a Week 3 pick updates Weeks 4+ remaining team availability) adds significant data model complexity. | Spike on data model approach early in Sprint Group B. Consider event-sourcing pattern where edits create new events that recompute downstream state. Define clear rules for what "propagates forward" vs what is week-locked. |
+
 ### Research-dependent tasks
 | Task | Dependency | Risk |
 |---|---|---|
@@ -1088,6 +1143,7 @@ LEGEND: --> hard dependency | -.-> soft/optional dependency
 | 15.1 Correlation Calc | Felix | M |
 | 16.1 Personalization Audit | Felix | S |
 | 4.1 ROI Engine | Felix | M |
+| 1.8 Eliminated Access (backend) | Felix | M |
 
 ### Sprint Group B: Core Build (June 15 - July 14)
 **Goal:** Nav shell built, design system applied, ROI live, back tester analysis done, buyback engine working
@@ -1107,6 +1163,14 @@ LEGEND: --> hard dependency | -.-> soft/optional dependency
 | 10.1 Context Engine | Felix | M |
 | 12.1 Notification Events | Felix | M |
 | 8.2 Optimize BT | Felix | M |
+| 1.7 Week Navigation | Felix + Deb | L |
+| 1.10 Pool History | Felix + Deb | M |
+
+### Sprint Group B/C: Cross-boundary (starts B, may extend into C)
+
+| Task | Agent | Size |
+|---|---|---|
+| 1.9 Season Selector | Felix + Deb | L |
 
 ### Sprint Group C: Integration & Polish (July 15 - August 11)
 **Goal:** Back tester integrated, dashboard live, notifications wired, correlation score visible, personalization marketed
@@ -1181,17 +1245,17 @@ LEGEND: --> hard dependency | -.-> soft/optional dependency
 | Size | Count | Typical Effort |
 |---|---|---|
 | S | 38 | 1-2 days |
-| M | 52 | 3-5 days |
-| L | 28 | 1-2 weeks |
+| M | 54 | 3-5 days |
+| L | 30 | 1-2 weeks |
 | XL | 9 | 2-3 weeks |
-| **Total** | **127** | |
+| **Total** | **131** | |
 
 ## Agent Assignment Summary
 
 | Agent | Task Count | V1 Pre-Launch | Post-Launch |
 |---|---|---|---|
-| Felix | 58 | 36 | 22 |
-| Deb | 44 | 28 | 16 |
+| Felix | 62 | 40 | 22 |
+| Deb | 48 | 32 | 16 |
 | Stan | 10 | 6 | 4 |
 | Sky | 1 | 1 | 0 |
 | Rita | 2 | 0 | 2 |
