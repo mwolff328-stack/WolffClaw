@@ -159,20 +159,6 @@ discover_repos() {
   done < <(find /Users/mrwolff -maxdepth 3 -name ".git" -type d 2>/dev/null | sort)
 }
 
-# ── Pre-sync: mirror agent workspaces into WolffClaw ──────────
-mirror_workspace() {
-  local src="$1" dst="$2" name="$3"
-  if [ -d "$src" ]; then
-    echo "$LOG_PREFIX [mirror] $name → $dst"
-    rsync -a --delete --exclude='.git' --exclude='.DS_Store' --exclude='.openclaw' --exclude='BOOTSTRAP.md' \
-      "${src}/" "${dst}/" 2>/dev/null || echo "$LOG_PREFIX [mirror] WARNING: rsync failed for $name"
-  fi
-}
-
-mirror_workspace \
-  "/Users/mrwolff/.openclaw/workspace/claude" \
-  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-claude" \
-  "claude-workspace"
 
 # ── Main ───────────────────────────────────────────────────────
 echo "$LOG_PREFIX ============================================"
