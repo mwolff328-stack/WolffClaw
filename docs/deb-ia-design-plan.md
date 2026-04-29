@@ -39,6 +39,10 @@ Routes like `/pools/:poolId/entries/:entryId/analytics` and `/pools/:poolId/data
 
 The fundamental reframe: the primary object is the **entry**, not the pool. Pools are configuration/context. Entries are where the action happens. And the portfolio view across all entries is where the product's unique value lives.
 
+**Eliminated pools/entries remain fully accessible.** An eliminated entry is not hidden or disabled. It remains in the sidebar, visually distinguished (grayed out, strikethrough, or dimmed) but fully interactive. Users can click into an eliminated entry to view its pick history, edit historical data, and review recommendations as of any past week. The same applies at the pool level: a pool where all entries are eliminated stays visible and navigable.
+
+**Previous seasons are first-class citizens.** A global season selector (near the week selector) lets users switch the entire app context to a previous season. When viewing a past season, the sidebar shows that season's pools and entries, the command center shows that season's data, and all entry workspaces reflect historical state. This supports year-over-year learning and auditing.
+
 **Three-tier model:**
 
 ```
@@ -52,10 +56,13 @@ TIER 2: ENTRY WORKSPACE (entry-level)
   - Pick history and status
   - Pool dynamics for this entry's pool
   - Future planning
+  - Historical data editing (picks, alive/eliminated status per week)
 
 TIER 3: CONFIGURATION & REFERENCE
   - Pool management (create, edit, settings, data import)
+  - Pool history view (per-pool alive/eliminated entries, pick history)
   - Backtesting / historical analysis
+  - Season archive and cross-season navigation
   - Account & subscription
   - Admin (if applicable)
 ```
@@ -99,8 +106,11 @@ SETTINGS
 **Key decisions:**
 - Entries listed directly in nav, not nested under pools. This is the biggest IA change. Users manage entries, not pools.
 - Week selector is persistent and global. Changing the week updates all views.
+- **Season selector sits near the week selector** (e.g., `[2026 ▼]` at the bottom of the sidebar). When switching seasons, the entire app context changes: sidebar shows that season's pools/entries, command center shows that season's data, week selector scopes to that season's weeks.
 - "This Week" is the default landing page. Not "My Pools."
 - Pool management moves to Settings tier. You configure pools rarely. You use entries constantly.
+- **Eliminated entries are always visible and interactive** in the sidebar. They display with a dimmed/strikethrough style and show elimination week, but remain clickable for viewing history, editing data, and reviewing past recommendations.
+- **Previous season pools/entries remain accessible** via the season selector. No data is hidden based on season completion.
 
 ### 1.4 Key User Flows Redesigned
 
@@ -211,6 +221,86 @@ This view does not exist today. It should be the product's signature screen. It'
 
 Key integration: from any recommendation in the main app, a "Historical performance" link opens the Back Tester filtered to the relevant team/week/scenario.
 
+#### Flow F: "I want to review and edit historical data for a pool"
+
+**Current:** No dedicated historical data management view exists. Users cannot navigate to a previous week and see entry data scoped to that week. Eliminated entries are effectively dead ends with no editing capability. Previous seasons are not accessible.
+
+**Proposed:** Multiple paths into historical data management.
+
+**Path 1: Week-by-week navigation via the week selector.**
+User changes the week selector from Week 14 to Week 8. The entire app context shifts to Week 8's state:
+- "This Week" command center shows entries as they were in Week 8 (picks made, recommendations as of that week, entries that were alive at that point)
+- Entry workspaces show recommendations, picks, and portfolio data scoped to Week 8 and prior weeks only. No information from Weeks 9-14 bleeds into the view.
+- If the user edits data in Week 8 (e.g., changes a pick), that change propagates forward to Weeks 9-14, affecting remaining teams available, portfolio calculations, etc.
+
+```
+WEEK NAVIGATION — Week 8 (Historical View)
+-----------------------------------------
+┌──────────────────────────────────────────┐
+│ ⚠ VIEWING HISTORICAL WEEK               │
+│ Week 8 · Season 2026                     │
+│ You are viewing data as of Week 8.       │
+│ Edits will propagate to later weeks.     │
+│ [Return to current week →]               │
+└──────────────────────────────────────────┘
+
+┌──────────────────────────────────────────┐
+│ ENTRIES — Week 8 View                    │
+│                                          │
+│ Entry "Alpha" · Pool A                   │
+│   Status: ● ALIVE (as of Week 8)         │
+│   Pick: CLE Browns                       │
+│   [Edit Pick ▼]   [Save]                 │
+│                                          │
+│ Entry "Charlie" · Pool A                 │
+│   Status: ● ALIVE (as of Week 8)         │
+│   Pick: PIT Steelers                     │
+│   [Edit Pick ▼]   [Save]                 │
+│                                          │
+│ Entry "Foxtrot" · Pool A                 │
+│   Status: ✕ ELIMINATED Week 6            │
+│   (Eliminated before this week)          │
+│   [View History]                         │
+└──────────────────────────────────────────┘
+```
+
+**Path 2: Pool-level historical data management.**
+From SETTINGS > Pools > Pool detail, a "Pool History" tab shows a consolidated view of all entries in that pool across all weeks:
+
+```
+POOL HISTORY — Pool A (Yahoo Main)
+-----------------------------------------
+Season: [2026 ▼]   Week: [All ▼]
+
+┌──────────────────────────────────────────┐
+│ ENTRY STATUS TIMELINE                    │
+│                                          │
+│ Entry    W1  W2  W3  W4  W5  W6 ... W14 │
+│ Alpha    ●   ●   ●   ●   ●   ●      ●   │
+│ Bravo    ●   ●   ●   ●   ●   ●      ●   │
+│ Charlie  ●   ●   ●   ●   ●   ●  ... ✕   │
+│ Delta    ●   ●   ●   ●   ●   ●      ●   │
+│ Foxtrot  ●   ●   ●   ●   ●   ✕  ... ✕   │
+│                                          │
+│ Click any cell to view/edit that entry's │
+│ data for that week.                      │
+└──────────────────────────────────────────┘
+
+┌──────────────────────────────────────────┐
+│ PICKS HISTORY                            │
+│                                          │
+│ Entry    W1   W2   W3   W4  ... W14      │
+│ Alpha    KC   BUF  DET  PHI     (pend)   │
+│ Bravo    BUF  KC   PHI  DET     (pend)   │
+│ Charlie  DET  PHI  BAL  KC  ... ✕ WK8    │
+│                                          │
+│ [Edit Picks]  [Export CSV]               │
+└──────────────────────────────────────────┘
+```
+
+**Path 3: Previous season access via season selector.**
+User changes the season selector from 2026 to 2025. The sidebar repopulates with 2025's pools and entries. All the same navigation works: clicking entries opens their workspaces, the week selector scopes to 2025's weeks, and historical data is fully viewable and editable.
+
 #### Flow E: "I want to see my ROI and optimize my entry allocation"
 
 **Current:** No dedicated view. Entry status (alive/eliminated) is visible per-entry, but there's no aggregate performance or allocation optimization.
@@ -263,9 +353,16 @@ OPTIMIZATION INSIGHT
 - Season performance and ROI
 - Teams used / remaining availability
 
+**Level 4.5: What happened in previous weeks and seasons?**
+- Week-by-week entry data (picks, recommendations, portfolio state as of that week)
+- Pool-level historical timeline (alive/eliminated status by week)
+- Previous season archive (all pools, entries, and data from past seasons)
+- Historical data editing with forward propagation
+
 **Level 5: Reference and configuration**
 - Historical backtesting data
 - Pool settings and data management
+- Pool history view (per-pool entry timeline and pick history)
 - Games, spreads, and raw data
 - Account and subscription
 
@@ -283,6 +380,8 @@ The "This Week" command center is the mobile hero screen. It should be designed 
 - Bottom tab bar (4 tabs): This Week | Portfolio | Entries | More
 - "More" opens: Back Tester, Pools, Account, Admin
 - Entry detail views slide up as bottom sheets on mobile
+- **Week/season navigation on mobile:** The week selector appears as a compact bar at the top of the content area (below the header). Tapping it opens a week picker sheet. A season badge (e.g., "2026") appears next to the week selector; tapping it opens a season picker. When viewing a historical week, a prominent yellow banner shows "Viewing Week 8 (Historical)" with a "Return to current" button.
+- **Historical data editing on mobile:** Entry editing in historical weeks uses the same bottom sheet pattern as normal entry views, with an additional "Historical Mode" indicator and save-with-propagation confirmation.
 
 **What to deprioritize on mobile:**
 - Full correlation matrix (show simplified concentration bars instead)

@@ -296,6 +296,10 @@ The app has a **flat sticky top header** (`Header.tsx`). There is no sidebar. Na
 | **No back tester in main app** | Back tester is a separate standalone app; no integration |
 | **No ROI calculator** | No tool to help users evaluate subscription value |
 | **No global week context** | Week selection is page-specific; no persistent global week state visible in nav |
+| **No historical data management view per pool** | No consolidated view of alive/eliminated entries, picks history, or status timeline for a pool across weeks |
+| **No way to navigate to previous weeks with scoped entry data** | Cannot select a past week and see entry data (recommendations, picks, portfolio) as of that week only, without subsequent week data bleeding in |
+| **No cross-season access to pools/entries** | Previous seasons are not accessible; once a season ends, that data is effectively archived and invisible |
+| **No way to edit eliminated entries or pools** | Eliminated entries and pools become dead ends; users cannot view or edit historical data for them |
 
 ---
 
@@ -389,6 +393,7 @@ The app has a **flat sticky top header** (`Header.tsx`). There is no sidebar. Na
 | 14 | **Portfolio Architecture Presets** | COMMAND CENTER → Portfolio | `/portfolio#presets` | Preset selector on portfolio view |
 | 15 | **Correlated Elimination Risk Score** | COMMAND CENTER → Portfolio | `/portfolio` | Correlation widget (prominent) |
 | 16 | **Personalization Anti-Dilution** | MY ENTRIES (entry workspace) | `/entries/:entryId` | "Personalized for you" badge on recommendation |
+| 17 | **Historical Data Management** | SETTINGS → Pools → Pool History + Entry Workspace (historical weeks) | `/pools/:poolId/settings#history`, `/entries/:entryId?week=8`, `/week?season=2025` | Pool-level timeline, per-week entry editing, cross-season access |
 
 ---
 
@@ -410,6 +415,18 @@ The app has a **flat sticky top header** (`Header.tsx`). There is no sidebar. Na
 /pools/:poolId/settings → Pool settings & data management
 
 /account               → Account & subscription & notification preferences
+
+# Season-scoped and historical routes
+/week?season=2025      → This Week command center for a previous season
+/portfolio?season=2025 → Portfolio dashboard for a previous season
+/entries/:entryId?week=8 → Entry workspace scoped to a specific historical week
+/entries/:entryId?season=2025 → Entry workspace for a previous season's entry
+/pools/:poolId/settings#history → Pool history view (entry timeline, picks history)
+
+# Note: All pool and entry routes work regardless of elimination status.
+# An eliminated entry at /entries/:entryId is fully functional — not a dead end.
+# Season and week query params scope the view; omitting them defaults to current.
+
 /admin/*               → Admin routes (unchanged)
 /login                 → Login
 /signup                → Signup
@@ -478,16 +495,19 @@ Verifying every feature is reachable in ≤ 2 clicks from the `/week` dashboard:
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│  Context: [Pool A ▼]  [Entry: Alpha ▼]  [Week 14 ▼]         │
+│  Context: [2026 ▼]  [Pool A ▼]  [Entry: Alpha ▼]  [Wk 14 ▼] │
 └──────────────────────────────────────────────────────────────┘
 ```
 
 **Behavior:**
 - Selecting a pool/entry from the sidebar automatically updates the top bar context.
-- Tools read context via URL query params (`?pool=poolAId&entry=entryId`) for shareability.
+- Tools read context via URL query params (`?pool=poolAId&entry=entryId&season=2026&week=14`) for shareability.
 - "This Week" and "Portfolio" views show ALL entries (context selector reads "All Pools / All Entries").
 - When drilling into a single entry workspace, context narrows to that entry.
 - Week selector changes are global and persistent (stored in user preferences).
+- **Season context** appears as the first element in the context bar. Changing it updates the entire app: sidebar, content, week selector range, and available pools/entries.
+- **Historical week indicator:** When viewing a past week (not the current NFL week), the context bar shows a yellow/amber highlight with "Historical View" label and a quick-return link to the current week.
+- **Eliminated entry context:** When viewing an eliminated entry, the context bar shows the elimination status (e.g., "✕ Eliminated Wk 8") but all controls remain functional for viewing and editing historical data.
 
 ---
 
@@ -514,8 +534,10 @@ MY ENTRIES
 
 **Rules:**
 - Pools with entries needing picks this week: **auto-expanded**.
-- Pools fully submitted or all eliminated: **auto-collapsed**.
+- Pools fully submitted or all eliminated: **auto-collapsed** (but NOT hidden).
 - Each entry shows: name, status dot (● alive / ✕ eliminated + week), and a pick-needed badge if relevant.
+- **Eliminated entries remain fully clickable and navigable.** Clicking an eliminated entry opens its Entry Workspace where the user can view pick history, review recommendations as of any historical week, and edit entry data. They are not read-only tombstones.
+- **Eliminated pools (all entries eliminated) remain visible** in the sidebar. The pool group header shows "0 alive / N total" and can be expanded to access individual eliminated entries.
 - Sidebar is scrollable. Up to 50+ entries supported.
 - On very long lists (30+ entries), a search/filter bar appears at the top of the MY ENTRIES section.
 - Pool group headers show: pool name, alive count / total count.
@@ -609,7 +631,7 @@ MY ENTRIES
 ║  SETTINGS        ║                                                          ║
 ║  ⊙ Pools        ║  ┌──────────────────────────────────────────────────┐   ║
 ║                  ║  │ PICKS SUBMITTED  4 of 7 entries                 │   ║
-║  ─────────────── ║  │ Entry "Echo"  → KC Chiefs  ✓  Grade A-          │   ║
+║  [2026 ▼]        ║  │ Entry "Echo"  → KC Chiefs  ✓  Grade A-          │   ║
 ║  [WEEK 14 ▼]     ║  │ Entry "Golf"  → BAL Ravens ✓  Grade B+          │   ║
 ╚══════════════════╣  │ Entry "Delta2"→ DET Lions  ✓  Grade A-          │   ║
                    ║  │ Entry "Foxtrot2"→ BUF Bills ✓ Grade A  [Change] │   ║
@@ -632,6 +654,16 @@ DATA SOURCES:
   · Grades                   → shared/grading/ (existing)
   · Correlation risk score   → NEW ENDPOINT: GET /api/portfolio/correlation-score
   · Pick submission          → POST /api/entries/:entryId/picks (existing, verify)
+
+WEEK NAVIGATION BEHAVIOR:
+  · When user changes week selector to a historical week (e.g., Week 8):
+    - "NEEDS YOUR PICK" section disappears (can't submit picks for past weeks)
+    - Instead shows "WEEK 8 PICKS" with what was picked that week
+    - Recommendations shown are as of Week 8 (not current Week 14 recs)
+    - A yellow banner appears: "⚠ Viewing Week 8 (Historical) [Return to current →]"
+  · Entry data is scoped to the selected week and prior weeks only
+  · If user edits a pick in Week 8, the system recalculates Weeks 9-14
+    (remaining teams, portfolio state, etc.) and shows a confirmation dialog
 ```
 
 ---
@@ -1038,7 +1070,7 @@ DATA SOURCES:
 
 ---
 
-### 3D — Entry Workspace: Eliminated Entry State
+### 3D — Entry Workspace: Eliminated Entry State (Fully Interactive)
 
 ```
 ╔══════════════════╦══════════════════════════════════════════════════════════╗
@@ -1048,17 +1080,88 @@ DATA SOURCES:
 ║  ▾ POOL A (5/7)  ║  Pool A – Yahoo Main  ·  ✕  ELIMINATED — Week 8        ║
 ║    · Alpha  ●    ║                                                          ║
 ║    → · Charlie ✕ ║  ┌──────────────────────────────────────────────────┐   ║
-║                  ║  │ This entry was eliminated in Week 8.             │   ║
+║                  ║  │ ✕ ELIMINATED — Week 8                             │   ║
 ║                  ║  │ Pick: CLE Browns (loss vs PIT)                   │   ║
+║                  ║  │                                                  │   ║
+║                  ║  │ This entry's data remains fully editable.        │   ║
+║                  ║  │ Use the week selector to navigate to any week    │   ║
+║                  ║  │ and view/edit picks and recommendations.          │   ║
 ║                  ║  │                                                  │   ║
 ║                  ║  │ PERFORMANCE SUMMARY                              │   ║
 ║                  ║  │ Survived: 7 of 18 weeks  ·  Grade avg: B+       │   ║
 ║                  ║  │ SP recommended: CIN Bengals (you overrode)       │   ║
 ║                  ║  │                                                  │   ║
+║                  ║  │ ┌──── TABS ──────────────────────────────────┐  │   ║
+║                  ║  │ │ [Pick History] [Recommendations] [Edit Data] │  │   ║
+║                  ║  │ └────────────────────────────────────────────┘  │   ║
+║                  ║  │                                                  │   ║
 ║                  ║  │ [View full pick history →]                       │   ║
+║                  ║  │ [Edit historical picks →]                        │   ║
 ║                  ║  │ [Use in next season →]                           │   ║
 ║                  ║  └──────────────────────────────────────────────────┘   ║
 ╚══════════════════╩══════════════════════════════════════════════════════════╝
+
+KEY DESIGN NOTES:
+  · Eliminated entries are NOT read-only. All tabs remain functional.
+  · "Edit Data" tab allows changing picks, status, and other historical data.
+  · Week selector in sidebar still works — user can navigate to any week
+    this entry was alive and see recommendations/portfolio as of that week.
+  · Visual treatment: dimmed header bar, strikethrough on status, but all
+    controls are interactive and functional.
+```
+
+---
+
+### 3E — Entry Workspace: Historical Week View (Week Navigation)
+
+```
+╔══════════════════╦══════════════════════════════════════════════════════════╗
+║  ⬡ SurvivorPulse ║  Entry: Alpha  ·  Pool A  ·  [WK 8 ▼] ⚠ HISTORICAL   ║
+╠══════════════════╬══════════════════════════════════════════════════════════╣
+║                  ║  ┌──────────────────────────────────────────────────┐   ║
+║  COMMAND CENTER  ║  │ ⚠ VIEWING HISTORICAL WEEK                        │   ║
+║  ◆ This Week     ║  │ You are viewing Week 8 data for this entry.     │   ║
+║  ◇ Portfolio     ║  │ Recommendations and portfolio data reflect       │   ║
+║                  ║  │ Weeks 1–8 only. No data from Weeks 9–14 shown.  │   ║
+║  MY ENTRIES      ║  │ [Return to current week (14) →]                 │   ║
+║  ▾ POOL A (5/7)  ║  └──────────────────────────────────────────────────┘   ║
+║  → · Alpha  ●    ║                                                          ║
+║    · Bravo  ●    ║  ENTRY WORKSPACE — "Alpha" — Week 8 View               ║
+║                  ║  Pool A – Yahoo Main  ·  ● ALIVE (as of Week 8)         ║
+║                  ║                                                          ║
+║                  ║  ┌──── TABS ────────────────────────────────────────┐  ║
+║                  ║  │ [Recommendations] [Pick History] [Pool Dynamics]   │  ║
+║                  ║  │                  [Future Planning]                  │  ║
+║                  ║  └────────────────────────────────────────────────────┘  ║
+║                  ║                                                          ║
+║                  ║  —— RECOMMENDATIONS TAB (Week 8 context) ——————————   ║
+║                  ║                                                          ║
+║                  ║  ┌──────────────────────────────────────────────────┐   ║
+║  ─────────────── ║  │ WEEK 8 RECOMMENDATION (as of that week)         │   ║
+║  [2026 ▼]        ║  │                                                  │   ║
+║  [◁  WK 8   ▷]  ║  │  ★ A-  RECOMMENDED: CIN BENGALS                 │   ║
+║                  ║  │  Win prob 70%  ·  Popularity 26%  ·  Grade A-  │   ║
+║                  ║  │                                                  │   ║
+║                  ║  │  YOUR PICK: CLE Browns                          │   ║
+║                  ║  │  (You overrode the recommendation)               │   ║
+║                  ║  │  [Edit Pick ▼ CLE]  [Save — propagates to Wk9+] │   ║
+║                  ║  │                                                  │   ║
+║                  ║  │  Teams used (Wk 1–7): KC, BUF, DET, PHI, GB,   │   ║
+║                  ║  │  LAR, BAL                                        │   ║
+║                  ║  │  Teams remaining (as of Wk 8): 25 teams          │   ║
+║                  ║  └──────────────────────────────────────────────────┘   ║
+╚══════════════════╩══════════════════════════════════════════════════════════╝
+
+KEY DESIGN NOTES:
+  · All entry data is scoped to Week 8 and prior weeks ONLY
+  · No information from Weeks 9–14 appears (no future picks, no later recs)
+  · Recommendations shown are what SP recommended in Week 8, not current recs
+  · "Edit Pick" with save triggers forward propagation:
+    - Confirmation dialog: "Changing this pick will update remaining teams
+      for Weeks 9–14. Continue?"
+    - After save, subsequent weeks recalculate available teams
+  · Portfolio tab (if viewed) shows portfolio state as of Week 8
+  · Yellow/amber historical banner is always visible when not on current week
 ```
 
 ---
@@ -1113,8 +1216,21 @@ DATA SOURCES:
 │  ⊙  Pools                            │
 │                                      │
 ├──────────────────────────────────────┤
+│  [2026 ▼]                            │  ← season selector
 │  [◁  WEEK 14  ▷]                    │  ← week selector (prev/current/next)
 └──────────────────────────────────────┘
+
+**Eliminated entries behavior:**
+- Eliminated entries (marked with ✕) remain **fully clickable and interactive** in the sidebar
+- Clicking an eliminated entry opens its Entry Workspace with full pick history, recommendations as of that week, and editing capability
+- Eliminated entries are visually dimmed/muted but never hidden or disabled
+- Pool groups with all entries eliminated remain visible and expandable
+
+**Season selector behavior:**
+- Default shows current season (e.g., `[2026 ▼]`)
+- Dropdown lists all seasons the user has data for (e.g., 2026, 2025, 2024)
+- Switching seasons changes the **entire app context**: sidebar repopulates with that season's pools/entries, command center shows that season's data, week selector scopes to that season's weeks
+- A visual indicator (e.g., muted banner or badge) appears when viewing a past season to prevent confusion
 
 WIDTH: 260px
 ACTIVE ITEM: left 2px accent bar (indigo-violet)
@@ -1290,6 +1406,156 @@ The bottom sheet closes on navigation
 
 ---
 
+## Wireframe 5: Pool History View
+
+**Route:** `/pools/:poolId/settings#history`
+**Accessed from:** SETTINGS > Pools > Pool detail > History tab
+**Shows consolidated historical data for all entries in a pool across all weeks.**
+
+---
+
+### 5A — Pool History: Entry Timeline & Picks (Desktop)
+
+```
+╔══════════════════╦══════════════════════════════════════════════════════════╗
+║  ⬡ SurvivorPulse ║  Pool: Yahoo Main  ·  Settings  ·  History        [👤 ▼] ║
+╠══════════════════╬══════════════════════════════════════════════════════════╣
+║                  ║                                                          ║
+║  COMMAND CENTER  ║  POOL HISTORY — Yahoo Main                               ║
+║  ◆ This Week     ║  Season: [2026 ▼]   Week: [All ▼]                        ║
+║  ◇ Portfolio     ║                                                          ║
+║                  ║  ┌──── TABS ────────────────────────────────────────┐  ║
+║  MY ENTRIES      ║  │ [Settings]  [Data Mgmt]  [Integrations] [History] │  ║
+║  ▾ POOL A (5/7)  ║  └────────────────────────────────────────────────────┘  ║
+║    ...            ║                                                          ║
+║                  ║  ┌──────────────────────────────────────────────────┐   ║
+║  SETTINGS        ║  │ ENTRY STATUS TIMELINE                            │   ║
+║  ⊙ Pools         ║  │                                                  │   ║
+║                  ║  │ Entry    W1  W2  W3  W4  W5  W6  W7  W8 .. W14 │   ║
+║  ─────────────── ║  │ Alpha    ●   ●   ●   ●   ●   ●   ●   ●      ●   │   ║
+║  [2026 ▼]        ║  │ Bravo    ●   ●   ●   ●   ●   ●   ●   ●      ●   │   ║
+║  [◁  WK 14  ▷]  ║  │ Charlie  ●   ●   ●   ●   ●   ●   ●   ✕  ... ✕   │   ║
+║                  ║  │ Delta    ●   ●   ●   ●   ●   ●   ●   ●      ●   │   ║
+║                  ║  │ Foxtrot  ●   ●   ●   ●   ●   ✕   ✕   ✕  ... ✕   │   ║
+║                  ║  │                                                  │   ║
+║                  ║  │ ● = alive  ✕ = eliminated  Click cell to edit   │   ║
+║                  ║  └──────────────────────────────────────────────────┘   ║
+║                  ║                                                          ║
+║                  ║  ┌──────────────────────────────────────────────────┐   ║
+║                  ║  │ PICKS HISTORY                                    │   ║
+║                  ║  │                                                  │   ║
+║                  ║  │ Entry    W1   W2   W3   W4   W5  ... W14       │   ║
+║                  ║  │ Alpha    KC   BUF  DET  PHI  GB      (pend)    │   ║
+║                  ║  │ Bravo    BUF  KC   PHI  DET  BAL     (pend)    │   ║
+║                  ║  │ Charlie  DET  PHI  BAL  KC   MIN ... ✕ WK8     │   ║
+║                  ║  │ Delta    PHI  DET  KC   BUF  BAL     (pend)    │   ║
+║                  ║  │ Foxtrot  BAL  MIN  BUF  KC   ✕  ... ✕ WK5     │   ║
+║                  ║  │                                                  │   ║
+║                  ║  │ Click any cell to view/edit that entry-week.     │   ║
+║                  ║  │ Edits propagate forward to subsequent weeks.     │   ║
+║                  ║  │                                                  │   ║
+║                  ║  │ [Edit Picks]   [Export CSV]                     │   ║
+║                  ║  └──────────────────────────────────────────────────┘   ║
+║                  ║                                                          ║
+║                  ║  ┌──────────────────────────────────────────────────┐   ║
+║                  ║  │ POOL SUMMARY                                     │   ║
+║                  ║  │ Total entries: 7  ·  Alive: 5  ·  Eliminated: 2  │   ║
+║                  ║  │ Avg survival: 11.2 weeks                         │   ║
+║                  ║  │ SP recommendation follow rate: 71%               │   ║
+║                  ║  └──────────────────────────────────────────────────┘   ║
+╚══════════════════╩══════════════════════════════════════════════════════════╝
+
+DATA SOURCES:
+  · Entry status by week   → GET /api/pools/:poolId/entries (with historical week data)
+  · Picks by week          → GET /api/pools/:poolId/picks-history (NEW ENDPOINT)
+  · Pool summary stats     → derived from entry data
+```
+
+---
+
+## Wireframe 6: Season Selector Behavior
+
+**Demonstrates what happens when a user switches from the current season to a previous season.**
+
+---
+
+### 6A — Season Switch: From 2026 to 2025
+
+```
+STEP 1: User clicks season selector [2026 ▼]
+
+┌──────────────────────────────────────────┐
+│  ...                                     │
+│  SETTINGS                                │
+│  ⊙  Pools                                │
+│                                          │
+├──────────────────────────────────────────┤
+│  ┌──────────────┐                        │
+│  │ ★ 2026       │  ← current (active)     │
+│  │   2025       │                          │
+│  │   2024       │                          │
+│  └──────────────┘                        │
+│  [◁  WEEK 14  ▷]                          │
+└──────────────────────────────────────────┘
+
+
+STEP 2: User selects 2025. Entire sidebar and content changes:
+
+┌──────────────────────────────────────────┐
+│  ⬡ SurvivorPulse                         │
+│                                          │
+│  ⚠ VIEWING SEASON 2025 (ARCHIVED)         │  ← prominent banner
+│  [Switch to current season (2026) →]     │
+│                                          │
+│  COMMAND CENTER                          │
+│  ◆ This Week (Season Complete)            │
+│  ◇ Portfolio                              │
+│                                          │
+│  MY ENTRIES (2025)                       │  ← labeled with season
+│  ▸ OLD POOL X – Yahoo  (2/5)             │  ← 2025's pools
+│  ▸ OLD POOL Y – CBS    (0/3)             │  ← fully eliminated
+│  ▸ OLD POOL Z – Circa  (1/2)             │
+│                                          │
+│  TOOLS                                   │
+│  ⊙ Back Tester                            │
+│  ≡ ROI Calculator                         │
+│  ⊞ Games & Spreads                        │
+│                                          │
+│  SETTINGS                                │
+│  ⊙ Pools                                  │
+│                                          │
+│  [2025 ▼]                                │  ← shows 2025
+│  [◁  WK 18  ▷]                            │  ← last week of 2025 season
+└──────────────────────────────────────────┘
+
+CONTENT AREA (This Week for 2025):
+┌──────────────────────────────────────────────────────────────┐
+│  SEASON 2025 — COMPLETE                                          │
+│                                                                  │
+│  This season has ended. All data is viewable and editable.       │
+│  Use the week selector to navigate to any week in 2025.          │
+│                                                                  │
+│  SEASON SUMMARY                                                  │
+│  Entries: 10 total  ·  3 survived to final week                  │
+│  Pools: 3  ·  Total invested: $650  ·  Won: $1,200              │
+│  SP recommendation follow rate: 68%                              │
+│                                                                  │
+│  [View 2025 Portfolio →]  [Compare to 2026 →]                    │
+└──────────────────────────────────────────────────────────────┘
+
+KEY DESIGN NOTES:
+  · Switching seasons is a full context change — sidebar, content, and
+    selectors all update to reflect the selected season's data
+  · Archived seasons show a prominent visual indicator (banner, dimmed
+    chrome, or "ARCHIVED" badge) to prevent confusion
+  · All data remains editable in past seasons (picks, entry status, etc.)
+  · Week selector auto-sets to the last week of the past season
+  · "Switch to current season" link is always visible for quick return
+  · Pools with 0 alive entries in past seasons still show (not hidden)
+```
+
+---
+
 ## Summary: Key Design Decisions
 
 | Decision | Rationale |
@@ -1299,6 +1565,12 @@ The bottom sheet closes on navigation
 | "This Week" as default landing | The 80% use case is "make picks this week" — this should be zero clicks away |
 | Portfolio as second Command Center item | Portfolio risk is the product's differentiated value; it must be 1 click from anywhere |
 | Week selector pinned to sidebar bottom | Week context affects all views; it must persist globally, not per-page |
+| Season selector near week selector | Season context affects the entire app; switching seasons changes sidebar, content, and available weeks |
+| Eliminated entries remain interactive | Eliminated entries are visually dimmed but fully clickable, editable, and navigable. They are not tombstones. |
+| Historical week view scopes data correctly | Navigating to a past week shows only data from that week and prior. No future data leaks into the view. |
+| Historical edits propagate forward | Changing a pick in Week 8 recalculates Weeks 9+ (remaining teams, portfolio state). User confirms before save. |
+| Previous seasons are fully accessible | Archived seasons are browsable and editable via the season selector. No data is lost or hidden after season end. |
+| Pool history view for consolidated data | Per-pool timeline of entry status and picks across all weeks, accessible from pool settings. |
 | Tools section separate from Command Center | Back Tester, ROI calc, etc. are analytical aids, not weekly workflows |
 | Settings/Pools at bottom of sidebar | Pool management is infrequent configuration; shouldn't compete with daily workflows |
 | Profile menu for Account/Subscription/Notifications | These are account-level settings used rarely — profile dropdown is the standard pattern |
