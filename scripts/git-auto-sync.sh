@@ -12,12 +12,12 @@ LOG_PREFIX="[git-auto-sync $TIMESTAMP]"
 # ── Repo registry ──────────────────────────────────────────────
 # All repos to sync. Each must have a remote named "origin".
 REPOS=(
-  "/Users/mrwolff/.openclaw/workspace"
-  "/Users/mrwolff/.claude"
-  "/Users/mrwolff/.openclaw/workspace/wolffhq-workspace/bubba-workspace"
-  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-stan"
-  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-deb"
-  "/Users/mrwolff/.openclaw/workspace/fanduel-dfs-workspace/workspace-smuggs"
+  "/Users/mrwolff/.openclaw/workspace"                                           # Bubba (WolffBubba)
+  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace"                   # Luigi (WolffClaw)
+  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-stan"    # Stan (WolffStan)
+  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-deb"     # Deb (WolffDeb)
+  "/Users/mrwolff/.openclaw/workspace/fanduel-dfs-workspace/workspace-smuggs"    # Smuggs (WolffSmuggs)
+  "/Users/mrwolff/.claude"                                                       # Claude
   "/Users/mrwolff/Projects/SurvivorPulse"
   "/Users/mrwolff/Projects/SurvivorPulse-BackTesting-Prototype"
 )
