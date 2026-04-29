@@ -54,6 +54,7 @@ Full specs: ~/.claude/agents/*.md
 ## Preferences
 - Auto-commit and push workspace changes to WolffClaw repo (git@github.com:mwolff328-stack/WolffClaw.git) after meaningful updates. Set 2026-04-02.
 - Auto-sync ~/.claude with WolffClaude repo (git@github.com:mwolff328-stack/WolffClaude.git). Push local changes, pull remote changes. Set 2026-04-03.
+- **Git commit rules (set 2026-04-29):** WolffClaw workspace repo is ONLY for OpenClaw setup/config changes. All SurvivorPulse-related changes (docs, code, product work) commit to SurvivorPulse repo (`/Users/mrwolff/Projects/SurvivorPulse`, git@github.com:mwolff328-stack/SurvivorPulse.git) only. Sub-agents doing SP work must target the SurvivorPulse repo, not the workspace.
 
 ## SurvivorPulse (P1) - Deep Context
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T17:50:41.799Z",
+  "updatedAt": "2026-04-29T17:38:16.550Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -9,24 +9,26 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
-      "recallCount": 5,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.9915160626173019,
-      "maxScore": 0.459482729434967,
+      "totalScore": 2.695664136571298,
+      "maxScore": 0.7041480739539963,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
-      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
+      "lastRecalledAt": "2026-04-29T17:38:16.550Z",
       "queryHashes": [
         "004df7e0da26",
         "adc5569c8165",
         "048da43d88ba",
         "1fcbd578cdb8",
-        "a0c5dba763a0"
+        "a0c5dba763a0",
+        "fff6ba7505cb"
       ],
       "recallDays": [
         "2026-04-09",
         "2026-04-23",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ],
       "conceptTags": [
         "competent-but-uncoordinated",
@@ -108,25 +110,27 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "# 2026-04-05 Session Notes ## SurvivorPulse Deep Dive Complete Mike asked me to review SurvivorPulse across three sources: GitHub repos (SurvivorPulse + CMEA-Prototype) and Notion workspace. Full review completed. ### Setup - Notion API key stored at ~/.config/notion/api_key (integration name: \"OpenClaw\") - GitHub SSH authenticated as mwolff328-stack - Repos cloned to /tmp/SurvivorPulse and /tmp/CMEA-Prototype for review - gh CLI not authenticated (only SSH works) ### Notion Page Structure (id: 26329ce5-833d-800a-be90-ff530bddc59c) Top-level sub-pages: 1. **SurvivorPulse Initiative** (31829ce5) - Comprehensive briefing doc covering strategy, product, engineering 2. **Strategy & Growth**",
-      "recallCount": 6,
+      "recallCount": 7,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.3222028285264966,
+      "totalScore": 2.7286299794912336,
       "maxScore": 0.4227772206068039,
       "firstRecalledAt": "2026-04-18T19:52:31.338Z",
-      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
+      "lastRecalledAt": "2026-04-29T17:38:16.550Z",
       "queryHashes": [
         "f0af4cbda2ae",
         "d1f1dfc48f2f",
         "adc5569c8165",
         "1fcbd578cdb8",
         "f7f61b81bc81",
-        "a0c5dba763a0"
+        "a0c5dba763a0",
+        "fff6ba7505cb"
       ],
       "recallDays": [
         "2026-04-18",
         "2026-04-23",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ],
       "conceptTags": [
         "cmea-prototype",
@@ -278,18 +282,20 @@
       "endLine": 34,
       "source": "memory",
       "snippet": "# 2026-04-23 — Daily Memory ## Sales & Marketing Plan Created Three companion documents produced for SurvivorPulse 2026 season launch: 1. **Sales & Marketing Plan** — full arc April 23 through Week 1 (Sept 4) - Workspace: `docs/survivorpulse-sales-marketing-plan-2026.md` - Notion: 34b29ce5-833d-818d-8598-eeab7100eabd (Strategy & Growth) 2. **Product Development Plan** — aligned product milestones - Workspace: `docs/survivorpulse-product-dev-plan-2026.md` - Notion: 34b29ce5-833d-810e-bec3-e4830ac3c7af (Product & Engineering) 3. **Marketing Task List** — 70+ tasks across 4 phases - Workspace: `docs/survivorpulse-marketing-tasks.md` - Notion: 34b29ce5-833d-81cb-96db-fcaf3",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.666458432525468,
+      "totalScore": 1.3167273384098865,
       "maxScore": 0.666458432525468,
       "firstRecalledAt": "2026-04-28T14:31:46.616Z",
-      "lastRecalledAt": "2026-04-28T14:31:46.616Z",
+      "lastRecalledAt": "2026-04-29T17:38:16.550Z",
       "queryHashes": [
-        "1fcbd578cdb8"
+        "1fcbd578cdb8",
+        "fff6ba7505cb"
       ],
       "recallDays": [
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ],
       "conceptTags": [
         "34b29ce5-833d-81cb-96db-fcaf3",
@@ -457,6 +463,37 @@
         "spp-61",
         "waitlist/email",
         "spp-62"
+      ]
+    },
+    "memory:memory/2026-04-28.md:79:97": {
+      "key": "memory:memory/2026-04-28.md:79:97",
+      "path": "memory/2026-04-28.md",
+      "startLine": 79,
+      "endLine": 97,
+      "source": "memory",
+      "snippet": "| #backtesting-research | 1496212355015507988 | Backtesting research | | #stan-survivorpool-research-roi_analysis | 1495155295129960530 | ROI analysis research | | #sales-and-marketing | 1496905735806652559 | Sales/marketing execution | | #infra | 1491786035980537978 | Ops, CI, automation | ### Deb deliverables completed - `docs/deb-ia-audit-and-wireframes.md` (1,312 lines) -- Tasks 1.1-1.3: page inventory, final nav structure, ASCII wireframes - `docs/deb-design-tokens.md` (727 lines) -- Task 2.1: shared token spec, CSS custom properties, migration path - Both committed and pushed to SurvivorPulse main (commit 356b5afc) ### New rule: docs always committed to repo - All docs go to Survivor",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6876249435521415,
+      "maxScore": 0.6876249435521415,
+      "firstRecalledAt": "2026-04-29T17:38:16.550Z",
+      "lastRecalledAt": "2026-04-29T17:38:16.550Z",
+      "queryHashes": [
+        "fff6ba7505cb"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "backtesting-research",
+        "sales-and-marketing",
+        "sales/marketing",
+        "1.1-1.3",
+        "docs/deb-design-tokens.md",
+        "2.1",
+        "backtesting",
+        "research"
       ]
     }
   }
