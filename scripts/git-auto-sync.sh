@@ -15,7 +15,7 @@ REPOS=(
   "/Users/mrwolff/.openclaw/workspace"
   "/Users/mrwolff/.claude"
   "/Users/mrwolff/.openclaw/workspace-deb"
-  "/Users/mrwolff/.openclaw/workspace-stan"
+  "/Users/mrwolff/.openclaw/workspace/stan"
   "/Users/mrwolff/.openclaw/workspace-smuggs"
   "/Users/mrwolff/bubba-workspace"
   "/Users/mrwolff/Projects/SurvivorPulse"
