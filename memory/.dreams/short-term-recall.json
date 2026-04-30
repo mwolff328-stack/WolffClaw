@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-29T17:38:16.550Z",
+  "updatedAt": "2026-04-30T02:18:10.444Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -9,20 +9,21 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
-      "recallCount": 6,
+      "recallCount": 7,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.695664136571298,
+      "totalScore": 3.1203551818555693,
       "maxScore": 0.7041480739539963,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
-      "lastRecalledAt": "2026-04-29T17:38:16.550Z",
+      "lastRecalledAt": "2026-04-30T02:18:10.444Z",
       "queryHashes": [
         "004df7e0da26",
         "adc5569c8165",
         "048da43d88ba",
         "1fcbd578cdb8",
         "a0c5dba763a0",
-        "fff6ba7505cb"
+        "fff6ba7505cb",
+        "0191b81744c4"
       ],
       "recallDays": [
         "2026-04-09",
@@ -110,13 +111,13 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "# 2026-04-05 Session Notes ## SurvivorPulse Deep Dive Complete Mike asked me to review SurvivorPulse across three sources: GitHub repos (SurvivorPulse + CMEA-Prototype) and Notion workspace. Full review completed. ### Setup - Notion API key stored at ~/.config/notion/api_key (integration name: \"OpenClaw\") - GitHub SSH authenticated as mwolff328-stack - Repos cloned to /tmp/SurvivorPulse and /tmp/CMEA-Prototype for review - gh CLI not authenticated (only SSH works) ### Notion Page Structure (id: 26329ce5-833d-800a-be90-ff530bddc59c) Top-level sub-pages: 1. **SurvivorPulse Initiative** (31829ce5) - Comprehensive briefing doc covering strategy, product, engineering 2. **Strategy & Growth**",
-      "recallCount": 7,
+      "recallCount": 8,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.7286299794912336,
+      "totalScore": 3.126626133918762,
       "maxScore": 0.4227772206068039,
       "firstRecalledAt": "2026-04-18T19:52:31.338Z",
-      "lastRecalledAt": "2026-04-29T17:38:16.550Z",
+      "lastRecalledAt": "2026-04-30T02:18:10.444Z",
       "queryHashes": [
         "f0af4cbda2ae",
         "d1f1dfc48f2f",
@@ -124,7 +125,8 @@
         "1fcbd578cdb8",
         "f7f61b81bc81",
         "a0c5dba763a0",
-        "fff6ba7505cb"
+        "fff6ba7505cb",
+        "0191b81744c4"
       ],
       "recallDays": [
         "2026-04-18",
@@ -186,19 +188,21 @@
       "endLine": 26,
       "source": "memory",
       "snippet": "# 2026-04-17 — Daily Memory ## SurvivorPulse Back-Testing Prototype — Status **Repo:** `~/Projects/SurvivorPulse-BackTesting-Prototype` (renamed from CMEA-Prototype) **Git:** `git@github.com:mwolff328-stack/SurvivorPulse-BackTesting-Prototype.git` ### Completed (cumulative) - Full back-tester prototype: React client-side app simulating NFL survivor pool strategies against 2021-2025 historical data - Dark-mode design system (Linear-inspired), all panels, week selector, SWR cache - Strategy system: 6 templates, configurable weights (wp/ps/fv auto-sum 100), lookahead, decay, min win prob, EV mode - Per-entry strategy assignment, 1-50 entries, buyback toggle - \"Find Best Strategy\" optimizatio",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.8371487498283385,
+      "totalScore": 1.251661804318428,
       "maxScore": 0.43108250498771666,
       "firstRecalledAt": "2026-04-23T17:00:32.273Z",
-      "lastRecalledAt": "2026-04-23T17:00:44.179Z",
+      "lastRecalledAt": "2026-04-30T02:18:10.444Z",
       "queryHashes": [
         "c330e12985dd",
-        "048da43d88ba"
+        "048da43d88ba",
+        "0191b81744c4"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-29"
       ],
       "conceptTags": [
         "back-testing",
@@ -494,6 +498,68 @@
         "2.1",
         "backtesting",
         "research"
+      ]
+    },
+    "memory:memory/2026-04-07.md:27:46": {
+      "key": "memory:memory/2026-04-07.md:27:46",
+      "path": "memory/2026-04-07.md",
+      "startLine": 27,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "3. **UI fix:** Show independent picks for weeks after coordinated path is eliminated ### Success criteria (Mike's definition) 6%+ improvement in overall survival probability across all entries for a given pool = roughly 1 additional week of survival. This is the bar for \"meaningful benefit.\" ## Sub-agent usage today - **Felix the Forge** — dispatched for backend fix in SurvivorPulse (`computePortfolioSurvivalDelta` — pWinNow sort, no-duplicate enforcement, correlated loss math). Committed and pushed. Deployed to Replit. - **Vlad the Verifier** — reviewed Felix's fix. 2,373 tests passed, 0 failures. Approved for deploy. - **Claude Code** — used directly for CMEA-Prototype UI fixes (dual eli",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.39767113029956813,
+      "maxScore": 0.39767113029956813,
+      "firstRecalledAt": "2026-04-30T02:18:10.444Z",
+      "lastRecalledAt": "2026-04-30T02:18:10.444Z",
+      "queryHashes": [
+        "0191b81744c4"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "sub-agent",
+        "no-duplicate",
+        "cmea-prototype",
+        "fix",
+        "show",
+        "independent",
+        "picks",
+        "weeks"
+      ]
+    },
+    "memory:memory/2026-04-17.md:36:62": {
+      "key": "memory:memory/2026-04-17.md:36:62",
+      "path": "memory/2026-04-17.md",
+      "startLine": 36,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "### Next Steps 1. Fix tutorial Step 7 highlighting (timing issue with conditional render) 2. Implement scroll positioning for tutorial modal above highlighted sections 3. Deploy to production and send to TAM users 4. Monitor feedback in Notion \"Backtester Feedback\" database 5. Iterate based on user feedback ### Operational Notes - Claude Code rate limit resets at 4am PDT (or 11am PDT depending on tier) - Notion feedback DB: `82ca7841-8bb8-4796-a5ab-f8f1f792ec5e` - Notion API key must be set as `NOTION_API_KEY` Replit secret on SurvivorPulse deployment - Production URL: `survivorpulse-backtester-prototype.replit.app` # 2026-04-17 — Daily Memory ## SurvivorPulse Back-Testing Prototype — Stat",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.39480897784233093,
+      "maxScore": 0.39480897784233093,
+      "firstRecalledAt": "2026-04-30T02:18:10.444Z",
+      "lastRecalledAt": "2026-04-30T02:18:10.444Z",
+      "queryHashes": [
+        "0191b81744c4"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "notion-api-key",
+        "back-testing",
+        "steps",
+        "fix",
+        "tutorial",
+        "step",
+        "highlighting",
+        "timing"
       ]
     }
   }
