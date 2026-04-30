@@ -14,6 +14,7 @@ LOG_PREFIX="[git-auto-sync $TIMESTAMP]"
 REPOS=(
   "/Users/mrwolff/.openclaw/workspace"                                           # Bubba (WolffBubba)
   "/Users/mrwolff/wolffhq-workspace/bubba-workspace"                             # Bubba wolffhq workspace (WolffBubba)
+  "/Users/mrwolff/.openclaw/workspace/claude"                                   # Claude agent workspace (WolffClaw/workspace-claude)
   "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace"                   # Luigi (WolffClaw)
   "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-stan"    # Stan (WolffStan)
   "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-deb"     # Deb (WolffDeb)
