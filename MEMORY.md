@@ -87,7 +87,9 @@ Full specs: ~/.claude/agents/*.md
 
 **Notion API:** Key stored at ~/.config/notion/api_key. Integration name: "OpenClaw".
 
-**Master Backlog:** Notion database (db_id: 29d643cd-9eb9-4897-9027-8efbd73c0f1d, data_source_id: 8c2ca295-bf31-4bbe-8643-a2f2781297fc). Schema: Task (title), Status (Today/This Week/In Progress/Backlog/Deferred/On Hold/Done), Area (select), Priority (High/Medium/Low), Size (Small/Medium/Large), Due Date, Completion Date, Outcome Type (MIT/Primary/Secondary/Maintenance), Dependencies (relation), Parent Task (relation), Recurring (checkbox), Frequency (Daily/Weekly), Notes (rich text).
+**Master Backlog:** Notion database (db_id: 29d643cd-9eb9-4897-9027-8efbd73c0f1d, data_source_id: 8c2ca295-bf31-4bbe-8643-a2f2781297fc). Schema: Task (title), Status (Today/This Week/In Progress/Backlog/Deferred/On Hold/Done), Area (select), Priority (High/Medium/Low), Size (Small/Medium/Large), Due Date, Completion Date, Outcome Type (MIT/Primary/Secondary/Maintenance), Dependencies (relation), Parent Task (relation), Recurring (checkbox), Frequency (Daily/Weekly), Notes (rich text). ⚠️ DO NOT put SurvivorPulse product development tasks here. Use the SP Product Backlog instead.
+
+**SurvivorPulse Product Backlog:** Notion database (db_id: 23c0e14a-e704-4481-a635-8202e8569e04, data_source_id: f9dcaa50-6726-49de-bc5c-892148e69167). URL: https://www.notion.so/23c0e14ae7044481a6358202e8569e04. Schema: Item (title), Status (select: Backlog/In Progress/Done/On Hold), Category (select: UX/Design/Core Engine/Analytics/Infrastructure/Auth & Accounts/Admin/DevOps/Marketing/Content/Pool Mgmt), Phase (select: V1 Pre-Launch/Post-Launch), Priority (select: High/Medium/Low), Size (select: S/M/L/XL), Type (select: Feature), Notes, GitHub Pull Requests, Google Drive File. ALL SurvivorPulse product dev tasks go here, not in Master Backlog. Naming convention: "[Feature Area] (task#): [Description]" e.g. "IA Overhaul (1.7): Design and implement week-by-week temporal navigation".
 
 **Active SurvivorPulse tasks (as of 2026-04-06):**
 - Today: Improve CMEA Prototype; Start automated dev system with OpenClaw/Claude Code
