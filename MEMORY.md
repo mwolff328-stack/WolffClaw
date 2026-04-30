@@ -162,10 +162,13 @@ Existing pages:
 ## Discord Channels
 - **#infra** (channel id: 1491786035980537978) — ops, CI, integrations, automation, Rita-type tasks. Created 2026-04-09.
 
-## Model Strategy (set 2026-04-11)
-- Luigi runs on Sonnet by default. Switch to Opus for strategy, complex synthesis, architecture decisions.
+## Model Strategy (updated 2026-04-29)
+- Luigi runs on Sonnet by default. Switch to Opus for strategy, complex synthesis, architecture decisions (per-session override).
 - Sub-agents default to Sonnet. Pass model override per task when Opus is warranted (deep research, etc.).
+- Cron jobs default to Haiku unless they require synthesis/reasoning (e.g., channel context save stays on Sonnet).
 - Routing: exec for one-shot tasks; ACP for multi-turn, interactive, or persistent sessions.
+- Cost target: <$50/day. Daily spend alert cron fires at 8pm PDT to #infra.
+- Context: was burning $97/day avg ($581/week) due to Opus on Luigi. Switched Luigi to Sonnet and 4/5 cron jobs to Haiku on 2026-04-29.
 
 ## Claude Code ACP (wired 2026-04-11)
 - ACP enabled in openclaw.json: acp.enabled=true, acp.defaultAgent=claude, acp.backend=acpx
