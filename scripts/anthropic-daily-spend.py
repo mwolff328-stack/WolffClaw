@@ -18,6 +18,9 @@ import urllib.request
 import urllib.parse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+LOCAL_TZ = ZoneInfo("America/Los_Angeles")
 
 # ── Pricing (per million tokens) ──────────────────────────────
 # Update these when Anthropic changes rates
@@ -98,8 +101,17 @@ def main():
             days = int(sys.argv[sys.argv.index(arg) + 1])
 
     now = datetime.now(timezone.utc)
+    now_local = now.astimezone(LOCAL_TZ)
+
+    # API requires UTC-midnight-aligned queries; non-midnight starting_at returns empty data.
     end = now.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
-    start = end - timedelta(days=days)
+
+    # When LA date is behind UTC date (midnight UTC → ~7am UTC, i.e. 5pm–midnight PDT),
+    # we need one extra UTC day of lookback so today's LA date bucket is included.
+    today_str_utc = now.strftime("%Y-%m-%d")
+    today_str_la = now_local.strftime("%Y-%m-%d")
+    extra_day = 1 if today_str_la < today_str_utc else 0
+    start = end - timedelta(days=days + extra_day)
 
     admin_key = get_admin_key()
     data = fetch_usage(admin_key, start.strftime("%Y-%m-%dT%H:%M:%SZ"), end.strftime("%Y-%m-%dT%H:%M:%SZ"))
@@ -123,8 +135,8 @@ def main():
             daily[date][model]["out"] += out
             daily[date][model]["web"] += web
 
-    # Today's total
-    today_str = now.strftime("%Y-%m-%d")
+    # Today's total — use local (PDT) date so the 8pm alert sees today, not UTC tomorrow
+    today_str = now_local.strftime("%Y-%m-%d")
     today_total = sum(v["cost"] for v in daily.get(today_str, {}).values())
 
     if output_json:
@@ -144,7 +156,7 @@ def main():
 
     # Human-readable output
     print(f"\n{'='*70}")
-    print(f"  Anthropic Spend Report — {now.strftime('%Y-%m-%d %H:%M')} UTC")
+    print(f"  Anthropic Spend Report — {now_local.strftime('%Y-%m-%d %H:%M')} PDT  (UTC: {now.strftime('%Y-%m-%d %H:%M')})")
     print(f"{'='*70}")
 
     for date in sorted(daily.keys()):
