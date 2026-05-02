@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+# pre-commit: secret scanner
+# Blocks commits containing API keys, tokens, and credentials.
+# Add new patterns below as needed.
+
+set -euo pipefail
+
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
+# ── Patterns ──────────────────────────────────────────────────
+# Format: "LABEL|regex"
+PATTERNS=(
+  "Notion API token|ntn_[A-Za-z0-9]{40,}"
+  "Notion integration token|secret_[A-Za-z0-9]{40,}"
+  "OpenAI API key|sk-[A-Za-z0-9]{40,}"
+  "Anthropic API key|sk-ant-[A-Za-z0-9\-]{40,}"
+  "AWS access key|AKIA[0-9A-Z]{16}"
+  "GitHub token (classic)|ghp_[A-Za-z0-9]{36}"
+  "GitHub token (fine-grained)|github_pat_[A-Za-z0-9_]{80,}"
+  "Stripe live secret key|sk_live_[A-Za-z0-9]{24,}"
+  "Stripe test secret key|sk_test_[A-Za-z0-9]{24,}"
+  "Twilio auth token|[Aa][Uu][Tt][Hh].*[Tt][Oo][Kk][Ee][Nn].*[0-9a-f]{32}"
+  "Generic high-entropy secret|['\"][0-9a-zA-Z/+]{40,}['\"]"
+)
+
+# ── Files to skip ─────────────────────────────────────────────
+SKIP_PATTERNS=(
+  "*.lock"
+  "package-lock.json"
+  "yarn.lock"
+  "*.min.js"
+  ".git/*"
+)
+
+# ── Scan staged files ─────────────────────────────────────────
+FOUND=()
+
+while IFS= read -r file; do
+  # Skip deleted files
+  if [ ! -f "$file" ]; then continue; fi
+
+  # Skip explicitly excluded files
+  skip=false
+  for skip_pat in "${SKIP_PATTERNS[@]}"; do
+    # shellcheck disable=SC2254
+    case "$file" in $skip_pat) skip=true; break;; esac
+  done
+  $skip && continue
+
+  # Get staged content (not working tree)
+  staged_content=$(git show ":$file" 2>/dev/null) || continue
+
+  for pattern_entry in "${PATTERNS[@]}"; do
+    label="${pattern_entry%%|*}"
+    regex="${pattern_entry##*|}"
+
+    if echo "$staged_content" | grep -Eq "$regex"; then
+      # Find the line number(s)
+      matches=$(echo "$staged_content" | grep -En "$regex" | head -5)
+      while IFS= read -r match; do
+        FOUND+=("  $file  [$label]  →  $match")
+      done <<< "$matches"
+    fi
+  done
+done < <(git diff --cached --name-only)
+
+# ── Result ────────────────────────────────────────────────────
+if [ ${#FOUND[@]} -gt 0 ]; then
+  echo -e "${RED}✗ Secret scanner: commit blocked${NC}"
+  echo ""
+  echo -e "${YELLOW}Potential secrets detected in staged files:${NC}"
+  for hit in "${FOUND[@]}"; do
+    echo "  $hit"
+  done
+  echo ""
+  echo "Fix options:"
+  echo "  1. Remove the secret and load from env: os.environ.get('YOUR_KEY')"
+  echo "  2. Move to ~/.config/<service>/api_key and read at runtime"
+  echo "  3. If false positive, bypass with: git commit --no-verify"
+  echo ""
+  exit 1
+fi
+
+exit 0
