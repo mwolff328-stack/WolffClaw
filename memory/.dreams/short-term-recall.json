@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-03T15:51:58.888Z",
+  "updatedAt": "2026-05-04T18:55:44.477Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -262,19 +262,21 @@
       "endLine": 122,
       "source": "memory",
       "snippet": "## Late Night: Backtesting Research Rounds 6-8 (Discord #backtest-research) ### Round 6: Entry-Count Scaling (168 runs) - 14 strategies x 4 entry counts (5, 10, 20, 50) x 3 seasons - 70/30 Blend loses crown at n=10 (beaten by 7 strategies), reclaims at n=50 - SP Production wins n=10 (+18 vs 70/30), Mixed Portfolio wins n=20 (+20) - CMEA thesis partially confirmed: coordination helps at n=10-20 but not n=50 (team exhaustion) - Coordinated Diversification (same scorer, smarter assignment) = 70/30 exactly. Null result. ### Round 7: Per-Entry Differentiated Scoring (144 runs) - 12 portfolio configurations including intentional role assignment - Core/Satellite (60% 70/30 + 40% SP Production) wi",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.8240824252367018,
+      "totalScore": 1.250447803735733,
       "maxScore": 0.4480687499046325,
       "firstRecalledAt": "2026-04-28T05:27:28.385Z",
-      "lastRecalledAt": "2026-04-28T05:27:28.753Z",
+      "lastRecalledAt": "2026-05-04T18:55:44.477Z",
       "queryHashes": [
         "ca1577efc136",
-        "f46390c961ea"
+        "f46390c961ea",
+        "c577908e4ded"
       ],
       "recallDays": [
-        "2026-04-27"
+        "2026-04-27",
+        "2026-05-04"
       ],
       "conceptTags": [
         "6-8",
@@ -608,18 +610,20 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-01 ### SurvivorPulse Guild #### #dev - **Sprint A dispatched:** Felix (13.1, 14.1, 15.1, 16.1 → 4.1 → 3.1) + Stan (8.1 sim parameter sweep) all queued via #dev - **Claude rate limit hit:** Felix hit rate limit at ~9:14am Apr 30; tasks not committed. Relaunch set for 11:20am PDT via cron — confirmed relaunched (amber-shoal) at 6:20pm - **Stan 8.1 complete:** Simulation parameter sweep design committed to `docs/stan-simulation-parameter-sweep.md` on 2026-v1 - **Sprint 2 wrap:** Felix completed 1.4, 1.5, 1.6, 1.8, 2.2, 2.3, 2.4; Deb completed 2.5 QA pass — all pushed to 2026-v1 - **Persistent Claude Code session:** Spawned at 9:01am (cb4fce32-8251-41cf-84c0-7",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.3872584253549576,
-      "maxScore": 0.3872584253549576,
+      "totalScore": 0.9819049207003758,
+      "maxScore": 0.5946464953454182,
       "firstRecalledAt": "2026-05-03T15:51:58.888Z",
-      "lastRecalledAt": "2026-05-03T15:51:58.888Z",
+      "lastRecalledAt": "2026-05-04T18:34:57.517Z",
       "queryHashes": [
-        "5db3585f790f"
+        "5db3585f790f",
+        "33f5502fb24f"
       ],
       "recallDays": [
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-04"
       ],
       "conceptTags": [
         "13.1",
