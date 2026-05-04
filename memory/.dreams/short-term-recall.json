@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-04T18:55:44.477Z",
+  "updatedAt": "2026-05-04T22:14:47.343Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -634,6 +634,37 @@
         "3.1",
         "8.1",
         "amber-shoal"
+      ]
+    },
+    "memory:memory/2026-04-09.md:1:23": {
+      "key": "memory:memory/2026-04-09.md:1:23",
+      "path": "memory/2026-04-09.md",
+      "startLine": 1,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "# 2026-04-09 — #infra Channel Session ## Discord Setup - Mike created #infra channel on the SurvivorPulse Discord for ops/infrastructure work (Rita-type tasks: CI, integrations, automation) - Channel originally named #admin, renamed to #infra ## CI Pipeline Work (Rita) ### Workflow Audit - Audited two GitHub Actions workflows in SurvivorPulse repo: pre-publish.yml (Pre-Publish Gate) and release-guardian.yml (Release Guardian) - Both trigger on push to main, ~80% overlap in test stages (unit, integration core, integration slow, E2E) - Pre-Publish unique: HTTP integration tests (live server), module boundary check, test-data cleanup, regression gate vars - Release Guardian unique: workflow_",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3545859485864639,
+      "maxScore": 0.3545859485864639,
+      "firstRecalledAt": "2026-05-04T22:14:47.343Z",
+      "lastRecalledAt": "2026-05-04T22:14:47.343Z",
+      "queryHashes": [
+        "2ecafbfe836e"
+      ],
+      "recallDays": [
+        "2026-05-04"
+      ],
+      "conceptTags": [
+        "ops/infrastructure",
+        "rita-type",
+        "pre-publish.yml",
+        "pre-publish",
+        "release-guardian.yml",
+        "test-data",
+        "infra",
+        "channel"
       ]
     }
   }
