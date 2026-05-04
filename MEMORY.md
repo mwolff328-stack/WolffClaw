@@ -208,5 +208,13 @@ Existing pages:
   - 70/30 Blend reclaims #1 at n=50 (team exhaustion makes sophistication backfire)
   - Product implication: strategy recommendation should adapt to portfolio size
 
+## Strategy-to-Context Matching Sims (2026-04-28 to 2026-05-04)
+All 5 validation sims complete. Scripts + memory writeups in survivorpulse-workspace/scripts/ and memory/.
+- **Sim 1 (Dynamic Strategy Switching):** `stan-dynamic-strategy-sim.md` — +25% EW at n=10 vs best static. Core/Satellite role assignment is the mechanism, not inventory switching.
+- **Sim 2 (Cross-Entry Correlation):** `stan-correlation-sim.md` — Uncoordinated portfolios hit 100% correlation rate; coordinated strategies hit 0%. $10K vs $1K single-week risk at n=10/$1K buy-in.
+- **Sim 3 (Inventory Death Analysis):** `stan-inventory-death-sim.md` — Entry deaths are primarily bad luck (high-WP picks that lost), not inventory depletion. SP Conservative entries have the best inventory profiles at death.
+- **Sim 4 (Multi-Life/Strike Format):** `stan-multilife-strategy-sim.md` — Strike formats flip the strategy leaderboard. blend_70_30 becomes #1, adaptive_blend jumps from last to 2nd, SP strategies drop to #6-7. Strike2 is the sweet spot. Recommendation engine must be format-aware.
+- **Sim 5 (Field Size Effects):** `stan-field-size-sim.md` — Optimal contrarian weight is monotonically increasing with field size. Small pools (<50) favor CW=0%; large pools (500+) favor CW=50%. EW is flat across CW range (~27-28). Chalk upset co-elimination drops 64% at CW=50% in Circa-scale pools. Pool size should be required input to tune CW recommendation.
+
 ## Lessons learned
 _(none yet)_
