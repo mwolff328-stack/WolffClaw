@@ -37,6 +37,13 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+### SurvivorPulse - Replit Dev Environment
+
+- DATABASE_URL: `postgresql://postgres:password@helium/heliumdb?sslmode=disable`
+- Set: 2026-05-04
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
 
 ---
