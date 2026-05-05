@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-04T22:14:47.343Z",
+  "updatedAt": "2026-05-05T13:43:00.527Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -9,13 +9,13 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
-      "recallCount": 9,
+      "recallCount": 10,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 3.9206759651130536,
+      "totalScore": 4.296362238091836,
       "maxScore": 0.7041480739539963,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
-      "lastRecalledAt": "2026-05-03T15:51:58.888Z",
+      "lastRecalledAt": "2026-05-05T13:43:00.527Z",
       "queryHashes": [
         "004df7e0da26",
         "adc5569c8165",
@@ -25,7 +25,8 @@
         "fff6ba7505cb",
         "0191b81744c4",
         "ca3850dd4f1e",
-        "5db3585f790f"
+        "5db3585f790f",
+        "3f32c006428f"
       ],
       "recallDays": [
         "2026-04-09",
@@ -33,7 +34,8 @@
         "2026-04-28",
         "2026-04-29",
         "2026-04-30",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-05"
       ],
       "conceptTags": [
         "competent-but-uncoordinated",
@@ -517,18 +519,20 @@
       "endLine": 46,
       "source": "memory",
       "snippet": "3. **UI fix:** Show independent picks for weeks after coordinated path is eliminated ### Success criteria (Mike's definition) 6%+ improvement in overall survival probability across all entries for a given pool = roughly 1 additional week of survival. This is the bar for \"meaningful benefit.\" ## Sub-agent usage today - **Felix the Forge** — dispatched for backend fix in SurvivorPulse (`computePortfolioSurvivalDelta` — pWinNow sort, no-duplicate enforcement, correlated loss math). Committed and pushed. Deployed to Replit. - **Vlad the Verifier** — reviewed Felix's fix. 2,373 tests passed, 0 failures. Approved for deploy. - **Claude Code** — used directly for CMEA-Prototype UI fixes (dual eli",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.39767113029956813,
+      "totalScore": 0.7703318417072296,
       "maxScore": 0.39767113029956813,
       "firstRecalledAt": "2026-04-30T02:18:10.444Z",
-      "lastRecalledAt": "2026-04-30T02:18:10.444Z",
+      "lastRecalledAt": "2026-05-05T13:43:00.527Z",
       "queryHashes": [
-        "0191b81744c4"
+        "0191b81744c4",
+        "3f32c006428f"
       ],
       "recallDays": [
-        "2026-04-29"
+        "2026-04-29",
+        "2026-05-05"
       ],
       "conceptTags": [
         "sub-agent",
@@ -610,20 +614,22 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-01 ### SurvivorPulse Guild #### #dev - **Sprint A dispatched:** Felix (13.1, 14.1, 15.1, 16.1 → 4.1 → 3.1) + Stan (8.1 sim parameter sweep) all queued via #dev - **Claude rate limit hit:** Felix hit rate limit at ~9:14am Apr 30; tasks not committed. Relaunch set for 11:20am PDT via cron — confirmed relaunched (amber-shoal) at 6:20pm - **Stan 8.1 complete:** Simulation parameter sweep design committed to `docs/stan-simulation-parameter-sweep.md` on 2026-v1 - **Sprint 2 wrap:** Felix completed 1.4, 1.5, 1.6, 1.8, 2.2, 2.3, 2.4; Deb completed 2.5 QA pass — all pushed to 2026-v1 - **Persistent Claude Code session:** Spawned at 9:01am (cb4fce32-8251-41cf-84c0-7",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.9819049207003758,
+      "totalScore": 1.3873823044331715,
       "maxScore": 0.5946464953454182,
       "firstRecalledAt": "2026-05-03T15:51:58.888Z",
-      "lastRecalledAt": "2026-05-04T18:34:57.517Z",
+      "lastRecalledAt": "2026-05-05T13:43:00.527Z",
       "queryHashes": [
         "5db3585f790f",
-        "33f5502fb24f"
+        "33f5502fb24f",
+        "3f32c006428f"
       ],
       "recallDays": [
         "2026-05-03",
-        "2026-05-04"
+        "2026-05-04",
+        "2026-05-05"
       ],
       "conceptTags": [
         "13.1",
@@ -665,6 +671,37 @@
         "test-data",
         "infra",
         "channel"
+      ]
+    },
+    "memory:memory/2026-04-28.md:57:84": {
+      "key": "memory:memory/2026-04-28.md:57:84",
+      "path": "memory/2026-04-28.md",
+      "startLine": 57,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "- Sidebar navigation with entries listed directly: approved - \"This Week\" as default landing page: approved - Portfolio dashboard as signature screen: approved - Backtester under Tools section: approved - Settings/Account in profile menu: approved - Open items to resolve during design: - Sidebar entry grouping/collapsibility for 25+ entries - Backtester discoverability for free conversion funnel (may need prominent CTA path beyond sidebar) - Portfolio dashboard is net-new build, not just reorganization ### Felix bottleneck resolution - Felix gets autonomy to spin up as many sub-agents as needed - All Felix implementation work routes to #dev channel (1495450229816823998) - Before any i",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3689442545175552,
+      "maxScore": 0.3689442545175552,
+      "firstRecalledAt": "2026-05-05T13:43:00.527Z",
+      "lastRecalledAt": "2026-05-05T13:43:00.527Z",
+      "queryHashes": [
+        "3f32c006428f"
+      ],
+      "recallDays": [
+        "2026-05-05"
+      ],
+      "conceptTags": [
+        "settings/account",
+        "grouping/collapsibility",
+        "net-new",
+        "sub-agents",
+        "sidebar",
+        "navigation",
+        "entries",
+        "listed"
       ]
     }
   }
