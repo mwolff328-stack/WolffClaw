@@ -64,8 +64,11 @@ sync_repo() {
     echo "$LOG_PREFIX [$name] Changes detected, staging and committing..."
     git add -A 2>/dev/null || git add --ignore-errors -A 2>/dev/null || true
 
-    if ! git commit -m "auto-sync: $TIMESTAMP" 2>&1; then
-      echo "$LOG_PREFIX [$name] ERROR: Commit failed (pre-commit hook may have blocked sensitive data)."
+    # Check if anything was actually staged after add attempt
+    if git diff --cached --quiet 2>/dev/null; then
+      echo "$LOG_PREFIX [$name] Nothing staged after add (likely only nested git repos as untracked). Skipping commit."
+    elif ! commit_output=$(git commit -m "auto-sync: $TIMESTAMP" 2>&1); then
+      echo "$LOG_PREFIX [$name] ERROR: Commit failed — $commit_output"
       ERRORS+=("$name: commit blocked by pre-commit hook")
       return 1
     fi
