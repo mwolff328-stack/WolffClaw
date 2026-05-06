@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-06T05:49:28.496Z",
+  "updatedAt": "2026-05-06T12:56:20.593Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -734,6 +734,37 @@
         "product-backlog",
         "7.1",
         "7.2"
+      ]
+    },
+    "memory:memory/2026-05-06.md:1:24": {
+      "key": "memory:memory/2026-05-06.md:1:24",
+      "path": "memory/2026-05-06.md",
+      "startLine": 1,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "## Channel Context Save — 2026-05-06 _Scheduled 2:00 AM PT | 25 channels with activity | 220 messages_ --- ### SurvivorPulse Guild #### #general - Sprint B status reviewed: 24 tasks, goal is Back Tester feature implementation - Tasks completed today: Fix 20.2 (prior-week picks bug — `teamUsage` guard, commit `b24e683b`), 3.2 (BT module scaffold, commit `62d306c6`), 3.D1 (BACKTESTER_ID_CONTRACT.md + PoolConfigPanel spec, commit `f4026c1b`), 3.3 (shared types port, commit `575b6ee8`), 3.5 (Wouter migration, commit `0fd1a364`) - ACP timeout root cause identified: ACP sessions have ~2-min ceiling; native subagent runs get full 10-min window - Fix: use `runtime=\"subagent\"` + agentId for Felix",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5857370942454412,
+      "maxScore": 0.5857370942454412,
+      "firstRecalledAt": "2026-05-06T12:56:20.593Z",
+      "lastRecalledAt": "2026-05-06T12:56:20.593Z",
+      "queryHashes": [
+        "9bf72d14b178"
+      ],
+      "recallDays": [
+        "2026-05-06"
+      ],
+      "conceptTags": [
+        "20.2",
+        "prior-week",
+        "3.2",
+        "3.d1",
+        "backtester-id-contract.md",
+        "3.3",
+        "3.5",
+        "2-min"
       ]
     }
   }
