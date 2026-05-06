@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-05T13:43:00.527Z",
+  "updatedAt": "2026-05-06T05:49:28.496Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -614,17 +614,18 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-01 ### SurvivorPulse Guild #### #dev - **Sprint A dispatched:** Felix (13.1, 14.1, 15.1, 16.1 → 4.1 → 3.1) + Stan (8.1 sim parameter sweep) all queued via #dev - **Claude rate limit hit:** Felix hit rate limit at ~9:14am Apr 30; tasks not committed. Relaunch set for 11:20am PDT via cron — confirmed relaunched (amber-shoal) at 6:20pm - **Stan 8.1 complete:** Simulation parameter sweep design committed to `docs/stan-simulation-parameter-sweep.md` on 2026-v1 - **Sprint 2 wrap:** Felix completed 1.4, 1.5, 1.6, 1.8, 2.2, 2.3, 2.4; Deb completed 2.5 QA pass — all pushed to 2026-v1 - **Persistent Claude Code session:** Spawned at 9:01am (cb4fce32-8251-41cf-84c0-7",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.3873823044331715,
+      "totalScore": 1.7385024902852222,
       "maxScore": 0.5946464953454182,
       "firstRecalledAt": "2026-05-03T15:51:58.888Z",
-      "lastRecalledAt": "2026-05-05T13:43:00.527Z",
+      "lastRecalledAt": "2026-05-06T05:49:25.471Z",
       "queryHashes": [
         "5db3585f790f",
         "33f5502fb24f",
-        "3f32c006428f"
+        "3f32c006428f",
+        "2d6ad0943b67"
       ],
       "recallDays": [
         "2026-05-03",
@@ -702,6 +703,37 @@
         "navigation",
         "entries",
         "listed"
+      ]
+    },
+    "memory:memory/2026-05-05.md:27:43": {
+      "key": "memory:memory/2026-05-05.md:27:43",
+      "path": "memory/2026-05-05.md",
+      "startLine": 27,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "- **Task 12.1 - Notification Event System:** Felix shipped (commit `1d3d3808`) - **Deb session timeouts:** Multiple 14-minute timeout crashes; Luigi re-spawned each time with focused continuation briefs. Deb progressed through account.tsx and auth pages. - **Felix → Task 1.4 Nav Shell** queued after 12.1 #### #product-backlog - **Sprint A closed:** 8 backlog items unassigned from Sprint A (7.1, 7.2, 6.4, 6.5, 17.8, 17.9, 20.2, 21.1); only 7.3 remains as active carryover - **Sprint B defined (21 tasks):** Goal = implement Back Tester feature. Phases: Foundation → Algorithm Core → Backend → UX → Integration. All 5 agents (Pam, Ann, Deb, Felix, Vlad) contributed. Tasks written to Notion. - **T",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6217653363988629,
+      "maxScore": 0.6217653363988629,
+      "firstRecalledAt": "2026-05-06T05:49:28.496Z",
+      "lastRecalledAt": "2026-05-06T05:49:28.496Z",
+      "queryHashes": [
+        "da1db60e9a8f"
+      ],
+      "recallDays": [
+        "2026-05-05"
+      ],
+      "conceptTags": [
+        "12.1",
+        "14-minute",
+        "re-spawned",
+        "account.tsx",
+        "1.4",
+        "product-backlog",
+        "7.1",
+        "7.2"
       ]
     }
   }
