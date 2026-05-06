@@ -13,11 +13,9 @@ LOG_PREFIX="[git-auto-sync $TIMESTAMP]"
 # All repos to sync. Each must have a remote named "origin".
 REPOS=(
   "/Users/mrwolff/.openclaw/workspace"                                           # Bubba (WolffBubba)
-  "/Users/mrwolff/wolffhq-workspace/bubba-workspace"                             # Bubba wolffhq workspace (WolffBubba)
-  "/Users/mrwolff/.openclaw/workspace/claude"                                   # Claude agent workspace (WolffClaw/workspace-claude)
-  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace"                   # Luigi (WolffClaw)
-  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-stan"    # Stan (WolffStan)
-  "/Users/mrwolff/.openclaw/workspace/survivorpulse-workspace/workspace-deb"     # Deb (WolffDeb)
+  "/Users/mrwolff/.openclaw-luigi/workspace"                   # Luigi (WolffClaw)
+  "/Users/mrwolff/.openclaw-luigi/workspace/workspace-stan"    # Stan (WolffStan)
+  "/Users/mrwolff/.openclaw-luigi/workspace/workspace-deb"     # Deb (WolffDeb)
   "/Users/mrwolff/.openclaw/workspace/fanduel-dfs-workspace/workspace-smuggs"    # Smuggs (WolffSmuggs)
   "/Users/mrwolff/.claude"                                                       # Claude
   "/Users/mrwolff/Projects/SurvivorPulse"

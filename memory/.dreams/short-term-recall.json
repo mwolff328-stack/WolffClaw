@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-06T12:56:20.593Z",
+  "updatedAt": "2026-05-06T21:36:33.045Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -712,18 +712,22 @@
       "endLine": 43,
       "source": "memory",
       "snippet": "- **Task 12.1 - Notification Event System:** Felix shipped (commit `1d3d3808`) - **Deb session timeouts:** Multiple 14-minute timeout crashes; Luigi re-spawned each time with focused continuation briefs. Deb progressed through account.tsx and auth pages. - **Felix → Task 1.4 Nav Shell** queued after 12.1 #### #product-backlog - **Sprint A closed:** 8 backlog items unassigned from Sprint A (7.1, 7.2, 6.4, 6.5, 17.8, 17.9, 20.2, 21.1); only 7.3 remains as active carryover - **Sprint B defined (21 tasks):** Goal = implement Back Tester feature. Phases: Foundation → Algorithm Core → Backend → UX → Integration. All 5 agents (Pam, Ann, Deb, Felix, Vlad) contributed. Tasks written to Notion. - **T",
-      "recallCount": 1,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.6217653363988629,
+      "totalScore": 1.7728621095464459,
       "maxScore": 0.6217653363988629,
       "firstRecalledAt": "2026-05-06T05:49:28.496Z",
-      "lastRecalledAt": "2026-05-06T05:49:28.496Z",
+      "lastRecalledAt": "2026-05-06T21:36:33.045Z",
       "queryHashes": [
-        "da1db60e9a8f"
+        "da1db60e9a8f",
+        "28a1276578eb",
+        "594789db9a44",
+        "a592d54d1019"
       ],
       "recallDays": [
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-06"
       ],
       "conceptTags": [
         "12.1",
@@ -743,13 +747,13 @@
       "endLine": 24,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-06 _Scheduled 2:00 AM PT | 25 channels with activity | 220 messages_ --- ### SurvivorPulse Guild #### #general - Sprint B status reviewed: 24 tasks, goal is Back Tester feature implementation - Tasks completed today: Fix 20.2 (prior-week picks bug — `teamUsage` guard, commit `b24e683b`), 3.2 (BT module scaffold, commit `62d306c6`), 3.D1 (BACKTESTER_ID_CONTRACT.md + PoolConfigPanel spec, commit `f4026c1b`), 3.3 (shared types port, commit `575b6ee8`), 3.5 (Wouter migration, commit `0fd1a364`) - ACP timeout root cause identified: ACP sessions have ~2-min ceiling; native subagent runs get full 10-min window - Fix: use `runtime=\"subagent\"` + agentId for Felix",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.5857370942454412,
+      "totalScore": 1.1707832366485695,
       "maxScore": 0.5857370942454412,
       "firstRecalledAt": "2026-05-06T12:56:20.593Z",
-      "lastRecalledAt": "2026-05-06T12:56:20.593Z",
+      "lastRecalledAt": "2026-05-06T21:36:03.067Z",
       "queryHashes": [
         "9bf72d14b178"
       ],
@@ -765,6 +769,132 @@
         "3.3",
         "3.5",
         "2-min"
+      ]
+    },
+    "memory:memory/2026-05-04.md:80:109": {
+      "key": "memory:memory/2026-05-04.md:80:109",
+      "path": "memory/2026-05-04.md",
+      "startLine": 80,
+      "endLine": 109,
+      "source": "memory",
+      "snippet": "- **Decision update (2026-05-04):** Back Tester is subscriber-only. Paywall stories 3.3a, 3.3b, and Ann 3.3 Free Gate are back IN Sprint B scope. No separate paywall -- uses existing subscriber gate. Email capture flow is dropped. --- ### Sprint B Kickoff (late night) - **Sprint B kicked off 2026-05-04 ~22:53 PDT** - Felix briefed: tasks 1.4 (Nav Shell, critical path), 10.1 (Context Engine), 12.1 (Notification Events) - Deb briefed: tasks 2.2 (Dark Theme), 2.3 (Core UI Components), 2.4 (Data Components) - Deb's first session dropped mid-run; re-spawned ~23:03 PDT - Felix still running overnight - Mike headed to bed — morning briefing expected ## #dev Discord channel troubleshooting (2026-",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.106178730726242,
+      "maxScore": 0.384925177693367,
+      "firstRecalledAt": "2026-05-06T21:36:11.220Z",
+      "lastRecalledAt": "2026-05-06T21:36:33.045Z",
+      "queryHashes": [
+        "28a1276578eb",
+        "594789db9a44",
+        "a592d54d1019"
+      ],
+      "recallDays": [
+        "2026-05-06"
+      ],
+      "conceptTags": [
+        "subscriber-only",
+        "3.3a",
+        "3.3b",
+        "3.3",
+        "1.4",
+        "10.1",
+        "12.1",
+        "2.2"
+      ]
+    },
+    "memory:memory/2026-05-05.md:21:31": {
+      "key": "memory:memory/2026-05-05.md:21:31",
+      "path": "memory/2026-05-05.md",
+      "startLine": 21,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "- **DB issue resolved:** `buyback_window_preset` and `entry_revival_deadline` columns missing from dev DB — fixed with ALTER TABLE; migration `0016_add_new_schema_columns.sql` created and pushed - **Auth issue diagnosed:** Two user records (Replit OIDC id=47230349 vs custom UUID) — pools not visible; root cause was SubscriptionGuard, then confirmed admin role already set - **Drizzle migration:** Multiple new columns added (period_type, period_index, schedule_type, missed_pick_count, pool_type, sport) — all set as \"create column\" not renames - **Claude Code daily init cron:** Multiple failed attempts to spawn (ACP not valid runtime in isolated cron, sandboxed isolation blocking spawn). Eventu",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3757342755794525,
+      "maxScore": 0.3757342755794525,
+      "firstRecalledAt": "2026-05-06T21:36:11.220Z",
+      "lastRecalledAt": "2026-05-06T21:36:11.220Z",
+      "queryHashes": [
+        "28a1276578eb"
+      ],
+      "recallDays": [
+        "2026-05-06"
+      ],
+      "conceptTags": [
+        "buyback-window-preset",
+        "entry-revival-deadline",
+        "0016-add-new-schema-columns.sql",
+        "period-type",
+        "period-index",
+        "schedule-type",
+        "missed-pick-count",
+        "pool-type"
+      ]
+    },
+    "memory:memory/2026-04-29.md:26:56": {
+      "key": "memory:memory/2026-04-29.md:26:56",
+      "path": "memory/2026-04-29.md",
+      "startLine": 26,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "- 1.7 Week-by-week temporal navigation: `35129ce5-833d-81a7-8600-f8724aa3103f` - 1.8 Eliminated pool/entry access and editing: `35129ce5-833d-81ae-bd3b-f52b015bbce7` - 1.9 Season selector and cross-season navigation: `35129ce5-833d-8197-bfc8-f072d92523b2` - 1.10 Pool-level historical data management view: `35129ce5-833d-812c-ba76-e5d3600fd785` All High priority, Status: Backlog, Area: Product & Engineering. ## Implementation Planning (Phase 1 & 2) Mike approved sequencing: implementation plans first, then test plan, then execution. **Branch:** `2026-v1` created from main. All implementation targets this branch. Main preserves 2025 version. **Git commit rule:** WolffClaw workspace is ONL",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.36643478870391843,
+      "maxScore": 0.36643478870391843,
+      "firstRecalledAt": "2026-05-06T21:36:18.196Z",
+      "lastRecalledAt": "2026-05-06T21:36:18.196Z",
+      "queryHashes": [
+        "594789db9a44"
+      ],
+      "recallDays": [
+        "2026-05-06"
+      ],
+      "conceptTags": [
+        "1.7",
+        "week-by-week",
+        "1.8",
+        "pool/entry",
+        "1.9",
+        "cross-season",
+        "1.10",
+        "pool-level"
+      ]
+    },
+    "memory:memory/2026-05-05.md:37:56": {
+      "key": "memory:memory/2026-05-05.md:37:56",
+      "path": "memory/2026-05-05.md",
+      "startLine": 37,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "- **Back Tester paywall decision:** Initially put on hold; then confirmed **subscriber-only** (blurred preview + upgrade CTA for non-subscribers). Tasks 3.3a, 3.3b, and Ann 3.3 gating story restored to Sprint B scope. - **Notion page location:** All 2026 weekly plan pages should go under 2026 Notion page (https://www.notion.so/2026-2f529ce5833d804ca0c8f56d9b96e28c) ### Wolff HQ Guild #### #weekly-daily-planning - Daily brief delivered May 4 — calendar clear except Daisy walk + DFS lineup - **Weekly plan built for May 4–10:** Pittsburgh trip for Sky's graduation (CMU, May 8, 11:30am ET). Mike traveling Thu–Sun. Mei going too (corrected — not at CPEG). - SP sprint triage order locked: Sprint",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.36001034677028654,
+      "maxScore": 0.36001034677028654,
+      "firstRecalledAt": "2026-05-06T21:36:18.196Z",
+      "lastRecalledAt": "2026-05-06T21:36:18.196Z",
+      "queryHashes": [
+        "594789db9a44"
+      ],
+      "recallDays": [
+        "2026-05-06"
+      ],
+      "conceptTags": [
+        "subscriber-only",
+        "non-subscribers",
+        "3.3a",
+        "3.3b",
+        "3.3",
+        "weekly-daily-planning",
+        "back",
+        "tester"
       ]
     }
   }
