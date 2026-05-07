@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-06T21:36:33.045Z",
+  "updatedAt": "2026-05-07T13:28:43.665Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -9,13 +9,13 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
-      "recallCount": 10,
+      "recallCount": 12,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 4.296362238091836,
+      "totalScore": 5.04460372523726,
       "maxScore": 0.7041480739539963,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
-      "lastRecalledAt": "2026-05-05T13:43:00.527Z",
+      "lastRecalledAt": "2026-05-07T13:28:43.665Z",
       "queryHashes": [
         "004df7e0da26",
         "adc5569c8165",
@@ -26,7 +26,9 @@
         "0191b81744c4",
         "ca3850dd4f1e",
         "5db3585f790f",
-        "3f32c006428f"
+        "3f32c006428f",
+        "f65bedf8b252",
+        "1d8bdf8257b9"
       ],
       "recallDays": [
         "2026-04-09",
@@ -35,7 +37,8 @@
         "2026-04-29",
         "2026-04-30",
         "2026-05-03",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-07"
       ],
       "conceptTags": [
         "competent-but-uncoordinated",
@@ -614,23 +617,26 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-01 ### SurvivorPulse Guild #### #dev - **Sprint A dispatched:** Felix (13.1, 14.1, 15.1, 16.1 → 4.1 → 3.1) + Stan (8.1 sim parameter sweep) all queued via #dev - **Claude rate limit hit:** Felix hit rate limit at ~9:14am Apr 30; tasks not committed. Relaunch set for 11:20am PDT via cron — confirmed relaunched (amber-shoal) at 6:20pm - **Stan 8.1 complete:** Simulation parameter sweep design committed to `docs/stan-simulation-parameter-sweep.md` on 2026-v1 - **Sprint 2 wrap:** Felix completed 1.4, 1.5, 1.6, 1.8, 2.2, 2.3, 2.4; Deb completed 2.5 QA pass — all pushed to 2026-v1 - **Persistent Claude Code session:** Spawned at 9:01am (cb4fce32-8251-41cf-84c0-7",
-      "recallCount": 4,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.7385024902852222,
+      "totalScore": 2.5049040643008396,
       "maxScore": 0.5946464953454182,
       "firstRecalledAt": "2026-05-03T15:51:58.888Z",
-      "lastRecalledAt": "2026-05-06T05:49:25.471Z",
+      "lastRecalledAt": "2026-05-07T13:28:43.665Z",
       "queryHashes": [
         "5db3585f790f",
         "33f5502fb24f",
         "3f32c006428f",
-        "2d6ad0943b67"
+        "2d6ad0943b67",
+        "f65bedf8b252",
+        "1d8bdf8257b9"
       ],
       "recallDays": [
         "2026-05-03",
         "2026-05-04",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-07"
       ],
       "conceptTags": [
         "13.1",
@@ -747,18 +753,20 @@
       "endLine": 24,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-06 _Scheduled 2:00 AM PT | 25 channels with activity | 220 messages_ --- ### SurvivorPulse Guild #### #general - Sprint B status reviewed: 24 tasks, goal is Back Tester feature implementation - Tasks completed today: Fix 20.2 (prior-week picks bug — `teamUsage` guard, commit `b24e683b`), 3.2 (BT module scaffold, commit `62d306c6`), 3.D1 (BACKTESTER_ID_CONTRACT.md + PoolConfigPanel spec, commit `f4026c1b`), 3.3 (shared types port, commit `575b6ee8`), 3.5 (Wouter migration, commit `0fd1a364`) - ACP timeout root cause identified: ACP sessions have ~2-min ceiling; native subagent runs get full 10-min window - Fix: use `runtime=\"subagent\"` + agentId for Felix",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.1707832366485695,
+      "totalScore": 1.5297647297639947,
       "maxScore": 0.5857370942454412,
       "firstRecalledAt": "2026-05-06T12:56:20.593Z",
-      "lastRecalledAt": "2026-05-06T21:36:03.067Z",
+      "lastRecalledAt": "2026-05-07T13:28:43.665Z",
       "queryHashes": [
-        "9bf72d14b178"
+        "9bf72d14b178",
+        "1d8bdf8257b9"
       ],
       "recallDays": [
-        "2026-05-06"
+        "2026-05-06",
+        "2026-05-07"
       ],
       "conceptTags": [
         "20.2",
@@ -895,6 +903,37 @@
         "weekly-daily-planning",
         "back",
         "tester"
+      ]
+    },
+    "memory:memory/2026-05-06.md:41:69": {
+      "key": "memory:memory/2026-05-06.md:41:69",
+      "path": "memory/2026-05-06.md",
+      "startLine": 41,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "- Sim 2 (Correlation): CMEA → 0% correlated death at n≤20 vs 100% uncoordinated - Sim 3 (Inventory Death): Bad luck dominates (72.7%) - All memory files in workspace/memory/stan-*.md #### #backtesting *(NEW — consolidated from 4 archived channels)* - CMEA Prototype repo: `git@github.com:mwolff328-stack/SurvivorPulse-BackTesting-Prototype.git` - Recent fixes: duplicate TEMPLATE dropdown removed, template description positioning fixed - Full context summary seeded from archived channels #### #dev *(NEW — consolidated from #dev + #claude-code)* - All Claude Code / ACP sessions now route here - Sprint A closed; Sprint B active — back tester implementation underway - Felix overnight cron co",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6197812844211503,
+      "maxScore": 0.6197812844211503,
+      "firstRecalledAt": "2026-05-07T13:28:43.665Z",
+      "lastRecalledAt": "2026-05-07T13:28:43.665Z",
+      "queryHashes": [
+        "1d8bdf8257b9"
+      ],
+      "recallDays": [
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "72.7",
+        "workspace/memory/stan",
+        "github.com",
+        "claude-code",
+        "sim",
+        "correlation",
+        "cmea",
+        "correlated"
       ]
     }
   }
