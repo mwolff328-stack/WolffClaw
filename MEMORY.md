@@ -98,6 +98,13 @@ Full specs: ~/.claude/agents/*.md
 
 Old flat backlog (23c0e14a-e704-4481-a635-8202e8569e04) preserved for verification — Mike to delete manually.
 
+**SP Stories & Tasks conventions:**
+- Every story must have Description, Acceptance Criteria, and Test Cases populated in their respective rich text fields (added 2026-05-11).
+- Description: 2-4 sentence user story or feature description.
+- Acceptance Criteria: Given/When/Then style or numbered list of verifiable criteria.
+- Test Cases: Numbered list of test scenarios with expected outcomes.
+- Sprint relation: assign to the appropriate sprint at story creation or grooming time.
+
 **Active SurvivorPulse tasks (as of 2026-04-06):**
 - Today: Improve CMEA Prototype; Start automated dev system with OpenClaw/Claude Code
 - This Week: Share CMEA Prototype with TAM; Groom Product Backlog; Discord CMEA recruitment
