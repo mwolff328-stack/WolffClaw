@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-10T14:01:07.707Z",
+  "updatedAt": "2026-05-12T14:01:54.746Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -617,13 +617,13 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-01 ### SurvivorPulse Guild #### #dev - **Sprint A dispatched:** Felix (13.1, 14.1, 15.1, 16.1 → 4.1 → 3.1) + Stan (8.1 sim parameter sweep) all queued via #dev - **Claude rate limit hit:** Felix hit rate limit at ~9:14am Apr 30; tasks not committed. Relaunch set for 11:20am PDT via cron — confirmed relaunched (amber-shoal) at 6:20pm - **Stan 8.1 complete:** Simulation parameter sweep design committed to `docs/stan-simulation-parameter-sweep.md` on 2026-v1 - **Sprint 2 wrap:** Felix completed 1.4, 1.5, 1.6, 1.8, 2.2, 2.3, 2.4; Deb completed 2.5 QA pass — all pushed to 2026-v1 - **Persistent Claude Code session:** Spawned at 9:01am (cb4fce32-8251-41cf-84c0-7",
-      "recallCount": 7,
+      "recallCount": 8,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.8801090387137576,
+      "totalScore": 3.280971434477155,
       "maxScore": 0.5946464953454182,
       "firstRecalledAt": "2026-05-03T15:51:58.888Z",
-      "lastRecalledAt": "2026-05-10T14:01:07.707Z",
+      "lastRecalledAt": "2026-05-12T14:01:54.746Z",
       "queryHashes": [
         "5db3585f790f",
         "33f5502fb24f",
@@ -631,14 +631,16 @@
         "2d6ad0943b67",
         "f65bedf8b252",
         "1d8bdf8257b9",
-        "641a9955952d"
+        "641a9955952d",
+        "bdabb8adf154"
       ],
       "recallDays": [
         "2026-05-03",
         "2026-05-04",
         "2026-05-05",
         "2026-05-07",
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-12"
       ],
       "conceptTags": [
         "13.1",
@@ -755,22 +757,24 @@
       "endLine": 24,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-06 _Scheduled 2:00 AM PT | 25 channels with activity | 220 messages_ --- ### SurvivorPulse Guild #### #general - Sprint B status reviewed: 24 tasks, goal is Back Tester feature implementation - Tasks completed today: Fix 20.2 (prior-week picks bug — `teamUsage` guard, commit `b24e683b`), 3.2 (BT module scaffold, commit `62d306c6`), 3.D1 (BACKTESTER_ID_CONTRACT.md + PoolConfigPanel spec, commit `f4026c1b`), 3.3 (shared types port, commit `575b6ee8`), 3.5 (Wouter migration, commit `0fd1a364`) - ACP timeout root cause identified: ACP sessions have ~2-min ceiling; native subagent runs get full 10-min window - Fix: use `runtime=\"subagent\"` + agentId for Felix",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.8963715642948251,
+      "totalScore": 2.297275933649073,
       "maxScore": 0.5857370942454412,
       "firstRecalledAt": "2026-05-06T12:56:20.593Z",
-      "lastRecalledAt": "2026-05-10T14:01:07.707Z",
+      "lastRecalledAt": "2026-05-12T14:01:54.746Z",
       "queryHashes": [
         "9bf72d14b178",
         "1d8bdf8257b9",
-        "641a9955952d"
+        "641a9955952d",
+        "bdabb8adf154"
       ],
       "recallDays": [
         "2026-05-06",
         "2026-05-07",
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-12"
       ],
       "conceptTags": [
         "20.2",
@@ -947,18 +951,20 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "# 2026-04-25 ## Daily spend check (cron, 8:00 PM PDT) - Total: $0.05 (3 runs, all cron tasks) - Status: green, $49.95 remaining of $50 daily limit - Posted to #infra, canvas rebuilt - Fixed token path in notes: `d['channels']['discord']['accounts']['default']['token']` (not `d['channels']['discord']['token']`) ## Channel Context Save -- 2026-04-25 ### SurvivorPulse Guild #### #general - Mike asked about available agents, then requested sales/marketing agent sharpening - Defined marketing channel priorities: X > Reddit > Facebook > Discord > LinkedIn - Set targets: 50 high-signal users by August, 100 by September - Three existing agents sharpened (Hank, Sky, Arlo) + Deb updated - Three ne",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.6034250336376275,
-      "maxScore": 0.6034250336376275,
+      "totalScore": 1.214154976689144,
+      "maxScore": 0.6107299430515165,
       "firstRecalledAt": "2026-05-10T14:01:00.042Z",
-      "lastRecalledAt": "2026-05-10T14:01:00.042Z",
+      "lastRecalledAt": "2026-05-12T14:01:48.604Z",
       "queryHashes": [
-        "a76b8504fb43"
+        "a76b8504fb43",
+        "5c44e93fc116"
       ],
       "recallDays": [
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-12"
       ],
       "conceptTags": [
         "0.05",
@@ -978,18 +984,21 @@
       "endLine": 26,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-04 ### SurvivorPulse Guild #### #infra - Daily spend report: $34.82 today vs $50.00 limit ($15.18 remaining); top driver claude-sonnet-4-6 at $32.72 (94%) - Mike asked if Luigi can render screenshots (missing dependency flagged) #### #dev - **Issue:** App still hanging/not loading in Replit Preview window - **Root cause identified:** Global queryClient using `on401: \"throw\"` + TanStack Query `refetchOnMount: true` → continuous 401 loop; `useSubscription` retry:1 doubled cycles; Replit iframe re-mount events made it worse - **Fix deployed:** Commit `f1eff2df` on `2026-v1` branch — patched `useAuth`, `UserContext`, `useSubscription` - **Result:** Fix worked",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.40006946623325346,
-      "maxScore": 0.40006946623325346,
+      "totalScore": 1.2312668323516847,
+      "maxScore": 0.4184970408678055,
       "firstRecalledAt": "2026-05-10T14:01:07.707Z",
-      "lastRecalledAt": "2026-05-10T14:01:07.707Z",
+      "lastRecalledAt": "2026-05-12T14:01:54.746Z",
       "queryHashes": [
-        "641a9955952d"
+        "641a9955952d",
+        "5c44e93fc116",
+        "bdabb8adf154"
       ],
       "recallDays": [
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-12"
       ],
       "conceptTags": [
         "34.82",
@@ -1009,18 +1018,21 @@
       "endLine": 30,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-02 ### SurvivorPulse Guild #### #infra (NOT reset — protected) - **Daily spend cron bug fixed**: UTC vs PDT mismatch caused cron to report $0 when actual spend was $49.78 (May 1 PDT = May 2 UTC). Fixed to use PDT date + UTC-midnight-aligned API lookback - **High spend flagged retroactively**: Apr 29 $154.30 (Opus-4-6 $111 alone), Apr 30 $124.60, May 1 $49.78 — root cause: Opus running hot, context-save cron volume - Bug fix committed and pushed #### #dev - **Sprint 2 complete**: Tasks 1.4, 1.5, 1.6, 1.8, 2.2–2.5, 8.1, 13.1, 14.1 — all committed to `2026-v1`, 2405 tests passing, Notion synced - **Sprint A (3.1, 4.1, 15.1, 16.1) blocked all day**: Claude Co",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.37138500213623044,
-      "maxScore": 0.37138500213623044,
+      "totalScore": 1.1489662587642668,
+      "maxScore": 0.3945916622877121,
       "firstRecalledAt": "2026-05-10T14:01:07.707Z",
-      "lastRecalledAt": "2026-05-10T14:01:07.707Z",
+      "lastRecalledAt": "2026-05-12T14:01:54.746Z",
       "queryHashes": [
-        "641a9955952d"
+        "641a9955952d",
+        "5c44e93fc116",
+        "bdabb8adf154"
       ],
       "recallDays": [
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-12"
       ],
       "conceptTags": [
         "49.78",
@@ -1040,18 +1052,20 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-03 ### SurvivorPulse Guild #### #infra - Daily spend: $26.97 (limit $50 | remaining $23.03) — top driver: claude-sonnet-4-6 ($25.93) #### #dev - **Sprint A watchdog (Sat May 2, 7 AM):** All 4 tasks complete ✅ - 3.1 Back Tester portability report → `docs/felix-backtester-portability-report.md` - 4.1 ROI calculation engine with interpolation + prize-weighted EV - 16.1 Personalization audit + depth metric → `docs/felix-personalization-audit.md` - 15.1 Correlation score calculation (committed earlier) - **Blocker: App not loading in Replit Preview** — Mike reported spinner hang - Root cause diagnosed: TanStack Query v5 bug — `useAuth.ts` extra `isFe",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.3684155374765396,
-      "maxScore": 0.3684155374765396,
+      "totalScore": 0.7592572808265685,
+      "maxScore": 0.39084174335002897,
       "firstRecalledAt": "2026-05-10T14:01:07.707Z",
-      "lastRecalledAt": "2026-05-10T14:01:07.707Z",
+      "lastRecalledAt": "2026-05-12T14:01:54.746Z",
       "queryHashes": [
-        "641a9955952d"
+        "641a9955952d",
+        "bdabb8adf154"
       ],
       "recallDays": [
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-12"
       ],
       "conceptTags": [
         "26.97",
@@ -1093,6 +1107,100 @@
         "multi-life/strike",
         "blend-70-30",
         "channel"
+      ]
+    },
+    "memory:memory/2026-05-09.md:1:36": {
+      "key": "memory:memory/2026-05-09.md:1:36",
+      "path": "memory/2026-05-09.md",
+      "startLine": 1,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "# Memory — 2026-05-09 ## Channel Context Save — 2026-05-09 ### SurvivorPulse Guild #### #dev / #product / #backtesting - No substantive new activity post-09:00 UTC May 8 (Sprint C definition captured in May 8 nightly scan) - Bot cron outputs only (#cron-jobs, #sp-ci) #### #infra (SP) - Bot output only — skipped per protocol --- ### Wolff HQ Guild #### #infra - 4x git sync runs clean (8/8 repos each): tags sync-20260508-230541, sync-20260509-030445-workspace, sync-20260509-070446 - Version checks: 2026.5.7 matches latest (no update available) - May 9 daily spend check: **$30.55 of $50.00 limit** (green, under threshold); top driver claude-sonnet-4-6 ($28.96 / 95%) - All bot cron output",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6071382710102715,
+      "maxScore": 0.6071382710102715,
+      "firstRecalledAt": "2026-05-12T14:01:48.604Z",
+      "lastRecalledAt": "2026-05-12T14:01:48.604Z",
+      "queryHashes": [
+        "5c44e93fc116"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "post-09",
+        "cron-jobs",
+        "sp-ci",
+        "8/8",
+        "sync-20260508-230541",
+        "sync-20260509-030445-workspace",
+        "sync-20260509-070446",
+        "2026.5.7"
+      ]
+    },
+    "memory:memory/2026-05-11.md:1:19": {
+      "key": "memory:memory/2026-05-11.md:1:19",
+      "path": "memory/2026-05-11.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "## Channel Context Save — 2026-05-11 ### SurvivorPulse Guild #### #infra - Felix Sprint A watchdog report: all 4 tasks Done (3.1, 4.1, 15.1, 16.1), 2,513 tests passing - Next Sprint A candidates: 4.2 (ROI calculator frontend), 4.3 (Preset pool profiles), 13.2, 14.2 - Mike asked admin subscription bypass fix here → Luigi moved conversation to #dev - Bot output only otherwise (daily spend report) #### #dev - **SST-101 (Admin subscription bypass)**: Admin users (role='admin') now skip subscription gate on login and all gated routes. 9 unit tests + 2 E2E tests. Commit aeb90392. - **SST-102 (Pools nav move)**: Pools link moved into Command Center section (order: This Week → Portfolio → Pools);",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7961027085781097,
+      "maxScore": 0.4079614609479904,
+      "firstRecalledAt": "2026-05-12T14:01:48.604Z",
+      "lastRecalledAt": "2026-05-12T14:01:54.746Z",
+      "queryHashes": [
+        "5c44e93fc116",
+        "bdabb8adf154"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "3.1",
+        "4.1",
+        "15.1",
+        "16.1",
+        "4.2",
+        "4.3",
+        "13.2",
+        "14.2"
+      ]
+    },
+    "memory:memory/2026-05-06.md:101:142": {
+      "key": "memory:memory/2026-05-06.md:101:142",
+      "path": "memory/2026-05-06.md",
+      "startLine": 101,
+      "endLine": 142,
+      "source": "memory",
+      "snippet": "- Context summaries requested from archived channels to seed #nba-wta-friends --- ### New Channels Discovered - `#stan-research` — SurvivorPulse (consolidated research hub) - `#backtesting` — SurvivorPulse (consolidated BT channel) - `#dev` — SurvivorPulse (consolidated dev/claude-code channel) - `#nba-wta-friends` — FanDuel DFS (new consolidated DFS channel) --- ### Workspaces - `workspace` (/Users/mrwolff/.openclaw/workspace): remote connected, 0 pending changes - `.claude` (/Users/mrwolff/.claude): remote connected, 0 pending changes --- ## Channel Context Save — 2026-05-06 (6:41 AM PT) _Scheduled 2:30 AM PT run (delayed due to prior timeout fix) | 5 channels with activity | 25 mess",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3824654668569565,
+      "maxScore": 0.3824654668569565,
+      "firstRecalledAt": "2026-05-12T14:01:48.604Z",
+      "lastRecalledAt": "2026-05-12T14:01:48.604Z",
+      "queryHashes": [
+        "5c44e93fc116"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "nba-wta-friends",
+        "stan-research",
+        "dev/claude-code",
+        "users/mrwolff",
+        "openclaw/workspace",
+        "context",
+        "summaries",
+        "requested"
       ]
     }
   }
