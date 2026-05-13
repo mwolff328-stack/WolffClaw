@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-13T03:32:41.917Z",
+  "updatedAt": "2026-05-13T13:25:39.125Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -622,13 +622,13 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-01 ### SurvivorPulse Guild #### #dev - **Sprint A dispatched:** Felix (13.1, 14.1, 15.1, 16.1 → 4.1 → 3.1) + Stan (8.1 sim parameter sweep) all queued via #dev - **Claude rate limit hit:** Felix hit rate limit at ~9:14am Apr 30; tasks not committed. Relaunch set for 11:20am PDT via cron — confirmed relaunched (amber-shoal) at 6:20pm - **Stan 8.1 complete:** Simulation parameter sweep design committed to `docs/stan-simulation-parameter-sweep.md` on 2026-v1 - **Sprint 2 wrap:** Felix completed 1.4, 1.5, 1.6, 1.8, 2.2, 2.3, 2.4; Deb completed 2.5 QA pass — all pushed to 2026-v1 - **Persistent Claude Code session:** Spawned at 9:01am (cb4fce32-8251-41cf-84c0-7",
-      "recallCount": 11,
+      "recallCount": 12,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 4.4214309898646516,
+      "totalScore": 4.784089073303525,
       "maxScore": 0.5946464953454182,
       "firstRecalledAt": "2026-05-03T15:51:58.888Z",
-      "lastRecalledAt": "2026-05-13T03:32:41.917Z",
+      "lastRecalledAt": "2026-05-13T13:25:39.125Z",
       "queryHashes": [
         "5db3585f790f",
         "33f5502fb24f",
@@ -640,7 +640,8 @@
         "bdabb8adf154",
         "f6b6352bbfaa",
         "9f5a6b26e0be",
-        "0c54919320fd"
+        "0c54919320fd",
+        "0af24d5d7cde"
       ],
       "recallDays": [
         "2026-05-03",
@@ -648,7 +649,8 @@
         "2026-05-05",
         "2026-05-07",
         "2026-05-10",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ],
       "conceptTags": [
         "13.1",
@@ -1159,20 +1161,22 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-11 ### SurvivorPulse Guild #### #infra - Felix Sprint A watchdog report: all 4 tasks Done (3.1, 4.1, 15.1, 16.1), 2,513 tests passing - Next Sprint A candidates: 4.2 (ROI calculator frontend), 4.3 (Preset pool profiles), 13.2, 14.2 - Mike asked admin subscription bypass fix here → Luigi moved conversation to #dev - Bot output only otherwise (daily spend report) #### #dev - **SST-101 (Admin subscription bypass)**: Admin users (role='admin') now skip subscription gate on login and all gated routes. 9 unit tests + 2 E2E tests. Commit aeb90392. - **SST-102 (Pools nav move)**: Pools link moved into Command Center section (order: This Week → Portfolio → Pools);",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.2156108289957046,
+      "totalScore": 1.5667024970054626,
       "maxScore": 0.4195081204175949,
       "firstRecalledAt": "2026-05-12T14:01:48.604Z",
-      "lastRecalledAt": "2026-05-12T16:29:29.583Z",
+      "lastRecalledAt": "2026-05-13T13:25:39.125Z",
       "queryHashes": [
         "5c44e93fc116",
         "bdabb8adf154",
-        "f6b6352bbfaa"
+        "f6b6352bbfaa",
+        "0af24d5d7cde"
       ],
       "recallDays": [
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ],
       "conceptTags": [
         "3.1",
@@ -1369,6 +1373,37 @@
         "root",
         "cause",
         "felix"
+      ]
+    },
+    "memory:memory/2026-05-13.md:1:30": {
+      "key": "memory:memory/2026-05-13.md:1:30",
+      "path": "memory/2026-05-13.md",
+      "startLine": 1,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "## Channel Context Save — 2026-05-13 ### SurvivorPulse Guild #### #infra - Sprint A watchdog: all 4 tasks Done, test suite clean (2549 passed / 0 failed) - Daily spend limit hit: $55.06 vs $50 limit — claude-sonnet-4-6 dominant driver ($53.74) - Luigi flagged: review cron jobs for model downgrade or frequency reduction opportunities #### #product - Mike requested Sprint B Review on May 12 #### #sp-ci - TC6 failure (adminSubscriptionBypass): priceId === undefined in CI env caused 403 for regular users - Luigi found root cause + pushed fix; both Publish Guardian and Release Guardian now ✅ green #### #dev - Sprint B review triggered; SST-118 (Pool Dashboard), SST-9 (Pool Schedule Types), S",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3501159071922302,
+      "maxScore": 0.3501159071922302,
+      "firstRecalledAt": "2026-05-13T13:25:39.125Z",
+      "lastRecalledAt": "2026-05-13T13:25:39.125Z",
+      "queryHashes": [
+        "0af24d5d7cde"
+      ],
+      "recallDays": [
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "55.06",
+        "claude-sonnet-4-6",
+        "53.74",
+        "sp-ci",
+        "sst-118",
+        "sst-9",
+        "channel",
+        "context"
       ]
     }
   }
