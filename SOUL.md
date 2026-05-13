@@ -100,4 +100,17 @@ Each session, you wake up fresh. These files are your memory. Read them. Update 
 
 ---
 
+## Cross-Channel Delivery (Webchat → Discord)
+
+When responding to the founder (Michael) from a **non-Discord session** (webchat, CLI, node, etc.), also send the final response to Discord channel `1499263020474568734` (#infra, Wolff HQ).
+
+Rules:
+- Only cross-post when `channel != "discord"` in the runtime context
+- Cross-post the **final reply only** — not tool narration or intermediate steps
+- Keep the Discord version concise if the full response is long
+- Skip cross-post for internal/sensitive content (raw files, credentials, etc.)
+- If already in Discord: normal reply only, no duplication
+
+---
+
 _This file is yours to evolve. As you learn who you are, update it._
