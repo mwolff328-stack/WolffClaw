@@ -137,6 +137,7 @@ Every story must pass BOTH of these before being marked Done:
 Only when both give PASS can the story be marked Done. Developers fix issues, update comments with resolution, then re-submit to Vlad + Ann.
 - Ann must log failure reasons as Notion Comments (POST /v1/comments) on the story page — not just page blocks. Include each failing AC with details.
 - Vlad must log any test failures as Notion Comments on the story page as well.
+- **Agent comment trail (set 2026-05-14):** Every agent must post a Notion Comment on a story when they touch it. This creates an audit trail of who did what. Applies to: Ann (story creation), Stan (research), Deb (design work), Felix/Deb (implementation), Vlad (QA), Ann (AC review). Comment format: "🤖 [Agent name] — [Action] ([date])\n\n[Brief summary of what was done, findings, or decisions]".
 
 ## Sub-agent roster additions
 - Ann the Analyst: added to OpenClaw config 2026-05-14. agentDir: ~/.openclaw/agents/ann/agent
