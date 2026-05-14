@@ -135,9 +135,15 @@ Every story must pass BOTH of these before being marked Done:
 1. **Vlad (test cases):** All test cases pass. Suite stays green. If any fail → reassign to developer, set In Progress, comment with failures.
 2. **Ann (acceptance criteria):** All AC verified against implementation. If any unmet → reassign to developer, set In Progress, comment with gaps.
 Only when both give PASS can the story be marked Done. Developers fix issues, update comments with resolution, then re-submit to Vlad + Ann.
+- Ann must log failure reasons as Notion Comments (POST /v1/comments) on the story page — not just page blocks. Include each failing AC with details.
+- Vlad must log any test failures as Notion Comments on the story page as well.
 
 ## Sub-agent roster additions
 - Ann the Analyst: added to OpenClaw config 2026-05-14. agentDir: ~/.openclaw/agents/ann/agent
+
+## Process rules
+- **Stan on analytic/calculation/research stories (set 2026-05-14):** For all stories that involve analytics, calculations, or research-oriented outputs, Stan must be brought in during story definition to specify expected results. No analytic story goes to build without Stan-defined expected outputs.
+- **Back Testing Analytics epic (created 2026-05-14):** Notion page ID 36029ce5-833d-81c0-85bd-ffe38e27771c. Lives under Back Testing feature (35929ce5-833d-8125-b7eb-c8e1da0565eb). Each reference scenario Stan defines becomes a story in this epic.
 
 ## Lessons learned
 _(none yet)_
