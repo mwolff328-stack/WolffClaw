@@ -54,7 +54,7 @@ Full specs: ~/.claude/agents/*.md
 ## Preferences
 - Auto-commit and push workspace changes to WolffClaw repo (git@github.com:mwolff328-stack/WolffClaw.git) after meaningful updates. Set 2026-04-02.
 - Auto-sync ~/.claude with WolffClaude repo (git@github.com:mwolff328-stack/WolffClaude.git). Push local changes, pull remote changes. Set 2026-04-03.
-- **Git commit rules (set 2026-04-29):** WolffClaw workspace repo is ONLY for OpenClaw setup/config changes. All SurvivorPulse-related changes (docs, code, product work) commit to SurvivorPulse repo (`/Users/mrwolff/Projects/SurvivorPulse`, git@github.com:mwolff328-stack/SurvivorPulse.git) only. Sub-agents doing SP work must target the SurvivorPulse repo, not the workspace.
+- **Git commit rules (set 2026-04-29, updated 2026-05-14):** WolffClaw workspace repo is ONLY for OpenClaw setup/config changes. All SurvivorPulse-related changes (docs, code, product work) commit to SurvivorPulse repo (`/Users/mrwolff/Projects/SurvivorPulse`, git@github.com:mwolff328-stack/SurvivorPulse.git) only. Sub-agents doing SP work must target the SurvivorPulse repo, not the workspace. **All SP documentation must be committed to the SurvivorPulse repo upon creation** — this applies to design docs, specs, and any other docs produced for SP by any agent.
 
 ## SurvivorPulse (P1) - Deep Context
 
@@ -129,6 +129,15 @@ All 5 validation sims complete. Scripts + memory writeups in survivorpulse-works
 - **Sim 3 (Inventory Death Analysis):** `stan-inventory-death-sim.md` — Entry deaths are primarily bad luck (high-WP picks that lost), not inventory depletion. SP Conservative entries have the best inventory profiles at death.
 - **Sim 4 (Multi-Life/Strike Format):** `stan-multilife-strategy-sim.md` — Strike formats flip the strategy leaderboard. blend_70_30 becomes #1, adaptive_blend jumps from last to 2nd, SP strategies drop to #6-7. Strike2 is the sweet spot. Recommendation engine must be format-aware.
 - **Sim 5 (Field Size Effects):** `stan-field-size-sim.md` — Optimal contrarian weight is monotonically increasing with field size. Small pools (<50) favor CW=0%; large pools (500+) favor CW=50%. EW is flat across CW range (~27-28). Chalk upset co-elimination drops 64% at CW=50% in Circa-scale pools. Pool size should be required input to tune CW recommendation.
+
+## Story QA Gate (set 2026-05-14)
+Every story must pass BOTH of these before being marked Done:
+1. **Vlad (test cases):** All test cases pass. Suite stays green. If any fail → reassign to developer, set In Progress, comment with failures.
+2. **Ann (acceptance criteria):** All AC verified against implementation. If any unmet → reassign to developer, set In Progress, comment with gaps.
+Only when both give PASS can the story be marked Done. Developers fix issues, update comments with resolution, then re-submit to Vlad + Ann.
+
+## Sub-agent roster additions
+- Ann the Analyst: added to OpenClaw config 2026-05-14. agentDir: ~/.openclaw/agents/ann/agent
 
 ## Lessons learned
 _(none yet)_
