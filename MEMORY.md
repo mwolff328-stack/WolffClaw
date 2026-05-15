@@ -93,8 +93,8 @@ Full specs: ~/.claude/agents/*.md
 
 - **SP Features** (db_id: 35929ce5-833d-81c0-b483-cd5616ebece2): Top-level features. Schema: Name, Description, Status (Planned/Active/Complete), Priority.
 - **SP Epics** (db_id: 35929ce5-833d-81ef-82c5-dfb677eb90b4): Epics grouped under Features. Schema: Name, Description, Status (Planned/Active/Complete/On Hold), Priority, Feature (relation). 27 epics auto-created from old backlog naming convention.
-- **SP Sprints** (db_id: 35929ce5-833d-81c6-ade8-d4a8843deb03): Sprint tracking. Schema: Name, Status (Planning/Active/Complete), Goal, Dates (start+end).
-- **SP Stories & Tasks** (db_id: 35929ce5-833d-813d-ac22-ef23bb216120): 99 items migrated from old flat backlog. Schema: Item (title), Status (Today/This Week/In Progress/Backlog/Deferred/On Hold/Done), Category, Phase, Priority, Size, Type, Notes, Epic (relation), Sprint (relation). Naming convention: "[Epic Name] (X.Y): [Description]".
+- **SP Sprints:** Archived/trashed 2026-05-15. SurvivorPulse now uses Kanban, not sprints.
+- **SP Stories & Tasks** (db_id: 35929ce5-833d-813d-ac22-ef23bb216120): 167 active items. Migrated to Kanban 2026-05-15. Schema: Item (title), Status (Backlog/Ready/In Progress/In Review/Blocked/Done), Category, Phase, Priority, Size, Type, Notes, Epic (relation). Sprint relation removed. Naming convention: "[Epic Name] (X.Y): [Description]".
 
 Old flat backlog (23c0e14a-e704-4481-a635-8202e8569e04) preserved for verification — Mike to delete manually.
 
@@ -103,7 +103,7 @@ Old flat backlog (23c0e14a-e704-4481-a635-8202e8569e04) preserved for verificati
 - Description: 2-4 sentence user story or feature description.
 - Acceptance Criteria: Given/When/Then style or numbered list of verifiable criteria.
 - Test Cases: Numbered list of test scenarios with expected outcomes.
-- Sprint relation: assign to the appropriate sprint at story creation or grooming time.
+- Workflow: new stories start in Backlog → move to Ready when groomed → In Progress when being built → In Review for Vlad/Ann QA gate → Done when both pass.
 
 **Active SurvivorPulse tasks (as of 2026-04-06):**
 - Today: Improve CMEA Prototype; Start automated dev system with OpenClaw/Claude Code
