@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-14T23:06:17.515Z",
+  "updatedAt": "2026-05-15T15:58:11.460Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -732,22 +732,24 @@
       "endLine": 43,
       "source": "memory",
       "snippet": "- **Task 12.1 - Notification Event System:** Felix shipped (commit `1d3d3808`) - **Deb session timeouts:** Multiple 14-minute timeout crashes; Luigi re-spawned each time with focused continuation briefs. Deb progressed through account.tsx and auth pages. - **Felix → Task 1.4 Nav Shell** queued after 12.1 #### #product-backlog - **Sprint A closed:** 8 backlog items unassigned from Sprint A (7.1, 7.2, 6.4, 6.5, 17.8, 17.9, 20.2, 21.1); only 7.3 remains as active carryover - **Sprint B defined (21 tasks):** Goal = implement Back Tester feature. Phases: Foundation → Algorithm Core → Backend → UX → Integration. All 5 agents (Pam, Ann, Deb, Felix, Vlad) contributed. Tasks written to Notion. - **T",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.7728621095464459,
+      "totalScore": 2.1657097190664043,
       "maxScore": 0.6217653363988629,
       "firstRecalledAt": "2026-05-06T05:49:28.496Z",
-      "lastRecalledAt": "2026-05-06T21:36:33.045Z",
+      "lastRecalledAt": "2026-05-15T15:58:11.460Z",
       "queryHashes": [
         "da1db60e9a8f",
         "28a1276578eb",
         "594789db9a44",
-        "a592d54d1019"
+        "a592d54d1019",
+        "a20aa85c9453"
       ],
       "recallDays": [
         "2026-05-05",
-        "2026-05-06"
+        "2026-05-06",
+        "2026-05-15"
       ],
       "conceptTags": [
         "12.1",
@@ -1161,22 +1163,24 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-11 ### SurvivorPulse Guild #### #infra - Felix Sprint A watchdog report: all 4 tasks Done (3.1, 4.1, 15.1, 16.1), 2,513 tests passing - Next Sprint A candidates: 4.2 (ROI calculator frontend), 4.3 (Preset pool profiles), 13.2, 14.2 - Mike asked admin subscription bypass fix here → Luigi moved conversation to #dev - Bot output only otherwise (daily spend report) #### #dev - **SST-101 (Admin subscription bypass)**: Admin users (role='admin') now skip subscription gate on login and all gated routes. 9 unit tests + 2 E2E tests. Commit aeb90392. - **SST-102 (Pools nav move)**: Pools link moved into Command Center section (order: This Week → Portfolio → Pools);",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.5667024970054626,
+      "totalScore": 1.9490343451499939,
       "maxScore": 0.4195081204175949,
       "firstRecalledAt": "2026-05-12T14:01:48.604Z",
-      "lastRecalledAt": "2026-05-13T13:25:39.125Z",
+      "lastRecalledAt": "2026-05-15T15:58:11.460Z",
       "queryHashes": [
         "5c44e93fc116",
         "bdabb8adf154",
         "f6b6352bbfaa",
-        "0af24d5d7cde"
+        "0af24d5d7cde",
+        "a20aa85c9453"
       ],
       "recallDays": [
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-15"
       ],
       "conceptTags": [
         "3.1",
@@ -1258,18 +1262,20 @@
       "endLine": 39,
       "source": "memory",
       "snippet": "- **Sprint 2 CREATED** (May 12–23) — goal: subscription + payment foundations, 2026 season data pipeline, core infra launch readiness; stories: SST-56, SST-51, SST-42, SST-71, SST-68 - **MB-319 done**: 98 of 99 SP stories reclassified (titles cleaned, Types corrected, Category/Epic relations fixed) - **MB-304 done**: 12 Stan research items created in SP Stories & Tasks (7 Done, 5 Backlog) - **MB-251 done** (ROI Analysis): PoolGenius subscribers win 3.2x more often; 11x ROI at $50/entry; full report in Notion - **MB-320 done**: Sprint 1 planning complete (Sprint 1 closed, Sprint 2 created in Notion) - Standing rule established: all stories must have description + AC + test cases before implem",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.35902087986469267,
-      "maxScore": 0.35902087986469267,
+      "totalScore": 0.7906701117753983,
+      "maxScore": 0.43164923191070553,
       "firstRecalledAt": "2026-05-12T16:29:43.300Z",
-      "lastRecalledAt": "2026-05-12T16:29:43.300Z",
+      "lastRecalledAt": "2026-05-15T15:58:11.460Z",
       "queryHashes": [
-        "1ccdcc6f2d6f"
+        "1ccdcc6f2d6f",
+        "a20aa85c9453"
       ],
       "recallDays": [
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-15"
       ],
       "conceptTags": [
         "sst-56",
@@ -1435,6 +1441,37 @@
         "docs",
         "implementation",
         "plan.md"
+      ]
+    },
+    "memory:memory/2026-05-08.md:1:24": {
+      "key": "memory:memory/2026-05-08.md:1:24",
+      "path": "memory/2026-05-08.md",
+      "startLine": 1,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "# Memory — 2026-05-08 ## Channel Context Save — 2026-05-08 ### SurvivorPulse Guild #### #product - Sprint B closed; Luigi ran Pam + Ann to produce Sprint B review doc and Sprint C brief - **Sprint C = production readiness sprint** — no new features; ROI Analysis frontend deferred to Sprint D - 4 critical pre-demo issues identified: email capture gate missing (hard paywall instead of free tier), season/week selector scoping unverified, entry-workspace.tsx stub, Sprint B gaps in tasks 3.3/3.5 - **Back tester is subscriber-only** — Mike wants some back tester results + Stan's white paper exposed to non-subscribers to drive acquisition - Mike asked for clarification on task numbering system —",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.37092940509319305,
+      "maxScore": 0.37092940509319305,
+      "firstRecalledAt": "2026-05-15T15:58:11.460Z",
+      "lastRecalledAt": "2026-05-15T15:58:11.460Z",
+      "queryHashes": [
+        "a20aa85c9453"
+      ],
+      "recallDays": [
+        "2026-05-15"
+      ],
+      "conceptTags": [
+        "pre-demo",
+        "season/week",
+        "entry-workspace.tsx",
+        "3.3/3.5",
+        "subscriber-only",
+        "non-subscribers",
+        "channel",
+        "context"
       ]
     }
   }
