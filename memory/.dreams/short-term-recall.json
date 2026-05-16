@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-15T15:58:11.460Z",
+  "updatedAt": "2026-05-16T19:56:26.282Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -9,13 +9,13 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "--- date: 2026-04-08 --- # 2026-04-08 ## SurvivorPulse - CMEA Prototype Redesign ### Open questions resolved with Mike 1. Entry count: Real pool, dynamic from API. Pool ID `fc4c0479-655e-49d9-8b6a-94b0dd0e3226` 2. Metric name: \"Correlated Elimination Risk\" as working name, validate with early users 3. Baseline: Use `independentPicks[]` (competent-but-uncoordinated), not \"all same team\" strawman 4. Rationale copy: Needs editorial pass before demo-ready. Build with current copy as placeholder. 5. Eliminated entries: Show all entries, eliminated ones grayed/strikethrough 6. Competitor naming: Generic language only, no PoolGenius by name ### Notion backlog work - Initially created 5 tasks in",
-      "recallCount": 13,
+      "recallCount": 14,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 5.435127558273683,
+      "totalScore": 5.822654597920785,
       "maxScore": 0.7041480739539963,
       "firstRecalledAt": "2026-04-09T14:44:21.194Z",
-      "lastRecalledAt": "2026-05-12T16:29:29.583Z",
+      "lastRecalledAt": "2026-05-16T19:56:20.491Z",
       "queryHashes": [
         "004df7e0da26",
         "adc5569c8165",
@@ -29,7 +29,8 @@
         "3f32c006428f",
         "f65bedf8b252",
         "1d8bdf8257b9",
-        "f6b6352bbfaa"
+        "f6b6352bbfaa",
+        "ec3c16011088"
       ],
       "recallDays": [
         "2026-04-09",
@@ -40,7 +41,8 @@
         "2026-05-03",
         "2026-05-05",
         "2026-05-07",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-16"
       ],
       "conceptTags": [
         "competent-but-uncoordinated",
@@ -206,21 +208,23 @@
       "endLine": 26,
       "source": "memory",
       "snippet": "# 2026-04-17 — Daily Memory ## SurvivorPulse Back-Testing Prototype — Status **Repo:** `~/Projects/SurvivorPulse-BackTesting-Prototype` (renamed from CMEA-Prototype) **Git:** `git@github.com:mwolff328-stack/SurvivorPulse-BackTesting-Prototype.git` ### Completed (cumulative) - Full back-tester prototype: React client-side app simulating NFL survivor pool strategies against 2021-2025 historical data - Dark-mode design system (Linear-inspired), all panels, week selector, SWR cache - Strategy system: 6 templates, configurable weights (wp/ps/fv auto-sum 100), lookahead, decay, min win prob, EV mode - Per-entry strategy assignment, 1-50 entries, buyback toggle - \"Find Best Strategy\" optimizatio",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.251661804318428,
+      "totalScore": 1.627734225988388,
       "maxScore": 0.43108250498771666,
       "firstRecalledAt": "2026-04-23T17:00:32.273Z",
-      "lastRecalledAt": "2026-04-30T02:18:10.444Z",
+      "lastRecalledAt": "2026-05-16T19:56:20.491Z",
       "queryHashes": [
         "c330e12985dd",
         "048da43d88ba",
-        "0191b81744c4"
+        "0191b81744c4",
+        "ec3c16011088"
       ],
       "recallDays": [
         "2026-04-23",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-05-16"
       ],
       "conceptTags": [
         "back-testing",
@@ -371,18 +375,21 @@
       "endLine": 75,
       "source": "memory",
       "snippet": "- Sentry uppercase labels (11px, weight 590, 0.08em tracking) - SurvivorPulse domain components (entry cards, pick grids, risk cards, correlation matrix) - Updated src/index.css with `--sp-*` CSS custom properties, shadcn remapping to dark palette - Updated tailwind.config.ts with status colors, surface elevation, brand tokens, font config ### Notion Sync - Design evaluation synced to Notion page: \"DESIGN.md Shortlist — SurvivorPulse Brand Evaluation (2026-04-09)\" - Page ID: 33e29ce5-833d-8105-abd8-e9ffff821d3e - Linked under UX heading on Product & Engineering page ## Notion Pages Created This Session - CI Pipeline doc: 33e29ce5-833d-812b-ba51-dcf566081316 (under Architecture & Infras",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.3892742425203323,
-      "maxScore": 0.3892742425203323,
+      "totalScore": 1.167875173687935,
+      "maxScore": 0.39807388484477996,
       "firstRecalledAt": "2026-04-28T17:50:08.349Z",
-      "lastRecalledAt": "2026-04-28T17:50:08.349Z",
+      "lastRecalledAt": "2026-05-16T19:56:20.491Z",
       "queryHashes": [
-        "a0c5dba763a0"
+        "a0c5dba763a0",
+        "f4150aa0a6a4",
+        "ec3c16011088"
       ],
       "recallDays": [
-        "2026-04-28"
+        "2026-04-28",
+        "2026-05-16"
       ],
       "conceptTags": [
         "0.08em",
@@ -402,19 +409,24 @@
       "endLine": 67,
       "source": "memory",
       "snippet": "Mike wanted to adopt a DESIGN.md from the VoltAgent/awesome-design-md collection for SurvivorPulse's UI design system. ### Deb's Shortlist (5 of 58 reviewed) 1. **Linear** ⭐ (Deb's pick) — dark-mode-native, Inter Variable, luminance stacking, Radix UI compatible 2. **IBM Carbon** — enterprise analytics gold standard, IBM Plex Sans, rigorous token system 3. **Sentry** — most analogous product context, deep purple-black, uppercase label system 4. **Vercel** — precision minimalism, Geist with tabular numbers, shadow-as-border 5. **PostHog** — exact same tech stack (Tailwind + Radix + shadcn), wrong aesthetic but right bones ### Decision Mike accepted Deb's recommendation: **Linear as base**,",
-      "recallCount": 2,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.7629783481359481,
-      "maxScore": 0.3862405031919479,
+      "totalScore": 2.3082931518554686,
+      "maxScore": 0.4202606827020645,
       "firstRecalledAt": "2026-04-28T17:50:08.349Z",
-      "lastRecalledAt": "2026-04-28T17:50:08.434Z",
+      "lastRecalledAt": "2026-05-16T19:56:26.282Z",
       "queryHashes": [
         "a0c5dba763a0",
-        "08045b75d55d"
+        "08045b75d55d",
+        "f4150aa0a6a4",
+        "92ea40cd39f8",
+        "ec3c16011088",
+        "0668c712d825"
       ],
       "recallDays": [
-        "2026-04-28"
+        "2026-04-28",
+        "2026-05-16"
       ],
       "conceptTags": [
         "design.md",
@@ -622,13 +634,13 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-01 ### SurvivorPulse Guild #### #dev - **Sprint A dispatched:** Felix (13.1, 14.1, 15.1, 16.1 → 4.1 → 3.1) + Stan (8.1 sim parameter sweep) all queued via #dev - **Claude rate limit hit:** Felix hit rate limit at ~9:14am Apr 30; tasks not committed. Relaunch set for 11:20am PDT via cron — confirmed relaunched (amber-shoal) at 6:20pm - **Stan 8.1 complete:** Simulation parameter sweep design committed to `docs/stan-simulation-parameter-sweep.md` on 2026-v1 - **Sprint 2 wrap:** Felix completed 1.4, 1.5, 1.6, 1.8, 2.2, 2.3, 2.4; Deb completed 2.5 QA pass — all pushed to 2026-v1 - **Persistent Claude Code session:** Spawned at 9:01am (cb4fce32-8251-41cf-84c0-7",
-      "recallCount": 12,
+      "recallCount": 13,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 4.784089073303525,
+      "totalScore": 5.148387193444554,
       "maxScore": 0.5946464953454182,
       "firstRecalledAt": "2026-05-03T15:51:58.888Z",
-      "lastRecalledAt": "2026-05-13T13:25:39.125Z",
+      "lastRecalledAt": "2026-05-16T19:56:20.491Z",
       "queryHashes": [
         "5db3585f790f",
         "33f5502fb24f",
@@ -641,7 +653,8 @@
         "f6b6352bbfaa",
         "9f5a6b26e0be",
         "0c54919320fd",
-        "0af24d5d7cde"
+        "0af24d5d7cde",
+        "ec3c16011088"
       ],
       "recallDays": [
         "2026-05-03",
@@ -650,7 +663,8 @@
         "2026-05-07",
         "2026-05-10",
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-16"
       ],
       "conceptTags": [
         "13.1",
@@ -1163,24 +1177,26 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-11 ### SurvivorPulse Guild #### #infra - Felix Sprint A watchdog report: all 4 tasks Done (3.1, 4.1, 15.1, 16.1), 2,513 tests passing - Next Sprint A candidates: 4.2 (ROI calculator frontend), 4.3 (Preset pool profiles), 13.2, 14.2 - Mike asked admin subscription bypass fix here → Luigi moved conversation to #dev - Bot output only otherwise (daily spend report) #### #dev - **SST-101 (Admin subscription bypass)**: Admin users (role='admin') now skip subscription gate on login and all gated routes. 9 unit tests + 2 E2E tests. Commit aeb90392. - **SST-102 (Pools nav move)**: Pools link moved into Command Center section (order: This Week → Portfolio → Pools);",
-      "recallCount": 5,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.9490343451499939,
+      "totalScore": 2.3136855900287627,
       "maxScore": 0.4195081204175949,
       "firstRecalledAt": "2026-05-12T14:01:48.604Z",
-      "lastRecalledAt": "2026-05-15T15:58:11.460Z",
+      "lastRecalledAt": "2026-05-16T19:56:20.491Z",
       "queryHashes": [
         "5c44e93fc116",
         "bdabb8adf154",
         "f6b6352bbfaa",
         "0af24d5d7cde",
-        "a20aa85c9453"
+        "a20aa85c9453",
+        "ec3c16011088"
       ],
       "recallDays": [
         "2026-05-12",
         "2026-05-13",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ],
       "conceptTags": [
         "3.1",
