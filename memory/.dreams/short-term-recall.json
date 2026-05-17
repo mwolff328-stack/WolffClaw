@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T19:56:26.282Z",
+  "updatedAt": "2026-05-17T03:48:07.238Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -572,18 +572,20 @@
       "endLine": 62,
       "source": "memory",
       "snippet": "### Next Steps 1. Fix tutorial Step 7 highlighting (timing issue with conditional render) 2. Implement scroll positioning for tutorial modal above highlighted sections 3. Deploy to production and send to TAM users 4. Monitor feedback in Notion \"Backtester Feedback\" database 5. Iterate based on user feedback ### Operational Notes - Claude Code rate limit resets at 4am PDT (or 11am PDT depending on tier) - Notion feedback DB: `82ca7841-8bb8-4796-a5ab-f8f1f792ec5e` - Notion API key must be set as `NOTION_API_KEY` Replit secret on SurvivorPulse deployment - Production URL: `survivorpulse-backtester-prototype.replit.app` # 2026-04-17 — Daily Memory ## SurvivorPulse Back-Testing Prototype — Stat",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.39480897784233093,
+      "totalScore": 0.7683450430631638,
       "maxScore": 0.39480897784233093,
       "firstRecalledAt": "2026-04-30T02:18:10.444Z",
-      "lastRecalledAt": "2026-04-30T02:18:10.444Z",
+      "lastRecalledAt": "2026-05-17T03:48:07.238Z",
       "queryHashes": [
-        "0191b81744c4"
+        "0191b81744c4",
+        "9df1a312d32a"
       ],
       "recallDays": [
-        "2026-04-29"
+        "2026-04-29",
+        "2026-05-16"
       ],
       "conceptTags": [
         "notion-api-key",
