@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T14:16:46.276Z",
+  "updatedAt": "2026-05-19T15:17:00.171Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -748,20 +748,21 @@
       "endLine": 43,
       "source": "memory",
       "snippet": "- **Task 12.1 - Notification Event System:** Felix shipped (commit `1d3d3808`) - **Deb session timeouts:** Multiple 14-minute timeout crashes; Luigi re-spawned each time with focused continuation briefs. Deb progressed through account.tsx and auth pages. - **Felix → Task 1.4 Nav Shell** queued after 12.1 #### #product-backlog - **Sprint A closed:** 8 backlog items unassigned from Sprint A (7.1, 7.2, 6.4, 6.5, 17.8, 17.9, 20.2, 21.1); only 7.3 remains as active carryover - **Sprint B defined (21 tasks):** Goal = implement Back Tester feature. Phases: Foundation → Algorithm Core → Backend → UX → Integration. All 5 agents (Pam, Ann, Deb, Felix, Vlad) contributed. Tasks written to Notion. - **T",
-      "recallCount": 6,
+      "recallCount": 7,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.5467639595315683,
+      "totalScore": 2.907139322166227,
       "maxScore": 0.6217653363988629,
       "firstRecalledAt": "2026-05-06T05:49:28.496Z",
-      "lastRecalledAt": "2026-05-19T14:16:46.276Z",
+      "lastRecalledAt": "2026-05-19T15:17:00.171Z",
       "queryHashes": [
         "da1db60e9a8f",
         "28a1276578eb",
         "594789db9a44",
         "a592d54d1019",
         "a20aa85c9453",
-        "8d4c0f12410d"
+        "8d4c0f12410d",
+        "d5696e7d6345"
       ],
       "recallDays": [
         "2026-05-05",
@@ -921,18 +922,20 @@
       "endLine": 56,
       "source": "memory",
       "snippet": "- **Back Tester paywall decision:** Initially put on hold; then confirmed **subscriber-only** (blurred preview + upgrade CTA for non-subscribers). Tasks 3.3a, 3.3b, and Ann 3.3 gating story restored to Sprint B scope. - **Notion page location:** All 2026 weekly plan pages should go under 2026 Notion page (https://www.notion.so/2026-2f529ce5833d804ca0c8f56d9b96e28c) ### Wolff HQ Guild #### #weekly-daily-planning - Daily brief delivered May 4 — calendar clear except Daisy walk + DFS lineup - **Weekly plan built for May 4–10:** Pittsburgh trip for Sky's graduation (CMU, May 8, 11:30am ET). Mike traveling Thu–Sun. Mei going too (corrected — not at CPEG). - SP sprint triage order locked: Sprint",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.36001034677028654,
+      "totalScore": 0.7174343109130858,
       "maxScore": 0.36001034677028654,
       "firstRecalledAt": "2026-05-06T21:36:18.196Z",
-      "lastRecalledAt": "2026-05-06T21:36:18.196Z",
+      "lastRecalledAt": "2026-05-19T15:17:00.171Z",
       "queryHashes": [
-        "594789db9a44"
+        "594789db9a44",
+        "d5696e7d6345"
       ],
       "recallDays": [
-        "2026-05-06"
+        "2026-05-06",
+        "2026-05-19"
       ],
       "conceptTags": [
         "subscriber-only",
@@ -1185,26 +1188,28 @@
       "endLine": 19,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-11 ### SurvivorPulse Guild #### #infra - Felix Sprint A watchdog report: all 4 tasks Done (3.1, 4.1, 15.1, 16.1), 2,513 tests passing - Next Sprint A candidates: 4.2 (ROI calculator frontend), 4.3 (Preset pool profiles), 13.2, 14.2 - Mike asked admin subscription bypass fix here → Luigi moved conversation to #dev - Bot output only otherwise (daily spend report) #### #dev - **SST-101 (Admin subscription bypass)**: Admin users (role='admin') now skip subscription gate on login and all gated routes. 9 unit tests + 2 E2E tests. Commit aeb90392. - **SST-102 (Pools nav move)**: Pools link moved into Command Center section (order: This Week → Portfolio → Pools);",
-      "recallCount": 6,
+      "recallCount": 7,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.3136855900287627,
+      "totalScore": 2.672364193201065,
       "maxScore": 0.4195081204175949,
       "firstRecalledAt": "2026-05-12T14:01:48.604Z",
-      "lastRecalledAt": "2026-05-16T19:56:20.491Z",
+      "lastRecalledAt": "2026-05-19T15:17:00.171Z",
       "queryHashes": [
         "5c44e93fc116",
         "bdabb8adf154",
         "f6b6352bbfaa",
         "0af24d5d7cde",
         "a20aa85c9453",
-        "ec3c16011088"
+        "ec3c16011088",
+        "d5696e7d6345"
       ],
       "recallDays": [
         "2026-05-12",
         "2026-05-13",
         "2026-05-15",
-        "2026-05-16"
+        "2026-05-16",
+        "2026-05-19"
       ],
       "conceptTags": [
         "3.1",
@@ -1286,20 +1291,22 @@
       "endLine": 39,
       "source": "memory",
       "snippet": "- **Sprint 2 CREATED** (May 12–23) — goal: subscription + payment foundations, 2026 season data pipeline, core infra launch readiness; stories: SST-56, SST-51, SST-42, SST-71, SST-68 - **MB-319 done**: 98 of 99 SP stories reclassified (titles cleaned, Types corrected, Category/Epic relations fixed) - **MB-304 done**: 12 Stan research items created in SP Stories & Tasks (7 Done, 5 Backlog) - **MB-251 done** (ROI Analysis): PoolGenius subscribers win 3.2x more often; 11x ROI at $50/entry; full report in Notion - **MB-320 done**: Sprint 1 planning complete (Sprint 1 closed, Sprint 2 created in Notion) - Standing rule established: all stories must have description + AC + test cases before implem",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.7906701117753983,
+      "totalScore": 1.2187586814165114,
       "maxScore": 0.43164923191070553,
       "firstRecalledAt": "2026-05-12T16:29:43.300Z",
-      "lastRecalledAt": "2026-05-15T15:58:11.460Z",
+      "lastRecalledAt": "2026-05-19T15:17:00.171Z",
       "queryHashes": [
         "1ccdcc6f2d6f",
-        "a20aa85c9453"
+        "a20aa85c9453",
+        "d5696e7d6345"
       ],
       "recallDays": [
         "2026-05-12",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-19"
       ],
       "conceptTags": [
         "sst-56",
