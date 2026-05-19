@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-17T03:48:07.238Z",
+  "updatedAt": "2026-05-19T14:16:46.276Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -748,24 +748,26 @@
       "endLine": 43,
       "source": "memory",
       "snippet": "- **Task 12.1 - Notification Event System:** Felix shipped (commit `1d3d3808`) - **Deb session timeouts:** Multiple 14-minute timeout crashes; Luigi re-spawned each time with focused continuation briefs. Deb progressed through account.tsx and auth pages. - **Felix → Task 1.4 Nav Shell** queued after 12.1 #### #product-backlog - **Sprint A closed:** 8 backlog items unassigned from Sprint A (7.1, 7.2, 6.4, 6.5, 17.8, 17.9, 20.2, 21.1); only 7.3 remains as active carryover - **Sprint B defined (21 tasks):** Goal = implement Back Tester feature. Phases: Foundation → Algorithm Core → Backend → UX → Integration. All 5 agents (Pam, Ann, Deb, Felix, Vlad) contributed. Tasks written to Notion. - **T",
-      "recallCount": 5,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.1657097190664043,
+      "totalScore": 2.5467639595315683,
       "maxScore": 0.6217653363988629,
       "firstRecalledAt": "2026-05-06T05:49:28.496Z",
-      "lastRecalledAt": "2026-05-15T15:58:11.460Z",
+      "lastRecalledAt": "2026-05-19T14:16:46.276Z",
       "queryHashes": [
         "da1db60e9a8f",
         "28a1276578eb",
         "594789db9a44",
         "a592d54d1019",
-        "a20aa85c9453"
+        "a20aa85c9453",
+        "8d4c0f12410d"
       ],
       "recallDays": [
         "2026-05-05",
         "2026-05-06",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-19"
       ],
       "conceptTags": [
         "12.1",
@@ -1016,21 +1018,23 @@
       "endLine": 26,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-04 ### SurvivorPulse Guild #### #infra - Daily spend report: $34.82 today vs $50.00 limit ($15.18 remaining); top driver claude-sonnet-4-6 at $32.72 (94%) - Mike asked if Luigi can render screenshots (missing dependency flagged) #### #dev - **Issue:** App still hanging/not loading in Replit Preview window - **Root cause identified:** Global queryClient using `on401: \"throw\"` + TanStack Query `refetchOnMount: true` → continuous 401 loop; `useSubscription` retry:1 doubled cycles; Replit iframe re-mount events made it worse - **Fix deployed:** Commit `f1eff2df` on `2026-v1` branch — patched `useAuth`, `UserContext`, `useSubscription` - **Result:** Fix worked",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.2312668323516847,
+      "totalScore": 1.5955232083797455,
       "maxScore": 0.4184970408678055,
       "firstRecalledAt": "2026-05-10T14:01:07.707Z",
-      "lastRecalledAt": "2026-05-12T14:01:54.746Z",
+      "lastRecalledAt": "2026-05-19T14:03:52.912Z",
       "queryHashes": [
         "641a9955952d",
         "5c44e93fc116",
-        "bdabb8adf154"
+        "bdabb8adf154",
+        "8f445064cb66"
       ],
       "recallDays": [
         "2026-05-10",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-19"
       ],
       "conceptTags": [
         "34.82",
@@ -1050,21 +1054,23 @@
       "endLine": 30,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-02 ### SurvivorPulse Guild #### #infra (NOT reset — protected) - **Daily spend cron bug fixed**: UTC vs PDT mismatch caused cron to report $0 when actual spend was $49.78 (May 1 PDT = May 2 UTC). Fixed to use PDT date + UTC-midnight-aligned API lookback - **High spend flagged retroactively**: Apr 29 $154.30 (Opus-4-6 $111 alone), Apr 30 $124.60, May 1 $49.78 — root cause: Opus running hot, context-save cron volume - Bug fix committed and pushed #### #dev - **Sprint 2 complete**: Tasks 1.4, 1.5, 1.6, 1.8, 2.2–2.5, 8.1, 13.1, 14.1 — all committed to `2026-v1`, 2405 tests passing, Notion synced - **Sprint A (3.1, 4.1, 15.1, 16.1) blocked all day**: Claude Co",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.1489662587642668,
+      "totalScore": 1.5020052343606947,
       "maxScore": 0.3945916622877121,
       "firstRecalledAt": "2026-05-10T14:01:07.707Z",
-      "lastRecalledAt": "2026-05-12T14:01:54.746Z",
+      "lastRecalledAt": "2026-05-19T14:03:46.981Z",
       "queryHashes": [
         "641a9955952d",
         "5c44e93fc116",
-        "bdabb8adf154"
+        "bdabb8adf154",
+        "f35660db8f55"
       ],
       "recallDays": [
         "2026-05-10",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-19"
       ],
       "conceptTags": [
         "49.78",
@@ -1406,18 +1412,21 @@
       "endLine": 30,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-13 ### SurvivorPulse Guild #### #infra - Sprint A watchdog: all 4 tasks Done, test suite clean (2549 passed / 0 failed) - Daily spend limit hit: $55.06 vs $50 limit — claude-sonnet-4-6 dominant driver ($53.74) - Luigi flagged: review cron jobs for model downgrade or frequency reduction opportunities #### #product - Mike requested Sprint B Review on May 12 #### #sp-ci - TC6 failure (adminSubscriptionBypass): priceId === undefined in CI env caused 403 for regular users - Luigi found root cause + pushed fix; both Publish Guardian and Release Guardian now ✅ green #### #dev - Sprint B review triggered; SST-118 (Pool Dashboard), SST-9 (Pool Schedule Types), S",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.3501159071922302,
-      "maxScore": 0.3501159071922302,
+      "totalScore": 1.0616618782281875,
+      "maxScore": 0.3597080409526825,
       "firstRecalledAt": "2026-05-13T13:25:39.125Z",
-      "lastRecalledAt": "2026-05-13T13:25:39.125Z",
+      "lastRecalledAt": "2026-05-19T14:03:52.912Z",
       "queryHashes": [
-        "0af24d5d7cde"
+        "0af24d5d7cde",
+        "f35660db8f55",
+        "8f445064cb66"
       ],
       "recallDays": [
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-19"
       ],
       "conceptTags": [
         "55.06",
@@ -1490,6 +1499,100 @@
         "non-subscribers",
         "channel",
         "context"
+      ]
+    },
+    "memory:memory/2026-05-18.md:1:27": {
+      "key": "memory:memory/2026-05-18.md:1:27",
+      "path": "memory/2026-05-18.md",
+      "startLine": 1,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "## Channel Context Save — 2026-05-18 ### SurvivorPulse Guild #### #infra - Luigi morning watchdog (May 17 7:00 AM): All 4 Sprint A tasks confirmed COMPLETE ✅ (3.1, 4.1, 15.1, 16.1) - Design System 1.2 by Deb: 22 commits on `2026-v1` — sidebar, topbar, AppShell, all 6 major pages, color tokens. Design sign-off tagged `2026-05-16` - Sprint B next: Ann requirements → 3.2 BackTester scaffold → 4.2 ROI calculator - Daily spend alert: $72.95 vs $50 limit (+$22.95) — top driver claude-sonnet-4-6 ($66.42); Luigi acknowledged, checking #cron-jobs ### Wolff HQ Guild #### #general - Mike shared Larry Garcia's \"Interwoven\" concept (email + ChatGPT-assisted deck): Human-Centered Intelligence Operatin",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7248836219310759,
+      "maxScore": 0.3667665511369705,
+      "firstRecalledAt": "2026-05-19T14:03:46.981Z",
+      "lastRecalledAt": "2026-05-19T14:03:52.912Z",
+      "queryHashes": [
+        "f35660db8f55",
+        "8f445064cb66"
+      ],
+      "recallDays": [
+        "2026-05-19"
+      ],
+      "conceptTags": [
+        "gpt",
+        "3.1",
+        "4.1",
+        "15.1",
+        "16.1",
+        "1.2",
+        "2026-v1",
+        "sign-off"
+      ]
+    },
+    "memory:memory/2026-04-02-agent-memory.md:1:47": {
+      "key": "memory:memory/2026-04-02-agent-memory.md:1:47",
+      "path": "memory/2026-04-02-agent-memory.md",
+      "startLine": 1,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "# Session: 2026-04-02 23:04:24 UTC - **Session Key**: agent:main:telegram:direct:8508558620 - **Session ID**: c5554e74-2296-4635-ab06-68ab8273dccf - **Source**: telegram ## Conversation Summary user: Conversation info (untrusted metadata): ```json { \"message_id\": \"39\", \"sender_id\": \"8508558620\", \"sender\": \"Michael Wolff\", \"timestamp\": \"Wed 2026-04-01 14:05 PDT\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Michael Wolff (8508558620)\", \"id\": \"8508558620\", \"name\": \"Michael Wolff\" } ``` Shouldn't I add persistent context for these sub-agents so they remember what they have done, or should I leave that all to Luigi? assistant: Mostly leave it to me. Here is why. Sub-",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3627365231513977,
+      "maxScore": 0.3627365231513977,
+      "firstRecalledAt": "2026-05-19T14:11:01.894Z",
+      "lastRecalledAt": "2026-05-19T14:11:01.894Z",
+      "queryHashes": [
+        "457108dfe852"
+      ],
+      "recallDays": [
+        "2026-05-19"
+      ],
+      "conceptTags": [
+        "2026-04-02-agent-memory.md",
+        "message-id",
+        "sender-id",
+        "sub-agents",
+        "memory.md",
+        "utc",
+        "key",
+        "agent:main:telegram:direct"
+      ]
+    },
+    "memory:memory/2026-04-28.md:31:63": {
+      "key": "memory:memory/2026-04-28.md:31:63",
+      "path": "memory/2026-04-28.md",
+      "startLine": 31,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "13. Buyback-Aware Strategy Engine 14. Portfolio Architecture Presets 15. Correlated Elimination Risk Score 16. Personalization Anti-Dilution ### Agent deliverables completed - `docs/competitive-moat-features.md` -- Stan+Pam moat scan (11 gaps found, 4 critical) - `docs/pam-enhancement-briefs.md` -- Pam's product briefs for 9 enhancements - `docs/deb-ia-design-plan.md` -- Deb's IA overhaul + design system migration plan - `docs/ann-backlog-tasks.md` -- Ann's task breakdown (in progress) ### Key decisions - V1 launch: August 15, 2026. Mike wants ALL 16 features in V1. - Priority order: IA Overhaul first, Design System Unification second - Dev plan is source of truth for task sizing - Felix c",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3793886691331863,
+      "maxScore": 0.3793886691331863,
+      "firstRecalledAt": "2026-05-19T14:16:46.276Z",
+      "lastRecalledAt": "2026-05-19T14:16:46.276Z",
+      "queryHashes": [
+        "8d4c0f12410d"
+      ],
+      "recallDays": [
+        "2026-05-19"
+      ],
+      "conceptTags": [
+        "buyback-aware",
+        "anti-dilution",
+        "docs/pam-enhancement-briefs.md",
+        "docs/deb-ia-design-plan.md",
+        "docs/ann-backlog-tasks.md",
+        "buyback",
+        "aware",
+        "strategy"
       ]
     }
   }
