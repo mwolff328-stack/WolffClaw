@@ -147,4 +147,4 @@ Only when both give PASS can the story be marked Done. Developers fix issues, up
 - **Back Testing Analytics epic (created 2026-05-14):** Notion page ID 36029ce5-833d-81c0-85bd-ffe38e27771c. Lives under Back Testing feature (35929ce5-833d-8125-b7eb-c8e1da0565eb). Each reference scenario Stan defines becomes a story in this epic.
 
 ## Lessons learned
-_(none yet)_
+- **2026-05-19: Context window ballooning = top cost driver.** Felix hit 229-message session, Deb stalling 300+ sec on model calls. May 17-18 spend: $72.95 and $98.26. Root cause: long-running build agents on claude-sonnet-4-6 with unbounded context. Fix applied: 75-message hard cap + handoff file pattern added to all build agents (Felix, Deb, Stan, Vlad, Ann) and orchestration rules added to Luigi/SOUL.md. Same root cause as May 15 spike -- not a one-off.
