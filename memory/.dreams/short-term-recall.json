@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T15:17:00.171Z",
+  "updatedAt": "2026-05-19T20:50:06.975Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -748,13 +748,13 @@
       "endLine": 43,
       "source": "memory",
       "snippet": "- **Task 12.1 - Notification Event System:** Felix shipped (commit `1d3d3808`) - **Deb session timeouts:** Multiple 14-minute timeout crashes; Luigi re-spawned each time with focused continuation briefs. Deb progressed through account.tsx and auth pages. - **Felix → Task 1.4 Nav Shell** queued after 12.1 #### #product-backlog - **Sprint A closed:** 8 backlog items unassigned from Sprint A (7.1, 7.2, 6.4, 6.5, 17.8, 17.9, 20.2, 21.1); only 7.3 remains as active carryover - **Sprint B defined (21 tasks):** Goal = implement Back Tester feature. Phases: Foundation → Algorithm Core → Backend → UX → Integration. All 5 agents (Pam, Ann, Deb, Felix, Vlad) contributed. Tasks written to Notion. - **T",
-      "recallCount": 7,
+      "recallCount": 8,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.907139322166227,
+      "totalScore": 3.2769102394626364,
       "maxScore": 0.6217653363988629,
       "firstRecalledAt": "2026-05-06T05:49:28.496Z",
-      "lastRecalledAt": "2026-05-19T15:17:00.171Z",
+      "lastRecalledAt": "2026-05-19T20:50:03.702Z",
       "queryHashes": [
         "da1db60e9a8f",
         "28a1276578eb",
@@ -762,7 +762,8 @@
         "a592d54d1019",
         "a20aa85c9453",
         "8d4c0f12410d",
-        "d5696e7d6345"
+        "d5696e7d6345",
+        "0fe81915f547"
       ],
       "recallDays": [
         "2026-05-05",
@@ -825,20 +826,22 @@
       "endLine": 109,
       "source": "memory",
       "snippet": "- **Decision update (2026-05-04):** Back Tester is subscriber-only. Paywall stories 3.3a, 3.3b, and Ann 3.3 Free Gate are back IN Sprint B scope. No separate paywall -- uses existing subscriber gate. Email capture flow is dropped. --- ### Sprint B Kickoff (late night) - **Sprint B kicked off 2026-05-04 ~22:53 PDT** - Felix briefed: tasks 1.4 (Nav Shell, critical path), 10.1 (Context Engine), 12.1 (Notification Events) - Deb briefed: tasks 2.2 (Dark Theme), 2.3 (Core UI Components), 2.4 (Data Components) - Deb's first session dropped mid-run; re-spawned ~23:03 PDT - Felix still running overnight - Mike headed to bed — morning briefing expected ## #dev Discord channel troubleshooting (2026-",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.106178730726242,
+      "totalScore": 1.4664083749055863,
       "maxScore": 0.384925177693367,
       "firstRecalledAt": "2026-05-06T21:36:11.220Z",
-      "lastRecalledAt": "2026-05-06T21:36:33.045Z",
+      "lastRecalledAt": "2026-05-19T20:50:03.702Z",
       "queryHashes": [
         "28a1276578eb",
         "594789db9a44",
-        "a592d54d1019"
+        "a592d54d1019",
+        "0fe81915f547"
       ],
       "recallDays": [
-        "2026-05-06"
+        "2026-05-06",
+        "2026-05-19"
       ],
       "conceptTags": [
         "subscriber-only",
@@ -1291,17 +1294,19 @@
       "endLine": 39,
       "source": "memory",
       "snippet": "- **Sprint 2 CREATED** (May 12–23) — goal: subscription + payment foundations, 2026 season data pipeline, core infra launch readiness; stories: SST-56, SST-51, SST-42, SST-71, SST-68 - **MB-319 done**: 98 of 99 SP stories reclassified (titles cleaned, Types corrected, Category/Epic relations fixed) - **MB-304 done**: 12 Stan research items created in SP Stories & Tasks (7 Done, 5 Backlog) - **MB-251 done** (ROI Analysis): PoolGenius subscribers win 3.2x more often; 11x ROI at $50/entry; full report in Notion - **MB-320 done**: Sprint 1 planning complete (Sprint 1 closed, Sprint 2 created in Notion) - Standing rule established: all stories must have description + AC + test cases before implem",
-      "recallCount": 3,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.2187586814165114,
+      "totalScore": 1.9333142548799516,
       "maxScore": 0.43164923191070553,
       "firstRecalledAt": "2026-05-12T16:29:43.300Z",
-      "lastRecalledAt": "2026-05-19T15:17:00.171Z",
+      "lastRecalledAt": "2026-05-19T20:50:06.975Z",
       "queryHashes": [
         "1ccdcc6f2d6f",
         "a20aa85c9453",
-        "d5696e7d6345"
+        "d5696e7d6345",
+        "0fe81915f547",
+        "f94a4dfa0045"
       ],
       "recallDays": [
         "2026-05-12",
@@ -1600,6 +1605,37 @@
         "buyback",
         "aware",
         "strategy"
+      ]
+    },
+    "memory:memory/2026-05-07.md:29:53": {
+      "key": "memory:memory/2026-05-07.md:29:53",
+      "path": "memory/2026-05-07.md",
+      "startLine": 29,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "- Tasks 3.6 + 3.7 (algorithm core, performance utils): Felix shipped clean, 0 TS errors - Wave 1: Felix 3.8 (API adapter + TanStack) + Deb 3.10 (portfolio display) — both clean - Wave 2: Felix 3.9 (backend endpoints) + Deb 3.11 (drilldown + replay) — both clean - Wave 3: Deb 3.12 (ScenarioControls) + Felix 3.14 (paywall/AccessGate) — both clean - 3.13 (SeasonReplayView + TutorialOverlay): Deb, clean - 3.15 (integration + E2E): Vlad — clean, caught hollow BacktesterShell and fixed it - IA Overhaul 1.11 (pool names in nav): Felix fixed, Vlad approved, PR #38 merged - Post-merge \"Unknown Pool\" bug: dev server restart needed (expected, not a code bug) - Sprint B housekeeping: 11 BT tasks → Don",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3599531650543213,
+      "maxScore": 0.3599531650543213,
+      "firstRecalledAt": "2026-05-19T20:50:03.702Z",
+      "lastRecalledAt": "2026-05-19T20:50:03.702Z",
+      "queryHashes": [
+        "0fe81915f547"
+      ],
+      "recallDays": [
+        "2026-05-19"
+      ],
+      "conceptTags": [
+        "3.6",
+        "3.7",
+        "3.8",
+        "3.10",
+        "3.9",
+        "3.11",
+        "3.12",
+        "3.14"
       ]
     }
   }
