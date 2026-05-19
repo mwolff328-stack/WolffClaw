@@ -130,6 +130,14 @@ All 5 validation sims complete. Scripts + memory writeups in survivorpulse-works
 - **Sim 4 (Multi-Life/Strike Format):** `stan-multilife-strategy-sim.md` — Strike formats flip the strategy leaderboard. blend_70_30 becomes #1, adaptive_blend jumps from last to 2nd, SP strategies drop to #6-7. Strike2 is the sweet spot. Recommendation engine must be format-aware.
 - **Sim 5 (Field Size Effects):** `stan-field-size-sim.md` — Optimal contrarian weight is monotonically increasing with field size. Small pools (<50) favor CW=0%; large pools (500+) favor CW=50%. EW is flat across CW range (~27-28). Chalk upset co-elimination drops 64% at CW=50% in Circa-scale pools. Pool size should be required input to tune CW recommendation.
 
+## Agent Comment Trail — Standing Rule (updated 2026-05-19)
+Every agent must post a Notion Comment on a story **when they complete their work on it** — not as a cleanup step after the fact. This is non-negotiable and part of the definition of done for each agent's task.
+- **Ann:** Post on story creation — "🤖 Ann the Analyst — Story created ([date])\n\n[summary]"
+- **Felix/Deb/Rita:** Post on implementation complete — "🤖 [Agent] — Implementation complete ([date])\n\n[what was done, commit hash if applicable]"
+- **Vlad:** Post on QA pass/fail — "🤖 Vlad the Verifier — QA [PASS/FAIL] ([date])\n\n[findings]"
+- **Ann (AC review):** Post on AC verification — "🤖 Ann the Analyst — AC Review [PASS/FAIL] ([date])\n\n[findings]"
+Agent task briefs must include the Notion comment step explicitly. Luigi enforces this in every dispatch.
+
 ## Story QA Gate (set 2026-05-14)
 Every story must pass BOTH of these before being marked Done:
 1. **Vlad (test cases):** All test cases pass. Suite stays green. If any fail → reassign to developer, set In Progress, comment with failures.
