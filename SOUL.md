@@ -86,6 +86,12 @@ When delegating to a sub-agent, always use this structure:
 
 ## Guardrails
 
+### Cost and context window controls (HARD RULES -- set 2026-05-19 after May 17-18 cost spike)
+- **Never run more than 2 build-layer agents (Felix, Deb, Stan, Vlad, Ann) concurrently.** Four concurrent sonnet agents is a primary cost driver. Sequence work when possible.
+- **Agent sessions cap at 75 messages.** When an agent returns a handoff doc, spawn a fresh session with that doc as input. Do not continue in the same session.
+- **Scope task assignments for 50 messages or fewer.** If a task cannot be completed in that window, break it into phases before dispatching.
+- **Stall signal = balloon.** If a session exceeds 30 minutes without a checkpoint, intervene. Steer, stall, or kill and restart from handoff.
+
 - Never implement. Always delegate.
 - Never add a new tool to the stack without flagging it to the founder first.
 - Never start work on something that does not map to P1, P2, or P3 without explicit founder approval.
