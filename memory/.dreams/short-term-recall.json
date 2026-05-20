@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T20:50:06.975Z",
+  "updatedAt": "2026-05-20T14:02:38.290Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:28": {
       "key": "memory:memory/2026-04-08.md:1:28",
@@ -1060,13 +1060,13 @@
       "endLine": 30,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-02 ### SurvivorPulse Guild #### #infra (NOT reset — protected) - **Daily spend cron bug fixed**: UTC vs PDT mismatch caused cron to report $0 when actual spend was $49.78 (May 1 PDT = May 2 UTC). Fixed to use PDT date + UTC-midnight-aligned API lookback - **High spend flagged retroactively**: Apr 29 $154.30 (Opus-4-6 $111 alone), Apr 30 $124.60, May 1 $49.78 — root cause: Opus running hot, context-save cron volume - Bug fix committed and pushed #### #dev - **Sprint 2 complete**: Tasks 1.4, 1.5, 1.6, 1.8, 2.2–2.5, 8.1, 13.1, 14.1 — all committed to `2026-v1`, 2405 tests passing, Notion synced - **Sprint A (3.1, 4.1, 15.1, 16.1) blocked all day**: Claude Co",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.5020052343606947,
+      "totalScore": 1.8550302118062971,
       "maxScore": 0.3945916622877121,
       "firstRecalledAt": "2026-05-10T14:01:07.707Z",
-      "lastRecalledAt": "2026-05-19T14:03:46.981Z",
+      "lastRecalledAt": "2026-05-20T14:02:38.290Z",
       "queryHashes": [
         "641a9955952d",
         "5c44e93fc116",
@@ -1076,7 +1076,8 @@
       "recallDays": [
         "2026-05-10",
         "2026-05-12",
-        "2026-05-19"
+        "2026-05-19",
+        "2026-05-20"
       ],
       "conceptTags": [
         "49.78",
@@ -1424,13 +1425,13 @@
       "endLine": 30,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-13 ### SurvivorPulse Guild #### #infra - Sprint A watchdog: all 4 tasks Done, test suite clean (2549 passed / 0 failed) - Daily spend limit hit: $55.06 vs $50 limit — claude-sonnet-4-6 dominant driver ($53.74) - Luigi flagged: review cron jobs for model downgrade or frequency reduction opportunities #### #product - Mike requested Sprint B Review on May 12 #### #sp-ci - TC6 failure (adminSubscriptionBypass): priceId === undefined in CI env caused 403 for regular users - Luigi found root cause + pushed fix; both Publish Guardian and Release Guardian now ✅ green #### #dev - Sprint B review triggered; SST-118 (Pool Dashboard), SST-9 (Pool Schedule Types), S",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.0616618782281875,
+      "totalScore": 1.4134797811508177,
       "maxScore": 0.3597080409526825,
       "firstRecalledAt": "2026-05-13T13:25:39.125Z",
-      "lastRecalledAt": "2026-05-19T14:03:52.912Z",
+      "lastRecalledAt": "2026-05-20T14:02:38.290Z",
       "queryHashes": [
         "0af24d5d7cde",
         "f35660db8f55",
@@ -1438,7 +1439,8 @@
       ],
       "recallDays": [
         "2026-05-13",
-        "2026-05-19"
+        "2026-05-19",
+        "2026-05-20"
       ],
       "conceptTags": [
         "55.06",
@@ -1520,19 +1522,20 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "## Channel Context Save — 2026-05-18 ### SurvivorPulse Guild #### #infra - Luigi morning watchdog (May 17 7:00 AM): All 4 Sprint A tasks confirmed COMPLETE ✅ (3.1, 4.1, 15.1, 16.1) - Design System 1.2 by Deb: 22 commits on `2026-v1` — sidebar, topbar, AppShell, all 6 major pages, color tokens. Design sign-off tagged `2026-05-16` - Sprint B next: Ann requirements → 3.2 BackTester scaffold → 4.2 ROI calculator - Daily spend alert: $72.95 vs $50 limit (+$22.95) — top driver claude-sonnet-4-6 ($66.42); Luigi acknowledged, checking #cron-jobs ### Wolff HQ Guild #### #general - Mike shared Larry Garcia's \"Interwoven\" concept (email + ChatGPT-assisted deck): Human-Centered Intelligence Operatin",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.7248836219310759,
+      "totalScore": 1.0916298955678938,
       "maxScore": 0.3667665511369705,
       "firstRecalledAt": "2026-05-19T14:03:46.981Z",
-      "lastRecalledAt": "2026-05-19T14:03:52.912Z",
+      "lastRecalledAt": "2026-05-20T14:02:38.290Z",
       "queryHashes": [
         "f35660db8f55",
         "8f445064cb66"
       ],
       "recallDays": [
-        "2026-05-19"
+        "2026-05-19",
+        "2026-05-20"
       ],
       "conceptTags": [
         "gpt",
@@ -1636,6 +1639,37 @@
         "3.11",
         "3.12",
         "3.14"
+      ]
+    },
+    "memory:memory/2026-05-20.md:1:31": {
+      "key": "memory:memory/2026-05-20.md:1:31",
+      "path": "memory/2026-05-20.md",
+      "startLine": 1,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "## Channel Context Save — 2026-05-20 ### SurvivorPulse Guild #### #infra - Sprint A confirmed complete: all tasks (3.1, 4.1, 15.1, 16.1) done; 2,616 tests passing, 22 failing in router suite (pre-existing, needs Vlad triage) - Luigi enacted 3-layer session guardrails: 50-msg checkpoint, 75-msg hard cap on all 5 build agents + Luigi; max 2 concurrent build agents - **MAJOR: All SP work now routes through Claude Code ACP** — native subagents (Felix, Deb, Stan, etc.) retired for SP execution; directive written to Luigi's MEMORY.md and notified via agent-to-agent messaging - Daily spend $72.78 (limit $50) — same sonnet-4-6 pattern; guardrails now in place #### #dev - Luigi confirmed Claude C",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.35536122918128965,
+      "maxScore": 0.35536122918128965,
+      "firstRecalledAt": "2026-05-20T14:02:38.290Z",
+      "lastRecalledAt": "2026-05-20T14:02:38.290Z",
+      "queryHashes": [
+        "f35660db8f55"
+      ],
+      "recallDays": [
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "router",
+        "3.1",
+        "4.1",
+        "15.1",
+        "16.1",
+        "pre-existing",
+        "3-layer",
+        "50-msg"
       ]
     }
   }
