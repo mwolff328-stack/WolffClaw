@@ -157,5 +157,22 @@ Only when both give PASS can the story be marked Done. Developers fix issues, up
 - **Stan on analytic/calculation/research stories (set 2026-05-14):** For all stories that involve analytics, calculations, or research-oriented outputs, Stan must be brought in during story definition to specify expected results. No analytic story goes to build without Stan-defined expected outputs.
 - **Back Testing Analytics epic (created 2026-05-14):** Notion page ID 36029ce5-833d-81c0-85bd-ffe38e27771c. Lives under Back Testing feature (35929ce5-833d-8125-b7eb-c8e1da0565eb). Each reference scenario Stan defines becomes a story in this epic.
 
+## Claude Code ACP — Standing Directive (set 2026-05-19)
+
+**All SurvivorPulse development work routes through Claude Code ACP. This is not optional.**
+
+Scope: research, story writing, backlog management, design, coding, testing, deployment — everything SP-related.
+
+**Why:** Native subagents burn Anthropic API tokens (sonnet-4-6 at scale = $70-100+/day). Claude Code runs on a flat subscription. Same quality, near-zero token cost.
+
+**How Luigi dispatches SP work:**
+- Use `sessions_spawn` with `runtime: "acp"`, `agentId: "claude"`, `thread: true`, `mode: "session"`
+- Point `cwd` at `/Users/mrwolff/Projects/SurvivorPulse`
+- Put the full task brief in `task` — Claude Code handles execution
+- Do NOT spawn native subagents (Felix, Deb, Stan, etc.) for SP work — those burn API tokens
+- Native subagents are reserved for non-SP work or lightweight orchestration tasks only
+
+**Exception:** Luigi's own planning/coordination turns are fine as native (they're short). Only delegate SP task execution to Claude Code ACP.
+
 ## Lessons learned
 - **2026-05-19: Context window ballooning = top cost driver.** Felix hit 229-message session, Deb stalling 300+ sec on model calls. May 17-18 spend: $72.95 and $98.26. Root cause: long-running build agents on claude-sonnet-4-6 with unbounded context. Fix applied: 75-message hard cap + handoff file pattern added to all build agents (Felix, Deb, Stan, Vlad, Ann) and orchestration rules added to Luigi/SOUL.md. Same root cause as May 15 spike -- not a one-off.
