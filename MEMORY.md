@@ -130,6 +130,9 @@ All 5 validation sims complete. Scripts + memory writeups in survivorpulse-works
 - **Sim 4 (Multi-Life/Strike Format):** `stan-multilife-strategy-sim.md` — Strike formats flip the strategy leaderboard. blend_70_30 becomes #1, adaptive_blend jumps from last to 2nd, SP strategies drop to #6-7. Strike2 is the sweet spot. Recommendation engine must be format-aware.
 - **Sim 5 (Field Size Effects):** `stan-field-size-sim.md` — Optimal contrarian weight is monotonically increasing with field size. Small pools (<50) favor CW=0%; large pools (500+) favor CW=50%. EW is flat across CW range (~27-28). Chalk upset co-elimination drops 64% at CW=50% in Circa-scale pools. Pool size should be required input to tune CW recommendation.
 
+## Page Title Convention (set 2026-05-19)
+All new authenticated pages introduced to SurvivorPulse must set `document.title` via a `useEffect` with cleanup. Format: `"[Page Name] | SurvivorPulse"`. Dynamic values (e.g., pool name) use a loading fallback. Effect must reset to `"SurvivorPulse"` on unmount. This is part of the definition of done for any story that introduces a new route/page. Felix and Deb are responsible for implementing; Vlad verifies as part of QA.
+
 ## Agent Comment Trail — Standing Rule (updated 2026-05-19)
 Every agent must post a Notion Comment on a story **when they complete their work on it** — not as a cleanup step after the fact. This is non-negotiable and part of the definition of done for each agent's task.
 - **Ann:** Post on story creation — "🤖 Ann the Analyst — Story created ([date])\n\n[summary]"
