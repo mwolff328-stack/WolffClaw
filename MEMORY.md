@@ -1,178 +1,52 @@
-# MEMORY.md - Long-term Memory
+# MEMORY.md - Long-Term Memory
 
-## Identity
-- I am Luigi. Orchestrator and chief of staff for Mike (Michael Wolff).
-- My job: decompose goals, select agents, assign tasks, manage handoffs, validate outputs.
-- I do not implement. Ever.
+## Identity & Setup
 
-## Mike
-- Solopreneur founder. Multiple domains: SaaS, fintech, fantasy sports, real estate, investing, eCommerce.
-- Reasonably technical. Uses Claude, OpenAI, OpenClaw, Cursor, Replit, GitHub, Neon, Notion, Stripe, Telegram, Postmark, Google Workspace.
-- Communicates via Telegram.
+- I am Luigi — infrastructure agent, separate gateway from Markus
+- Gateway state dir: `~/.openclaw-luigi/` (port 18790)
+- Workspace: `~/.openclaw-luigi/workspace/`
+- Owner: Michael Wolff (Mike), timezone America/Los_Angeles
+- Sister agent: Markus (personal assistant, separate gateway)
 
-## Priorities (set 2026-03-31)
-- P1: SurvivorPulse (NFL survivor pool, launch before Sept 2026)
-- P2: Product discovery engine (repeatable AI-driven validation)
-- P3: Automated content system (thought leadership pipeline)
+## Standing Directives
 
-## Sub-agents (v1.2, updated 2026-04-23)
+### Development Routing (2026-05-19, updated 2026-06-01)
+All development work — SurvivorPulse or otherwise — routes through **Claude Code ACP** — not native subagents.
+This applies to ALL sub-agents (including any newly uploaded ones). Covers everything: research, story writing, backlog management, design, coding, testing, deployment.
 
-**Intelligence layer:**
-- Stan the Scout: research, market analysis, competitive intelligence (P1, P2, P3)
+**How to spawn:**
+```
+sessions_spawn({
+  runtime: "acp",
+  agentId: "claude",
+  thread: true,
+  mode: "session",
+  cwd: "/Users/mrwolff/Projects/SurvivorPulse",
+  task: "<task description>"
+})
+```
 
-**Product layer:**
-- Pam the Product Owner: roadmap, backlog, requirements direction (P1, P2)
-- Ann the Analyst: detailed requirements and acceptance criteria (P1, P2)
+Native subagents (Felix, Deb, Stan, etc.) are retired for SP work — they burn API tokens. Claude Code runs on a flat subscription.
 
-**Build layer:**
-- Felix the Forge: technical implementation, dev coordination (P1, P2)
-- Deb the Designer: UX design, front-end implementation, visual brand system (P1, P2, P3)
-- Vlad the Verifier: QA, hypothesis testing, validation (P1, P2)
-- Rita the Relay: workflow automation, OpenClaw tasks, API integration (P1, P2, P3)
+**Split:** My own short coordination turns (routing, summarizing, deciding) stay native — cheap. Only actual task execution moves to Claude Code.
 
-**Output layer:**
-- Hank the Hawk: client acquisition, marketing, revenue, PR, lead nurturing, referral strategy (P1, P3)
-- Sky the Scribe: content authoring, all formats -- long-form, social, X threads, Reddit posts (P1, P3)
-- Arlo the Amplifier: publishing and channel distribution -- LinkedIn, Medium, X, Reddit, Facebook, Discord (P1, P3)
-- Meg the Megaphone (new): social presence, community building, daily engagement, reply management (P1, P3)
-- Paige the Page (new): public website strategy, SEO, landing pages, conversion optimization (P1)
-- Rex the Referral (new): referral program execution, affiliate partnerships, commissioner outreach (P1)
+## Cron Jobs (2026-06-01 cleanup)
 
-Full specs: ~/.claude/agents/*.md
+| Job | Schedule | Status |
+|-----|----------|--------|
+| Discord watchdog | Every 2h :30 | ✅ Fixed (was using haiku model) — now gemini-2.0-flash |
+| OpenClaw post-update doctor | 3:15 AM nightly | ✅ Healthy |
+| SP Claude Code daily init | 5:00 AM daily | ✅ Healthy (fires system event to my main session) |
+| SP overnight watchdog | 7:00 AM daily | ✅ Fixed (was using haiku model) — now gemini-2.0-flash; formerly named "Felix overnight watchdog" |
 
-**Key v1.1 change:** Build layer now gates on Ann's requirements. No requirements = no build. Delegation sequence: Stan -> Pam -> Ann -> Felix/Deb/Rita -> Vlad.
+## Workspace Notes (2026-06-01 cleanup)
 
-**Key v1.2 changes (2026-04-23):**
-- Hank expanded: channel priorities (X > Reddit > Facebook > Discord > LinkedIn), PR ownership, lead nurturing ownership, referral strategy, paid acquisition gating criteria (not a hard block)
-- Sky expanded: SurvivorPulse content domains, social-format content (X posts, threads, Reddit posts), X and Reddit platform guidelines
-- Arlo expanded: X, Reddit, Facebook, Discord channels with format guidelines, social scheduling/tracking, Meg handoff protocol
-- Deb expanded: explicit visual brand system ownership (logo, color, typography, tokens); Sky owns written voice, Deb owns visual brand
-- Meg the Megaphone: social presence and community engagement layer; activates after Arlo publishes; channels in priority order: X, Reddit, Facebook, Discord, LinkedIn
-- Paige the Page: public site strategy and SEO; coordinates Sky (copy), Deb (design), Ann+Felix (build), Hank (conversion goals)
-- Rex the Referral: referral and affiliate execution; commissioner partnerships are primary target; all incentives require founder approval
+- `agents/` dir: old agent definition files (Felix, Deb, Stan, etc.) — retired sub-agents, kept for reference
+- `workspace-deb/`, `workspace-stan/`: deleted (2026-06-01, Mike confirmed)
+- `claude/`: keeping (Mike's call, 2026-06-01)
+- `memory/`: active, full of Stan research notes (stan-*.md files) — kept
+- `luigi/BOOTSTRAP.md`: deleted (bootstrap complete)
+- `IDENTITY.md` and `USER.md`: filled in (2026-06-01)
 
-## Preferences
-- Auto-commit and push workspace changes to WolffClaw repo (git@github.com:mwolff328-stack/WolffClaw.git) after meaningful updates. Set 2026-04-02.
-- Auto-sync ~/.claude with WolffClaude repo (git@github.com:mwolff328-stack/WolffClaude.git). Push local changes, pull remote changes. Set 2026-04-03.
-- **Git commit rules (set 2026-04-29, updated 2026-05-14):** WolffClaw workspace repo is ONLY for OpenClaw setup/config changes. All SurvivorPulse-related changes (docs, code, product work) commit to SurvivorPulse repo (`/Users/mrwolff/Projects/SurvivorPulse`, git@github.com:mwolff328-stack/SurvivorPulse.git) only. Sub-agents doing SP work must target the SurvivorPulse repo, not the workspace. **All SP documentation must be committed to the SurvivorPulse repo upon creation** — this applies to design docs, specs, and any other docs produced for SP by any agent.
-
-## SurvivorPulse (P1) - Deep Context
-
-**Doctrine (frozen):** "SurvivorPulse helps serious survivor players manage correlation, future value, and risk across their entries and pools, because different teams can still be the same bet."
-
-**What it is:** Decision-support system for serious NFL survivor pool players. Portfolio-level risk management engine. Deterministic, governance-grade, reproducible.
-**What it is not:** Pick list, favorites engine, content site, gambling tout, Monte Carlo simulation.
-
-**Primary ICP:** Serious multi-entry player (3-10+ entries). Manages pick distribution, uses tools like PoolCrunch/SurvivorGrid, currently allocates by gut/spreadsheet. Validated via Reddit outreach.
-**Secondary ICP:** Scaling player (1-2 entries, looking to grow to 3+). Longer conversion timeline.
-
-**Architecture:** React 18 + Vite + Tailwind/shadcn frontend. Node/Express + TypeScript backend. Drizzle ORM on Neon Postgres. Custom auth with sessions, CSRF, rate limiting. Stripe subscriptions (founding member cap: 50). Postmark transactional email.
-
-**Key repos:**
-- SurvivorPulse (main): git@github.com:mwolff328-stack/SurvivorPulse.git (1,631 files, 2,400+ unit tests, 180+ integration)
-- SurvivorPulse-BackTesting-Prototype: git@github.com:mwolff328-stack/SurvivorPulse-BackTesting-Prototype.git (React+Vite prototype for coordinated multi-entry allocation / backtesting validation; formerly CMEA-Prototype)
-
-**Notion workspace:** Page ID 26329ce5-833d-800a-be90-ff530bddc59c. Sub-pages: Initiative briefing, Strategy & Growth (15 sub-pages), Product & Engineering (20+ sub-pages), Historical Account.
-
-**Offseason objectives (frozen):**
-1. Acquire 50 high-signal offseason users
-2. Produce credibility assets proving the Flagship Artifact
-3. Ship stable, opinionated V1 enforcing doctrine
-
-**CA1 status:** Reframed to chalk collapse visibility case study. Active spec 004 (Phase D ready). Anchor: Week 14, 2025 Tampa Bay 57% ownership event.
-
-**CMEA status:** Analytics Unification complete (shipped March 24, 2026). Prototype frontend exists in separate repo. Validates coordinated multi-entry allocation via 2025 season replay.
-
-**Dev workflow:** AI-assisted (Claude AI + Claude Code + Cursor + GitHub + Replit). Hosted on Replit.
-
-**Notion API:** Key stored at ~/.config/notion/api_key. Integration name: "OpenClaw".
-
-**Master Backlog:** Notion database (db_id: 29d643cd-9eb9-4897-9027-8efbd73c0f1d, data_source_id: 8c2ca295-bf31-4bbe-8643-a2f2781297fc). Schema: Task (title), Status (Today/This Week/In Progress/Backlog/Deferred/On Hold/Done), Area (select), Priority (High/Medium/Low), Size (Small/Medium/Large), Due Date, Completion Date, Outcome Type (MIT/Primary/Secondary/Maintenance), Dependencies (relation), Parent Task (relation), Recurring (checkbox), Frequency (Daily/Weekly), Notes (rich text). ⚠️ DO NOT put SurvivorPulse product development tasks here. Use the SP Product Backlog instead.
-
-**SurvivorPulse Product Management (migrated 2026-07-14):** 4-database structure replacing the old flat backlog. ALL SurvivorPulse product dev work goes here, not in Master Backlog.
-
-- **SP Features** (db_id: 35929ce5-833d-81c0-b483-cd5616ebece2): Top-level features. Schema: Name, Description, Status (Planned/Active/Complete), Priority.
-- **SP Epics** (db_id: 35929ce5-833d-81ef-82c5-dfb677eb90b4): Epics grouped under Features. Schema: Name, Description, Status (Planned/Active/Complete/On Hold), Priority, Feature (relation). 27 epics auto-created from old backlog naming convention.
-- **SP Sprints:** Archived/trashed 2026-05-15. SurvivorPulse now uses Kanban, not sprints.
-- **SP Stories & Tasks** (db_id: 35929ce5-833d-813d-ac22-ef23bb216120): 167 active items. Migrated to Kanban 2026-05-15. Schema: Item (title), Status (Backlog/Ready/In Progress/In Review/Blocked/Done), Category, Phase, Priority, Size, Type, Notes, Epic (relation). Sprint relation removed. Naming convention: "[Epic Name] (X.Y): [Description]".
-
-Old flat backlog (23c0e14a-e704-4481-a635-8202e8569e04) preserved for verification — Mike to delete manually.
-
-**SP Stories & Tasks conventions:**
-- Every story must have Description, Acceptance Criteria, and Test Cases populated in their respective rich text fields (added 2026-05-11).
-- Description: 2-4 sentence user story or feature description.
-- Acceptance Criteria: Given/When/Then style or numbered list of verifiable criteria.
-- Test Cases: Numbered list of test scenarios with expected outcomes.
-- Workflow: new stories start in Backlog → move to Ready when groomed → In Progress when being built → In Review for Vlad/Ann QA gate → Done when both pass.
-
-**Active SurvivorPulse tasks (as of 2026-04-06):**
-- Today: Improve CMEA Prototype; Start automated dev system with OpenClaw/Claude Code
-- This Week: Share CMEA Prototype with TAM; Groom Product Backlog; Discord CMEA recruitment
-- In Progress: Validate CMEA UVP (Large); CMEA Prototype build (Large)
-- Backlog: Update Offseason Plan per UVP validation; Update elevator pitch; Reframe CA1/Update Spec; Migrate SubscriptionGuard to dynamic checkout; X engagement (@SurvivorSweat/@CircaSports, manual only); LinkedIn series
-- Deferred: Implement Reframed CA1; Reddit follow-up for CMEA validation
-- On Hold: Competitive Analysis
-- DESIGN.md Shortlist: 33e29ce5-833d-8105-abd8-e9ffff821d3e (Product & Engineering > UX)
-
-## Backtesting Research — Stan
-- Round 1–5 results: `memory/stan-backtesting-research.md` — 5 entries, 3 seasons, 70/30 Blend wins every round
-- Round 6 (entry scaling): `memory/stan-entry-scale-research.md` — 14 strategies × 4 entry counts × 3 seasons
-  - 70/30 Blend loses crown at n=10 (beaten by 7 strategies) and n=20 (beaten by 4)
-  - SP Production 70%EV+30%FV wins at n=10; Mixed Portfolio wins at n=20
-  - 70/30 Blend reclaims #1 at n=50 (team exhaustion makes sophistication backfire)
-  - Product implication: strategy recommendation should adapt to portfolio size
-
-## Strategy-to-Context Matching Sims (2026-04-28 to 2026-05-04)
-All 5 validation sims complete. Scripts + memory writeups in survivorpulse-workspace/scripts/ and memory/.
-- **Sim 1 (Dynamic Strategy Switching):** `stan-dynamic-strategy-sim.md` — +25% EW at n=10 vs best static. Core/Satellite role assignment is the mechanism, not inventory switching.
-- **Sim 2 (Cross-Entry Correlation):** `stan-correlation-sim.md` — Uncoordinated portfolios hit 100% correlation rate; coordinated strategies hit 0%. $10K vs $1K single-week risk at n=10/$1K buy-in.
-- **Sim 3 (Inventory Death Analysis):** `stan-inventory-death-sim.md` — Entry deaths are primarily bad luck (high-WP picks that lost), not inventory depletion. SP Conservative entries have the best inventory profiles at death.
-- **Sim 4 (Multi-Life/Strike Format):** `stan-multilife-strategy-sim.md` — Strike formats flip the strategy leaderboard. blend_70_30 becomes #1, adaptive_blend jumps from last to 2nd, SP strategies drop to #6-7. Strike2 is the sweet spot. Recommendation engine must be format-aware.
-- **Sim 5 (Field Size Effects):** `stan-field-size-sim.md` — Optimal contrarian weight is monotonically increasing with field size. Small pools (<50) favor CW=0%; large pools (500+) favor CW=50%. EW is flat across CW range (~27-28). Chalk upset co-elimination drops 64% at CW=50% in Circa-scale pools. Pool size should be required input to tune CW recommendation.
-
-## Page Title Convention (set 2026-05-19)
-All new authenticated pages introduced to SurvivorPulse must set `document.title` via a `useEffect` with cleanup. Format: `"[Page Name] | SurvivorPulse"`. Dynamic values (e.g., pool name) use a loading fallback. Effect must reset to `"SurvivorPulse"` on unmount. This is part of the definition of done for any story that introduces a new route/page. Felix and Deb are responsible for implementing; Vlad verifies as part of QA.
-
-## Agent Comment Trail — Standing Rule (updated 2026-05-19)
-Every agent must post a Notion Comment on a story **when they complete their work on it** — not as a cleanup step after the fact. This is non-negotiable and part of the definition of done for each agent's task.
-- **Ann:** Post on story creation — "🤖 Ann the Analyst — Story created ([date])\n\n[summary]"
-- **Felix/Deb/Rita:** Post on implementation complete — "🤖 [Agent] — Implementation complete ([date])\n\n[what was done, commit hash if applicable]"
-- **Vlad:** Post on QA pass/fail — "🤖 Vlad the Verifier — QA [PASS/FAIL] ([date])\n\n[findings]"
-- **Ann (AC review):** Post on AC verification — "🤖 Ann the Analyst — AC Review [PASS/FAIL] ([date])\n\n[findings]"
-Agent task briefs must include the Notion comment step explicitly. Luigi enforces this in every dispatch.
-
-## Story QA Gate (set 2026-05-14)
-Every story must pass BOTH of these before being marked Done:
-1. **Vlad (test cases):** All test cases pass. Suite stays green. If any fail → reassign to developer, set In Progress, comment with failures.
-2. **Ann (acceptance criteria):** All AC verified against implementation. If any unmet → reassign to developer, set In Progress, comment with gaps.
-Only when both give PASS can the story be marked Done. Developers fix issues, update comments with resolution, then re-submit to Vlad + Ann.
-- Ann must log failure reasons as Notion Comments (POST /v1/comments) on the story page — not just page blocks. Include each failing AC with details.
-- Vlad must log any test failures as Notion Comments on the story page as well.
-- **Agent comment trail (set 2026-05-14):** Every agent must post a Notion Comment on a story when they touch it. This creates an audit trail of who did what. Applies to: Ann (story creation), Stan (research), Deb (design work), Felix/Deb (implementation), Vlad (QA), Ann (AC review). Comment format: "🤖 [Agent name] — [Action] ([date])\n\n[Brief summary of what was done, findings, or decisions]".
-
-## Sub-agent roster additions
-- Ann the Analyst: added to OpenClaw config 2026-05-14. agentDir: ~/.openclaw/agents/ann/agent
-
-## Process rules
-- **Stan on analytic/calculation/research stories (set 2026-05-14):** For all stories that involve analytics, calculations, or research-oriented outputs, Stan must be brought in during story definition to specify expected results. No analytic story goes to build without Stan-defined expected outputs.
-- **Back Testing Analytics epic (created 2026-05-14):** Notion page ID 36029ce5-833d-81c0-85bd-ffe38e27771c. Lives under Back Testing feature (35929ce5-833d-8125-b7eb-c8e1da0565eb). Each reference scenario Stan defines becomes a story in this epic.
-
-## Claude Code ACP — Standing Directive (set 2026-05-19)
-
-**All SurvivorPulse development work routes through Claude Code ACP. This is not optional.**
-
-Scope: research, story writing, backlog management, design, coding, testing, deployment — everything SP-related.
-
-**Why:** Native subagents burn Anthropic API tokens (sonnet-4-6 at scale = $70-100+/day). Claude Code runs on a flat subscription. Same quality, near-zero token cost.
-
-**How Luigi dispatches SP work:**
-- Use `sessions_spawn` with `runtime: "acp"`, `agentId: "claude"`, `thread: true`, `mode: "session"`
-- Point `cwd` at `/Users/mrwolff/Projects/SurvivorPulse`
-- Put the full task brief in `task` — Claude Code handles execution
-- Do NOT spawn native subagents (Felix, Deb, Stan, etc.) for SP work — those burn API tokens
-- Native subagents are reserved for non-SP work or lightweight orchestration tasks only
-
-**Exception:** Luigi's own planning/coordination turns are fine as native (they're short). Only delegate SP task execution to Claude Code ACP.
-
-## Lessons learned
-- **2026-05-19: Context window ballooning = top cost driver.** Felix hit 229-message session, Deb stalling 300+ sec on model calls. May 17-18 spend: $72.95 and $98.26. Root cause: long-running build agents on claude-sonnet-4-6 with unbounded context. Fix applied: 75-message hard cap + handoff file pattern added to all build agents (Felix, Deb, Stan, Vlad, Ann) and orchestration rules added to Luigi/SOUL.md. Same root cause as May 15 spike -- not a one-off.
+## Model Allowlist (current)
+Valid models for cron jobs: anthropic/claude-haiku-4-5, anthropic/claude-opus-4-6, anthropic/claude-sonnet-4-6, google/gemini-2.0-flash, google/gemini-2.5-flash, google/gemini-2.5-pro, openai/gpt-5.4-mini, openai/gpt-5.5, openai/o3, openai/o4-mini
