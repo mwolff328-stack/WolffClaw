@@ -50,3 +50,19 @@ Native subagents (Felix, Deb, Stan, etc.) are retired for SP work — they burn 
 
 ## Model Allowlist (current)
 Valid models for cron jobs: anthropic/claude-haiku-4-5, anthropic/claude-opus-4-6, anthropic/claude-sonnet-4-6, google/gemini-2.0-flash, google/gemini-2.5-flash, google/gemini-2.5-pro, openai/gpt-5.4-mini, openai/gpt-5.5, openai/o3, openai/o4-mini
+
+## Model Config (updated June 6, 2026)
+- **Luigi native default:** `google/gemini-2.5-flash` (changed from `anthropic/claude-haiku-4-5` on Mike's explicit request, June 6)
+- **Luigi native fallback:** `google/gemini-2.5-pro` (changed from `anthropic/claude-sonnet-4-6`)
+- **All cron jobs:** `google/gemini-2.5-flash` explicitly (Discord watchdog, SP overnight watchdog, post-update doctor — set June 5)
+- OpenClaw restarted June 6 to apply model changes
+<!-- learned from #infra (SP + Wolff HQ), 2026-06-05 to 2026-06-06 -->
+
+## Behavior Preference
+- Use emojis inline or emoji-only responses when it feels natural/appropriate (Mike's explicit request, June 5)
+<!-- learned from #infra (SP), 2026-06-05 -->
+
+## SP Claude Code Daily Init — Channels (updated June 5, 2026)
+- Initializes ACP sessions in: `#dev` (1501283253536161803) + `#product` (1496927226082361426) + any active threads in either channel
+- Schedule: 5:00 AM PDT daily
+<!-- learned from #infra (SP), 2026-06-05 -->
